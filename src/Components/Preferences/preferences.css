@@ -1,0 +1,239 @@
+.preferences {
+    padding:0;
+    background-image: url("./../../Assets/Images/pills.jpg"); 
+    background-size: cover;
+    position: fixed;
+    transition: all 2s ease;
+    box-shadow: 0px 0 5px #ccc;
+}
+
+.night .preferences {
+    box-shadow: 0px 0 5px #333;
+}
+
+ .night .preferences > div{
+    background:linear-gradient( rgba(0, 28, 42, 1), rgba(0, 28, 42, .95)) ;
+    color:#dbeef8;
+}
+.preferences > div {
+    margin:0;    
+    padding:0;   
+    padding-top:20px;
+    height:100%;
+
+}
+
+ .day .preferences > div {
+    background:rgba(255,255,255, .95);
+    color:rgb(0, 28, 42);
+}
+/* Orientation-dependent styles for the content of the menu */
+.preferences {
+	width: 100vw;
+	height: 270px;
+	z-index: 999;
+}
+
+/* Transitions */
+.preferences {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 450px){
+
+.preferences {
+		font-size: 90%;
+		width:100vw;
+	}
+}
+
+
+.preview-frame{
+    display: none;
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    line-height:48px;
+    border-radius:.25em;
+}
+
+.night .preview-frame{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.preference-btn{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border:none;
+    margin:5px;
+    border-radius:50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.preference-btn:focus{
+    outline:none;
+}
+
+.p-btn-icon{
+    margin: 1px;
+}
+.preference-control{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    line-height:48px;
+    border-radius:.25em;
+}
+.font-control {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: .8em;
+    border-radius:50vh;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.night .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.font-size-label{
+    font-size:1em;
+    height:30px;
+    line-height:30px;
+    display: block;
+}
+/* Clear all default formating for range inputs*/
+
+.font-size-input{
+    -webkit-appearance:none;
+    background:transparent;
+    width:90%;
+}
+
+.font-size-input::-webkit-slider-thumb{
+    -webkit-appearance:none;
+}
+
+.font-size-input:focus{
+    outline:none;
+}
+
+.font-size-input::-ms-track {
+    width: 80%;
+    cursor: pointer;
+    background: transparent; 
+    border-color: transparent;
+    color: transparent;
+  }
+
+  /*styling the thumb begins here */
+
+  .font-size-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 10px;
+    width: 20px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50vh;
+    background: #008abe;
+    cursor: pointer;
+    margin-top: -2px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ /* Add cool effects to your sliders! */
+  }
+  
+  /* All the same stuff for Firefox */
+  .font-size-input::-moz-range-thumb {
+    height: 10px;
+    width: 16px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50vh;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  
+  /* All the same stuff for IE */
+  .font-size-input::-ms-thumb {
+    height: 10px;
+    width: 16px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50vh;
+    background: #ffffff;
+    cursor: pointer;
+  }
+
+
+  /* Styling the track begins here*/
+  .font-size-input::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0,0,0, 0.25);
+    border-radius: 50vh;
+  }
+  
+  .font-size-input:focus::-webkit-slider-runnable-track {
+    background: rgba(0,0,0, 0.25);
+  }
+  
+  .font-size-input::-moz-range-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0,0,0, 0.25);
+    border-radius: 50vh;
+  }
+  
+  .font-size-input::-ms-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    background: rgba(0,0,0, 0.25);
+    border-color: rgba(255, 255, 255, 0.1);
+    border-width: 16px 0;
+    color: transparent;
+  }
+  .font-size-input::-ms-fill-lower {
+    background: #2a6495;
+    border-radius: 50vh;
+  }
+  .font-size-input:focus::-ms-fill-lower {
+    background: #3071a9;
+  }
+  .font-size-input::-ms-fill-upper {
+    background: #3071a9;
+    border-radius: 50vh;
+  }
+  .font-size-input:focus::-ms-fill-upper {
+    background: #367ebd;
+  }
+
+.close-btn{
+    background:transparent;
+    color:#dbeef8;
+    border:none;
+    margin:5px;
+
+}
+
+.close-btn:focus{
+    outline:none;
+}
+
+.close-btn > img {
+    padding:8px;
+    height:12px;
+    background:rgba(0,0,0, .25);
+    border-radius:50%;
+    transition: all 3.5s ease;
+    transform: rotate(90deg);
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+}

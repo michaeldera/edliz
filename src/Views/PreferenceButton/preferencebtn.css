@@ -1,0 +1,21 @@
+.nav-btn{
+    position: absolute;
+    width: 36px;
+    height:36px;
+    bottom: 10px;
+    right:10px;
+    border: 0.5px solid rgba(255, 255, 255, .25);
+    border-radius: 50%;
+    border:none;
+    z-index: 998;
+}
+.day .nav-btn{
+    background: #eee;    
+}
+.night .nav-btn{
+    background: #001c2a;    
+}
+
+.nav-btn:focus{
+    outline:none;
+}

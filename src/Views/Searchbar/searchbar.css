@@ -1,0 +1,26 @@
+
+.search-input{
+    font-family: 'Quicksand', sans-serif;
+    width: calc(100% - 40px);
+    height:24px;
+    border:none;
+    padding: 4px;
+    background: transparent;
+
+}
+.search-input:-ms-input-placeholder {  
+    color: #a6d6ed;  
+ }
+ 
+ /* All modern browsers except IE and EDGE */
+ .search-input::placeholder { color: #a6d6ed }
+.search-input:focus{
+    outline:none;
+}
+.searchbar{
+    margin:5px;
+    padding: 2px 0;
+    background: rgba(0,0,0, .15);
+    color:#dbeef8;
+    border-radius: 50vw;
+}

@@ -1,5 +1,20 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  background-color: #cae6f4;
+  font-family: 'Quicksand', sans-serif;
+  transition: all 2s ease;
+  line-height:1.5;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-variant: all-small-caps;
+  line-height: 1.1;
+}
+
+h1{ font-size: 1.35em}
+h2{ font-size: 1.30em}
+h3{ font-size: 1.25em}
+h4{ font-size: 1.20em}
+h5{ font-size: 1.15em}
+h6{ font-size: 1.10em}

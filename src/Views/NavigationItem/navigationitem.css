@@ -1,0 +1,55 @@
+.content-item {
+    padding: 10px;
+    text-align:left;
+    border-bottom:1px solid rgba(200,200,200, 0.2);
+}
+
+.compact > .compact:first-child {
+    border-top:1px solid rgba(200, 200, 200, 0.2);    
+}
+
+.content-item-title{
+    color: #999;
+    display: block;
+    font-size:0.8em;
+}
+
+.content-preview{
+    display: block;
+    margin:5px 0;
+}
+
+
+
+.sub-section{
+    transition: all 0.5s ease;
+}
+
+.collapse > .sub-section {
+    display:block;
+}
+
+.compact > .sub-section{
+    display: none;
+}
+
+.chevron {
+    display: block;
+    float: right;
+    margin: calc(1em - 5px) 0;
+}
+
+.chevron > img {
+    padding:4px;
+    height:8px;
+    border-radius:50%;
+    transition: all 1s ease;
+}
+
+.night .chevron > img {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.collapse .chevron > img {
+    transform: rotate(90deg);
+}

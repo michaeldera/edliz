@@ -1,0 +1,37 @@
+.preferences-btn{
+    height: 50px;
+    width: 50px;
+    border:none;
+    padding:15px;
+    float:left;
+    background:transparent;
+}
+.preferences-btn:focus{
+    outline:none;
+}
+
+.title-btn{
+    height: 50px;
+    margin-left:-50px;
+    padding:10px;
+    background:transparent;
+    border:none;
+    font-family: 'Quicksand', sans-serif;
+    font-variant:all-small-caps;
+    color:#fff;
+    font-size:18px;
+}
+
+
+header {
+    width:100%;
+
+}
+
+.night header{
+    background: #00689c;    
+}
+
+.day header{
+    background-color: #008abe;
+}

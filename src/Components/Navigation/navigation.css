@@ -1,0 +1,62 @@
+nav {
+    padding:0;
+    position: fixed;    
+    background-image: url("./../../Assets/Images/pills.jpg"); 
+    background-size:cover;
+    box-shadow: 0px 0 5px #ccc;
+}
+
+.night nav {
+	box-shadow: 0px 0 5px #333;
+}
+
+nav > div{
+    margin:0;
+    padding:0;
+}
+.day nav > div{
+    color:#000000;
+    background:linear-gradient( 90deg,  rgba(255, 255,  255, 1) , rgba(255, 255,  255, .95) );
+	/*background:#3da5d9;*/
+}
+.night nav > div{
+    background:linear-gradient(90deg, rgba(0, 28, 42, 1), rgba(0, 28, 42, .95));
+    /*background:#00689c;*/
+    color: #cae6f4;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+nav {
+	width: 400px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+/* Vertical menu that slides from the left or right */
+nav {
+	right: -400px;
+}
+ .open {
+	right: 0px !important;
+}
+
+/* Transitions */
+nav {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 450px){
+
+nav {
+		font-size: 90%;
+		width:calc(100vw - 50px);
+	}
+
+nav {
+		right: -100vw;
+	}
+}
