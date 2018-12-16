@@ -15,7 +15,7 @@ class Preferences extends Component {
                 </div>                    
                 <label className="font-size-label">Font-size: <span>{this.props.fontSize}pt</span></label>
                 <div className="font-control">
-                    <input className="font-size-input" type="range" min="8" max="30" placeholder={this.props.fontSize} onChange={this.props.handleFontSizeChange()}/>
+                    <input className="font-size-input" type="range" min="8" max="30" placeholder={11} onChange={this.props.handleFontSizeChange()}/>
                 </div>
                 <div className="preference-control">
                     <button className="preference-btn">
