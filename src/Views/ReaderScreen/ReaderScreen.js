@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import './readerscreen.css'
 
-class ReaderScreen extends Component {
-    constructor(props){
-        super(props);
-    }
+export default class ReaderScreen extends Component {
     render() {
         return (
             <div className="screen">
@@ -13,5 +10,3 @@ class ReaderScreen extends Component {
         );
     }
 }
-
-export default ReaderScreen;
