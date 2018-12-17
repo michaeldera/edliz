@@ -9,12 +9,12 @@ import Settings from './Components/Settings/Settings';
 export default class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <BrowserRouter>
           <Switch>
-            <Route exact path="/" render={Home}/>
-            <Route path="/chapter/:chapterNumber" render={Reader} />
-            <Route path="/settings" render={Settings}/>
+            <Route exact path="/" component={Home}/>
+            <Route path="/chapter/:chapterNumber" component={Reader} />
+            <Route path="/settings" component={Settings}/>
           </Switch>
         </BrowserRouter>
       </div>
