@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './Views/Header/Header';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import ReaderScreen from './Views/ReaderScreen/ReaderScreen';
@@ -8,7 +8,7 @@ import './App.css';
 import Navigation from './Components/Navigation/Navigation';
 import Preferences from './Components/Preferences/Preferences';
 
-export default class App extends Component {
+export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { fontSize: 11, navigation: "closed", mode:"day", preferences: "closed", book: bookContents(), activeContent: bookContents().contents.chapters[0] }
