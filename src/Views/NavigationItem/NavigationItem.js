@@ -8,7 +8,7 @@ export default class NavigationItem extends Component {
         const section = this.props.section;
         return (
             <div className="nav-item">
-                <NavLink to={"/chapters/" + this.props.chapter.toString()}>
+                <NavLink  to={"/chapters/" + this.props.chapter.toString()} activeClassName="nav-active">
                     <span className="nav-short-title">{section.short_title}</span>
                     <span className="nav-long-title">{section.long_title}</span>
                 </NavLink>

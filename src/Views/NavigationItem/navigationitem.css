@@ -4,6 +4,10 @@
     border-bottom:1px solid rgba(200,200,200, 0.2);
 }
 
+.nav-item a {
+    border-bottom: none;
+}
+
 .nav-short-title{
     color: #999;
     display: block;
@@ -13,5 +17,4 @@
 .nav-long-title{
     display: block;
     margin:5px 0;
-    border:none;
 }
