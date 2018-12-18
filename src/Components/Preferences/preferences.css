@@ -65,24 +65,26 @@
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.preference-btn{
-    width: 40px;
-    height:40px;
-    border-radius: 50%;
+.btn-mode{
+    border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.1);
-    border:none;
+    font-size: 0.76rem;
+
+    font-family: 'Quicksand' sans-serif;
+
     margin:5px;
-    border-radius:50%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 6px 14px ;
 }
 
-.preference-btn:focus{
-    outline:none;
+.day .btn-mode{
+    border:none;
+    color:  #333333;
+}
+.night .btn-mode{
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    color:#aaaaaa;
 }
 
-.p-btn-icon{
-    margin: 1px;
-}
 .preference-control{
     display: block;
     width: 80%;

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import sun from './../../Assets/Icons/sun.svg';
 import chevron from './../../Assets/Icons/chevron.svg';
 import './preferences.css'
 
@@ -18,9 +17,7 @@ class Preferences extends Component {
                     <input className="font-size-input" type="range" min="8" max="30" placeholder={11} onChange={this.props.handleFontSizeChange()}/>
                 </div>
                 <div className="preference-control">
-                    <button className="preference-btn">
-                        <img className="p-btn-icon" src={sun} alt="day" onClick={this.props.toggleMode()} />
-                    </button>
+                    <button className="btn-mode" onClick={this.props.toggleMode()}><span className="lnr lnr-moon"></span>{(this.props.mode === "day" )? "Night Mode" :  "Day Mode" }</button>
                 </div>
                 <button className="close-btn" onClick={this.props.toggle()}>
                     <img  className="close-preferences" src={chevron} alt="close" />
