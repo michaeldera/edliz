@@ -13,7 +13,7 @@ export default class App extends React.Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/chapter/:chapterNumber" children={RenderReader} />
+            <Route path="/chapters/:chapterNumber" children={RenderReader} />
             <Route path="/settings" component={Settings}/>
           </Switch>
         </BrowserRouter>

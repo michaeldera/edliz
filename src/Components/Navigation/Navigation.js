@@ -56,7 +56,7 @@ class Navigation extends Component {
                     <Searchbar display={this.state.searchDisplay} search={this.search}/>
                     <div className="tab-content">
                         { this.state.content.map( (section ,  index ) => (
-                            <NavigationItem key={index} section={section} chapter={index} />
+                            <NavigationItem key={index} section={section} chapter={index + 1} />
                         ))}
                      </div>      
                 </section>            

@@ -5,7 +5,9 @@ export default class ReaderScreen extends Component {
     render() {
         return (
             <div className="screen">
-                <div className="article" style={this.props.style}>{this.props.content.content}</div>
+                <div className="article" style={this.props.style}>
+                    {this.props.content.content}
+                </div>
             </div>
         );
     }
