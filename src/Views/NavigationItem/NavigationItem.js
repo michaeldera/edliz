@@ -7,10 +7,10 @@ export default class NavigationItem extends Component {
     render() {
         const section = this.props.section;
         return (
-            <div className="content-item">
+            <div className="nav-item">
                 <NavLink to={"/chapters/" + this.props.chapter.toString()}>
-                    <span className="content-item-title">{section.short_title}</span>
-                    <span className="content-preview">{section.long_title}</span>
+                    <span className="nav-short-title">{section.short_title}</span>
+                    <span className="nav-long-title">{section.long_title}</span>
                 </NavLink>
             </div>
         );
