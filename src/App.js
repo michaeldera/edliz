@@ -13,11 +13,16 @@ export default class App extends React.Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/chapter/:chapterNumber" component={Reader} />
+            <Route path="/chapter/:chapterNumber" children={RenderReader} />
             <Route path="/settings" component={Settings}/>
           </Switch>
         </BrowserRouter>
       </div>
     );
   }
+}
+
+
+function RenderReader({ match }) {
+  return <Reader chapter={match.params.chapterNumber - 1}/>;
 }
