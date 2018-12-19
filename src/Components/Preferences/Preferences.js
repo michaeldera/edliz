@@ -12,9 +12,8 @@ class Preferences extends Component {
                     <span className="preview-text">Preview Text</span>
                 </div>                    
                 <label className="font-size-label">Font-size: <span>{this.props.fontSize}pt</span></label>
-                <div className="font-control">
+
                     <input className="font-size-input" type="range" min="8" max="30" placeholder={11} onChange={this.props.handleFontSizeChange()}/>
-                </div>
                 <div className="preference-control">
                     <button className="btn-mode" onClick={this.props.toggleMode()}><span className={(this.props.mode === "day" )? "lnr lnr-moon" :  "lnr lnr-sun"}></span></button>
                 </div>

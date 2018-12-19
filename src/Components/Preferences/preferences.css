@@ -1,5 +1,6 @@
 .preferences {
-    padding:0;
+    font-size: 0.9rem;
+    color:#ffffff;
     background-size: cover;
     position: fixed;
     transition: all 2s ease;
@@ -63,19 +64,6 @@
     line-height:48px;
     border-radius:.25em;
 }
-.font-control {
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-    padding: .8em;
-    border-radius:50vh;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.night .form-control {
-    background-color: rgba(255, 255, 255, 0.1);
-}
 
 .font-size-label{
     font-size:1em;
@@ -113,7 +101,7 @@
     -webkit-appearance: none;
     height: 10px;
     width: 20px;
-    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    border: 0.5px solid #ffffff;
     border-radius: 50vh;
     background: #008abe;
     cursor: pointer;
@@ -132,9 +120,9 @@
   
   /* All the same stuff for IE */
   .font-size-input::-ms-thumb {
-    height: 10px;
-    width: 16px;
-    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    height: 14px;
+    width: 14px;
+    border:#000;
     border-radius: 50vh;
     background: #ffffff;
     cursor: pointer;
@@ -147,19 +135,18 @@
     height: 6px;
     cursor: pointer;
     border: 0.5px solid rgba(255, 255, 255, 0.1);
-    background: rgba(0,0,0, 0.25);
     border-radius: 50vh;
   }
   
-  .font-size-input:focus::-webkit-slider-runnable-track {
+  /*.font-size-input:focus::-webkit-slider-runnable-track {
     background: rgba(0,0,0, 0.25);
-  }
+  }*/
   
   .font-size-input::-moz-range-track {
     width: 100%;
     height: 6px;
     cursor: pointer;
-    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    border: 0.5px solid #ffffff;
     background: rgba(0,0,0, 0.25);
     border-radius: 50vh;
   }
@@ -168,24 +155,23 @@
     width: 100%;
     height: 6px;
     cursor: pointer;
-    background: rgba(0,0,0, 0.25);
-    border-color: rgba(255, 255, 255, 0.1);
+    border-color:transparent;
     border-width: 16px 0;
     color: transparent;
   }
   .font-size-input::-ms-fill-lower {
-    background: #2a6495;
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 50vh;
   }
   .font-size-input:focus::-ms-fill-lower {
-    background: #3071a9;
+    background: rgba(255, 255, 255, 0.4);
   }
   .font-size-input::-ms-fill-upper {
-    background: #3071a9;
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 50vh;
   }
   .font-size-input:focus::-ms-fill-upper {
-    background: #367ebd;
+    background: rgba(255, 255, 255, 0.4);
   }
 
 .close-btn{
