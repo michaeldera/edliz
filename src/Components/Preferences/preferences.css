@@ -1,32 +1,11 @@
 .preferences {
     padding:0;
-    background-image: url("./../../Assets/Images/pills.jpg"); 
     background-size: cover;
     position: fixed;
     transition: all 2s ease;
-    box-shadow: 0px 0 5px #ccc;
+    background-color:#00f;
 }
 
-.night .preferences {
-    box-shadow: 0px 0 5px #333;
-}
-
- .night .preferences > div{
-    background:linear-gradient( rgba(0, 28, 42, 1), rgba(0, 28, 42, .95)) ;
-    color:#dbeef8;
-}
-.preferences > div {
-    margin:0;    
-    padding:0;   
-    padding-top:20px;
-    height:100%;
-
-}
-
- .day .preferences > div {
-    background:rgba(255,255,255, .95);
-    color:rgb(0, 28, 42);
-}
 /* Orientation-dependent styles for the content of the menu */
 .preferences {
 	width: 100vw;
@@ -67,20 +46,13 @@
 
 .btn-mode{
     border-radius: 4px;
+    color: #ffffff;
+    border:#ffffff;
     background-color: rgba(0, 0, 0, 0.1);
-    font-size: 0.76rem;
+    font-size: 0.9rem;
     font-family: 'Quicksand' sans-serif;
     margin:5px;
-    padding: 6px 14px ;
-}
-
-.day .btn-mode{
-    border:none;
-    color:  #333333;
-}
-.night .btn-mode{
-    border: 0.5px solid rgba(255, 255, 255, 0.1);
-    color:#aaaaaa;
+    padding: 10px 10px ;
 }
 
 .preference-control{

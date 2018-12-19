@@ -8,7 +8,6 @@ class Preferences extends Component {
         const bottom = (this.props.status === "open")? "0": "-290px";
         return (
             <div className="preferences" style={{ bottom : bottom }} >
-                <div>
                 <div className="preview-frame">
                     <span className="preview-text">Preview Text</span>
                 </div>                    
@@ -17,12 +16,11 @@ class Preferences extends Component {
                     <input className="font-size-input" type="range" min="8" max="30" placeholder={11} onChange={this.props.handleFontSizeChange()}/>
                 </div>
                 <div className="preference-control">
-                    <button className="btn-mode" onClick={this.props.toggleMode()}><span className="lnr lnr-moon"></span>{(this.props.mode === "day" )? "Night Mode" :  "Day Mode" }</button>
+                    <button className="btn-mode" onClick={this.props.toggleMode()}><span className={(this.props.mode === "day" )? "lnr lnr-moon" :  "lnr lnr-sun"}></span></button>
                 </div>
                 <button className="close-btn" onClick={this.props.toggle()}>
                     <img  className="close-preferences" src={chevron} alt="close" />
                 </button>
-                </div>
             </div>
         );
     }
