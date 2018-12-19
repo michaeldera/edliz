@@ -1,11 +1,23 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import './settings.css';
 
 export default class Settings extends React.Component {
   render() {
     return (
-      <div>
-          <h1>Essential Drugs and Medicines List</h1>
-          <p>Home page</p> 
+      <div className="settings">
+        <Link to="/" className="back-link">back...</Link>
+        <h1>settings</h1>
+        <h2>save on device</h2>
+        <p>to download a copy of this guide on your device use this link</p>
+        <a href="#" className="btn-more">save on device</a>
+        <h2>application Info</h2>
+        <h3>contributors</h3>
+        <p>this application was built and is maintained by a well meaning developers. The code is opensource and is available to fork, share and improve on github. to see a list of all developers that have contributed to the project read our readme file on github for an update list.</p>
+        <a href="https://github.com/michaeldera/edliz" className="btn-more">view on github</a>
+        <h3>website</h3>
+        <p>for more information on the project visit the website</p>
+        <a href="#" className="btn-more">view website</a>
       </div>
     );
   }
