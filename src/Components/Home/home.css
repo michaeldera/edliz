@@ -1,0 +1,38 @@
+.home{
+    padding: 10vh 10vw;
+    text-align:left;
+    background-color:  #00f;
+    color:  #fff;
+    min-height: 80vh;
+}
+
+.main-title{
+    font-size: 2.4em;
+    line-height:  1;
+}
+
+.btn-read-guidelines {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 0.7rem;
+    font-family: 'Quicksand' sans-serif;
+    margin:5px;
+    padding: 3px 8px ;
+    border:1px solid #fff;
+    text-align: left;
+    color: #ffffff;
+}
+
+.edliz-intro{
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #dddddd;
+}
+
+.btn-settings {
+    border-radius: 50vh;
+    color: #ffffff;
+    font-size: 0.7rem;
+    border:1px solid #ffffff;
+    padding: 3px 8px ;
+}
