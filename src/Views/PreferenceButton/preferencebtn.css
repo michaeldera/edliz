@@ -1,4 +1,4 @@
-.nav-btn{
+.btn-preferences{
     position: absolute;
     width: 36px;
     height:36px;
@@ -8,12 +8,7 @@
     border-radius: 50%;
     border:none;
     z-index: 998;
-}
-.day .nav-btn{
-    background: #eee;    
-}
-.night .nav-btn{
-    background: #001c2a;    
+    background-color: #0000ff;
 }
 
 .nav-btn:focus{

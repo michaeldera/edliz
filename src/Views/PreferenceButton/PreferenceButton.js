@@ -6,7 +6,7 @@ class PreferenceButton extends Component {
     render(){
         return(
             <div>
-                <button className="nav-btn" onClick={this.props.toggle()}>
+                <button className="btn-preferences" onClick={this.props.toggle()}>
                     <img src={icon} alt="Navigate"/>
                 </button>
             </div>    
