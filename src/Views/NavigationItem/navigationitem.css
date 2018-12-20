@@ -13,8 +13,16 @@
     display: block;
     font-size:0.8em;
 }
+.night .nav-short-title{
+    color: #ddd;
+}
+
 
 .nav-long-title{
     display: block;
     margin:5px 0;
+}
+
+.night .nav-long-title{
+    color: #fff;
 }
