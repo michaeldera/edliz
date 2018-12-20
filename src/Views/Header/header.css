@@ -1,4 +1,4 @@
-.preferences-btn{
+.btn-toggle-nav{
     height: 50px;
     width: 50px;
     border:none;
@@ -6,7 +6,7 @@
     float:left;
     background:transparent;
 }
-.preferences-btn:focus{
+.btn-toggle-nav:focus{
     outline:none;
 }
 
@@ -25,13 +25,5 @@
 
 header {
     width:100%;
-
-}
-
-.night header{
-    background: #00689c;    
-}
-
-.day header{
-    background-color: #008abe;
+    background-color: #0000ff;
 }

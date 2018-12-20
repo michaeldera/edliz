@@ -6,7 +6,7 @@ class Header extends Component {
     render() {
         return (
             <header>
-                <button className="preferences-btn" onClick={this.props.toggle()}>
+                <button className="btn-toggle-nav" onClick={this.props.toggle()}>
                     <img src={menu} alt="menu" />
                 </button>
                 <button className="title-btn">{this.props.title}</button>
