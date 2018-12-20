@@ -1,29 +1,16 @@
 nav {
     padding:0;
-    position: fixed;    
-    background-image: url("./../../Assets/Images/pills.jpg"); 
-    background-size:cover;
-    box-shadow: 0px 0 5px #ccc;
+	position: fixed;    
+}
+
+.day nav {
+	background-color: #fff; 
 }
 
 .night nav {
-	box-shadow: 0px 0 5px #333;
+	background-color:  #000;
 }
 
-nav > div{
-    margin:0;
-    padding:0;
-}
-.day nav > div{
-    color:#000000;
-    background:linear-gradient( 90deg,  rgba(255, 255,  255, 1) , rgba(255, 255,  255, .95) );
-	/*background:#3da5d9;*/
-}
-.night nav > div{
-    background:linear-gradient(90deg, rgba(0, 28, 42, 1), rgba(0, 28, 42, .95));
-    /*background:#00689c;*/
-    color: #cae6f4;
-}
 
 /* Orientation-dependent styles for the content of the menu */
 nav {

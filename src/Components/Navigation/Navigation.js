@@ -46,9 +46,8 @@ class Navigation extends Component {
     render() {
         return (
             <nav className={this.props.status} >
-                <div>
-                <section>
-                    <div className="tabs">
+                    <div className="nav-header">
+                        <h2 className="nav-heading">Essential Drugs and Medicines List in Zimbabwe</h2>
                         <button className="tab-button" onClick={() => this.switchTab("chapters")}>Chapters</button>
                         <button className="tab-button" onClick={() => this.switchTab("chapters")}>Bookmarks</button>
                         <button className="tab-button" onClick={() => this.switchTab("pre")}>Index</button>
@@ -58,11 +57,8 @@ class Navigation extends Component {
                         { this.state.content.map( (section ,  index ) => (
                             <NavigationItem key={index} section={section} chapter={index + 1} />
                         ))}
-                     </div>      
-                </section>            
-                </div>
+                     </div>           
             </nav>
-
         );
     }
 }

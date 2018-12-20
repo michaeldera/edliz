@@ -1,24 +1,25 @@
+.nav-header{
+    background-color: #0000dd;
+    color: #ffffff;
+    text-align: left;
+    padding: 1rem;
+    margin-top:0;
+}
 
 .tab-button{
-    height:50px;
-    width:33.33%;
-    border:none;
+    background:transparent;
+    border:1px solid #ffffff;
     font-family: "Quicksand", sans-serif;
-    margin-bottom:2px;
-    line-height:36px;
-    font-size:1em;
-    padding-top:4px;    
-    background-color: transparent;
+    color:#ffffff;
+    font-size:0.8em;
+    margin-right: 6px;
+    border-radius: 50vh;
 }
 
-.night .tab-button{ 
-    color:#fff;
-}
 .tab-button:focus{
     outline:none;
-    margin-bottom:0;
-    text-decoration:underline;
-    text-decoration-color: #0beef8;
+    background-color: #ffffff;
+    color: #0000ff;
 }
 
 .tab-content{
