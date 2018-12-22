@@ -19,8 +19,7 @@ export default class Settings extends React.Component {
         <p>this application was built and is maintained by a well meaning developers. The code is opensource and is available to fork, share and improve on github. to see a list of all developers that have contributed to the project read our readme file on github for an update list.</p>
         <a href="https://github.com/michaeldera/edliz" className="btn-more">view on github</a>
         <h3>website</h3>
-        <p>for more information on the project visit the website</p>
-        <a href="#" className="btn-more">view website</a>
+        <p>still in development. coming soon</p>
       </div>
     );
   }
