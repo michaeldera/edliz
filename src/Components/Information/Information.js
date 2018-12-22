@@ -7,7 +7,7 @@ export default class Information extends React.Component {
   render() {
     return (
       <div className="information">
-          <Link className="back-link" to="/home">home</Link> 
+          <Link className="back-link" to="/">home</Link> 
           <h2>jump to section</h2>
           <div id="jump-section">
             {bookContents().contents.pre.map((elem, index, array) => {
