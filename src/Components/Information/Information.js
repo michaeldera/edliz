@@ -11,7 +11,7 @@ export default class Information extends React.Component {
           <h2>jump to section</h2>
           <div id="jump-section">
             {bookContents().contents.pre.map((elem, index, array) => {
-              return <><a href={"#" + elem.short_title}>{elem.short_title}</a><br/>
+              return <><a href={"#" + elem.short_title}>{elem.short_title}</a><br/></>
             })}
           </div>
           {bookContents().contents.pre.map((elem, index, array) => {
