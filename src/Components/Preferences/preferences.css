@@ -84,20 +84,19 @@
 
   .font-size-input::-webkit-slider-thumb {
     -webkit-appearance: none;
-    height: 10px;
-    width: 20px;
-    border: 0.5px solid #ffffff;
+    height: 14px;
+    width: 14px;
+    border: 0.5px solid #000;
     border-radius: 50vh;
-    background: #008abe;
+    background: #ffffff;
     cursor: pointer;
     margin-top: -2px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ /* Add cool effects to your sliders! */
   }
   
   /* All the same stuff for Firefox */
   .font-size-input::-moz-range-thumb {
-    height: 10px;
-    width: 16px;
-    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    height: 14px;
+    width: 14px;
     border-radius: 50vh;
     background: #ffffff;
     cursor: pointer;
@@ -119,7 +118,7 @@
     width: 100%;
     height: 6px;
     cursor: pointer;
-    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 50vh;
   }
   
@@ -131,8 +130,7 @@
     width: 100%;
     height: 6px;
     cursor: pointer;
-    border: 0.5px solid #ffffff;
-    background: rgba(0,0,0, 0.25);
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 50vh;
   }
   
