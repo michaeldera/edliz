@@ -44,7 +44,7 @@ export default class Reader extends React.Component{
             <div className={this.state.mode}>
                 <Navigation content={this.state.book.contents} status={this.state.navigation} toggle={() => this.toggleNavigationPane} />
                 <Header title={bookContents().contents.chapters[this.props.chapter].short_title} toggle={() => this.toggleNavigationPane} />   
-                <Preferences status={this.state.preferences} mode={this.state.mode} fontSize={11} handleFontSizeChange={(e) => this.handleFontSizeChange}  toggleMode={()=>this.toggleMode}  toggle={() => this.togglePreferences} />
+                <Preferences status={this.state.preferences} mode={this.state.mode} fontSize={this.state.fontSize} handleFontSizeChange={(e) => this.handleFontSizeChange}  toggleMode={()=>this.toggleMode}  toggle={() => this.togglePreferences} />
                 <ReaderScreen style={{fontSize: this.state.fontSize + 'pt'}} content={bookContents().contents.chapters[this.props.chapter]}/>   
                 <PreferenceButton toggle={() => this.togglePreferences} />
             </div>

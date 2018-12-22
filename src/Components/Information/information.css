@@ -5,3 +5,12 @@
     color:  #fff;
     min-height: 80vh;
 }
+
+.back-link{
+    font-size: 0.9em;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    padding: 0;
+    margin-bottom: 1.4em;
+}
