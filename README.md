@@ -4,7 +4,7 @@
 
 ## Motivation
 
-The guidelines are meant to be a pocketbook for every medical health professional and student in Zimbabwe. The aim of this project is to make the guidleine more accessible and reduce the costs of distribution. 
+The guidelines are meant to be a pocketbook for every medical health professional and student in Zimbabwe. The aim of this project is to make the guidleine more accessible and reduce the costs of distribution.
 
 ## Download the pdf
 
