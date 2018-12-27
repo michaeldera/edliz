@@ -10,7 +10,7 @@ The guidelines are meant to be a pocketbook for every medical health professiona
 
 The guidelines are translated to plain HTML to match the contents of the PDF version. If you would like to work on the content of the guideline you can download the PDF version of the guidelines [here](https://1drv.ms/f/s!Ao4d2kZfYkv5cL8WFGuC3SVeBlM)
 
-## Contributors and Backers 
+## Contributors and Backers
 
 This project is not funded and relies entrely upon the  efforts of contrbutors and well-wishers.
 The project was started by Dr Tafadzwa Liberty Nyeve and  [Michael Dera](https://www.github.com/michaeldera)
