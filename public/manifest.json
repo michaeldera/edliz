@@ -34,6 +34,6 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#0d88ff",
+  "theme_color": "#0000ff",
   "background_color": "#ffffff"
 }
