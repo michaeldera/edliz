@@ -12,6 +12,8 @@ The guidelines are translated to plain HTML to match the contents of the PDF ver
 
 ## Contributors and Backers
 
+If you would like to contribute to this project please read the [Contributing Guidelines](https://github.com/michaeldera/edliz/blob/master/CONTRIBUTING.md)
+
 This project is not funded and relies entrely upon the  efforts of contrbutors and well-wishers.
 The project was started by Dr Tafadzwa Liberty Nyeve and  [Michael Dera](https://www.github.com/michaeldera)
 
