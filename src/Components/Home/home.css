@@ -15,7 +15,6 @@
 .btn-read-guidelines {
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.1);
-    font-size: 0.7rem;
     font-family: 'Sarabun' sans-serif;
     margin:5px;
     padding: 3px 8px ;
@@ -33,7 +32,6 @@
 .btn-settings {
     border-radius: 50vh;
     color: #ffffff;
-    font-size: 0.7rem;
     border:1px solid #ffffff;
     padding: 3px 8px ;
 }
