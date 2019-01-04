@@ -17,6 +17,7 @@
     background-color: rgba(0, 0, 0, 0.1);
     font-family: 'Sarabun' sans-serif;
     margin:5px;
+    margin-left:0;
     padding: 3px 8px ;
     border:1px solid #fff;
     text-align: left;
@@ -33,5 +34,6 @@
     border-radius: 50vh;
     color: #ffffff;
     border:1px solid #ffffff;
+    margin-right: 6px;
     padding: 3px 8px ;
 }
