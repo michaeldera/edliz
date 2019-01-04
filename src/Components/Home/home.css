@@ -1,7 +1,8 @@
 .home{
     padding: 10vh 10vw;
     text-align:left;
-    background-color:  #00f;
+    background:  #00f;
+    background: linear-gradient(to bottom right, #0000ff, #0000aa);
     color:  #fff;
     min-height: 80vh;
 }
