@@ -1,15 +1,18 @@
 .preferences {
+    border-radius: 8px;  
     font-size: 0.9rem;
     color:#ffffff;
     background-size: cover;
     position: fixed;
+    margin: 0  1em 0.6em 1em;
     transition: all 2s ease;
     background-color:#00f;
+    box-shadow: 0 0 10px #444;
+    width:calc(100vw - 2em);
 }
 
 /* Orientation-dependent styles for the content of the menu */
 .preferences {
-	width: 100vw;
 	height: 270px;
 	z-index: 999;
 }
@@ -26,7 +29,6 @@
 
 .preferences {
 		font-size: 90%;
-		width:100vw;
 	}
 }
 
