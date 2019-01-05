@@ -1,4 +1,5 @@
 import React from 'react';
+import close from './chevron-down.svg';
 import './preferences.css'
 
  export default class Preferences extends React.Component {
@@ -6,7 +7,7 @@ import './preferences.css'
         const bottom = (this.props.status === "open")? "0": "-290px";
         return (
             <div className="preferences" style={{ bottom : bottom }} >                
-                <button className="close-btn" onClick={this.props.toggle()}>close</button>           
+                <button className="close-btn" onClick={this.props.toggle()}><img src={close} alt="close"/></button>
                 <label htmlFor="font-size-input" className="font-size-label">font-size</label>
                 <input name="font-size-input" className="font-size-input" type="range" min="8" max="30" placeholder={11} onChange={this.props.handleFontSizeChange()}/>
                 <div className="preference-control">
@@ -16,3 +17,4 @@ import './preferences.css'
         );
     }
 }
+    
