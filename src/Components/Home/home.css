@@ -1,8 +1,7 @@
 .home{
     padding: 10vh 10vw;
     text-align:left;
-    background:  #00f;
-    background: linear-gradient(to bottom right, #0000ff, #0000aa);
+    background: linear-gradient(to bottom right, #0000ff, #000099);
     color:  #fff;
     min-height: 80vh;
 }
@@ -16,6 +15,7 @@
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.1);
     font-family: 'Sarabun' sans-serif;
+    font-size:0.85em;
     margin:5px;
     margin-left:0;
     padding: 3px 8px ;
@@ -25,14 +25,17 @@
 }
 
 .edliz-intro{
-    font-size: 0.8em;
+    font-size: 1em;
     line-height: 1.2em;
+    margin-bottom: 1.1em;
+    margin-top: 1.1em;
     color: #dddddd;
 }
 
 .btn-settings {
     border-radius: 50vh;
     color: #ffffff;
+    font-size:0.85em;
     border:1px solid #ffffff;
     margin-right: 6px;
     padding: 3px 8px ;
