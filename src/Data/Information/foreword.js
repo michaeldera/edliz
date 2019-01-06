@@ -1,4 +1,6 @@
-export default foreword = {
+import React from 'react';
+
+export let foreword = {
     short_title: "Foreword",
     long_title: "Foreword on the 7th Edition",
     content:

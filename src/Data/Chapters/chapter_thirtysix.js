@@ -1,4 +1,6 @@
-export default chapter_thirtysix = {
+import React from 'react';
+
+export let chapter_thirtysix = {
     short_title: "Chapter 36",
     long_title: "Medicines Interactions and Incompatibilities",
     content:

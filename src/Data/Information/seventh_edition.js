@@ -1,4 +1,6 @@
-export seventh_edition = {
+import React from 'react';
+
+export let seventh_edition = {
     short_title: "7th Edition",
     long_title: "EDLIZ 7th Edition 2015",
     content:

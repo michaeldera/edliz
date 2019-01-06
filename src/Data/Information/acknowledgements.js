@@ -1,4 +1,6 @@
-export default acknowledgements = {
+import React from 'react';
+
+export let acknowledgements = {
     short_title: "Acknowledgements",
     long_title: "Acknowledgements",
     content:
@@ -123,4 +125,4 @@ export default acknowledgements = {
         <p>Mrs R.F. Hove <br /><small>Director of Pharmacy Services </small></p>
         <p>Prof. C. E. Ndhlovu<br /><small>NMTPAC Chairperson</small></p>
       </span>
-  }
+};

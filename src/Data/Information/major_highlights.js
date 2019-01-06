@@ -1,4 +1,6 @@
-const major_highlights = {
+import React from 'react';
+
+export let major_highlights = {
     short_title: "Highlights",
     long_title: "Major Highlights in the Latest EDLIZ",
     content:

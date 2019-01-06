@@ -1,4 +1,6 @@
-export default chapter_nine = {
+import React from 'react';
+
+export let chapter_nine = {
     short_title: "Chapter 9",
     long_title: "Use of ARVs for Prevention of Mother-to-Child Transmission of HIV (PMTCT)",
     content:

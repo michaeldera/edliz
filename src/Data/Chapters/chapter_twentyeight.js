@@ -1,4 +1,6 @@
-export default chapter_twentyeight = {
+import React from 'react';
+
+export let chapter_twentyeight = {
     short_title: "Chapter 28",
     long_title: "Haematology and Blood Products",
     content:

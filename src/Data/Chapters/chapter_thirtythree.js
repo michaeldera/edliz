@@ -1,4 +1,6 @@
-export default chapter_thirtythree = {
+import React from 'react';
+
+export let chapter_thirtythree = {
     short_title: "Chapter 33",
     long_title: "Surgical Conditions",
     content:

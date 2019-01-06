@@ -1,4 +1,6 @@
-const chapter_seventeen = {
+import React from 'react';
+
+export let chapter_seventeen = {
     short_title: "Chapter 17",
     long_title: "Rheumatological and Joint Conditions",
     subsections: [{

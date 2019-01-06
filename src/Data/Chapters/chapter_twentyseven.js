@@ -1,4 +1,6 @@
-default export chapter_twentyseven = {
+import React from 'react';
+
+export let chapter_twentyseven = {
     short_title: "Chapter 27",
     long_title: "Medicines and the Elderly",
     content:

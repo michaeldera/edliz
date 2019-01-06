@@ -1,4 +1,6 @@
-export default preface = {
+import React from 'react';
+
+export let preface = {
     short_title: "Preface",
     long_title: "The Essential Medicines List for Zimbabwe",
     content:

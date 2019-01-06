@@ -1,4 +1,6 @@
-export default chapter_one = {
+import React from 'react';
+
+export let chapter_one = {
     short_title: "Chapter 1",
     long_title: "Guidelines on Antimicrobial Treatment and Prophylaxis ",
     content:
