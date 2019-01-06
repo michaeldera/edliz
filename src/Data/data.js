@@ -43,7 +43,6 @@ import { major_highlights } from './Information/major_highlights';
 import { preface } from './Information/preface';
 import { seventh_edition } from './Information/seventh_edition';
 
-
 const book = {
     short_title: "EDLIZ",
     long_title: "The Essential Medicines List for Zimbabwe",
@@ -94,4 +93,3 @@ const book = {
   export function bookContents() {
     return book;
   }
-  
