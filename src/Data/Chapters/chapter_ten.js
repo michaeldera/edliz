@@ -8,7 +8,7 @@ export let chapter_ten = {
       long_title: "General Notes",
       content:
         <div>
-          <h1>General Notes</h1>
+          <h2>General Notes</h2>
           <p>Tuberculosis is a chronic infectious, debilitating disease, caused by Mycobacterium tuberculosis. It is a public health problem and all cases must be notified to the Provincial/City Medical Director in terms of the Public Health Act. Due to the association between TB and HIV infection, the prevalence of TB is increasing, and patients are often more seriously ill than before.</p>
           <h2>Control of Tuberculosis &dash; TB Policy</h2>
           <p><em>For more information on National Policy and the organisation of the TB services refer to the Ministry of Health &amp; Child Care’s ZIMBABWE TUBERCULOSIS CONTROL PROGRAMME MANUAL.</em></p>
@@ -29,8 +29,8 @@ export let chapter_ten = {
       long_title: "Prevention",
       content:
         <span>
-          <h1>Prevention</h1>
-          <h2>Primary Prevention</h2>
+          <h2>Prevention</h2>
+          <h3>Primary Prevention</h3>
           <ul>
             <li>BCG vaccination is given at birth or at first dcptrial with the child after birth (except in babies with clinical signs of HIV infection and/or in infants born to a mother with sputum positive TB).</li>
             <li><em>BCG vaccine should be given to all babies, even those born to mothers known to be HIV positive.</em>
@@ -49,13 +49,13 @@ export let chapter_ten = {
               <tr><td>isoniazid po</td><td>B V</td><td>10mg/kg</td><td>once a day</td><td>2 months</td></tr>
             </tbody>
           </table>
-          <h2>Secondary Prevention</h2>
+          <h3>Secondary Prevention</h3>
           <p>An infant born to a mother with sputum positive TB should not be given BCG at birth</p>
           <ul>
             <li> Give the child isoniazid 10mg/kg day prophylaxis for two months</li>
             <li> After two months perform a mantoux test.
               <ul>            
-                <li> If the Mantoux test is dcptrial give full TB treatment. </li>
+                <li> If the Mantoux test is positive give full TB treatment. </li>
                 <li> If the Mantoux test is negative continue with isoniazid prophylaxis for four more months.</li>
                 <li> Follow with BCG vaccination if not HIV infected</li>
               </ul>
