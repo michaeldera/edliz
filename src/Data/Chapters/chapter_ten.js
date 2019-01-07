@@ -75,14 +75,13 @@ export let chapter_ten = {
         </span>
     },
     {
-      short_title: "Section 4",
+      short_title: "Section 3",
       long_title: "Case Management",
       content:
         <span>
           <h2>Case Management</h2>
-          <p><a><strong>Diagnosis</strong>
-          </a></p >
-          <p><strong>Clinical Diagnosis of TB</strong></p>
+          <h3>Diagnosis</h3>
+          <h4>Clinical Diagnosis of TB</h4>
           <p>The presence of pulmonary tuberculosis should be suspected in individuals presenting with one or more of the following complaints:</p>
           <ul>
             <li>Cough for 2 weeks or longer</li>
@@ -93,18 +92,20 @@ export let chapter_ten = {
             <li>Loss of weight</li>
             <li>Shortness of breath</li>
           </ul>
-          <p><strong>Sputum</strong></p>
+          <h5>Sputum</h5>
           <p>The diagnosis of TB is made by demonstrating alcohol acid-fast bacilli (AAFB) in the sputum by direct smear microscopy (DSM). DSM is repeated at the end of the intensive and continuation phases to confirm sputum conversion and cure.</p>
           <p>Due to the concerns of medicine resistance the following patients <strong>MUST</strong> submit sputum specimens for Gene Xpert test, culture and medicine sensitivity testing to the TB Reference Laboratory</p>
-          <p> All relapses</p>
-          <p> Patients on category 1 treatment who are sputum positive at 3/5 months</p>
-          <p> Patients on category 2 treatment who are sputum positive at 3/4 months (at end of prolonged intensive phase).</p>
-          <p> Patients on category 2 treatment who are sputum positive at the end of treatment</p>
-          <p> Patients who are sputum-smear positive and have been in contact with MDR-TB case.</p>
-          <p> Gene-Xpert for all HIV positive patients</p>
-          <p> Residence in DRTB high burden zones</p>
-          <p> Return after treatment default</p >
-          <p><strong>Chest X-Rays</strong></p >
+          <ul>
+            <li>All relapses</li>
+            <li>Patients on category 1 treatment who are sputum positive at 3/5 months</li>
+            <li>Patients on category 2 treatment who are sputum positive at 3/4 months (at end of prolonged intensive phase).</li>
+            <li>Patients on category 2 treatment who are sputum positive at the end of treatment</li>
+            <li>Patients who are sputum-smear positive and have been in contact with MDR-TB case.</li>
+            <li>Gene-Xpert for all HIV positive patients</li>
+            <li>Residence in DRTB high burden zones</li>
+            <li>Return after treatment default</li>
+          </ul>
+          <h5>Chest X-Rays</h5>
           <p><strong>Indications for chest x-rays</strong></p>
           <ul>
             <li>A child suspected of TB </li>
@@ -116,24 +117,24 @@ export let chapter_ten = {
             <li>When other lung diseases are suspected by the medical officer</li>
             <li>Pericardial effusion</li>
           </ul>
-          <p>Chest x-rays should <strong>
-            <u>NOT</u>
-          </strong> be used for diagnosing pulmonary TB. In sputum positive patients a chest x-ray is not necessary.</p>
-          <p><em>Note: In the dcptrial of clinical improvement, it is not necessary to monitor the response of pulmonary TB to treatment by chest x-rays </em></p>
-          <p><strong>Tuberculin Testing</strong></p>
+          <p>Chest x-rays should <strong className="underline">NOT</strong> be used for diagnosing pulmonary TB. In sputum positive patients a chest x-ray is not necessary.</p>
+          <small>Note: In the presence of clinical improvement, it is not necessary to monitor the response of pulmonary TB to treatment by chest x-rays </small>
+          <h5>Tuberculin Testing</h5>
           <p>Use Mantoux test only:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Dose</p></td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>tuberculin, purified</strong> (PPD) 1:1000 intradermal</p></td><td><p><strong>B E</strong></p> </td><td><p>0.1ml (=5TU)</p></td><td><p>-</p></td><td><p>-</p></td></tr>
+            <tr><th>Medicine</th><th>Codes</th><th>Dose</th><th>Frequency</th><th>Duration</th></tr>
+            <tr><td>tuberculin, purified (PPD) 1:1000 intradermal</td><td>B E</td><td>0.1ml (=5TU)</td><td>&mdash;</td><td>&mdash;</td></tr>
           </table>
           <p>Examine induration at 48-72 hours.</p>
           <ul>
             <li> A positive Mantoux (person with normal immunity: induration &gt; 10 mm, person with defective immunity: induration &gt;6 mm) may indicate active infection (especially if strongly positive), previous infection or previous BCG.</li>
-            <li>Absence of a response does not exclude TB because individuals with HIV may not have sufficient immunity for a positive skin test despite active TB.</li>
-            <li> If a child under 3 years of age has <u>not</u> had BCG, the Mantoux test may be useful.</li>
-            <li> All TB suspects should be offered HIV counselling and testing (Provider initiated testing and counselling i.e. PITC)at the same facility where the sputum is examined.</li>
+            <li>Absence of a response does not exclude TB because individuals with HIV may not have sufficient immunity for a positive skin test despite active TB.
+              <ul>
+                <li> If a child under 3 years of age has <span className="underline">not</span> had BCG, the Mantoux test may be useful.</li>
+              <li> All TB suspects should be offered HIV counselling and testing (Provider initiated testing and counselling i.e. PITC)at the same facility where the sputum is examined.</li>
+            </ul>
+            </li>
           </ul>
-  
         </span>
     },
     {
