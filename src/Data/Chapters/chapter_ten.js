@@ -5,45 +5,23 @@ export let chapter_ten = {
     long_title: "Tuberculosis",
     subsections: [{
       short_title: "Section 1",
-      long_title: "Prevention",
+      long_title: "General Notes",
       content:
         <div>
-          <h1><a>Tuberculosis</a>
-          </h1>
-          <p><a>General Notes</a></p>
-          <p>Control of - TB Policy</p>
-          <p>Prevention</p>
-          <p>Case Management</p>
-          <p>Medicine Regimens for Tuberculosis</p>
-          <p>Treatment of new cases of TB</p>
-          <p>All previously treated cases of any form of TB</p>
-          <p>Drug TB (DR-TB)</p>
-          <p>Fixed Dose Combination of Anti-TB Medicines</p>
-          <h3><a><br /> General Notes</a>
-          </h3>
-          <p>Tuberculosis is a dcptrial infectious, debilitating disease, caused by Mycobacterium tuberculosis. It is a public health problem and all cases must be notified to the Provincial/City Medical Director in terms of the Public Health Act. Due to the association between TB and HIV infection, the prevalence of TB is increasing, and patients are often more seriously ill than before.</p>
-          <h3><a>Control of - TB Policy </a>
-          </h3>
-          <p>For more information on National Policy and the organisation of the TB services refer to the Ministry of Health &amp; Child Care’s ZIMBABWE TUBERCULOSIS CONTROL PROGRAMME MANUAL.</p>
+          <h1>General Notes</h1>
+          <p>Tuberculosis is a chronic infectious, debilitating disease, caused by Mycobacterium tuberculosis. It is a public health problem and all cases must be notified to the Provincial/City Medical Director in terms of the Public Health Act. Due to the association between TB and HIV infection, the prevalence of TB is increasing, and patients are often more seriously ill than before.</p>
+          <h2>Control of Tuberculosis &dash; TB Policy</h2>
+          <p><em>For more information on National Policy and the organisation of the TB services refer to the Ministry of Health &amp; Child Care’s ZIMBABWE TUBERCULOSIS CONTROL PROGRAMME MANUAL.</em></p>
           <p>The essential points of the TB policy are:</p>
           <ul>
             <li>Sputum microscopy for diagnosis and follow up provided free of charge in the public health sector</li>
             <li>Short-course chemotherapy provided free of charge in the public health sector</li>
             <li>Treatment of Drug Resistant TB(DRTB) provided for free of charge in the public sector</li>
-            <li>
-              <strong>TB services available at all levels of the health delivery system, being integrated into the primary health care system to ensure efficient case finding, particularly for sputum smear positive patients</strong>
-            </li>
+            <li><strong>TB services available at all levels of the health delivery system, being integrated into the primary health care system to ensure efficient case finding, particularly for sputum smear positive patients</strong></li>          <li>Collaborative TB/HIV activities at all levels</li>
           </ul>
-          <p> Collaborative TB/HIV activities at all levels</p>
-          <p>An important emphasis of the TB programme is the <strong>direct observation of treatment (DOTS)</strong>, which means that a treatment supervisor watches the patient actually swallowing the tablets. A supervisor can either be a healthcare worker or a trained member of the community.</p >
-          <p>TB control is administered in a standardised way from the Central level to Health Centre level. Within this system notification,
-            registration, record keeping and contact tracing activities in addition to treatment are carried out. It is essential that all patients requiring TB treatment be referred for management in the National TB Programme.</p>
-          <p><strong>
-            <em>TB fixed dose combinations are to be at all levels from C through to A. Single formulations’ level of availability is B level medicines. TB medicines are accorded V level of priority. </em>
-          </strong></p>
-  
-  
-  
+          <p>An important emphasis of the TB programme is the <strong>direct observation of treatment (DOTS)</strong>, which means that a treatment supervisor watches the patient actually swallowing the tablets. A supervisor can either be a healthcare worker or a trained member of the community.</p>
+          <p>TB control is administered in a standardised way from the Central level to Health Centre level. Within this system notification, registration, record keeping and contact tracing activities in addition to treatment are carried out. It is essential that all patients requiring TB treatment be referred for management in the National TB Programme.</p>
+          <p><strong><em>TB fixed dose combinations are to be at all levels from C through to A. Single formulations’ level of availability is B level medicines. TB medicines are accorded V level of priority.</em></strong></p>
         </div>
     },
     {
