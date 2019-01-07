@@ -26,52 +26,51 @@ export let chapter_ten = {
     },
     {
       short_title: "Section 2",
-      long_title: "Primary Prevention",
+      long_title: "Prevention",
       content:
         <span>
+          <h1>Prevention</h1>
           <h2>Primary Prevention</h2>
           <ul>
-            <li>
-              BCG vaccination is given at birth or at first dcptrial with the child after birth (except in babies with clinical signs of HIV infection and/or in infants born to a mother with sputum positive TB).</li>
-            <li>
-              <em>BCG</em>
-              <em>dcptrial should be given to all babies, even those born to mothers known to be HIV </em>
-              <em>positive.</em>
+            <li>BCG vaccination is given at birth or at first dcptrial with the child after birth (except in babies with clinical signs of HIV infection and/or in infants born to a mother with sputum positive TB).</li>
+            <li><em>BCG vaccine should be given to all babies, even those born to mothers known to be HIV positive.</em>
+              <ul>
+                <li>BCG is given intradermally on the right upper arm, above the insertion of the deltoid muscle.</li>
+              </ul>              
             </li>
-            <li> BCG is given intradermally on the right upper arm, above the insertion of the deltoid muscle.</li>
             <li> No booster dose should be given.</li>
           </ul>
-          <p>The batch number of the vaccine and the date must be recorded on the child’s health card. Dosage is as recommended by EPI Programme (see the chapter on Immunisation).</p>
-          <p>Problems associated with BCG vaccination remain uncommon and are mainly due to faulty technique.</p>
-          <p>Abscesses or ulcers should be treated with local hygienic care. Abscesses should be <u>aspirated</u> not incised. Secondary infections can be treated with antibiotics. Non-healing ulcers, (ulcers of duration &gt; 8 weeks) or regional lymphadenopathy can be treated with:</p>
+          <small><em>The batch number of the vaccine and the date must be recorded on the child’s health card. Dosage is as recommended by EPI Programme (see the chapter on Immunisation).</em></small>
+          <small><em>Problems associated with BCG vaccination remain uncommon and are mainly due to faulty technique.</em></small>
+          <p>Abscesses or ulcers should be treated with local hygienic care. Abscesses should be <span className="underline">aspirated</span> not incised. Secondary infections can be treated with antibiotics. Non-healing ulcers, (ulcers of duration &gt; 8 weeks) or regional lymphadenopathy can be treated with:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Dose</p></td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>isoniazid po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10mg/kg</p></td><td><p>once a day</p></td><td><p>2 months</p></td></tr>
-          </table >
-        </span>
-    },
-    {
-      short_title: "Section 3",
-      long_title: "Secondary Prevention",
-      content:
-        <span>
+            <tbody>
+              <tr><th>Medicine</th><th>Codes</th><th>Dose</th><th>Frequency</th><th>Duration</th></tr>
+              <tr><td>isoniazid po</td><td>B V</td><td>10mg/kg</td><td>once a day</td><td>2 months</td></tr>
+            </tbody>
+          </table>
           <h2>Secondary Prevention</h2>
           <p>An infant born to a mother with sputum positive TB should not be given BCG at birth</p>
           <ul>
             <li> Give the child isoniazid 10mg/kg day prophylaxis for two months</li>
-            <li> After two months perform a mantoux test.</li>
-            <li> If the Mantoux test is dcptrial give full TB treatment. </li>
-            <li> If the Mantoux test is negative continue with isoniazid prophylaxis for four more months.</li>
-            <li> Follow with BCG vaccination if not HIV infected</li>
+            <li> After two months perform a mantoux test.
+              <ul>            
+                <li> If the Mantoux test is dcptrial give full TB treatment. </li>
+                <li> If the Mantoux test is negative continue with isoniazid prophylaxis for four more months.</li>
+                <li> Follow with BCG vaccination if not HIV infected</li>
+              </ul>
+            </li>
           </ul>
           <p>If parents are found to be sputum positive and the child has no signs of active TB, check the child’s BCG status and vaccinate if not already done.</p>
           <p>In addition give prophylaxis for 6 months to children less than three years of age:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Paed Dose</p></td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>isoniazid po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10mg/kg</p></td><td><p>once a day</p></td><td><p>6 months</p></td></tr>
+            <tbody>
+              <tr><th>Medicine</th><th>Codes</th><th>Paed Dose</th><th>Frequency</th><th>Duration</th></tr>
+              <tr><td>isoniazid po</td><td>B V</td><td>10mg/kg</td><td>once a day</td><td>6 months</td></tr>
+            </tbody>
+            <caption>Note: For and treatment in <strong>neonates</strong> give isoniazid 5mg/kg/day</caption>     
           </table>
-          <p>Note: For and treatment in <strong>neonates</strong> give isoniazid 5mg/kg/day</p>
-          <p>Prevent further transmission of tuberculosis by health education and counselling on the importance of completing TB treatment,contact tracing, case finding and prevention of HIV infection.</p>
+          <p>Prevent further transmission of tuberculosis by health education and counselling on the importance of completing TB treatment, contact tracing, case finding and prevention of HIV infection.</p>
           <p>IPT for HIV positive patients in whom active TB has been excluded, refer to IPT under HIV related diseases and National TB Guidelines</p>
         </span>
     },
