@@ -8,7 +8,7 @@ The guidelines are meant to be a pocketbook for every medical health professiona
 
 ## Download the pdf
 
-The guidelines are translated to plain HTML to match the contents of the PDF version. If you would like to work on the content of the guideline you can download the PDF version of the guidelines [here](https://1drv.ms/f/s!Ao4d2kZfYkv5cL8WFGuC3SVeBlM)
+The guidelines are translated to plain HTML to match the contents of the PDF version. If you would like to work on the content of the guideline you can download the PDF version of the guidelines 
 
 ## Contributors and Backers
 
