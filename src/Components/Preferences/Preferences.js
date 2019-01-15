@@ -6,6 +6,7 @@ import Overlay  from '../../Views/Overlay/Overlay';
 export default class Preferences extends React.Component {
     render() {
         const bottom = (this.props.status === "open") ? "0" : "-290px";
+        const  overlayVisibility = (this.props.status === "open")?  "visible" : "hidden";
         return (
             <>
                 <div className="preferences" style={{ bottom: bottom }} >
@@ -16,7 +17,7 @@ export default class Preferences extends React.Component {
                         <button className="btn-mode" onClick={this.props.toggleMode()}>{(this.props.mode === "day") ? "night mode" : "day mode"}</button>
                     </div>
                 </div>
-                <Overlay />
+                <Overlay visibility={overlayVisibility} dismiss={this.props.toggle()}/>
             </>
         );
     }

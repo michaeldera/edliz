@@ -7,6 +7,7 @@ import Overlay  from '../../Views/Overlay/Overlay';
 
 class Navigation extends Component {
     render() {
+        const  overlayVisibility = (this.props.status === "open")?  "visible" : "hidden";
         return (
             <>
             <nav className={this.props.status} >
@@ -22,7 +23,7 @@ class Navigation extends Component {
                         ))}
                      </div>           
             </nav>
-            <Overlay/>
+            <Overlay visibility={overlayVisibility} dismiss={this.props.toggle()}/>
             </>
         );
     }

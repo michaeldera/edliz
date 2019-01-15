@@ -4,7 +4,7 @@ import './overlay.css'
 export default class Overlay extends Component {
     render() {
         return (
-            <div className="overlay">
+            <div className="overlay" style={{ visibility : this.props.visibility}} onClick={this.props.dismiss}>
              </div>   
         );
     }
