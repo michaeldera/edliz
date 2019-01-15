@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import './navigation.css'
 import './tabs.css'
 import NavigationItem from '../../Views/NavigationItem/NavigationItem';
+import Overlay  from '../../Views/Overlay/Overlay';
 
 class Navigation extends Component {
     render() {
         return (
+            <>
             <nav className={this.props.status} >
                     <div className="nav-header">
                         <h2 className="nav-heading">Essential Drugs and Medicines List in Zimbabwe</h2>
@@ -20,6 +22,8 @@ class Navigation extends Component {
                         ))}
                      </div>           
             </nav>
+            <Overlay/>
+            </>
         );
     }
 }

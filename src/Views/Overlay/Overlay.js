@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './overlay.css'
 
-export class Overlay extends Component {
+export default class Overlay extends Component {
     render() {
         return (
             <div className="overlay">
@@ -10,4 +10,3 @@ export class Overlay extends Component {
     }
 }
 
-export default Header;
