@@ -138,7 +138,7 @@ export let chapter_ten = {
         </span>
     },
     {
-      short_title: "Section 5",
+      short_title: "Section 4",
       long_title: "Medicine Regimens for Tuberculosis",
       content:
         <span>
@@ -148,27 +148,16 @@ export let chapter_ten = {
           <ul>
             <li>Treatment is the same for HIV infected people as for non-HIV infected.</li>
           </ul>
-          <p> There are specific differences between regimes for adults and children in each category.</p>
-          <p><strong>
-            <u>NOTE: If any signs of a reaction occur, the treatment should be stopped immediately and the patient seen by a doctor.</u>
-          </strong></p >
+          <p>There are specific differences between regimes for adults and children in each category.</p>
+          <p><strong className="underline">NOTE: If any signs of a reaction occur, the treatment should be stopped immediately and the patient seen by a doctor.</strong></p>
           <p><strong>Key to Medicine Abbreviations</strong></p>
           <table>
-            <tr><td><p><strong>H= isoniazid</strong></p> </td><td><p><strong>Z/PZA= pyrazinamide</strong></p> </td></tr>
-            <tr><td><p><strong>R= rifampicin</strong></p> </td><td><p><strong>S= streptomycin</strong></p> </td></tr>
-            <tr><td><p><strong>E= ethambutol</strong></p> </td><td></td></tr>
+            <tr><td>H= isoniazid</td><td>Z/PZA= pyrazinamide</td></tr>
+            <tr><td>R= rifampicin</td><td>S= streptomycin</td></tr>
+            <tr><td>E= ethambutol</td><td></td></tr>
           </table>
-          <p><strong>
-            <em>No</em >
-            <em></em >
-            <em>streptomycin</em >
-            <em>should be given to children less than 12 years old except for meningitis, or to pregnant women, or</em >
-            <em></em >
-            <em>those whose body weight is below 30kgs)</em>
-          </strong>
-            <em>. Recent evidence has shown that it is safe to use ethambutol in children as it has less ocular toxicity in children of all ages than previously thought. Thus ethambutol has been reintroduced in paediatric regimens.</em>WHO (2006). Ethambutol efficacy and toxicity: literature review and recommendations for daily and intermittent dosage in children,</p>
-          <h3><a>Treatment of new cases of TB</a>
-          </h3>
+          <p><em><strong>No streptomycin should be given to children less than 12 years old except for meningitis, or to pregnant women, or those whose body weight is below 30kgs)</strong>. Recent evidence has shown that it is safe to use ethambutol in children as it has less ocular toxicity in children of all ages than previously thought. Thus ethambutol has been reintroduced in paediatric regimens.</em> WHO (2006). Ethambutol efficacy and toxicity: literature review and recommendations for daily and intermittent dosage in children,</p>
+          <h3>Treatment of new cases of TB</h3>
         </span>
     },
     {
