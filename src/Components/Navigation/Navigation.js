@@ -19,7 +19,7 @@ class Navigation extends Component {
                     </div>
                     <div className="tab-content">
                         { this.props.content.chapters.map( (section ,  index ) => (
-                            <NavigationItem key={index} section={section} chapter={index + 1} />
+                            <NavigationItem clicked={this.props.toggle()} key={index} section={section} chapter={index + 1} />
                         ))}
                      </div>           
             </nav>
