@@ -1,4 +1,5 @@
 .nav-item {
+    display: block;
     padding: 10px;
     text-align:left;
     border-bottom:1px solid rgba(200,200,200, 0.2);

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import './navigation.css'
-import './tabs.css'
 import NavigationItem from '../../Views/NavigationItem/NavigationItem';
 import Overlay  from '../../Views/Overlay/Overlay';
 
@@ -19,7 +18,7 @@ class Navigation extends Component {
                     </div>
                     <div className="tab-content">
                         { this.props.content.chapters.map( (section ,  index ) => (
-                            <NavigationItem key={index} section={section} chapter={index + 1} />
+                            <NavigationItem clicked={this.props.toggle()} key={index} section={section} chapter={index + 1} />
                         ))}
                      </div>           
             </nav>
