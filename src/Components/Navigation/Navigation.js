@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import './navigation.css'
-import './tabs.css'
 import NavigationItem from '../../Views/NavigationItem/NavigationItem';
 import Overlay  from '../../Views/Overlay/Overlay';
 

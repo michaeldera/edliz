@@ -1,6 +1,28 @@
 nav {
 	padding:0;
-	position: fixed;    
+	position: fixed;   
+	height:100%;
+	overflow-y: scroll;
+}
+
+nav::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
+	border-radius: 2px;
+	background-color: rgba(0,0,0,0);
+}
+
+nav::-webkit-scrollbar
+{
+	width: 3px;
+	background-color: rgba(0,0,0,0);
+}
+
+nav::-webkit-scrollbar-thumb
+{
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 11px rgba(0,0,0,.15);
+	background-color:  #008abe;
 }
 
 .day nav {
@@ -15,7 +37,6 @@ nav {
 /* Orientation-dependent styles for the content of the menu */
 nav {
 	width: 400px;
-	height: 100%;
 	top: 0;
 	z-index: 1000;
 }
@@ -46,4 +67,28 @@ nav {
 nav {
 		right: -100vw;
 	}
+}
+
+.nav-header{
+    background-color: #0000dd;
+    color: #ffffff;
+    text-align: left;
+    padding: 2rem 1rem;
+    margin-top:0;
+}
+
+.nav-header-btn{
+    background:transparent;
+    border:1px solid #ffffff;
+    padding: 1px 4px;
+    color:#ffffff;
+    font-size:0.8em;
+    margin-right: 6px;
+    border-radius: 4px;
+}
+
+.tab-button:focus{
+    outline:none;
+    background-color: #ffffff;
+    color: #0000ff;
 }
