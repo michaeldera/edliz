@@ -11,7 +11,7 @@ export default class Overlay extends Component {
             visibility: this.props.visibility,
             width: "100%",
             zIndex: "998"
-        }
+        };
         return <div style={overlayStyle} onClick={this.props.dismiss}></div>;
     }
 }
