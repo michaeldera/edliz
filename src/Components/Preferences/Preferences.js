@@ -9,7 +9,7 @@ export default class Preferences extends React.Component {
         return (
             <>
                 <div className="preferences" style={{ bottom: bottom }}>
-                    <DrawerButton/>
+                    <DrawerButton action={this.props.toggle()}/>
                     <label htmlFor="font-size-input" className="font-size-label">font-size</label>
                     <input name="font-size-input" className="font-size-input" type="range" min="8" max="30" placeholder={11} onChange={this.props.handleFontSizeChange()} />
                     <div className="preference-control">
@@ -32,6 +32,6 @@ class DrawerButton extends React.Component {
             margin: "0.68rem auto 2.8rem auto",
             width: "2.6rem"
         };
-        return <div style={drawerButtonStyle}></div>;
+        return <div onClick={this.props.action} style={drawerButtonStyle}></div>;
     }
 }
