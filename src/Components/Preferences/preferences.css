@@ -1,12 +1,11 @@
 .preferences {
-    font-size: 0.9rem;
-    color:#ffffff;
-    background-size: cover;
+    font-size: 1rem;
+    color:#5575ee;
     position: fixed;
     margin: 0;
     transition: all 2s ease;
-    background-color:#00f;
-    box-shadow: 10px 0 10px #444;
+    background-color:#fff;
+    box-shadow: 8px 0 8px #aaa;
     width:100vw;
 }
 
@@ -31,17 +30,6 @@
 	}
 }
 
-
-.btn-mode{
-    border-radius: 4px;
-    color: #ffffff;
-    border:1px solid #ffffff;
-    background-color: rgba(0, 0, 0, 0.1);
-    font-size: 0.76rem;
-    font-family: 'Sarabun' sans-serif;
-    margin:5px;
-    padding: 4px 10px ;
-}
 
 .preference-control{
     display: block;
@@ -85,31 +73,30 @@
 
   .font-size-input::-webkit-slider-thumb {
     -webkit-appearance: none;
-    height: 14px;
-    width: 14px;
-    border: 0.5px solid #000;
+    height: 16px;
+    width: 16px;
     border-radius: 50vh;
-    background: #ffffff;
+    background: #3894f8 ;
     cursor: pointer;
     margin-top: -2px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ /* Add cool effects to your sliders! */
   }
   
   /* All the same stuff for Firefox */
   .font-size-input::-moz-range-thumb {
-    height: 14px;
-    width: 14px;
+    height: 16px;
+    width: 16px;
     border-radius: 50vh;
-    background: #ffffff;
+    background:  #3894f8;
     cursor: pointer;
   }
   
   /* All the same stuff for IE */
   .font-size-input::-ms-thumb {
-    height: 14px;
-    width: 14px;
+    height: 16px;
+    width: 16px;
     border:#000;
     border-radius: 50vh;
-    background: #ffffff;
+    background:  #3894f8;
     cursor: pointer;
   }
 
@@ -117,9 +104,9 @@
   /* Styling the track begins here*/
   .font-size-input::-webkit-slider-runnable-track {
     width: 100%;
-    height: 6px;
+    height: 1px;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.4);
+    background: #ccf;
     border-radius: 50vh;
   }
   
@@ -129,44 +116,36 @@
   
   .font-size-input::-moz-range-track {
     width: 100%;
-    height: 6px;
+    height: 1px;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.4);
+    background-color: #21D4FD;
+    background-image: linear-gradient(122deg, #21D4FD 0%, #B721FF 100%);
     border-radius: 50vh;
   }
   
   .font-size-input::-ms-track {
     width: 100%;
-    height: 6px;
+    height: 1px;
     cursor: pointer;
     border-color:transparent;
     border-width: 16px 0;
     color: transparent;
   }
   .font-size-input::-ms-fill-lower {
-    background: rgba(255, 255, 255, 0.4);
+    background-color: #21D4FD;
+    background-image: linear-gradient(122deg, #21D4FD 0%, #B721FF 100%);
     border-radius: 50vh;
   }
   .font-size-input:focus::-ms-fill-lower {
-    background: rgba(255, 255, 255, 0.4);
+    background-color: #21D4FD;
+    background-image: linear-gradient(122deg, #21D4FD 0%, #B721FF 100%);
   }
   .font-size-input::-ms-fill-upper {
-    background: rgba(255, 255, 255, 0.4);
+    background-color: #21D4FD;
+    background-image: linear-gradient(122deg, #21D4FD 0%, #B721FF 100%);
     border-radius: 50vh;
   }
   .font-size-input:focus::-ms-fill-upper {
-    background: rgba(255, 255, 255, 0.4);
+    background-color: #21D4FD;
+    background-image: linear-gradient(122deg, #21D4FD 0%, #B721FF 100%);
   }
-
-.close-btn{
-    background-color: rgba(0, 0, 0, 0.1);
-    color:#ffffff;
-    border:none;
-    margin:5px;
-    padding: 2px 6px;
-    border-radius: 50vh;
-}
-
-.close-btn:focus{
-    outline:none;
-}

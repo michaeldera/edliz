@@ -13,7 +13,7 @@ export default class Preferences extends React.Component {
                     <label htmlFor="font-size-input" className="font-size-label">font-size</label>
                     <input name="font-size-input" className="font-size-input" type="range" min="8" max="30" placeholder={11} onChange={this.props.handleFontSizeChange()} />
                     <div className="preference-control">
-                        <button className="btn-mode" onClick={this.props.toggleMode()}>{(this.props.mode === "day") ? "night mode" : "day mode"}</button>
+                        <ModeButton toggle={this.props.toggleMode()} mode={this.props.mode}/>
                     </div>
                 </div>
                 <Overlay visibility={overlayVisibility} dismiss={this.props.toggle()}/>
@@ -25,13 +25,35 @@ export default class Preferences extends React.Component {
 class DrawerButton extends React.Component {
     render(){
         let drawerButtonStyle = {
-            backgroundColor: "rgba( 255, 255, 255, 0.86)",
+            backgroundColor: "#8ec5fc",
+            backgroundImage: "linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%)",
             borderRadius: "4px",
             display: "block", 
             height:"6px",
-            margin: "0.68rem auto 2.8rem auto",
+            margin: "0.6rem auto 2.8rem auto",
             width: "2.6rem"
         };
         return <div onClick={this.props.action} style={drawerButtonStyle}></div>;
+    }
+}
+
+class ModeButton extends React.Component {
+    render(){
+        let modeButtonStyle = {
+            borderRadius: "50vh",
+            color: "#ffffff",
+            backgroundColor:"#3894f8",
+            border: "none",
+            fontSize: "0.8rem",
+            fontFamily: "'Sarabun' sans-serif",
+            margin:"5px",
+            padding: "4px 10px"
+        };
+
+        return (
+             <button style={modeButtonStyle} onClick={this.props.toggle}>
+                {(this.props.mode === "day") ? "night mode" : "day mode"}
+             </button>
+        )
     }
 }
