@@ -7,21 +7,20 @@
     background-color:#fff;
     box-shadow: 8px 0 8px #aaa;
     width:100vw;
-}
-
 /* Orientation-dependent styles for the content of the menu */
-.preferences {
-	height: 270px;
 	z-index: 999;
-}
-
 /* Transitions */
-.preferences {
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 
+.p-section {
+  border-top:  1px solid #eee;
+  padding-top: 24px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #eee;
+}
 
 @media screen and (max-width: 450px){
 
@@ -30,26 +29,19 @@
 	}
 }
 
-
-.preference-control{
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-    padding: 10px;
-    line-height:48px;
-    border-radius:.25em;
-}
-
 .font-size-label{
-    margin: 2em auto 0.2em;
+    margin: 0.2em;
     font-size:0.9em;
     display: block;
 }
 /* Clear all default formating for range inputs*/
 
 .font-size-input{
+    display: block;
     -webkit-appearance:none;
     background:transparent;
+    margin-left:auto;
+    margin-right: auto;
     min-width:70%;
 }
 
@@ -73,8 +65,8 @@
 
   .font-size-input::-webkit-slider-thumb {
     -webkit-appearance: none;
-    height: 16px;
-    width: 16px;
+    height: 20px;
+    width: 20px;
     border-radius: 50vh;
     background: #3894f8 ;
     cursor: pointer;
@@ -83,8 +75,8 @@
   
   /* All the same stuff for Firefox */
   .font-size-input::-moz-range-thumb {
-    height: 16px;
-    width: 16px;
+    height: 20px;
+    width: 20px;
     border-radius: 50vh;
     background:  #3894f8;
     cursor: pointer;
@@ -92,8 +84,8 @@
   
   /* All the same stuff for IE */
   .font-size-input::-ms-thumb {
-    height: 16px;
-    width: 16px;
+    height: 20px;
+    width: 20px;
     border:#000;
     border-radius: 50vh;
     background:  #3894f8;

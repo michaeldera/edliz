@@ -4,17 +4,17 @@ import Overlay  from '../../Views/Overlay/Overlay';
 
 export default class Preferences extends React.Component {
     render(){
-        const bottom = (this.props.status === "open") ? "0" : "-290px";
+        const bottom = (this.props.status === "open") ? "0" : "-300px";
         const  overlayVisibility = (this.props.status === "open")?  "visible" : "hidden";
         return (
             <>
                 <div className="preferences" style={{ bottom: bottom }}>
-                    <DrawerButton action={this.props.toggle()}/>
-                    <label htmlFor="font-size-input" className="font-size-label">font-size</label>
-                    <input name="font-size-input" className="font-size-input" type="range" min="8" max="30" placeholder={11} onChange={this.props.handleFontSizeChange()} />
-                    <div className="preference-control">
-                        <ModeButton toggle={this.props.toggleMode()} mode={this.props.mode}/>
-                    </div>
+                    <DrawerButton action={this.props.toggle()}/>                         
+                    <label htmlFor="font-size-input" className="font-size-label">Font Size</label>
+                    <section className="p-section">
+                        <input name="font-size-input" className="font-size-input" type="range" min="8" max="30" placeholder={11} onChange={this.props.handleFontSizeChange()} />
+                    </section>
+                    <ModeButton toggle={this.props.toggleMode()} mode={this.props.mode}/>
                 </div>
                 <Overlay visibility={overlayVisibility} dismiss={this.props.toggle()}/>
             </>
@@ -46,7 +46,7 @@ class ModeButton extends React.Component {
             border: "none",
             fontSize: "0.8rem",
             fontFamily: "'Sarabun' sans-serif",
-            margin:"5px",
+            margin:"26px",
             padding: "4px 10px"
         };
 
