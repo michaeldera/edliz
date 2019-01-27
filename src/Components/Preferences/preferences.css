@@ -76,7 +76,7 @@
     border-radius: 50vh;
     background: #0648fd ;
     cursor: pointer;
-    margin-top: -2px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ /* Add cool effects to your sliders! */
+    margin-top: -10px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ /* Add cool effects to your sliders! */
   }
   
   /* All the same stuff for Firefox */
