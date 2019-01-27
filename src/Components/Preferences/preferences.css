@@ -74,7 +74,7 @@
     height: 20px;
     width: 20px;
     border-radius: 50vh;
-    background: #0648fd ;
+    background:#21D4FD;
     cursor: pointer;
     margin-top: -10px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ /* Add cool effects to your sliders! */
   }
@@ -84,7 +84,7 @@
     height: 20px;
     width: 20px;
     border-radius: 50vh;
-    background:  #0648fd;
+    background:  #21D4FD;
     cursor: pointer;
   }
   
@@ -94,7 +94,7 @@
     width: 20px;
     border:#000;
     border-radius: 50vh;
-    background:  #0648fd;
+    background:  #21D4FD;
     cursor: pointer;
   }
 
