@@ -70,7 +70,8 @@ nav {
 }
 
 .nav-header{
-    background-color: #0000dd;
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);	
     color: #ffffff;
     text-align: left;
     padding: 2rem 1rem;
@@ -80,15 +81,9 @@ nav {
 .nav-header-btn{
     background:transparent;
     border:1px solid #ffffff;
-    padding: 1px 4px;
+    padding: 3px 12px;
     color:#ffffff;
-    font-size:0.8em;
+    font-size:0.66em;
     margin-right: 6px;
-    border-radius: 4px;
-}
-
-.tab-button:focus{
-    outline:none;
-    background-color: #ffffff;
-    color: #0000ff;
+    border-radius: 50vh;
 }
