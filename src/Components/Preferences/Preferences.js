@@ -10,9 +10,10 @@ export default class Preferences extends React.Component {
             <>
                 <div className="preferences" style={{ bottom: bottom }}>
                     <DrawerButton action={this.props.toggle()}/>                         
-                    <label htmlFor="font-size-input" className="font-size-label">Font Size</label>
+                    <label htmlFor="font-size-input" className="font-size-label">FONT SIZE</label>
                     <section className="p-section">
-                        <input name="font-size-input" className="font-size-input" type="range" min="8" max="30" placeholder={11} onChange={this.props.handleFontSizeChange()} />
+                        <input name="font-size-input" className="font-size-input" type="range" min="10" max="20" placeholder={11} onChange={this.props.handleFontSizeChange()} />
+                        <p className="preview-text" style={{fontSize: this.props.fontSize + 'pt'}}>Preview Reading Text</p>
                     </section>
                     <ModeButton toggle={this.props.toggleMode()} mode={this.props.mode}/>
                 </div>
@@ -42,17 +43,20 @@ class ModeButton extends React.Component {
         let modeButtonStyle = {
             borderRadius: "50vh",
             color: "#ffffff",
-            backgroundColor:"#3894f8",
-            border: "none",
-            fontSize: "0.8rem",
+            backgroundColor:"#eee",
+            color:"#0648fd",
+            border: "1px solid #0648fd",
+            lineHeight:  "0.8rem",
+            fontSize: "0.7rem",
             fontFamily: "'Sarabun' sans-serif",
             margin:"26px",
+            width:"5rem",
             padding: "4px 10px"
         };
 
         return (
              <button style={modeButtonStyle} onClick={this.props.toggle}>
-                {(this.props.mode === "day") ? "night mode" : "day mode"}
+                {(this.props.mode === "day") ? "NIGHT" : "DAY"}
              </button>
         )
     }

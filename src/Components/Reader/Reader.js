@@ -35,7 +35,6 @@ export default class Reader extends React.Component{
     }
     
     handleFontSizeChange(e){
-        console.log(e.target.value);
         this.setState({ fontSize: e.target.value});
     }
 
