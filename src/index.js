@@ -8,9 +8,9 @@ import EdlizStore from './stores/EdlizStore'
 
 const Root = (
     <Provider EdlizStore={EdlizStore}>
-        <App/>
+        <App />
     </Provider>
 )
 
-ReactDOM.render(<Root />, document.getElementById('root'));
+ReactDOM.render(Root, document.getElementById('root'));
 registerServiceWorker();

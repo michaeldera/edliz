@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/core": "7.1.6",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
     "@svgr/webpack": "2.4.1",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
@@ -68,6 +69,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
     "prettier": "1.15.3"
   },
   "jest": {
@@ -114,9 +117,30 @@
   "babel": {
     "presets": [
       "react-app"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "decoratorsBeforeExport": false
+        }
+      ],
+      ["@babel/plugin-proposal-class-properties", { "loose": true}]
     ]
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "parserOptions": {
+      "ecmaVersion": 2019,
+      "sourceType": "module",
+      "impliedStrict": true,
+      "ecmaFeatures": {
+        "jsx": true,
+        "impliedStrict": true,
+        "globalReturn": false,
+        "experimentalObjectRestSpread": true,
+        "legacyDecorators": true
+      }
+    }
   }
 }

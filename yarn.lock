@@ -76,6 +76,14 @@
     "@babel/types" "^7.0.0"
     esutils "^2.0.0"
 
+"@babel/helper-builder-react-jsx@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-builder-react-jsx/-/helper-builder-react-jsx-7.3.0.tgz#a1ac95a5d2b3e88ae5e54846bf462eeb81b318a4"
+  integrity sha512-MjA9KgwCuPEkQd9ncSXvSyJ5y+j2sICHyrI0M3L+6fnS4wMSNDc1ARXsbTfbb2cXHn17VisSnU/sHFTCxVxSMw==
+  dependencies:
+    "@babel/types" "^7.3.0"
+    esutils "^2.0.0"
+
 "@babel/helper-call-delegate@^7.1.0":
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-call-delegate/-/helper-call-delegate-7.1.0.tgz#6a957f105f37755e8645343d3038a22e1449cc4a"
@@ -83,6 +91,17 @@
     "@babel/helper-hoist-variables" "^7.0.0"
     "@babel/traverse" "^7.1.0"
     "@babel/types" "^7.0.0"
+
+"@babel/helper-create-class-features-plugin@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.3.0.tgz#2b01a81b3adc2b1287f9ee193688ef8dc71e718f"
+  integrity sha512-DUsQNS2CGLZZ7I3W3fvh0YpPDd6BuWJlDl+qmZZpABZHza2ErE3LxtEzLJFHFC1ZwtlAXvHhbFYbtM5o5B0WBw==
+  dependencies:
+    "@babel/helper-function-name" "^7.1.0"
+    "@babel/helper-member-expression-to-functions" "^7.0.0"
+    "@babel/helper-optimise-call-expression" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-replace-supers" "^7.2.3"
 
 "@babel/helper-define-map@^7.1.0":
   version "7.1.0"
@@ -168,7 +187,7 @@
     "@babel/traverse" "^7.1.0"
     "@babel/types" "^7.0.0"
 
-"@babel/helper-replace-supers@^7.1.0":
+"@babel/helper-replace-supers@^7.1.0", "@babel/helper-replace-supers@^7.2.3":
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/@babel/helper-replace-supers/-/helper-replace-supers-7.2.3.tgz#19970020cf22677d62b3a689561dbd9644d8c5e5"
   dependencies:
@@ -238,6 +257,14 @@
     "@babel/helper-replace-supers" "^7.1.0"
     "@babel/plugin-syntax-class-properties" "^7.0.0"
 
+"@babel/plugin-proposal-class-properties@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.3.0.tgz#272636bc0fa19a0bc46e601ec78136a173ea36cd"
+  integrity sha512-wNHxLkEKTQ2ay0tnsam2z7fGZUi+05ziDJflEt3AZTP3oXLKHJp9HqhfroB/vdMvt3sda9fAbq7FsG8QPDrZBg==
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.3.0"
+    "@babel/helper-plugin-utils" "^7.0.0"
+
 "@babel/plugin-proposal-decorators@7.1.6":
   version "7.1.6"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.1.6.tgz#460c31edbd01953efe45d491583b3ec31661d689"
@@ -246,6 +273,15 @@
     "@babel/helper-replace-supers" "^7.1.0"
     "@babel/helper-split-export-declaration" "^7.0.0"
     "@babel/plugin-syntax-decorators" "^7.1.0"
+
+"@babel/plugin-proposal-decorators@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.3.0.tgz#637ba075fa780b1f75d08186e8fb4357d03a72a7"
+  integrity sha512-3W/oCUmsO43FmZIqermmq6TKaRSYhmh/vybPfVFwQWdSb8xwki38uAIvknCRzuyHRuYfCYmJzL9or1v0AffPjg==
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.3.0"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-decorators" "^7.2.0"
 
 "@babel/plugin-proposal-json-strings@^7.0.0", "@babel/plugin-proposal-json-strings@^7.2.0":
   version "7.2.0"
@@ -295,7 +331,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-syntax-decorators@^7.1.0":
+"@babel/plugin-syntax-decorators@^7.1.0", "@babel/plugin-syntax-decorators@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-decorators/-/plugin-syntax-decorators-7.2.0.tgz#c50b1b957dcc69e4b1127b65e1c33eef61570c1b"
   dependencies:
@@ -559,6 +595,15 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-jsx" "^7.2.0"
 
+"@babel/plugin-transform-react-jsx@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-7.3.0.tgz#f2cab99026631c767e2745a5368b331cfe8f5290"
+  integrity sha512-a/+aRb7R06WcKvQLOu4/TpjKOdvVEKRLWFpKcNuHhiREPgGRB4TQJxq07+EZLS8LFVYpfq1a5lDUnuMdcCpBKg==
+  dependencies:
+    "@babel/helper-builder-react-jsx" "^7.3.0"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-jsx" "^7.2.0"
+
 "@babel/plugin-transform-regenerator@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.0.0.tgz#5b41686b4ed40bef874d7ed6a84bdd849c13e0c1"
@@ -761,6 +806,15 @@
 "@babel/types@^7.0.0", "@babel/types@^7.1.6", "@babel/types@^7.2.0", "@babel/types@^7.2.2":
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.2.2.tgz#44e10fc24e33af524488b716cdaee5360ea8ed1e"
+  dependencies:
+    esutils "^2.0.2"
+    lodash "^4.17.10"
+    to-fast-properties "^2.0.0"
+
+"@babel/types@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.3.0.tgz#61dc0b336a93badc02bf5f69c4cd8e1353f2ffc0"
+  integrity sha512-QkFPw68QqWU1/RVPyBe8SO7lXbPfjtqAxRYQKpFpaB8yMq7X2qAqfwK5LKoQufEkSmO5NQ70O6Kc3Afk03RwXw==
   dependencies:
     esutils "^2.0.2"
     lodash "^4.17.10"
@@ -3502,7 +3556,7 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
-fsevents@1.2.4, fsevents@^1.2.2, fsevents@^1.2.3:
+fsevents@^1.2.2, fsevents@^1.2.3:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-1.2.4.tgz#f41dcb1af2582af3692da36fc55cbd8e1041c426"
   dependencies:
@@ -6965,60 +7019,6 @@ react-router@^4.3.1:
     path-to-regexp "^1.7.0"
     prop-types "^15.6.1"
     warning "^4.0.1"
-
-react-scripts@^2.1.1:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-2.1.3.tgz#6e49be279f4039fb9f330d2b3529b933b8e90945"
-  dependencies:
-    "@babel/core" "7.1.6"
-    "@svgr/webpack" "2.4.1"
-    babel-core "7.0.0-bridge.0"
-    babel-eslint "9.0.0"
-    babel-jest "23.6.0"
-    babel-loader "8.0.4"
-    babel-plugin-named-asset-import "^0.3.0"
-    babel-preset-react-app "^7.0.0"
-    bfj "6.1.1"
-    case-sensitive-paths-webpack-plugin "2.1.2"
-    chalk "2.4.1"
-    css-loader "1.0.0"
-    dotenv "6.0.0"
-    dotenv-expand "4.2.0"
-    eslint "5.6.0"
-    eslint-config-react-app "^3.0.6"
-    eslint-loader "2.1.1"
-    eslint-plugin-flowtype "2.50.1"
-    eslint-plugin-import "2.14.0"
-    eslint-plugin-jsx-a11y "6.1.2"
-    eslint-plugin-react "7.11.1"
-    file-loader "2.0.0"
-    fork-ts-checker-webpack-plugin-alt "0.4.14"
-    fs-extra "7.0.0"
-    html-webpack-plugin "4.0.0-alpha.2"
-    identity-obj-proxy "3.0.0"
-    jest "23.6.0"
-    jest-pnp-resolver "1.0.1"
-    jest-resolve "23.6.0"
-    mini-css-extract-plugin "0.4.3"
-    optimize-css-assets-webpack-plugin "5.0.1"
-    pnp-webpack-plugin "1.1.0"
-    postcss-flexbugs-fixes "4.1.0"
-    postcss-loader "3.0.0"
-    postcss-preset-env "6.3.1"
-    postcss-safe-parser "4.0.1"
-    react-app-polyfill "^0.2.0"
-    react-dev-utils "^7.0.1"
-    resolve "1.8.1"
-    sass-loader "7.1.0"
-    style-loader "0.23.0"
-    terser-webpack-plugin "1.1.0"
-    url-loader "1.1.1"
-    webpack "4.19.1"
-    webpack-dev-server "3.1.14"
-    webpack-manifest-plugin "2.0.4"
-    workbox-webpack-plugin "3.6.3"
-  optionalDependencies:
-    fsevents "1.2.4"
 
 react@^16.2.0:
   version "16.7.0"
