@@ -4,6 +4,29 @@ export let chapter_three = {
     short_title: "Chapter 3",
     long_title: "Paediatric Conditions",
     subsections: [{
+      short_title: "Section 0", 
+      long_title:  "Neonatal Conditions",
+      content: 
+      <div>
+        <h4>Medicine Dosage for Infants Under 1 Month</h4>
+        <p>During the first month of life absorption, metabolism and excretion in a baby are not yet fully developed. For this reason the frequency of medicine dosing is based on gestational age and not on the characteristics of the medicine.</p>
+        <p>The table below give the frequency of dosing for all medicines and is referref to in the therapies that follow in the text.</p>
+        <table>
+          <caption>Table 3.1 Frequency of dosage by gestational age</caption>
+            <tr><th colSpan="2">Gestational age &gt; 37 weeks (term baby)</th></tr>
+            <tr><td>First two days</td><td>2 doses per 24 hours</td></tr>
+            <tr><td>3 days to 2 weeks</td><td>3 doses per 24 hours</td></tr>
+            <tr><td>&gt; 2 weeks</td><td>4 doses per 24 hours</td></tr>
+            <tr><th colSpan="2">Gestational age &lt; 37 weeks (pre-term baby)</th></tr>
+            <tr><td>First week</td><td>2 doses per 24 hours</td></tr>
+            <tr><td>1 to 4 weeks</td><td>3 doses per 24 hours</td></tr>
+            <tr><td>&gt; 4 weeks</td><td>4 doses per 24 hours</td></tr>
+          </table>
+          <small>NB: Not for gentamicin &mdash; see table 3.2</small>
+          <small>For example: Benzyl pencillin dose 100,000u/kg/dose (0.1MU/kg) Thus a 2kg pre-term baby 5 days old would receive 200,000u Benzyl penicillin every 12 hours, whilst a 2kg term baby 5 days old would receive 200,000u every 8 hours.</small>
+      </div>
+      },
+      {
       short_title: "Section 1",
       long_title: "Paediatric Conditions",
       content:
