@@ -8,7 +8,7 @@ import { book } from '../../Data/data'
 import { inject, observer } from "mobx-react";
 import EdlizStore from "../../stores/EdlizStore";
 
-class Reader extends React.Component{
+class Reader extends React.PureComponent{
 
   componentWillMount () {
     const {toggleNavigationPanel, togglePreferences, toggleMode} = this.props.EdlizStore
@@ -17,7 +17,7 @@ class Reader extends React.Component{
     toggleMode('night')
   }
   render () {
-    
+
     const {
       toggleNavigationPanel,
       togglePreferences,

@@ -4,7 +4,7 @@ import './home.css';
 import { inject, observer } from "mobx-react";
 
 @observer
-class Home extends React.Component {
+class Home extends React.PureComponent {
   render() {
     return (
       <div className="home">

@@ -3,7 +3,7 @@ import close from './chevron-down.svg';
 import './preferences.css'
 import Overlay  from '../../Views/Overlay/Overlay';
 
-export default class Preferences extends React.Component {
+export default class Preferences extends React.PureComponent {
   handlePreferences = () => {
     const {preferences, toggle} = this.props
     toggle(preferences)

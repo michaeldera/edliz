@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './information.css';
 import { book } from '../../Data/data'
 
-export default class Information extends React.Component {
+export default class Information extends React.PureComponent {
   render() {
     return (
       <div id="info-top" className="information">

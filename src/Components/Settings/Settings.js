@@ -6,7 +6,7 @@ import './settings.css';
 /*        <h2>save on device</h2>
         <p>to download a copy of this guide on your device use this link</p>
         <a href="#" className="btn-more">save on device</a>*/
-export default class Settings extends React.Component {
+export default class Settings extends React.PureComponent {
 
   render() {
     return (
