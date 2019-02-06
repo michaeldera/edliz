@@ -5,49 +5,61 @@ import PreferenceButton from '../../Views/PreferenceButton/PreferenceButton';
 import ReaderScreen from '../../Views/ReaderScreen/ReaderScreen';
 import Preferences from '../Preferences/Preferences';
 import { book } from '../../Data/data'
+import { inject, observer } from "mobx-react";
+import EdlizStore from "../../stores/EdlizStore";
 
-export default class Reader extends React.Component{
-    constructor(props){
-        super(props);;
-        this.state = { fontSize: 11, book: book, navigation: "closed", mode:"day", preferences: "closed" };
-        this.handleFontSizeChange = this.handleFontSizeChange.bind(this);
-        this.toggleNavigationPane = this.toggleNavigationPane.bind(this);
-        this.togglePreferences = this.togglePreferences.bind(this);
-        this.toggleMode = this.toggleMode.bind(this);
-    }
+class Reader extends React.Component{
 
-    togglePreferences() {
-        if (this.state.navigation === "open") {
-            this.toggleNavigationPane()
-        }
-        this.setState({ preferences: (this.state.preferences === "open") ? "closed" : "open" });
-    }
-
-    toggleNavigationPane() {
-        if (this.state.preferences === "open") {
-          this.togglePreferences();
-        }
-        this.setState({ navigation: (this.state.navigation === "open") ? "closed" : "open" });
-      }
-
-    toggleMode(){
-        this.setState({ mode: (this.state.mode === "night") ? "day" : "night" });
-    }
-
-    handleFontSizeChange(e){
-        console.log(e.target.value);
-        this.setState({ fontSize: e.target.value});
-    }
-
-    render () {
-        return(
-            <div className={this.state.mode}>
-                <Navigation content={this.state.book.contents} status={this.state.navigation} toggle={() => this.toggleNavigationPane} />
-                <Header title={book.contents.chapters[this.props.chapter].short_title} toggle={() => this.toggleNavigationPane} />
-                <Preferences status={this.state.preferences} mode={this.state.mode} fontSize={this.state.fontSize} handleFontSizeChange={(e) => this.handleFontSizeChange}  toggleMode={()=>this.toggleMode}  toggle={() => this.togglePreferences} />
-                <ReaderScreen style={{fontSize: this.state.fontSize + 'pt'}} content={book.contents.chapters[this.props.chapter]}/>
-                <PreferenceButton toggle={() => this.togglePreferences} />
-            </div>
-        )
-    }
+  componentWillMount () {
+    const {toggleNavigationPanel, togglePreferences, toggleMode} = this.props.EdlizStore
+    toggleNavigationPanel('open')
+    togglePreferences('open')
+    toggleMode('night')
+  }
+  render () {
+    
+    const {
+      toggleNavigationPanel,
+      togglePreferences,
+      fontSizeChange,
+      toggleMode,
+      mode,
+      books,
+      navigation,
+      preferences,
+      fontSize
+    } = this.props.EdlizStore
+    return(
+      <div className={mode}>
+        <Navigation
+          content={books.contents}
+          navigation={navigation}
+          toggle={toggleNavigationPanel}
+        />
+        <Header
+          title={books.contents.chapters[this.props.chapter].short_title}
+          toggle={toggleNavigationPanel}
+          navigation={navigation}
+        />
+        <Preferences
+          preferences={preferences}
+          mode={mode}
+          fontSize={fontSize}
+          fontSizeChange={fontSizeChange}
+          toggleMode={toggleMode}
+          toggle={togglePreferences}
+        />
+        <ReaderScreen
+          style={{fontSize: fontSize + 'pt'}}
+          content={book.contents.chapters[this.props.chapter]}
+        />
+        <PreferenceButton
+          preferences={preferences}
+          toggle={togglePreferences}
+        />
+      </div>
+    )
+  }
 }
+
+export default inject('EdlizStore')(observer(Reader))
