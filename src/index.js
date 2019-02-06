@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { HashRouter } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 import {Provider} from 'mobx-react'
 import EdlizStore from './stores/EdlizStore'
 
 const Root = (
     <Provider EdlizStore={EdlizStore}>
-        <App />
+      <HashRouter>
+        <App/>
+      </HashRouter>
     </Provider>
 )
 
