@@ -5,6 +5,11 @@
     border-bottom:1px solid rgba(200,200,200, 0.2);
 }
 
+.nav-active{
+    border-left:3px solid #0093E9;
+    padding-left: 7px;
+}
+
 .nav-item a {
     border-bottom: none;
 }

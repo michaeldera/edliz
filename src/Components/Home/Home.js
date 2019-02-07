@@ -11,6 +11,7 @@ class Home extends React.PureComponent {
         <h1 className="main-title">Essential<br/>
             Drugs and<br/>
             Medicines List <br/>
+
             in Zimbabwe
         </h1>
           <Link className="btn-read-guidelines" to="/chapters/1">Read Guidelines...</Link>
@@ -20,10 +21,8 @@ class Home extends React.PureComponent {
             Therapeutics Policy Advisory Committee. It is the product of many years of combined
             efforts by hundreds of health workers at all levels of the health care system in Zimbabwe
           </p>
-          <Link className="btn-settings" to="/settings">
-            Settings
-          </Link>
-        <Link className="btn-settings" to="/information">Information</Link>
+        <Link className="btn-settings" to="/settings">SETTINGS</Link> 
+      <Link className="btn-settings" to="/information">INFORMATION</Link> 
       </div>
     );
   }

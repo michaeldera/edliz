@@ -1,7 +1,8 @@
 .home{
     padding: 10vh 10vw;
     text-align:left;
-    background: linear-gradient(to bottom right, #0000ff, #000099);
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);	
     color:  #fff;
     min-height: 80vh;
 }
@@ -12,16 +13,17 @@
 }
 
 .btn-read-guidelines {
-    border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50vh;
+    color:#0073c9;
     font-family: 'Sarabun' sans-serif;
     font-size:0.85em;
     margin:5px;
     margin-left:0;
+    box-shadow:  6px 6px 8px #0093e9;
     padding: 3px 8px ;
     border:1px solid #fff;
     text-align: left;
-    color: #ffffff;
+    background-color: #ffffff;
 }
 
 .edliz-intro{
@@ -29,7 +31,7 @@
     line-height: 1.2em;
     margin-bottom: 1.1em;
     margin-top: 1.1em;
-    color: #dddddd;
+    color: #fff;
 }
 
 .btn-settings {

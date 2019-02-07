@@ -11,8 +11,8 @@
     overflow-y:scroll;
 }
 .day .screen {
-    background-color: #eee;
-    color:#001c2a;
+    background-color: #fff;
+    color:#333;
 }
 .night .screen{
     background: #001c2a;

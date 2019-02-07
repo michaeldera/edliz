@@ -4,6 +4,58 @@ export let chapter_three = {
     short_title: "Chapter 3",
     long_title: "Paediatric Conditions",
     subsections: [{
+      short_title: "Section 0", 
+      long_title:  "Neonatal Conditions",
+      content: 
+      <div>
+        <h2>Neonatal Conditions</h2>
+        <h4>Medicine Dosage for Infants Under 1 Month</h4>
+        <p>During the first month of life absorption, metabolism and excretion in a baby are not yet fully developed. For this reason the frequency of medicine dosing is based on gestational age and not on the characteristics of the medicine.</p>
+        <p>The table below give the frequency of dosing for all medicines and is referref to in the therapies that follow in the text.</p>
+        <table>
+          <caption>Table 3.1 Frequency of dosage by gestational age</caption>
+            <tr><th colSpan="2">Gestational age &gt; 37 weeks (term baby)</th></tr>
+            <tr><td>First two days</td><td>2 doses per 24 hours</td></tr>
+            <tr><td>3 days to 2 weeks</td><td>3 doses per 24 hours</td></tr>
+            <tr><td>&gt; 2 weeks</td><td>4 doses per 24 hours</td></tr>
+            <tr><th colSpan="2">Gestational age &lt; 37 weeks (pre-term baby)</th></tr>
+            <tr><td>First week</td><td>2 doses per 24 hours</td></tr>
+            <tr><td>1 to 4 weeks</td><td>3 doses per 24 hours</td></tr>
+            <tr><td>&gt; 4 weeks</td><td>4 doses per 24 hours</td></tr>
+          </table>
+          <small>NB: Not for gentamicin &mdash; see table 3.2</small>
+          <small>For example: Benzyl pencillin dose 100,000u/kg/dose (0.1MU/kg) Thus a 2kg pre-term baby 5 days old would receive 200,000u Benzyl penicillin every 12 hours, whilst a 2kg term baby 5 days old would receive 200,000u every 8 hours.</small>
+          <h3>Routine Management at Birth</h3>
+          <ul>
+            <li>Do not suction mouth routinely, only if there is something (e.g. thick meconium) to suck out.</li>
+            <li>Dry and wrap up, preferably in a dry pre-warmed soft towel</li>
+            <li>Delayed cord clamping - clamping the umbilical cord after 1 minute is recommended for all normal births except in IUGR, infants of diabetic mothers and asphyyxia</li>
+            <li>To prevent neonatal ophthalmia, instil into both eyes:
+              <table>
+                <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Frequency</th><th>Duration</th></tr>
+                <tr><td>tetracycline eye oint. 1%</td><td>C V</td><td>instil into both eyes</td><td>once only</td><td>at birth</td></tr>
+              </table>
+            </li>
+            <li>To prevent haemorrhagic disease of the newborn, give:
+            <table>
+                <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Frequency</th><th>Duration</th></tr>
+                <tr><td>vitamin K im</td><td>C V</td><td>1mg [preterm = 0.5mg]</td><td>once only</td><td>single dose</td></tr>
+              </table>
+            </li>
+            <li>Hand the baby to the mother for her to put immediately to breast</li>
+          </ul>
+          <h4>Resuscitation of the newborn</h4>
+          <p>Essential Newborn Care</p>
+          <ul>
+            <li>Apply tetracyline ointment to the eyes</li>
+            <li>Give Vitamin K 1mg IM once</li>
+            <li>Weigh the baby</li>
+            <li>Put baby skin to skin with the mother</li>
+            <li><strong>Do not leave the baby alone</strong></li>
+          </ul>
+      </div>
+      },
+      {
       short_title: "Section 1",
       long_title: "Paediatric Conditions",
       content:
