@@ -5,8 +5,9 @@ import Reader from './Components/Reader/Reader';
 import Home from './Components/Home/Home';
 import Settings from './Components/Settings/Settings';
 import Information from './Components/Information/Information';
+import {inject, observer} from 'mobx-react'
 
-export default class App extends React.Component {
+class App extends React.PureComponent {
   render() {
     return (
       <div className="App">
@@ -23,7 +24,8 @@ export default class App extends React.Component {
   }
 }
 
-
 function RenderReader({ match }) {
   return <Reader chapter={match.params.chapterNumber - 1}/>;
 }
+
+export default inject('EdlizStore')(observer(App))

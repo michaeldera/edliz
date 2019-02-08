@@ -5,11 +5,18 @@ import NavigationItem from '../../Views/NavigationItem/NavigationItem';
 import Overlay  from '../../Views/Overlay/Overlay';
 
 class Navigation extends Component {
+
+    handleNavigation = () => {
+      const {navigation, toggle} = this.props
+      toggle(navigation)
+    }
+
     render() {
-        const  overlayVisibility = (this.props.status === "open")?  "visible" : "hidden";
+      const {navigation, content} = this.props
+      const  overlayVisibility = (navigation === "open")?  "visible" : "hidden";
         return (
             <>
-            <nav className={this.props.status} >
+            <nav className={navigation} >
                     <div className="nav-header">
                         <h2 className="nav-heading">Essential Drugs and Medicines List in Zimbabwe</h2>
                         <Link className="nav-header-btn" to="/">HOME</Link>
@@ -17,12 +24,12 @@ class Navigation extends Component {
                         <Link className="nav-header-btn" to="/settings">SETTINGS</Link>
                     </div>
                     <div className="tab-content">
-                        { this.props.content.chapters.map( (section ,  index ) => (
-                            <NavigationItem clicked={this.props.toggle()} key={index} section={section} chapter={index + 1} />
+                        { content.chapters.map( (section ,  index ) => (
+                            <NavigationItem clicked={this.handleNavigation} key={index} section={section} chapter={index + 1} />
                         ))}
-                     </div>           
+                     </div>
             </nav>
-            <Overlay visibility={overlayVisibility} dismiss={this.props.toggle()}/>
+            <Overlay visibility={overlayVisibility} dismiss={this.handleNavigation}/>
             </>
         );
     }
