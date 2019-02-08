@@ -6,9 +6,9 @@ export default class ReaderScreen extends Component {
         return (
             <div className="screen">
                 <div className="article" style={this.props.style}>
-                    {this.props.content.subsections ? this.props.content.subsections.map(
-                      section => <section key={section.short_title}>{section.content}</section>)
-                      : this.props.content.content }
+                    {(this.props.content.subsections)? this.props.content.subsections.map( section =>  {
+                        return <section key={section.short_title}>{section.content}</section>
+                    }) : this.props.content.content }
                 </div>
             </div>
         );

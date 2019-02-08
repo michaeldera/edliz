@@ -7,13 +7,9 @@ export default class NavigationItem extends Component {
     render() {
         const section = this.props.section;
         return (
-            <NavLink
-              onClick={this.props.clicked}
-              className="nav-item" to={"/chapters/" + this.props.chapter.toString()}
-              activeClassName="nav-active"
-            >
-              <span className="nav-short-title">{section.short_title}</span>
-              <span className="nav-long-title">{section.long_title}</span>
+            <NavLink onClick={this.props.clicked} className="nav-item" to={"/chapters/" + this.props.chapter.toString()} activeClassName="nav-active">
+                <span className="nav-short-title">{section.short_title}</span>
+                <span className="nav-long-title">{section.long_title}</span>
             </NavLink>
         );
     }
