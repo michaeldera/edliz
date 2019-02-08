@@ -11,9 +11,9 @@ class Reader extends React.Component{
 
   componentWillMount () {
     const {toggleNavigationPanel, togglePreferences, toggleMode} = this.props.EdlizStore
-    // toggleNavigationPanel('open')
-    // togglePreferences('open')
-    // toggleMode('night')
+    toggleNavigationPanel('open')
+    togglePreferences('open')
+    toggleMode('night')
   }
 
   render () {
