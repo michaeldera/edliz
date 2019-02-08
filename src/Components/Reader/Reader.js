@@ -17,7 +17,6 @@ class Reader extends React.PureComponent{
     toggleMode('night')
   }
   render () {
-
     const {
       toggleNavigationPanel,
       togglePreferences,
@@ -61,5 +60,4 @@ class Reader extends React.PureComponent{
     )
   }
 }
-
 export default inject('EdlizStore')(observer(Reader))
