@@ -4,12 +4,9 @@ import Navigation from '../Navigation/Navigation';
 import PreferenceButton from '../../Views/PreferenceButton/PreferenceButton';
 import ReaderScreen from '../../Views/ReaderScreen/ReaderScreen';
 import Preferences from '../Preferences/Preferences';
-import { book } from '../../Data/data'
-import { inject, observer } from "mobx-react";
-import EdlizStore from "../../stores/EdlizStore";
+import { bookContents } from '../../Data/data'
 
 class Reader extends React.PureComponent{
-
   componentWillMount () {
     const {toggleNavigationPanel, togglePreferences, toggleMode} = this.props.EdlizStore
     toggleNavigationPanel('open')
