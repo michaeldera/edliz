@@ -1,63 +1,57 @@
 import React from 'react';
-import './preferences.css';
+import close from '../../Assets/Icons/chevron.svg'
+import './preferences.css'
 import Overlay  from '../../Views/Overlay/Overlay';
 
-export default class Preferences extends React.Component {
-    render(){
-        const bottom = (this.props.status === "open") ? "0" : "-300px";
-        const  overlayVisibility = (this.props.status === "open")?  "visible" : "hidden";
-        return (
-            <>
-                <div className="preferences" style={{ bottom: bottom }}>
-                    <DrawerButton action={this.props.toggle()}/>                         
-                    <label htmlFor="font-size-input" className="font-size-label">FONT SIZE</label>
-                    <section className="p-section">
-                        <input name="font-size-input" className="font-size-input" type="range" min="10" max="20" placeholder={11} onChange={this.props.handleFontSizeChange()} />
-                        <p className="preview-text" style={{fontSize: this.props.fontSize + 'pt'}}>Preview Reading Text</p>
-                    </section>
-                    <ModeButton toggle={this.props.toggleMode()} mode={this.props.mode}/>
-                </div>
-                <Overlay visibility={overlayVisibility} dismiss={this.props.toggle()}/>
-            </>
-        );
-    }
-}
+export default class Preferences extends React.PureComponent {
+  handlePreferences = () => {
+    const {preferences, toggle} = this.props
+    toggle(preferences)
+  }
 
-class DrawerButton extends React.Component {
-    render(){
-        let drawerButtonStyle = {
-            backgroundColor: "#8ec5fc",
-            backgroundImage: "linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%)",
-            borderRadius: "4px",
-            display: "block", 
-            height:"6px",
-            margin: "0.6rem auto 2.8rem auto",
-            width: "2.6rem"
-        };
-        return <div onClick={this.props.action} style={drawerButtonStyle}></div>;
-    }
-}
+  handleMode = () => {
+    const {mode, toggleMode} = this.props
+    toggleMode(mode)
+  }
 
-class ModeButton extends React.Component {
-    render(){
-        let modeButtonStyle = {
-            borderRadius: "50vh",
-            color: "#ffffff",
-            backgroundColor:"#eee",
-            color:"#0648fd",
-            border: "1px solid #0648fd",
-            lineHeight:  "0.8rem",
-            fontSize: "0.7rem",
-            fontFamily: "'Sarabun' sans-serif",
-            margin:"26px",
-            width:"5rem",
-            padding: "4px 10px"
-        };
+  handleFontSizeChange = event => {
+    this.props.fontSizeChange(event.target.value)
+  }
 
-        return (
-             <button style={modeButtonStyle} onClick={this.props.toggle}>
-                {(this.props.mode === "day") ? "NIGHT" : "DAY"}
-             </button>
-        )
-    }
+  render() {
+    const {preferences, mode} = this.props
+    const bottom = (preferences === "open") ? "0" : "-290px";
+    const  overlayVisibility = (preferences === "open")?  "visible" : "hidden";
+    return (
+      <>
+        <div className="preferences" style={{ bottom: bottom }} >
+          <button
+            className="close-btn"
+            onClick={this.handlePreferences}><img src={close}alt="close" />
+          </button>
+          <label
+            htmlFor="font-size-input"
+            className="font-size-label"
+          >
+            font-size
+          </label>
+          <input
+            name="font-size-input"
+            className="font-size-input"
+            type="range" min="8"
+            max="30" placeholder={11}
+            onChange={this.handleFontSizeChange}
+          />
+          <div className="preference-control">
+            <button className="btn-mode"
+                    onClick={this.handleMode}
+            >
+              {(mode === "day") ? "night mode" : "day mode"}
+            </button>
+          </div>
+        </div>
+        <Overlay visibility={overlayVisibility} dismiss={this.handlePreferences}/>
+      </>
+    );
+  }
 }
