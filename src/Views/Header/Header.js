@@ -1,22 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import menu from './../../Assets/Icons/menu.svg';
 import './header.css'
 
-class Header extends React.PureComponent {
-
-  handleNavigation = () => {
-      const {navigation, toggle} = this.props
-      toggle(navigation)
-    }
-
+class Header extends Component {
     render() {
-      const {title} = this.props
         return (
             <header>
-                <button className="btn-toggle-nav" onClick={this.handleNavigation}>
+                <button className="btn-toggle-nav" onClick={this.props.toggle()}>
                     <img src={menu} alt="menu" />
                 </button>
-                <button className="title-btn">{title}</button>
+                <button className="title-btn">{this.props.title}</button>
             </header>
         );
     }
