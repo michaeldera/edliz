@@ -4,14 +4,16 @@ import Navigation from '../Navigation/Navigation';
 import PreferenceButton from '../../Views/PreferenceButton/PreferenceButton';
 import ReaderScreen from '../../Views/ReaderScreen/ReaderScreen';
 import Preferences from '../Preferences/Preferences';
-import { bookContents } from '../../Data/data'
+import { book } from '../../Data/data'
+import { inject, observer } from "mobx-react";
 
-class Reader extends React.PureComponent{
+class Reader extends React.Component{
+
   componentWillMount () {
     const {toggleNavigationPanel, togglePreferences, toggleMode} = this.props.EdlizStore
-    toggleNavigationPanel('open')
-    togglePreferences('open')
-    toggleMode('night')
+    // toggleNavigationPanel('open')
+    // togglePreferences('open')
+    // toggleMode('night')
   }
 
   render () {
@@ -28,15 +30,15 @@ class Reader extends React.PureComponent{
     } = this.props.EdlizStore
     return(
       <div className={mode}>
-        <Navigation
-          content={books.contents}
-          navigation={navigation}
-          toggle={toggleNavigationPanel}
-        />
         <Header
           title={books.contents.chapters[this.props.chapter].short_title}
           toggle={toggleNavigationPanel}
           navigation={navigation}
+        />
+        <Navigation
+          content={books.contents}
+          navigation={navigation}
+          toggle={toggleNavigationPanel}
         />
         <Preferences
           preferences={preferences}
