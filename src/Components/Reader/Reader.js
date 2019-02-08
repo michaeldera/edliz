@@ -16,6 +16,7 @@ class Reader extends React.PureComponent{
     togglePreferences('open')
     toggleMode('night')
   }
+
   render () {
     const {
       toggleNavigationPanel,
