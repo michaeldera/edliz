@@ -58,7 +58,6 @@ class ModeButton extends React.PureComponent {
   render(){
       let modeButtonStyle = {
           borderRadius: "50vh",
-          color: "#ffffff",
           backgroundColor:"#eee",
           color:"#0648fd",
           border: "1px solid #0648fd",
