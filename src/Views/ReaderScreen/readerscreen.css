@@ -6,7 +6,7 @@
     right:0;
     left:0;
     padding:0em;
-    text-align:justify;
+    text-align:left;
     height:calc(100vh - 50px);
     overflow-y:scroll;
 }
