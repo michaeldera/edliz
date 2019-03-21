@@ -1,11 +1,14 @@
 import React from 'react';
 import Header from '../../Views/Header/Header';
 import Navigation from '../Navigation/Navigation';
+import NavigationPanel from '../NavigationPanel/NavigationPanel'
 import PreferenceButton from '../../Views/PreferenceButton/PreferenceButton';
 import ReaderScreen from '../../Views/ReaderScreen/ReaderScreen';
 import Preferences from '../Preferences/Preferences';
+import MainMenu from '../MainMenu/MainMenu'
 import { book } from '../../Data/data'
 import { inject, observer } from "mobx-react";
+import { toJS } from 'mobx';
 
 class Reader extends React.Component{
 
@@ -27,15 +30,16 @@ class Reader extends React.Component{
       navigation,
       preferences,
       fontSize
-    } = this.props.EdlizStore
+    } = toJS(this.props.EdlizStore)
+    console.log(mode)
     return(
       <div className={mode}>
-        <Header
-          title={books.contents.chapters[this.props.chapter].short_title}
+        <MainMenu
           toggle={toggleNavigationPanel}
           navigation={navigation}
+          reader
         />
-        <Navigation
+        <NavigationPanel
           content={books.contents}
           navigation={navigation}
           toggle={toggleNavigationPanel}
@@ -50,7 +54,11 @@ class Reader extends React.Component{
         />
         <ReaderScreen
           style={{fontSize: fontSize + 'pt'}}
-          content={book.contents.chapters[this.props.chapter]}
+          chapter={book.contents.chapters[this.props.chapter]}
+          content={books.contents}
+          navigation={navigation}
+          toggle={toggleNavigationPanel}
+          title={books.contents.chapters[this.props.chapter].short_title}
         />
         <PreferenceButton
           preferences={preferences}
