@@ -39,10 +39,10 @@ decorate(EdlizStore, {
   mode: observable,
   preferences: observable,
   books: observable,
-  togglePreferences: action,
-  toggleNavigationPanel: action,
-  toggleMode: action,
-  fontSizeChange: action
+  togglePreferences: observable,
+  toggleNavigationPanel: observable,
+  toggleMode: observable,
+  fontSizeChange: observable
 })
 
 const store = new EdlizStore()
