@@ -1,11 +1,14 @@
 .information{
-    padding: 10vh 10vw;
-    text-align:left;
-	background-color: #0093E9;
-    color:  #fff;
-    min-height: 80vh;
+    margin: 30px 30px;
 }
 
+.jump {
+    font-family: Muli-Light;
+    margin: 130px 0 30px 0px;
+    font-size: 25px;
+    color: #101010;
+    letter-spacing: 1.08px;
+}
 .back-link{
     font-size: 0.9em;
     text-decoration: none;
@@ -13,4 +16,10 @@
     border-bottom: 1px dotted #fff;
     padding: 0;
     margin-bottom: 1.4em;
+}
+
+@media (max-width: 767px) {
+    .information{
+        margin: 30px 30px;
+    }
 }
