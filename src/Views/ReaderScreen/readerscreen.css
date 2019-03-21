@@ -50,7 +50,10 @@ h1, h2, h3, h4, h6 {
     text-align: left;
 }
 .article {
+    display: block;
+    margin:auto;
     padding: 1em 1em 60px;
+    max-width:840px;
 }
 
 a {

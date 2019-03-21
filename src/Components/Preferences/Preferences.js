@@ -19,7 +19,7 @@ export default class Preferences extends React.PureComponent {
   }
 
   render(){
-      const {preferences, mode} =this.props;
+      const {preferences, mode, fontSize} =this.props;
       const bottom = (preferences === "open") ? "0" : "-300px";
       const  overlayVisibility = (preferences === "open")?  "visible" : "hidden";
       return (
@@ -28,8 +28,8 @@ export default class Preferences extends React.PureComponent {
                   <DrawerButton action={this.handlePreferences}/>                         
                   <label htmlFor="font-size-input" className="font-size-label">FONT SIZE</label>
                   <section className="p-section">
-                      <input name="font-size-input" className="font-size-input" type="range" min="10" max="20" placeholder={11} onChange={this.handleFontSizeChange} />
-                      <p className="preview-text" style={{fontSize: this.props.fontSize + 'pt'}}>Preview Reading Text</p>
+                      <input name="font-size-input" className="font-size-input" type="range" min="10" max="20" value={fontSize} onChange={this.handleFontSizeChange} />
+                      <p className="preview-text" style={{fontSize: fontSize + 'pt'}}>Preview Reading Text</p>
                   </section>
                   <ModeButton toggle={this.handleMode} mode={mode}/>
               </div>
