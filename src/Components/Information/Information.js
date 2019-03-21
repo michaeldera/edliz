@@ -1,26 +1,46 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import MainMenu from '../MainMenu/MainMenu'
 import './information.css';
 import { book } from '../../Data/data'
+import { inject, observer } from "mobx-react/index";
+import { toJS } from "mobx/lib/mobx";
 
-export default class Information extends React.PureComponent {
+class Information extends React.PureComponent {
   render() {
+    const {
+      toggleNavigationPanel,
+      navigation,
+    } = toJS(this.props.EdlizStore)
+
     return (
-      <div id="info-top" className="information">
-        <Link className="back-link" to="/">home</Link>
-        <h2>jump to section</h2>
-        <div id="jump-section">
+      <div>
+        <MainMenu
+          toggle={toggleNavigationPanel}
+          navigation={navigation}
+        />
+        <div className="information">
+          <div className="jump">Jump to Section</div>
+          <div>
+            <ul>
+              {book.contents.pre.map((elem, index, array) =>
+               <li>
+                 <a href={"#" + elem.short_title} key={index}>{elem.short_title}</a>
+               </li>
+              )}
+            </ul>
+          </div>
           {book.contents.pre.map((elem, index, array) =>
-            <a href={"#" + elem.short_title} key={index}>{elem.short_title}</a>)}
-        </div>
-        {book.contents.pre.map((elem, index, array) =>
-            <section id={elem.short_title} key={index}>
-              {elem.content}
-              <br/>
-              <a href="#info-top">back to top</a>
-            </section>
-          )}
+              <section id={elem.short_title} key={index}>
+                {elem.content}
+                <br/>
+                <a href="#info-top">back to top</a>
+              </section>
+            )}
+          </div>
       </div>
     );
   }
 }
+
+export default  inject('EdlizStore')(observer(Information))
