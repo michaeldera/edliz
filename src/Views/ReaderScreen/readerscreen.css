@@ -1,21 +1,12 @@
 .screen{
-    position:absolute;
-    top:50px;
-    bottom:50px;
-    width:100vw;
-    right:0;
-    left:0;
-    padding:0em;
-    text-align:justify;
-    height:calc(100vh - 50px);
-    overflow-y:scroll;
+    margin-top: 85px;
 }
 .day .screen {
-    background-color: #fff;
+    /* background-color: #fff; */
     color:#333;
 }
 .night .screen{
-    background: #001c2a;
+    /* background: #001c2a; */
     color: #cae6f4;
 }
 
