@@ -1,0 +1,15 @@
+.rounded-btn {
+    background: #3C8EFF;
+    border-radius: 100px;
+    padding: 14px 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 1;
+    display: inline-block;
+    transition: opacity .3s ease-in-out;
+}
+
+a.rounded-btn:hover, .rounded-btn:hover {
+    opacity: 0.6;
+}

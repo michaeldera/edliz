@@ -1,0 +1,152 @@
+
+
+
+.left-navigation{
+	margin-left: 85px;
+	margin-right: 60px;
+	display: flex;
+}
+.left-navigation-inner{
+	position: fixed;
+}
+.chapter-list {
+	background: #FFFFFF;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.25);
+	width: 280px;
+	height: 729px;
+	margin-left: -46px;
+	overflow: scroll;
+	position: sticky;
+    top: 50px;
+    height: calc(100vh - 80px);
+}
+
+.chapter-img{
+	margin-top: 35px;
+	overflow: scroll;
+	position: sticky;
+    top: 85px;
+}
+
+.chapter-content{
+	margin-top: 50px;
+}
+.chapter-title {
+	font-family: Muli-Light;
+	font-size: 45px;
+	color: #101010;
+	letter-spacing: 0.65px;
+	line-height: 54px;
+}
+.screen{
+	margin-top: 85px;
+	display: flex;
+}
+
+
+
+nav {
+	padding:0;
+	position: fixed;
+	height:100%;
+	overflow-y: scroll;
+}
+
+nav::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
+	border-radius: 2px;
+	background-color: rgba(0,0,0,0);
+}
+
+nav::-webkit-scrollbar
+{
+	width: 3px;
+	background-color: rgba(0,0,0,0);
+}
+
+nav::-webkit-scrollbar-thumb
+{
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 11px rgba(0,0,0,.15);
+	background-color:  #008abe;
+}
+
+.day nav {
+	background-color: #fff;
+}
+
+.night nav {
+	background-color:   #0093E9;
+}
+
+
+/* Orientation-dependent styles for the content of the menu */
+nav {
+	width: 400px;
+	top: 0;
+	z-index: 1000;
+}
+
+/* Vertical menu that slides from the left or right */
+nav {
+	right: -400px;
+}
+ .open {
+	right: 0px !important;
+}
+
+/* Transitions */
+nav {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 767px){
+nav {
+		font-size: 90%;
+		width:calc(100vw - 50px);
+	}
+
+nav {
+		right: -100vw;
+	}
+
+	.open {
+		display: none;
+	}
+}
+
+.nav-header{
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    color: #ffffff;
+    text-align: left;
+    padding: 2rem 1rem;
+    margin-top:0;
+}
+
+.header{
+	text-align: center;
+	padding: 2px 0px;
+	color: #101010;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.header h2{
+	font-family: Muli-Light;
+	text-align: center;
+
+}
+
+.nav-header-btn{
+    background:transparent;
+    border:1px solid #ffffff;
+    padding: 3px 12px;
+    color:#ffffff;
+    font-size:0.66em;
+    margin-right: 6px;
+    border-radius: 50vh;
+}
