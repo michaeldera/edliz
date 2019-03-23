@@ -52,6 +52,10 @@
     text-align: center;
 }
 
+github-link {
+    border: 0;
+}
+
 @media (max-width: 767px) {
     .left-row {
         margin: 0px 10px ;

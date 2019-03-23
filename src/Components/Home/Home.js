@@ -49,9 +49,8 @@ class Home extends React.Component {
             render={() => <img className="people-wide" src={WheelChair} alt="" width="485" height="390" />}
           />
         </div>
-
         <div className="github">
-          <img className="people-wide" src={Github} alt="" width="33" height="32" />
+          <a href="https://github.com/michaeldera/edliz" className="github-link"> <img className="people-wide" src={Github} alt="" width="33" height="32" /></a>
           <p>This application was built and is maintained by a well meaning developers.
             The code is opensource and is available to fork, share and improve on github.
           </p>
@@ -60,6 +59,5 @@ class Home extends React.Component {
     );
   }
 }
-
 
 export default inject('EdlizStore')(observer(Home))
