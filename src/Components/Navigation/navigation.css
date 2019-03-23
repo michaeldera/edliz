@@ -196,6 +196,9 @@ nav {
 		display: none;
 	}
 
+    .chapter-title {
+        font-size: 35px;
+    }
 }
 
 
