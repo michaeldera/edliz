@@ -56,5 +56,11 @@
     "lint-staged": "^8.1.5",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn run pre-push",
+      "post-merge": "yarn run post-merge"
+    }
   }
 }
