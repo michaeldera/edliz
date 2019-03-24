@@ -1,0 +1,51 @@
+{
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "plugins": ["prettier", "react"],
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "import/imports-first": ["error", "absolute-first"],
+    "import/newline-after-import": "error",
+    "no-shadow": ["error"],
+    "no-var": ["error"],
+    "no-undef": ["error"],
+    "prefer-const": ["error"],
+    "import/no-extraneous-dependencies": ["error", {devDependencies: true}],
+    "max-nested-callbacks": ["error", 6],
+    "prefer-arrow-callback": ["warn"],
+    "no-warning-comments": ["warn"],
+    "react/prefer-stateless-function": ["off"],
+    "camelcase": ["warn", {"properties": "never"}],
+
+    // Disabled rules
+    "require-jsdoc": ["off"],
+    "valid-jsdoc": ["off"],
+    "react/forbid-prop-types": ["off"],
+    "react/no-did-mount-set-state": ["off"],
+    "react/no-unused-prop-types": ["off"],
+    "import/first": ["off"],
+    "react/prop-types": ["off"],
+    "jsx-a11y/click-events-have-key-events": ["off"],
+    "jsx-a11y/no-static-element-interactions": ["off"],
+    "jsx-a11y/heading-has-content": ["off"],
+    "react/sort-comp": ["off"],
+    "class-methods-use-this": ["off"],
+    "import/prefer-default-export": ["off"],
+    "no-plusplus": ["off"],
+    "no-underscore-dangle": ["off"],
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
+  },
+  "parser": "babel-eslint"
+}
