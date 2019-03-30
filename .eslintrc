@@ -20,9 +20,20 @@
     "no-warning-comments": ["warn"],
     "react/prefer-stateless-function": ["off"],
     "camelcase": ["warn", {"properties": "never"}],
+    "jsx-a11y/label-has-associated-control": [ "error", {
+      "required": {
+        "some": [ "nesting", "id"  ]
+      }
+    }],
+    "jsx-a11y/label-has-for": [ "error", {
+      "required": {
+        "some": [ "nesting", "id"  ]
+      }
+    }],
 
     // Disabled rules
     "require-jsdoc": ["off"],
+    "react/destructuring-assignment":["off"],
     "valid-jsdoc": ["off"],
     "react/forbid-prop-types": ["off"],
     "react/no-did-mount-set-state": ["off"],
