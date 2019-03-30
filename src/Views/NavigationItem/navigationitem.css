@@ -27,6 +27,13 @@
     color: #ddd;
 }
 
+.night .nav-active {
+    border-left: 3px solid #0093e9;
+    background: none;
+    padding-left: 7px;
+    color: #101010;
+}
+
 .nav-long-title {
     display: block;
     margin: 5px 0;

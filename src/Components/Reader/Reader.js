@@ -10,7 +10,7 @@ import {book} from '../../Data/data'
 
 class Reader extends React.Component {
     componentWillMount() {
-        const {EdlizStore: {toggleNavigationPanel, togglePreferences, toggleMode}} = this.props
+        const {EdlizStore: {toggleNavigationPanel, togglePreferences}} = this.props
         toggleNavigationPanel('open')
         togglePreferences('open')
     }

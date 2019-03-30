@@ -6,7 +6,7 @@
     color: #101010;
 }
 .night .screen {
-     background: #001c2a;
+    background: #001c2a;
     color: #cae6f4;
 }
 
@@ -151,7 +151,7 @@ nav::-webkit-scrollbar-thumb {
 }
 
 .night nav {
-    background-color: #0093e9;
+    background-color: #001c2a;
 }
 
 /* Orientation-dependent styles for the content of the menu */
