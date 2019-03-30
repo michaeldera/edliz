@@ -1,17 +1,16 @@
 .menu-list {
     list-style: none;
-    margin: 30px 0 0;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.menu-list li {
+.menu-list a {
     margin: 0 30px 0 0;
     padding: 0;
 }
 
-.menu-list li a {
+.menu-list  a {
     font-family: IBMPlexSerif-Light;
     border: none;
     cursor: pointer;
@@ -26,8 +25,15 @@
     display: none;
 }
 
+.header{
+    background-color: #ffffff;
+    position: sticky;
+    top:0;
+    padding: 10px 0;
+}
+
 @media (max-width: 767px) {
-    .menu-list li a {
+    .menu-list a {
         font-family: IBMPlexSerif-Light;
         border: none;
         cursor: pointer;
@@ -52,7 +58,7 @@
 }
 
 @media (max-width: 340px) {
-    .menu-list li a {
+    .menu-list a {
         font-family: IBMPlexSerif-Light;
         border: none;
         cursor: pointer;
@@ -78,7 +84,7 @@
 
 
 @media (min-width: 767px) and (max-width: 1024px) {
-    .menu-list li a {
+    .menu-list a {
         font-family: IBMPlexSerif-Light;
         border: none;
         cursor: pointer;

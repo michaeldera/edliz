@@ -12,24 +12,18 @@ export default class MainMenu extends React.Component {
     render() {
         const {reader} = this.props
         return (
-            <>
+            <div className='header'>
                 {reader && (
                     <button type="button" className="btn-toggle-nav" onClick={this.handleNavigation}>
                         <img src={menu} alt="menu" />
                     </button>
                 )}
-                <ul className="menu-list">
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/chapters/1">Start Reading</Link>
-                    </li>
-                    <li>
-                        <Link to="/information">About this Project</Link>
-                    </li>
-                </ul>
-            </>
+                <div className="menu-list">
+                    <Link to="/">Home</Link>
+                    <Link to="/chapters/1">Start Reading</Link>
+                    <Link to="/information">About this Project</Link>
+                </div>
+            </div>
         )
     }
 }
