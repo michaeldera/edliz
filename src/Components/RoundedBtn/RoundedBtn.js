@@ -2,11 +2,11 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 import './styles.css'
-
+/* eslint-disable */
 const RoundedBtn = props => {
-    let {type = 'link', className = "", ...rest} = props
+    let {type = 'link', className = '', ...rest} = props
 
-    className += " rounded-btn"
+    className += ' rounded-btn'
 
     switch (type) {
         case 'a':
@@ -17,7 +17,7 @@ const RoundedBtn = props => {
             return <Link className={className} {...rest} />
 
         case 'button':
-            return <button className={className} {...rest} />
+            return <button type='button' className={className} {...rest} />
 
         default:
             console.error(`Invalid RoundedBtn type passed in props: ${type}`)
