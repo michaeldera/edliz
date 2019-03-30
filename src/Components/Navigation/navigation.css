@@ -2,11 +2,11 @@
     margin-top: 85px;
 }
 .day .screen {
-    /* background-color: #fff; */
-    color: #333;
+    background-color: #fff;
+    color: #101010;
 }
 .night .screen {
-    /* background: #001c2a; */
+     background: #001c2a;
     color: #cae6f4;
 }
 
@@ -118,7 +118,7 @@ table {
     text-align: center;
 }
 .screen {
-    margin-top: 85px;
+    margin-top: 0px;
     display: flex;
 }
 
@@ -192,6 +192,11 @@ nav {
     .chapter-title {
         font-size: 35px;
     }
+
+    .night .chapter-title {
+        font-size: 35px;
+        color: #6c7987;
+    }
 }
 
 
@@ -210,5 +215,10 @@ nav {
 
     .chapter-title {
         font-size: 35px;
+    }
+
+    .night .chapter-title {
+        font-size: 35px;
+        color: #6c7987;
     }
 }

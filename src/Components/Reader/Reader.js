@@ -13,7 +13,6 @@ class Reader extends React.Component {
         const {EdlizStore: {toggleNavigationPanel, togglePreferences, toggleMode}} = this.props
         toggleNavigationPanel('open')
         togglePreferences('open')
-        toggleMode('night')
     }
 
     render() {

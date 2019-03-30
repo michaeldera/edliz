@@ -6,7 +6,7 @@ class EdlizStore {
 
     navigation = 'closed'
 
-    mode = 'day'
+    mode = localStorage.getItem('mode')
 
     preferences = 'closed'
 
@@ -28,6 +28,7 @@ class EdlizStore {
 
     toggleMode = mode => {
         this.mode = mode === 'night' ? 'day' : 'night'
+        localStorage.setItem('mode', this.mode)
     }
 
     fontSizeChange = fontSize => {
