@@ -60,13 +60,29 @@ nav {
 }
 
 .header {
-    text-align: center;
-    padding: 2px 0px;
-    color: #101010;
-    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+    height: 35px
 }
 
 @media screen and (max-width: 767px) {
+    nav {
+        font-size: 90%;
+        width: calc(100vw - 50px);
+    }
+
+    nav {
+        right: -100vw;
+    }
+    .left-navigation {
+        display: none;
+    }
+
+    .open {
+        right: 0px !important;
+        display: block;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
     nav {
         font-size: 90%;
         width: calc(100vw - 50px);

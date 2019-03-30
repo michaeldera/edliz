@@ -1,150 +1,150 @@
 .preferences {
-  font-size: 1rem;
-  color: #0648fd;
-  position: fixed;
-  margin: 0;
-  transition: all 2s ease;
-  background-color: #fff;
-  box-shadow: 8px 0 8px #aaa;
-  width: 100vw;
-  z-index: 999;
-  /* Transitions */
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+    font-size: 1rem;
+    color: #0648fd;
+    position: fixed;
+    margin: 0;
+    transition: all 2s ease;
+    background-color: #fff;
+    box-shadow: 8px 0 8px #aaa;
+    width: 100vw;
+    z-index: 999;
+    /* Transitions */
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .p-section {
-  border-top: 1px solid #eee;
-  padding-top: 24px;
-  padding-bottom: 6px;
-  border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding-top: 24px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #eee;
 }
 
 .preview-text {
-  line-height: 24pt;
-  padding: 0;
-  margin: 0;
-  color: #ccc;
-  text-align: center;
+    line-height: 24pt;
+    padding: 0;
+    margin: 0;
+    color: #ccc;
+    text-align: center;
 }
 
 @media screen and (max-width: 450px) {
-  .preferences {
-    font-size: 90%;
-  }
+    .preferences {
+        font-size: 90%;
+    }
 }
 
 .font-size-label {
-  margin: 0.1em;
-  font-size: 0.7em;
-  display: block;
-  text-align: center;
+    margin: 0.1em;
+    font-size: 0.7em;
+    display: block;
+    text-align: center;
 }
 /* Clear all default formating for range inputs*/
 .btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .font-size-input {
-  display: block;
-  -webkit-appearance: none;
-  background: transparent;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 70%;
+    display: block;
+    -webkit-appearance: none;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 70%;
 }
 
 .font-size-input::-webkit-slider-thumb {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 .font-size-input:focus {
-  outline: none;
+    outline: none;
 }
 
 .font-size-input::-ms-track {
-  width: 80%;
-  cursor: pointer;
-  background: transparent;
-  border-color: transparent;
-  color: transparent;
+    width: 80%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
 }
 
 /*styling the thumb begins here */
 
 .font-size-input::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  height: 20px;
-  width: 20px;
-  border-radius: 50vh;
-  background: #21d4fd;
-  cursor: pointer;
-  margin-top: -10px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ /* Add cool effects to your sliders! */
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50vh;
+    background: #21d4fd;
+    cursor: pointer;
+    margin-top: -10px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ /* Add cool effects to your sliders! */
 }
 
 /* All the same stuff for Firefox */
 .font-size-input::-moz-range-thumb {
-  height: 20px;
-  width: 20px;
-  border-radius: 50vh;
-  background: #21d4fd;
-  cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border-radius: 50vh;
+    background: #21d4fd;
+    cursor: pointer;
 }
 
 /* All the same stuff for IE */
 .font-size-input::-ms-thumb {
-  height: 20px;
-  width: 20px;
-  border: #000;
-  border-radius: 50vh;
-  background: #21d4fd;
-  cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border: #000;
+    border-radius: 50vh;
+    background: #21d4fd;
+    cursor: pointer;
 }
 
 /* Styling the track begins here*/
 .font-size-input::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 1px;
-  cursor: pointer;
-  background-color: #21d4fd;
-  background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
-  border-radius: 50vh;
+    width: 100%;
+    height: 1px;
+    cursor: pointer;
+    background-color: #21d4fd;
+    background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
+    border-radius: 50vh;
 }
 
 .font-size-input::-moz-range-track {
-  width: 100%;
-  height: 1px;
-  cursor: pointer;
-  background-color: #21d4fd;
-  background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
-  border-radius: 50vh;
+    width: 100%;
+    height: 1px;
+    cursor: pointer;
+    background-color: #21d4fd;
+    background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
+    border-radius: 50vh;
 }
 
 .font-size-input::-ms-track {
-  width: 100%;
-  height: 1px;
-  cursor: pointer;
-  border-color: transparent;
-  border-width: 16px 0;
-  color: transparent;
+    width: 100%;
+    height: 1px;
+    cursor: pointer;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
 }
 .font-size-input::-ms-fill-lower {
-  background-color: #21d4fd;
-  background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
-  border-radius: 50vh;
+    background-color: #21d4fd;
+    background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
+    border-radius: 50vh;
 }
 .font-size-input:focus::-ms-fill-lower {
-  background-color: #21d4fd;
-  background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
+    background-color: #21d4fd;
+    background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
 }
 .font-size-input::-ms-fill-upper {
-  background-color: #21d4fd;
-  background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
-  border-radius: 50vh;
+    background-color: #21d4fd;
+    background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
+    border-radius: 50vh;
 }
 .font-size-input:focus::-ms-fill-upper {
-  background-color: #21d4fd;
-  background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
+    background-color: #21d4fd;
+    background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
 }

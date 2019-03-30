@@ -1,37 +1,35 @@
 @font-face {
-  font-family: 'IBM Plex Mono', monospace;
-  src: url('./fonts/IBM_Plex_Mono/IBMPlexMono-Light-Web.eot');
-  src: url('./fonts/IBM_Plex_Mono/IBMPlexMono-Light-Web.eot?#iefix') format('embedded-opentype'),
-  url('./fonts/IBM_Plex_Mono/IBMPlexMono-Light-Web.woff2') format('woff2'),
-  url('./fonts/IBM_Plex_Mono/IBMPlexMono-Light-Web.woff') format('woff'),
-  url('./fonts/IBM_Plex_Mono/IBMPlexMono-Light.ttf')  format('truetype');
-  font-weight:  300;
-  font-style:   normal;
-  font-stretch: normal;
+    font-family: 'IBM Plex Mono', monospace;
+    src: url('./fonts/IBM_Plex_Mono/IBMPlexMono-Light-Web.eot');
+    src: url('./fonts/IBM_Plex_Mono/IBMPlexMono-Light-Web.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/IBM_Plex_Mono/IBMPlexMono-Light-Web.woff2') format('woff2'),
+        url('./fonts/IBM_Plex_Mono/IBMPlexMono-Light-Web.woff') format('woff'),
+        url('./fonts/IBM_Plex_Mono/IBMPlexMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
 }
 
 @font-face {
     font-family: 'IBM Plex Serif Light', serif;
-  src: url('./fonts/IBM_Plex_Serif/IBMPlexSerif-Light-Web.eot');
-  src: url('./fonts/IBM_Plex_Serif/IBMPlexSerif-Light-Web.eot?#iefix') format('embedded-opentype'),
-  url('./fonts/IBM_Plex_Serif/IBMPlexSerif-Light-Web.woff2') format('woff2'),
-  url('./fonts/IBM_Plex_Serif/IBMPlexSerif-Light-Web.woff') format('woff'),
-  url('./fonts/IBM_Plex_Serif/IBMPlexSerif-Light.ttf')  format('truetype');
-  font-weight:  300;
-  font-style:   normal;
-  font-stretch: normal;
+    src: url('./fonts/IBM_Plex_Serif/IBMPlexSerif-Light-Web.eot');
+    src: url('./fonts/IBM_Plex_Serif/IBMPlexSerif-Light-Web.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/IBM_Plex_Serif/IBMPlexSerif-Light-Web.woff2') format('woff2'),
+        url('./fonts/IBM_Plex_Serif/IBMPlexSerif-Light-Web.woff') format('woff'),
+        url('./fonts/IBM_Plex_Serif/IBMPlexSerif-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
 }
-
 
 @font-face {
     font-family: 'Muli-Light', sans-serif;
     src: url('./fonts/Muli/Muli-Light-Web.eot');
     src: url('./fonts/Muli/Muli-Light-Web.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/Muli/Muli-Light-Web.woff2') format('woff2'),
-    url('./fonts/Muli/Muli-Light-Web.woff') format('woff'),
-    url('./fonts/Muli/Muli-Light.ttf')  format('truetype');
-    font-weight:  300;
-    font-style:   normal;
+        url('./fonts/Muli/Muli-Light-Web.woff2') format('woff2'), url('./fonts/Muli/Muli-Light-Web.woff') format('woff'),
+        url('./fonts/Muli/Muli-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
     font-stretch: normal;
 }
 
@@ -39,48 +37,65 @@
     font-family: 'Muli', sans-serif;
     src: url('./fonts/Muli/Muli-Regular-Web.eot');
     src: url('./fonts/Muli/Muli-Regular-Web.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/Muli/Muli-Regular-Web.woff2') format('woff2'),
-    url('./fonts/Muli/Muli-Regular-Web.woff') format('woff'),
-    url('./fonts/Muli/Muli-Regular.ttf')  format('truetype');
-    font-weight:  300;
-    font-style:   normal;
+        url('./fonts/Muli/Muli-Regular-Web.woff2') format('woff2'),
+        url('./fonts/Muli/Muli-Regular-Web.woff') format('woff'),
+        url('./fonts/Muli/Muli-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
     font-stretch: normal;
 }
-
 
 @font-face {
     font-family: 'Muli-SemiBold', sans-serif;
     src: url('./fonts/Muli/Muli-SemiBold-Web.eot');
     src: url('./fonts/Muli/Muli-SemiBold-Web.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/Muli/Muli-SemiBold-Web.woff2') format('woff2'),
-    url('./fonts/Muli/Muli-SemiBold-Web.woff') format('woff'),
-    url('./fonts/Muli/Muli-SemiBold.ttf')  format('truetype');
-    font-weight:  600;
-    font-style:   normal;
+        url('./fonts/Muli/Muli-SemiBold-Web.woff2') format('woff2'),
+        url('./fonts/Muli/Muli-SemiBold-Web.woff') format('woff'),
+        url('./fonts/Muli/Muli-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
     font-stretch: normal;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "IBM Plex Serif Light";
-  transition: all 2s ease;
-  line-height:1.5;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Serif Light';
+    transition: all 2s ease;
+    line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-variant: all-small-caps;
-  /*line-height: 1.1;*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-variant: all-small-caps;
+    /*line-height: 1.1;*/
     font-family: Muli-SemiBold;
     /*font-size: 16px;*/
-    color: #6C7987;
+    color: #6c7987;
     letter-spacing: 0.23px;
     line-height: 26px;
+    text-align: left;
 }
 
-h1{ font-size: 1.55em}
-h2{ font-size: 1.30em}
-h3{ font-size: 1.25em}
-h4{ font-size: 1.20em}
-h5{ font-size: 1.15em}
-h6{ font-size: 1.10em}
+h1 {
+    font-size: 1.55em;
+}
+h2 {
+    font-size: 1.3em;
+}
+h3 {
+    font-size: 1.25em;
+}
+h4 {
+    font-size: 1.2em;
+}
+h5 {
+    font-size: 1.15em;
+}
+h6 {
+    font-size: 1.1em;
+}

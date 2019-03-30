@@ -1,13 +1,13 @@
 .nav-item {
     display: block;
     padding: 10px;
-    text-align:left;
-    border-bottom:1px solid rgba(200,200,200, 0.2);
+    text-align: left;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.2);
 }
 
-.nav-active{
-    border-left:3px solid #0093E9;
-    background: #EFF5FB;
+.nav-active {
+    border-left: 3px solid #0093e9;
+    background: #eff5fb;
     padding-left: 7px;
 }
 
@@ -15,7 +15,7 @@
     border-bottom: none;
 }
 
-.nav-short-title{
+.nav-short-title {
     font-family: Muli-Light;
     font-size: 13px;
     color: #101010;
@@ -23,13 +23,13 @@
     line-height: 26px;
     display: block;
 }
-.night .nav-short-title{
+.night .nav-short-title {
     color: #ddd;
 }
 
-.nav-long-title{
+.nav-long-title {
     display: block;
-    margin:5px 0;
+    margin: 5px 0;
     font-family: Muli-Light;
     font-size: 16px;
     color: #101010;
@@ -37,6 +37,6 @@
     line-height: 21px;
 }
 
-.night .nav-long-title{
-    color: #FFFFFF;
+.night .nav-long-title {
+    color: #ffffff;
 }
