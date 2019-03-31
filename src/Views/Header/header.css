@@ -1,4 +1,4 @@
-.btn-toggle-nav{
+/* .btn-toggle-nav{
     height: 50px;
     width: 50px;
     border:none;
@@ -8,22 +8,21 @@
 }
 .btn-toggle-nav:focus{
     outline:none;
-}
+} */
 
-.title-btn{
+.title-btn {
     height: 50px;
-    margin-left:-50px;
-    padding:10px;
-    background:transparent;
-    border:none;
+    margin-left: -50px;
+    padding: 10px;
+    background: transparent;
+    border: none;
     font-family: 'Sarabun', sans-serif;
-    color:#fff;
-    font-size:14px;
+    color: #fff;
+    font-size: 14px;
 }
-
 
 header {
-    width:100%;
-	background-color: #0093E9;
-	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);	
+    width: 100%;
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
 }

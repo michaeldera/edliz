@@ -1,44 +1,89 @@
-.home{
-    padding: 10vh 10vw;
-    text-align:left;
-	background-color: #0093E9;
-	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);	
-    color:  #fff;
-    min-height: 80vh;
+.home {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
 }
-
-.main-title{
+.main-title {
+    font-family: Muli-Light;
     font-size: 2.4em;
-    line-height:  1.2;
+    line-height: 1.2;
+    margin: 130px 0 30px 0px;
+    font-size: 75px;
+    color: #101010;
+    letter-spacing: 1.08px;
+    line-height: 84px;
+    text-align: center;
 }
 
-.btn-read-guidelines {
-    border-radius: 50vh;
-    color:#0073c9;
-    font-family: 'Sarabun' sans-serif;
-    font-size:0.85em;
-    margin:5px;
-    margin-left:0;
-    box-shadow:  6px 6px 8px #0093e9;
-    padding: 3px 8px ;
-    border:1px solid #fff;
-    text-align: left;
-    background-color: #ffffff;
+.left-row {
+    margin-left: 10px;
 }
 
-.edliz-intro{
-    font-size: 1em;
-    line-height: 1.2em;
-    margin-bottom: 1.1em;
-    margin-top: 1.1em;
-    color: #fff;
+.edliz-intro {
+    font-family: IBMPlexSerif-Light;
+    max-width: 1040px;
+    font-size: 18px;
+    color: #101010;
+    letter-spacing: 0.26px;
+    line-height: 30px;
+    margin: 0px auto 60px;
+    padding: 0 60px;
+    text-align: center;
 }
 
-.btn-settings {
-    border-radius: 50vh;
-    color: #ffffff;
-    font-size:0.85em;
-    border:1px solid #ffffff;
-    margin-right: 6px;
-    padding: 3px 8px ;
+.github {
+    display: flex;
+    justify-items: baseline;
+    margin: 0 0 150px 100px;
+}
+.github img {
+    margin-right: 30px;
+}
+.github p {
+    color: #92aac3;
+    text-align: center;
+    font-family: IBMPlexMono-Light;
+    font-size: 18px;
+    letter-spacing: 0.26px;
+    width: 858px;
+    margin: 0;
+}
+.start-reading {
+    text-align: center;
+}
+
+.github-link {
+    border: 0;
+}
+
+@media (max-width: 767px) {
+    .left-row {
+        margin: 0px 10px;
+    }
+
+    .main-title {
+        margin: 60px auto 30px;
+        /* font-size: 25px; */
+        /* line-height: 24px; */
+    }
+
+    .edliz-intro {
+        padding: 0 30px;
+    }
+
+    .github {
+        display: flex;
+        justify-items: baseline;
+        margin: 0 10px 50px 10px;
+    }
+
+    .github p {
+        font-family: IBMPlexMono-Light;
+        font-size: 8px;
+        color: #92aac3;
+        text-align: justify;
+        letter-spacing: 0.26px;
+        margin: 0;
+        width: 858px;
+    }
 }

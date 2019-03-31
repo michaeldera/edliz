@@ -3,19 +3,45 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.6",
+    "lint": "^1.1.2",
     "mobx": "^5.9.0",
     "mobx-react": "^5.4.3",
+    "prop-types": "^15.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-media": "^1.9.2",
     "react-mobx": "^0.0.4",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.1"
+    "react-scripts": "^2.1.1",
+    "react-scroll": "^1.7.11",
+    "scroll-into-view": "^1.9.5",
+    "style-loader": "^0.23.1",
+    "stylelint": "^9.10.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "yarn run lint:js && yarn run lint:css",
+    "lint:eslint": "eslint --cache --ignore-path .gitignore --ignore-pattern internals",
+    "lint:css": "stylelint './src/**/*.js'",
+    "lint:eslint:fix": "yarn run lint:js --fix",
+    "lint:js": "yarn run lint:eslint .",
+    "lint:staged": "lint-staged",
+    "prettify": "prettier --write",
+    "pre-push": "yarn run lint"
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn run lint:eslint:fix",
+      "git add --force"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add --force"
+    ]
   },
   "browserslist": [
     ">0.2%",
@@ -24,6 +50,25 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "prettier": "1.15.3"
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "husky": "^1.3.1",
+    "lint": "^1.1.2",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.6.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn run pre-push",
+      "post-merge": "yarn run post-merge"
+    }
   }
 }
