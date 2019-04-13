@@ -1,21 +1,21 @@
-.settings {
+.settings{
     padding: 10vh 10vw;
-    text-align: left;
-    background-color: #0093e9;
-    color: #fff;
+    text-align:left;
+	background-color: #0093E9;
+    color:  #fff;
     min-height: 80vh;
-    font-size: 0.8rem;
+    font-size:0.8rem;
 }
 
 .btn-more {
     border-radius: 50vh;
     color: #ffffff;
     font-size: 0.7rem;
-    border: 1px solid #ffffff;
-    padding: 3px 8px;
+    border:1px solid #ffffff;
+    padding: 3px 8px ;
 }
 
-.back-link {
+.back-link{
     font-size: 0.9em;
     text-decoration: none;
     border: none;
