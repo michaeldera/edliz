@@ -6,7 +6,7 @@ class EdlizStore {
 
     navigation = 'closed'
 
-    mode = localStorage.getItem('mode') === 'night' ? 'night' : 'day'
+    mode = localStorage.getItem('mode')
 
     preferences = 'closed'
 
