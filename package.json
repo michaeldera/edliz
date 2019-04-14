@@ -31,8 +31,7 @@
     "lint:js": "yarn run lint:eslint .",
     "lint:staged": "lint-staged",
     "prettify": "prettier --write",
-    "pre-push": "yarn run lint",
-    "post-merge": "yarn check --integrity"
+    "pre-push": "yarn run lint"
   },
   "lint-staged": {
     "*.js": [
