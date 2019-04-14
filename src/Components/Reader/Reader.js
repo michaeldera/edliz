@@ -3,6 +3,7 @@ import {inject, observer} from 'mobx-react'
 import {toJS} from 'mobx'
 import NavigationPanel from '../NavigationPanel/NavigationPanel'
 import PreferenceButton from '../../Views/PreferenceButton/PreferenceButton'
+import ScrollTopDown from "../ScrollTopDown/ScrollTopDown"
 import ReaderScreen from '../../Views/ReaderScreen/ReaderScreen'
 import Preferences from '../Preferences/Preferences'
 import MainMenu from '../MainMenu/MainMenu'
@@ -48,6 +49,7 @@ class Reader extends React.Component {
                     toggle={toggleNavigationPanel}
                     title={books.contents.chapters[chapter].short_title}
                 />
+                <ScrollTopDown preferences={preferences} toggle={togglePreferences} />
                 <PreferenceButton preferences={preferences} toggle={togglePreferences} />
             </div>
         )
