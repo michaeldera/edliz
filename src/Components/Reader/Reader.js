@@ -9,13 +9,7 @@ import Preferences from '../Preferences/Preferences'
 import MainMenu from '../MainMenu/MainMenu'
 import {book} from '../../Data/data'
 
-class Reader extends React.Component {
-    componentWillMount() {
-        const {EdlizStore: {toggleNavigationPanel, togglePreferences}} = this.props
-        toggleNavigationPanel('open')
-        togglePreferences('open')
-    }
-
+class Reader extends React.Component{
     render() {
         const {EdlizStore, chapter} = this.props
         const {
