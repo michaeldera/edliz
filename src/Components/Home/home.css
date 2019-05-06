@@ -32,19 +32,8 @@
     text-align: center;
 }
 
-@media (min-width: 768px) {
-    .main-title {
-        margin: 130px 0 30px 0px;
-    }
-}
-
-@media (max-width: 767px) {
-    .main-title {
-        font-size: 35px;
-        line-height: 57px;
-        margin: 60px auto 30px;
-    }
-
+.start-reading {
+    text-align: center;
 }
 
 .github {
@@ -65,6 +54,35 @@
     margin: 0;
 }
 
+@media (min-width: 768px) {
+    .main-title {
+        margin: 130px 0 30px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-title {
+        font-size: 35px;
+        line-height: 57px;
+        margin: 60px auto 30px;
+    }
+
+    .github {
+        display: flex;
+        justify-items: baseline;
+        margin: 0 10px 50px 10px;
+    }
+    
+    .github p {
+        font-family: IBMPlexMono-Light;
+        font-size: 8px;
+        color: #92aac3;
+        text-align: justify;
+        letter-spacing: 0.26px;
+        margin: 0;
+        width: 858px;
+    }
+}
 /* .home{
     padding: 10vh 10vw;
     text-align:left;
