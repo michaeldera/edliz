@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom"
 import Media from 'react-media'
 import MainMenu from '../MainMenu/MainMenu'
+import RoundedBtn from '../RoundedBtn/RoundedBtn'
 import WheelChair from './home-wheelchair.png'
 import Github from './github.svg'
 import './home.css';
@@ -20,6 +21,11 @@ export default class Home extends React.Component {
                     Policy Advisory Committee. It is the product of many years of combined efforts by hundreds
                     of health workers at all levels of the health care system in Zimbabwe.
               </div>
+              <p className="start-reading">
+                 <RoundedBtn href="/#/chapters/1" type="a">
+                    Start Reading
+                 </RoundedBtn>
+              </p>
           </div>
           <Media
               query="(min-width: 1280px)"
