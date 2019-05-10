@@ -32,19 +32,8 @@
     text-align: center;
 }
 
-@media (min-width: 768px) {
-    .main-title {
-        margin: 130px 0 30px 0px;
-    }
-}
-
-@media (max-width: 767px) {
-    .main-title {
-        font-size: 35px;
-        line-height: 57px;
-        margin: 60px auto 30px;
-    }
-
+.start-reading {
+    text-align: center;
 }
 
 .github {
@@ -65,47 +54,32 @@
     margin: 0;
 }
 
-/* .home{
-    padding: 10vh 10vw;
-    text-align:left;
-	background-color: #0093E9;
-	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);	
-    color:  #fff;
-    min-height: 80vh;
+@media (min-width: 768px) {
+    .main-title {
+        margin: 130px 0 30px 0px;
+    }
 }
 
-.main-title{
-    font-size: 2.4em;
-    line-height:  1.2;
-}
+@media (max-width: 767px) {
+    .main-title {
+        font-size: 35px;
+        line-height: 57px;
+        margin: 60px auto 30px;
+    }
 
-.btn-read-guidelines {
-    border-radius: 50vh;
-    color:#0073c9;
-    font-family: 'Sarabun' sans-serif;
-    font-size:0.85em;
-    margin:5px;
-    margin-left:0;
-    box-shadow:  6px 6px 8px #0093e9;
-    padding: 3px 8px ;
-    border:1px solid #fff;
-    text-align: left;
-    background-color: #ffffff;
+    .github {
+        display: flex;
+        justify-items: baseline;
+        margin: 0 10px 50px 10px;
+    }
+    
+    .github p {
+        font-family: IBMPlexMono-Light;
+        font-size: 8px;
+        color: #92aac3;
+        text-align: justify;
+        letter-spacing: 0.26px;
+        margin: 0;
+        width: 858px;
+    }
 }
-
-.edliz-intro{
-    font-size: 1em;
-    line-height: 1.2em;
-    margin-bottom: 1.1em;
-    margin-top: 1.1em;
-    color: #fff;
-}
-
-.btn-settings {
-    border-radius: 50vh;
-    color: #ffffff;
-    font-size:0.85em;
-    border:1px solid #ffffff;
-    margin-right: 6px;
-    padding: 3px 8px ;
-} */
