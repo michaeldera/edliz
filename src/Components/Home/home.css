@@ -1,89 +1,4 @@
-.main{
-    padding: 10vh 0vw;
-    text-align:left;
-	background-color: #ffffff;	
-    min-height: 80vh;
-}
-
-.home {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 150px;
-}
-
-.main-title {
-    font-family: Muli-Light;
-    font-size: 75px;
-    color: #101010;
-    letter-spacing: 1.08px;
-    line-height: 84px;
-    text-align: center;
-}
-
-.edliz-intro {
-    font-family: IBMPlexSerif-Light;
-    max-width: 1040px;
-    font-size: 18px;
-    color: #101010;
-    letter-spacing: 0.26px;
-    line-height: 30px;
-    margin: 0px auto 60px;
-    padding: 0 60px;
-    text-align: center;
-}
-
-.start-reading {
-    text-align: center;
-}
-
-.github {
-    display: flex;
-    justify-items: baseline;
-    margin: 0 0 150px 100px;
-}
-.github img {
-    margin-right: 30px;
-}
-.github p {
-    color: #92aac3;
-    text-align: center;
-    font-family: IBMPlexMono-Light;
-    font-size: 18px;
-    letter-spacing: 0.26px;
-    width: 858px;
-    margin: 0;
-}
-
-@media (min-width: 768px) {
-    .main-title {
-        margin: 130px 0 30px 0px;
-    }
-}
-
-@media (max-width: 767px) {
-    .main-title {
-        font-size: 35px;
-        line-height: 57px;
-        margin: 60px auto 30px;
-    }
-
-    .github {
-        display: flex;
-        justify-items: baseline;
-        margin: 0 10px 50px 10px;
-    }
-    
-    .github p {
-        font-family: IBMPlexMono-Light;
-        font-size: 8px;
-        color: #92aac3;
-        text-align: justify;
-        letter-spacing: 0.26px;
-        margin: 0;
-        width: 858px;
-    }
-}
-/* .home{
+.home{
     padding: 10vh 10vw;
     text-align:left;
 	background-color: #0093E9;
@@ -126,4 +41,4 @@
     border:1px solid #ffffff;
     margin-right: 6px;
     padding: 3px 8px ;
-} */
+}

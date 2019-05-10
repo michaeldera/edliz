@@ -56,12 +56,12 @@ h1, h2, h3, h4, h6 {
     max-width:840px;
 }
 
-/* a {
+a {
     text-decoration: none;
     color: inherit;
     display: inline-block;
     border-bottom: 1px dotted;
-} */
+}
 .underline{
     text-decoration:underline;
 }
