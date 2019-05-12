@@ -12,7 +12,8 @@
 }
 
 .main-title {
-    font-family: Muli-Light;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
     font-size: 75px;
     color: #101010;
     letter-spacing: 1.08px;
@@ -21,7 +22,7 @@
 }
 
 .edliz-intro {
-    font-family: IBMPlexSerif-Light;
+    font-family: 'IBM Plex Serif', serif;
     max-width: 1040px;
     font-size: 18px;
     color: #101010;
@@ -47,7 +48,7 @@
 .github p {
     color: #92aac3;
     text-align: center;
-    font-family: IBMPlexMono-Light;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 18px;
     letter-spacing: 0.26px;
     width: 858px;
@@ -74,7 +75,7 @@
     }
     
     .github p {
-        font-family: IBMPlexMono-Light;
+        font-family: 'IBM Plex Mono', monospace;
         font-size: 8px;
         color: #92aac3;
         text-align: justify;
