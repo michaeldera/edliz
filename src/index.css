@@ -1,8 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #cae6f4;
+  background-color: #ffffff;
   font-family: 'IBM Plex Serif', serif;
+  font-weight: 300;
   transition: all 2s ease;
   line-height:1.5;
 }

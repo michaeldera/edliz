@@ -1,12 +1,18 @@
-.information{
-    padding: 10vh 10vw;
-    text-align:left;
-	background-color: #0093E9;
-    color:  #fff;
-    min-height: 80vh;
+.information {
+    margin: 30px 30px;
+    text-align: left;
 }
 
-.back-link{
+.jump {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    margin: 130px 0 30px 0px;
+    font-size: 25px;
+    color: #101010;
+    letter-spacing: 1.08px;
+}
+
+.back-link {
     font-size: 0.9em;
     text-decoration: none;
     border: none;
@@ -14,3 +20,32 @@
     padding: 0;
     margin-bottom: 1.4em;
 }
+
+.depthButton {
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+}
+
+.depthButton:hover {
+    color: #5778f3;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.link {
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .jump {
+        margin: 30px 0 30px 0px;
+    }
+}
+
