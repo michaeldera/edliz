@@ -11,6 +11,13 @@ There are three main ways to contribute to the repo:
 3. To suggest features that may improve the experience for users of the app
 4. To review any open [pull requests](https://github.com/michaeldera/edliz/pulls)
 
+### Getting Started
+1. Clone this repo onto your computer
+2. This project uses Yarn for package management. [Download](https://yarnpkg.com/en/docs/install) and install yarn to get started if you do not already have it 
+3. Install dependencies by running `yarn install`
+4. Run the project by using `yarn run start`
+
+
 ## Recommendations
 
 ### Keep your fork synced
