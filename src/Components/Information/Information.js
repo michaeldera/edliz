@@ -5,6 +5,7 @@ import {Link, animateScroll as scroll} from 'react-scroll'
 import './information.css'
 import {book} from '../../Data/data'
 import MainMenu from '../MainMenu/MainMenu'
+import RoundedBtn from '../RoundedBtn/RoundedBtn'
 
 class Information extends React.PureComponent {
     scrollToTop = () => {
@@ -43,9 +44,9 @@ class Information extends React.PureComponent {
                         <section className={elem.short_title} key={elem.short_title}>
                             {elem.content}
                             <br />
-                            <button type="button" className="depthButton" onClick={this.scrollToTop}>
-                                Back to top
-                            </button>
+                            <RoundedBtn onClick={this.scrollToTop} type="button">
+                            Back to top
+                            </RoundedBtn>
                         </section>
                     ))}
                 </div>
