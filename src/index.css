@@ -20,3 +20,16 @@ h3{ font-size: 1.25em}
 h4{ font-size: 1.20em}
 h5{ font-size: 1.15em}
 h6{ font-size: 1.10em}
+
+.main{
+  padding: 10vh 0vw;
+  text-align:left;
+  background-color: #ffffff;	
+  min-height: 80vh;
+}
+
+@media (max-width: 767px) {
+  .main{
+    padding: 5vh 0vw;
+  }
+}
