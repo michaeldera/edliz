@@ -15,7 +15,7 @@ class Information extends React.PureComponent {
         const {toggleNavigationPanel, navigation} = toJS(this.props.EdlizStore)
 
         return (
-            <div>
+            <div className="main">
                 <MainMenu toggle={toggleNavigationPanel} navigation={navigation} />
                 <div className="information">
                     <div className="jump">Jump to Section</div>
