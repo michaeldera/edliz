@@ -7,22 +7,21 @@
 .main-title {
     font-family: 'Muli', sans-serif;
     font-weight: 300;
-    font-size: 55px;
+    font-size: 46px;
     color: #101010;
     letter-spacing: 1.08px;
-    line-height: 84px;
+    line-height: 64px;
     text-align: center;
 }
 
 .edliz-intro {
-
     font-family: 'IBM Plex Serif', serif;
     max-width: 1040px;
     font-size: 18px;
     color: #101010;
     letter-spacing: 0.26px;
     line-height: 30px;
-    margin: 0px auto 60px;
+    margin: 60px auto;
     padding: 0 60px;
     text-align: center;
 }
@@ -57,9 +56,18 @@
 
 @media (max-width: 767px) {
     .main-title {
-        font-size: 35px;
-        line-height: 57px;
-        margin: 60px auto 30px;
+        font-size: 28px;
+        line-height: 36px;
+        margin: 30px auto 24px;
+    }
+
+    .edliz-intro {
+        font-size: 14px;
+        color: #101010;
+        line-height: 22px;
+        margin: 50px auto 40px;
+        padding: 0 20px;
+        text-align: center;
     }
 
     .github {
