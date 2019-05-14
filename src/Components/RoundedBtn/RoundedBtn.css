@@ -10,6 +10,7 @@
     display: inline-block;
     transition: opacity 0.3s ease-in-out;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a.rounded-btn:hover,
