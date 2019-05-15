@@ -15,6 +15,10 @@ export default class Home extends React.Component {
         <div className="home">
           <div className="left-row">
             <div className="main-title"> Essential Drugs &amp; Medicines <br/> List in Zimbabwe</div>
+            <Media
+              query="(max-width: 767px)"
+              render={() => <img className="medicine-illustration-sm" src={medicine} alt=""/>}
+          />
               <div className="introduction">
                     This 7th essential medicines list and standard treatment guidelines for the most common
                     health conditions in Zimbabwe has been endorsed by the National Medicine &amp; Therapeutics
