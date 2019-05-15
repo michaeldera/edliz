@@ -1,50 +1,54 @@
 .home {
     display: flex;
+    box-sizing:border-box;
     flex-direction: row;
-    margin-bottom: 150px;
+    padding: 80px;
+    margin-bottom: 30px;
+    min-height: calc(100vh - 140px);
 }
 
 .main-title {
     font-family: 'Muli', sans-serif;
     font-weight: 300;
-    font-size: 46px;
+    font-size: 38px;
     color: #101010;
     letter-spacing: 1.08px;
-    line-height: 64px;
-    text-align: center;
+    line-height: 46px;
 }
 
-.edliz-intro {
+.medicine-illustration{
+    box-sizing: border-box;
+    padding:40px;
+    max-width: 40vw;
+    max-height: 40vh;
+    margin-top:10vh;
+}
+.introduction {
     font-family: 'IBM Plex Serif', serif;
     max-width: 1040px;
     font-size: 18px;
     color: #101010;
     letter-spacing: 0.26px;
     line-height: 30px;
-    margin: 60px auto;
-    padding: 0 60px;
-    text-align: center;
+    margin: 40px auto;
 }
 
-.start-reading {
-    text-align: center;
-}
 
 .github {
     display: flex;
     justify-items: baseline;
-    margin: 0 0 150px 100px;
+    margin: 0 0 150px 50px;
 }
 .github img {
-    margin-right: 30px;
+    margin-right: 6px;
 }
-.github p {
-    color: #92aac3;
+.github small {
+    color: #6c63ff;
     text-align: center;
     font-family: 'IBM Plex Serif', serif;
-    font-size: 18px;
+    line-height:20px;
+    font-size: 14px;
     letter-spacing: 0.26px;
-    width: 858px;
     margin: 0;
 }
 
@@ -55,13 +59,17 @@
 }
 
 @media (max-width: 767px) {
+    .home {
+        padding: 15px;
+    }
     .main-title {
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 22px;
+        line-height: 26px;
         margin: 30px auto 24px;
+        text-align: center;
     }
 
-    .edliz-intro {
+    .introduction {
         font-size: 14px;
         color: #101010;
         line-height: 22px;
@@ -70,16 +78,23 @@
         text-align: center;
     }
 
+    
+.start-reading {
+    text-align: center;
+}
+
     .github {
         display: flex;
         justify-items: baseline;
         margin: 0 10px 50px 10px;
     }
     
-    .github p {
+    .github img {
+        display: none;
+    }
+    .github small {
         font-family: 'IBM Plex Serif', serif;
         font-size: 8px;
-        color: #92aac3;
         text-align: justify;
         letter-spacing: 0.26px;
         margin: 0;
