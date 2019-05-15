@@ -16,7 +16,7 @@ export default class Home extends React.Component {
           <div className="left-row">
             <div className="main-title"> Essential Drugs &amp; Medicines <br/> List in Zimbabwe</div>
             <Media
-              query="(max-width: 767px)"
+              query="(max-width: 780px)"
               render={() => <img className="medicine-illustration-sm" src={medicine} alt=""/>}
           />
               <div className="introduction">
