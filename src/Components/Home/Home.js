@@ -32,18 +32,15 @@ export default class Home extends React.Component {
               </p>
           </div>
           <Media
-              query="(min-width: 1280px)"
+              query="(min-width: 1024px)"
               render={() => <img className="medicine-illustration" src={medicine} alt=""/>}
           />
         </div>
         <div className="github">
           <a href="https://github.com/michaeldera/edliz" className="github-link">
-              {' '}
-              <img className="people-wide" src={Github} alt="" width="20" height="20" />
+              <img src={Github} alt="" width="20" height="20" alt="GitHub Icon" />
           </a>
-          <small>
-              This application was built and is maintained by a well meaning developers. The code is opensource and is available to fork, share and improve on github.
-            </small>    
+          <small> Maintained on GitHub by well meaning developers</small>    
          </div>
       </div>
     );
