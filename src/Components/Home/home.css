@@ -1,80 +1,124 @@
 .home {
     display: flex;
+    box-sizing:border-box;
     flex-direction: row;
-    margin-bottom: 150px;
+    padding: 80px;
+    margin-bottom: 30px;
+    min-height: calc(100vh - 140px);
 }
 
 .main-title {
     font-family: 'Muli', sans-serif;
     font-weight: 300;
-    font-size: 55px;
+    font-size: 38px;
     color: #101010;
     letter-spacing: 1.08px;
-    line-height: 84px;
-    text-align: center;
+    line-height: 46px;
+}
+.medicine-illustration-sm{
+    display: none;
 }
 
-.edliz-intro {
-
+.medicine-illustration{
+    box-sizing: border-box;
+    padding:40px;
+    max-width: 40vw;
+    max-height: 40vh;
+    margin-top:10vh;
+}
+.introduction {
     font-family: 'IBM Plex Serif', serif;
     max-width: 1040px;
     font-size: 18px;
     color: #101010;
     letter-spacing: 0.26px;
     line-height: 30px;
-    margin: 0px auto 60px;
-    padding: 0 60px;
-    text-align: center;
+    margin: 40px auto;
 }
 
-.start-reading {
-    text-align: center;
-}
 
 .github {
     display: flex;
     justify-items: baseline;
-    margin: 0 0 150px 100px;
+    margin: 0 0 150px 50px;
+    text-align: right;
 }
 .github img {
-    margin-right: 30px;
+    margin-right: 6px;
 }
-.github p {
-    color: #92aac3;
-    text-align: center;
+.github small {
+    color: #6c63ff;
     font-family: 'IBM Plex Serif', serif;
-    font-size: 18px;
+    line-height:20px;
+    font-size: 14px;
     letter-spacing: 0.26px;
-    width: 858px;
     margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1024px) {  
+    .home {
+        padding: 50px;
+    }  
+    .main-title {
+        font-size: 28px;
+    }
+    .introduction{
+        font-size:16px;
+        line-height:26px;
+    }
+    .medicine-illustration-sm{
+        display: block;
+        max-width: 60vw;
+        margin: 40px auto;
+    }
+}
+
+@media (min-width: 781px) {
     .main-title {
       margin: 90px 0 30px 0px;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 780px) {
+    .home {
+        padding: 15px;
+    }    
+
     .main-title {
-        font-size: 35px;
-        line-height: 57px;
-        margin: 60px auto 30px;
+        font-size: 22px;
+        line-height: 26px;
+        margin: 30px auto 24px;
+        text-align: center;
     }
+
+    .introduction {
+        font-size: 14px;
+        color: #101010;
+        line-height: 22px;
+        margin: 50px auto 40px;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    
+.start-reading {
+    text-align: center;
+}
 
     .github {
         display: flex;
         justify-items: baseline;
         margin: 0 10px 50px 10px;
+        text-align:center;
     }
     
-    .github p {
-        font-family: 'IBM Plex Serif', serif;
-        font-size: 8px;
-        color: #92aac3;
-        text-align: justify;
+    .github img {
+        display: none;
+    }
+    .github small {
+        font-size: 12px;
+        text-align: center;
         letter-spacing: 0.26px;
-        margin: 0;
-        width: 858px;
+        margin: 0 auto;
     }
 }
