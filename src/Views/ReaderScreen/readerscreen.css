@@ -47,6 +47,7 @@ li {
 }
 
 h1, h2, h3, h4, h6 {
+    font-weight:600;
     text-align: left;
 }
 .article {

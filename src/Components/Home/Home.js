@@ -14,7 +14,7 @@ export default class Home extends React.Component {
         <MainMenu/>
         <div className="home">
           <div className="left-row">
-            <div className="main-title"> Essential Drugs &amp; Medicines <br/> List in Zimbabwe</div>
+            <h1 className="main-title"> Essential Drugs &amp; Medicines <br/> List in Zimbabwe</h1>
             <Media query="(max-width: 780px)" render={() => <img className="medicine-illustration-sm" src={medicine} alt=""/>} />
               <div className="introduction">
                     This 7th essential medicines list and standard treatment guidelines for the most common
