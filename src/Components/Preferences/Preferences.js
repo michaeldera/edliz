@@ -42,8 +42,7 @@ export default class Preferences extends React.PureComponent {
 class DrawerButton extends React.PureComponent {
   render(){
       let drawerButtonStyle = {
-          backgroundColor: "#8ec5fc",
-          backgroundImage: "linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%)",
+          backgroundColor: "#6c63ff",
           borderRadius: "4px",
           display: "block", 
           height:"6px",
@@ -59,8 +58,8 @@ class ModeButton extends React.PureComponent {
       let modeButtonStyle = {
           borderRadius: "50vh",
           backgroundColor:"#eee",
-          color:"#0648fd",
-          border: "1px solid #0648fd",
+          color:"#6c63ff",
+          border: "1px solid #6c63ff",
           lineHeight:  "0.8rem",
           fontSize: "0.7rem",
           fontFamily: "'Sarabun' sans-serif",
