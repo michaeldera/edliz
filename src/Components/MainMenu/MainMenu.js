@@ -8,11 +8,11 @@ export default class MainMenu extends React.Component {
         return (
             <header>  
                 <HamburgerButton/>
-                 <nav>
+                 <div className="main-nav">
                     <Link to="/">Home</Link>
                     <Link to="/chapters/1">Start Reading</Link>
                     <Link to="/information">About this Project</Link>
-                 </nav>
+                 </div>
             </header>
         )
     }

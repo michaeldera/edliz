@@ -1,0 +1,10 @@
+.main-nav{
+    line-height: 50px;
+    text-align: center;
+}
+
+.main-nav a {
+    margin-right: 14px;
+    margin-left: 14px;
+    text-decoration: none;
+}
