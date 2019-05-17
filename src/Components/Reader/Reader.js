@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../../Views/Header/Header';
 import Navigation from '../Navigation/Navigation';
 import PreferenceButton from '../../Views/PreferenceButton/PreferenceButton';
 import ReaderScreen from '../../Views/ReaderScreen/ReaderScreen';
