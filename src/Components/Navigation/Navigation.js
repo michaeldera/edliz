@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import './navigation.css'
 import NavigationItem from '../../Views/NavigationItem/NavigationItem';
 import Overlay  from '../../Views/Overlay/Overlay';
+import back from '../../Assets/Icons/back.svg';
+
 
 class Navigation extends Component {
 
@@ -18,6 +20,7 @@ class Navigation extends Component {
       <>
         <nav className={navigation} >
           <div className="nav-header">
+            <Link className="home-link" to="/">Home</Link>
             <small className="nav-meta">currently reading:</small>
             <h2 className="nav-heading">{current.long_title}</h2>
           </div>

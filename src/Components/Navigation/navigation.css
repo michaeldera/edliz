@@ -13,6 +13,15 @@ nav {
 	color:#fff;
 	margin-top: 15px;
 }
+
+.home-link{
+	color:#fff;
+	display: block;
+	margin-bottom: 1rem;
+	font-family: 'Muli', sans-serif;
+	text-decoration: none;
+}
+
 nav::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
