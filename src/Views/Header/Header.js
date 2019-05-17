@@ -12,12 +12,9 @@ class Header extends React.PureComponent {
   render() {
     const {title} = this.props
     return (
-      <header>
         <button className="btn-toggle-nav" onClick={this.handleNavigation}>
           <img src={menu} alt="menu" />
         </button>
-        <button className="title-btn">{title}</button>
-      </header>
     );
   }
 }

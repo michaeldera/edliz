@@ -6,6 +6,7 @@ import ReaderScreen from '../../Views/ReaderScreen/ReaderScreen';
 import Preferences from '../Preferences/Preferences';
 import { book } from '../../Data/data'
 import { inject, observer } from "mobx-react";
+import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton';
 
 class Reader extends React.Component{
 
@@ -30,11 +31,7 @@ class Reader extends React.Component{
     } = this.props.EdlizStore
     return(
       <div className={mode}>
-        <Header
-          title={books.contents.chapters[this.props.chapter].short_title}
-          toggle={toggleNavigationPanel}
-          navigation={navigation}
-        />
+        <HamburgerButton action={()=> toggleNavigationPanel(navigation)}/>
         <Navigation
           content={books.contents}
           navigation={navigation}
