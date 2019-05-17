@@ -70,20 +70,9 @@ nav {
 }
 
 .nav-header{
-	background-color: #0093E9;
-	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);	
+	background-color: #6c63ff;
     color: #ffffff;
     text-align: left;
     padding: 2rem 1rem;
     margin-top:0;
-}
-
-.nav-header-btn{
-    background:transparent;
-    border:1px solid #ffffff;
-    padding: 3px 12px;
-    color:#ffffff;
-    font-size:0.66em;
-    margin-right: 6px;
-    border-radius: 50vh;
 }
