@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import './navigation.css'
 import NavigationItem from '../../Views/NavigationItem/NavigationItem';
 import Overlay  from '../../Views/Overlay/Overlay';
-import back from '../../Assets/Icons/back.svg';
 
 
 class Navigation extends Component {
