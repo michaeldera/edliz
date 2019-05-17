@@ -34,6 +34,7 @@ class Reader extends React.Component{
         <Navigation
           content={books.contents}
           navigation={navigation}
+          current={book.contents.chapters[this.props.chapter]}
           toggle={toggleNavigationPanel}
         />
         <Preferences

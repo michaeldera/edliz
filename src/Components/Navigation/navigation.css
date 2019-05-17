@@ -5,6 +5,14 @@ nav {
 	overflow-y: scroll;
 }
 
+.nav-heading{
+	margin-top:0;
+}
+
+.nav-meta{
+	color:#fff;
+	margin-top: 15px;
+}
 nav::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);

@@ -12,13 +12,14 @@ class Navigation extends Component {
   }
 
   render() {
-    const {navigation, content} = this.props
+    const {navigation, content, current } = this.props
     const  overlayVisibility = (navigation === "open")?  "visible" : "hidden";
     return (
       <>
         <nav className={navigation} >
           <div className="nav-header">
-            <h2 className="nav-heading">Essential Drugs and Medicines List in Zimbabwe</h2>
+            <small className="nav-meta">currently reading:</small>
+            <h2 className="nav-heading">{current.long_title}</h2>
           </div>
           <div className="tab-content">
             { content.chapters.map( (section ,  index ) => (
