@@ -11,7 +11,7 @@
     font-family: 'Muli', sans-serif;
     font-weight: 300;
     font-size: 38px;
-    color: #101010;
+    color: #333333;
     letter-spacing: 1.08px;
     line-height: 46px;
 }
@@ -26,11 +26,12 @@
     max-height: 40vh;
     margin-top:10vh;
 }
+
 .introduction {
     font-family: 'IBM Plex Serif', serif;
     max-width: 1040px;
     font-size: 18px;
-    color: #101010;
+    color: #666666;
     letter-spacing: 0.26px;
     line-height: 30px;
     margin: 40px auto;
