@@ -15,8 +15,8 @@
     color:#333;
 }
 .night .screen{
-    background: #001c2a;
-    color: #cae6f4;
+    background: #2a2a2a;
+    color: #ccc;
 }
 
 .screen::-webkit-scrollbar-track
