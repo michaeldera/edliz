@@ -8,3 +8,9 @@
     margin-left: 14px;
     text-decoration: none;
 }
+
+@media (max-width: 780px) {
+    .main-nav a {
+        display: none;
+    }
+}
