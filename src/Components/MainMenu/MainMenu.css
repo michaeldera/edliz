@@ -10,11 +10,20 @@
 }
 
 @media (max-width: 780px) {
-    .main-nav{
+
+    .nav-on .main-nav{
+        display: block;
+    }
+
+    .nav-off .main-nav{
         display: none;
+    }
+    .main-nav{
+        width: 100%;
+        position: fixed;
         top:0;
         background: #6c63ff;
-        margin-top:50px;    
+        padding-top:50px;    
     }
     .main-nav a {        
         color: #fff;
