@@ -10,7 +10,14 @@
 }
 
 @media (max-width: 780px) {
-    .main-nav a {
+    .main-nav{
         display: none;
+        top:0;
+        background: #6c63ff;
+        margin-top:50px;    
+    }
+    .main-nav a {        
+        color: #fff;
+        display: block;
     }
 }
