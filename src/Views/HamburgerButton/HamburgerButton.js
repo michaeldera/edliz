@@ -1,5 +1,5 @@
 import React from 'react'
-import bars from '../../Assets/Icons/menu.svg'
+import bars from './menu.svg'
 
 export default class HamburgerButton extends React.Component {
     render(){            
