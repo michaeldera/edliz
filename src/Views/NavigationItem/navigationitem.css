@@ -11,21 +11,6 @@
     padding-left: 7px;
 }
 
-.nav-item a {
-    color:#6c63ff;
-    border-bottom: none;
-}
-
-
-.nav-item a:visited {
-    color:#6c63ff;
-    border-bottom: none;
-}
-
-.nav-item a:active {
-    color:#6c63ff;
-    border-bottom: none;
-}
 
 .nav-short-title{
     color: #999;
@@ -39,6 +24,7 @@
 
 .nav-long-title{
     display: block;
+    color:#6c63ff;
     margin:5px 0;
 }
 
