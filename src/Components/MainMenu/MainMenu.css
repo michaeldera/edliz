@@ -22,11 +22,17 @@
         width: 100%;
         position: fixed;
         top:0;
-        background: #6c63ff;
+        background: #fff;
         padding-top:50px;    
+        border-bottom: 1px solid #99f;
     }
     .main-nav a {        
-        color: #fff;
+        color: #6c63ff;
         display: block;
+        margin-right: 0;
+        margin-left: 0;
+        background: #ccf;
+        margin-top: 1px;
+        line-height: 60px;
     }
 }
