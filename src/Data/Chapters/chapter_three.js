@@ -56,6 +56,7 @@ export let chapter_three = {
           <p>Ensuring adequate warmth and ventilation (either by mask or intubation) is much more important than administering any medicines.</p>
           <p>The following may be useful:</p>
           <table>
+            <caption>For respiratory depression,but only if the mother was given pethidine in labour:</caption>
                 <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Frequency</th></tr>
                 <tr><td rowSpan="4">naloxane neonatal 20mcg/ml im <br/><em>NB: Note strength</em></td><td rowSpan="4">B V</td><td>&lt; 0 to 1kg: 10mcg = 0.5ml</td><td rowSpan="4">repeat as necessary</td></tr>
                 <tr><td> 1 to 2kg: 20mcg = 1ml</td></tr>
