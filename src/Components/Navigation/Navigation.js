@@ -4,6 +4,7 @@ import './navigation.css'
 import NavigationItem from '../../Views/NavigationItem/NavigationItem';
 import Overlay  from '../../Views/Overlay/Overlay';
 
+
 class Navigation extends Component {
 
   handleNavigation = () => {
@@ -12,16 +13,15 @@ class Navigation extends Component {
   }
 
   render() {
-    const {navigation, content} = this.props
+    const {navigation, content, current } = this.props
     const  overlayVisibility = (navigation === "open")?  "visible" : "hidden";
     return (
       <>
         <nav className={navigation} >
           <div className="nav-header">
-            <h2 className="nav-heading">Essential Drugs and Medicines List in Zimbabwe</h2>
-            <Link className="nav-header-btn" to="/">Home</Link>
-            <Link className="nav-header-btn" to="/information">Information</Link>
-            <Link className="nav-header-btn" to="/settings">Settings</Link>
+            <Link className="home-link" to="/">Home</Link>
+            <small className="nav-meta">currently reading:</small>
+            <h2 className="nav-heading">{current.long_title}</h2>
           </div>
           <div className="tab-content">
             { content.chapters.map( (section ,  index ) => (

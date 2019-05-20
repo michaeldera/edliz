@@ -14,11 +14,8 @@ export default class Home extends React.Component {
         <MainMenu/>
         <div className="home">
           <div className="left-row">
-            <div className="main-title"> Essential Drugs &amp; Medicines <br/> List in Zimbabwe</div>
-            <Media
-              query="(max-width: 780px)"
-              render={() => <img className="medicine-illustration-sm" src={medicine} alt=""/>}
-          />
+            <h1 className="main-title"> Essential Drugs &amp; Medicines <br/> List in Zimbabwe</h1>
+            <Media query="(max-width: 780px)" render={() => <img className="medicine-illustration-sm" src={medicine} alt=""/>} />
               <div className="introduction">
                     This 7th essential medicines list and standard treatment guidelines for the most common
                     health conditions in Zimbabwe has been endorsed by the National Medicine &amp; Therapeutics
@@ -31,10 +28,7 @@ export default class Home extends React.Component {
                  </RoundedBtn>
               </p>
           </div>
-          <Media
-              query="(min-width: 1024px)"
-              render={() => <img className="medicine-illustration" src={medicine} alt=""/>}
-          />
+          <Media query="(min-width: 1024px)" render={() => <img className="medicine-illustration" src={medicine} alt=""/>} />
         </div>
         <div className="github">
           <a href="https://github.com/michaeldera/edliz" className="github-link">

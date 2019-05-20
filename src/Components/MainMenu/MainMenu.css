@@ -1,33 +1,38 @@
-.header {
-    /* position: sticky;
-    top:0; */
-    padding: 10px 0;
+.main-nav{
+    line-height: 50px;
+    text-align: center;
 }
 
-.menu-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.menu-list a {
-    font-family: 'IBM Plex Serif', serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: #101010;
-    letter-spacing: 0.26px;
-    line-height: 30px;
-    margin: 0 30px 0 0;
-    padding: 0;
+.main-nav a {
+    margin-right: 14px;
+    margin-left: 14px;
     text-decoration: none;
 }
 
+@media (max-width: 780px) {
 
-@media (max-width: 767px) {
-    .menu-list a {
-        font-size: 10px;
-        letter-spacing: 0.26px;
-        line-height: 16px;
+    .nav-on .main-nav{
+        display: block;
+    }
+
+    .nav-off .main-nav{
+        display: none;
+    }
+    .main-nav{
+        width: 100%;
+        position: fixed;
+        top:0;
+        background: #fff;
+        padding-top:50px;    
+        border-bottom: 1px solid #99f;
+    }
+    .main-nav a {        
+        color: #6c63ff;
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+        background: #ccf;
+        margin-top: 1px;
+        line-height: 60px;
     }
 }
