@@ -73,6 +73,9 @@ export let chapter_three = {
           <h4>Helping babies survive</h4>
           <p>Every newborn baby must receive the &quot;Essential Care for Every Baby&quot; package of care is essential for preventing and managing common illnesses in the first 24hrs of life when newborn mortality is highest</p>
           <small>See management algorithm on the next page</small>
+          <h4>Feeding and Fluids</h4>
+          <p>In general, babies should breast-feed on demand from birth. There is no need for supplemental water or other feeds.</p>
+          <p>For babies requiring special care (low birth weight, birth asphyxia,infection, etc) the following fluid regimen based on birth weight is recommended:</p>
       </div>
       },
       {
