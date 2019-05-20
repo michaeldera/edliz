@@ -64,7 +64,12 @@ export let chapter_three = {
                 <tr><td>more than 4kg: 40mcg = 2ml</td></tr>
                 <tr><td>adrenaline dilute 1:10 000</td><td>C V</td><td>10mcg 1ml/kg</td><td>repeat as necessary</td></tr>
           </table>
-
+          <table>
+            <caption><strong>Only</strong> if the baby has no spontaneous breathing after 5 minutes of ventilation, give a <strong>slow intravenous injection directly into the umbilical vein:</strong></caption>
+                <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th></tr>
+                <tr><td>sodium bicarbonate<br/>slow iv 4.2%</td><td>B N</td><td>4 to 6 ml/kg</td></tr>
+          </table>
+          <small><strong>or</strong> 2-3 ml/kg of 8.4% solution diluted with equal quantity of water for injection, if only strength available.</small>
       </div>
       },
       {
