@@ -70,6 +70,9 @@ export let chapter_three = {
                 <tr><td>sodium bicarbonate<br/>slow iv 4.2%</td><td>B N</td><td>4 to 6 ml/kg</td></tr>
           </table>
           <small><strong>or</strong> 2-3 ml/kg of 8.4% solution diluted with equal quantity of water for injection, if only strength available.</small>
+          <h4>Helping babies survive</h4>
+          <p>Every newborn baby must receive the &quot;Essential Care for Every Baby&quot; package of care is essential for preventing and managing common illnesses in the first 24hrs of life when newborn mortality is highest</p>
+          <small>See management algorithm on the next page</small>
       </div>
       },
       {
