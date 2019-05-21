@@ -81,6 +81,26 @@ export let chapter_three = {
             <li>Day 1: 60ml per kg per 24 hrs. [40ml/kg/24hrs in severe birth asphyxia and meningitis].</li>
             <li>Day 2 and subsequently: Increase by 20-30ml per kg per 24hrs depending on the general condition, to 150ml/kg/24hrs. If this is well tolerated increase further to 180-200ml/kg/24hrs</li>
           </ul>
+          <h5>Intravenous Fluids</h5>
+          <p><em>If intravenous not possible, try nasogastric feeding.</em></p>
+          <ul>
+            <li>Day 1
+              <table>
+              <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq</th><th>Duration</th></tr>
+                <tr><td>dextrose 10% iv infusion</td><td>A N</td><td colSpan="3">60ml/kg/24hrs</td></tr>
+              </table>
+            </li>
+            <li>Day 1
+              <table>
+              <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq</th><th>Duration</th></tr>
+                <tr><td>darrows half strength / dextrose 2.5% iv with 10% dextrose infusion*</td><td>C V</td><td colSpan="3">Same as for oral fluids up to a max. of 150ml/kg/24hrs – inclusive of all fluids Administered</td></tr>
+              <tr><td colSpan="5">or</td></tr>
+              <tr><td>neonatalyte iv infusion</td><td>B N</td><td colSpan="3">oral, nasogastric and intravenous.</td></tr>
+              <small>*This can be made up by withdrawing 30 ml from a 200 ml bag of half strength Darrows/dextrose 2.5% and replacing with 30 ml of 50% dextrose</small>
+              </table>
+            </li>
+          </ul>
+          <p>Consider transfer to a specialist unit for babies unable to feed and requiring intravenous fluids for longer than 3 days. (ALWAYS KEEP THE BABY WARM)</p>
       </div>
       },
       {
