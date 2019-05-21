@@ -139,6 +139,27 @@ export let chapter_three = {
         </div>
       },
       {
+        short_title:"Section 5", 
+        long_title: "Neonatal Infections", 
+        content: 
+        <div>
+          <h2>Neonatal Infection</h2>
+          <table>
+            <caption>Table 3.2 Gentamicin dosages:</caption>
+            <tr><th colSpan="4">Premature or full term neonates up to 7days old</th></tr>
+            <tr><th>Weight</th><th>Age</th><th>Dose</th><th>Frequency</th></tr>
+            <tr><td>less than 1000gm</td><td>28 weeks</td><td>2.5mg/kg</td><td>once every 24hrs</td></tr>
+            <tr><td>more than 1000gm</td><td>&gt;28weeks</td><td>2.5mg/kg</td><td>every 12hrs</td></tr>
+            <tr><th>Neonates more than 7 days old</th></tr>
+            <tr><td colSpan="2">less than 1200gm</td><td>2.5mg/kg</td><td>every 12hrs</td></tr>
+            <tr><td colSpan="2">more than 1200gm</td><td>2.5mg/kg</td><td>every 8hrs</td></tr>
+          </table>
+          <small>*consider -once daily gentamicin dosing in neonates &lt;35 weeks gestation: 3mg/kg every 24 hours, &gt;35 weeks gestation: 4mg/kg every 24hours and &gt;37 weeks: 5mg/kg</small>
+          <p>There are usually few localising signs in infants, and accurate diagnosis may not be possible. The following regimens are recommended for suspected sepsis.</p>
+        </div>
+
+      },
+      {
             short_title: "Section 12",
             long_title: "Acute Respiratory Infections",
             content:
