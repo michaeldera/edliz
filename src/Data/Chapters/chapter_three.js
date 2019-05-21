@@ -101,15 +101,22 @@ export let chapter_three = {
           <h4>Helping babies survive</h4>
           <p>Every newborn baby must receive the &quot;Essential Care for Every Baby&quot; package of care is essential for preventing and managing common illnesses in the first 24hrs of life when newborn mortality is highest</p>
           <small>See management algorithm on the next page</small>
-          <h4>Feeding and Fluids</h4>
+        </div>
+      },
+      {
+        short_title: "Section 4",
+        long_title: "Feeding and Fluids", 
+        content:
+        <div>
+          <h2>Feeding and Fluids</h2>
           <p>In general, babies should breast-feed on demand from birth. There is no need for supplemental water or other feeds.</p>
           <p>For babies requiring special care (low birth weight, birth asphyxia,infection, etc) the following fluid regimen based on birth weight is recommended:</p>
-          <h5>Oral feeds</h5>
+          <h3>Oral feeds</h3>
           <ul>
             <li>Day 1: 60ml per kg per 24 hrs. [40ml/kg/24hrs in severe birth asphyxia and meningitis].</li>
             <li>Day 2 and subsequently: Increase by 20-30ml per kg per 24hrs depending on the general condition, to 150ml/kg/24hrs. If this is well tolerated increase further to 180-200ml/kg/24hrs</li>
           </ul>
-          <h5>Intravenous Fluids</h5>
+          <h3>Intravenous Fluids</h3>
           <p><em>If intravenous not possible, try nasogastric feeding.</em></p>
           <ul>
             <li>Day 1
@@ -130,7 +137,6 @@ export let chapter_three = {
           </ul>
           <p>Consider transfer to a specialist unit for babies unable to feed and requiring intravenous fluids for longer than 3 days. (ALWAYS KEEP THE BABY WARM)</p>
         </div>
-
       },
       {
             short_title: "Section 12",
