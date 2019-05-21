@@ -3,8 +3,20 @@ import React from 'react';
 export let chapter_three = {
     short_title: "Chapter 3",
     long_title: "Paediatric Conditions",
-    subsections: [{
-      short_title: "Section 0", 
+    subsections: [
+      {
+        short_title: "Section 0", 
+        long_title:  "General Notes",
+        content: 
+        <div>
+          <h2>General Notes</h2>
+          <p>The content of this chapter reflects the major causes of infant mortality and morbidity in Zimbabwe - prematurity, neonatal sepsis,perinatal asphyxia, acute respiratory infections, diarrhoeal diseases, malnutrition and, immunisable diseases. Some of the paediatric conditions may have underlying HIV infection.</p>
+          <p>Other paediatric conditions have been described in the relevant chapters in EDLIZ, and where possible paediatric doses have been given.</p>
+          <p>Note: doses are also given by age and weight wherever possible, and volumes of liquids or injections to be administered are indicated. <strong>Always check</strong> the concentration of the preparation however, as preparations may change. This should not be seen as a &quot;short-cut&quot; to calculating the proper dose.</p>
+        </div>
+      },
+      {
+      short_title: "Section 1", 
       long_title:  "Neonatal Conditions",
       content: 
       <div>
@@ -90,7 +102,7 @@ export let chapter_three = {
                 <tr><td>dextrose 10% iv infusion</td><td>A N</td><td colSpan="3">60ml/kg/24hrs</td></tr>
               </table>
             </li>
-            <li>Day 1
+            <li>Day 2
               <table>
               <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq</th><th>Duration</th></tr>
                 <tr><td>darrows half strength / dextrose 2.5% iv with 10% dextrose infusion*</td><td>C V</td><td colSpan="3">Same as for oral fluids up to a max. of 150ml/kg/24hrs – inclusive of all fluids Administered</td></tr>
