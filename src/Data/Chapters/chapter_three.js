@@ -37,7 +37,14 @@ export let chapter_three = {
           </table>
           <small>NB: Not for gentamicin &mdash; see table 3.2</small>
           <small>For example: Benzyl pencillin dose 100,000u/kg/dose (0.1MU/kg) Thus a 2kg pre-term baby 5 days old would receive 200,000u Benzyl penicillin every 12 hours, whilst a 2kg term baby 5 days old would receive 200,000u every 8 hours.</small>
-          <h3>Routine Management at Birth</h3>
+      </div>
+      },
+      {
+        short_title: "Section 2",
+        long_title: "Routine Management At Birth",
+        content: 
+        <div>
+          <h2>Routine Management at Birth</h2>
           <ul>
             <li>Do not suction mouth routinely, only if there is something (e.g. thick meconium) to suck out.</li>
             <li>Dry and wrap up, preferably in a dry pre-warmed soft towel</li>
@@ -113,40 +120,10 @@ export let chapter_three = {
             </li>
           </ul>
           <p>Consider transfer to a specialist unit for babies unable to feed and requiring intravenous fluids for longer than 3 days. (ALWAYS KEEP THE BABY WARM)</p>
-      </div>
+        </div>  
+
       },
       {
-      short_title: "Section 1",
-      long_title: "Paediatric Conditions",
-      content:
-        <div>
-          <h1>Paediatric Conditions</h1>
-          <p>Common paediatric conditions such as acute respiratory infections (ARI), diarrhoea, child with fever (axillary temperature 37.5<sup>o</sup>C and above); severe malnutrition (PEM) are now incorporated in the Integrated Management of Childhood Illness (IMCI).</p>
-          <p><strong>General guidelines on the use of </strong></p>
-          <p>Paediatric doses are given in Tables 2.6 and 2.7 (Neonatal doses are given separately in Table 2.3)</p>
-          <ul>
-            <li>always do blood cultures in suspected sepsis.</li>
-            <li>supportive measures are often more important than antibiotics themselves: for example, fluids in diarrhoea and vomiting;</li>
-            <li>antibiotics should be given in the full dosage appropriate for the age and weight of the child;
-        <strong>dosage is best calculated according to body weight</strong> up to 40kg (do not exceed the adult dose);</li>
-            <li>change to oral administration wherever possible (except for meningitis); benzylpenicillin intramuscularly/ intravenously can be changed to procaine penicillin intramuscularly (if response is good) once child is afebrile. </li>
-          </ul>
-          <p><strong>Check for General Danger Signs:</strong></p>
-          <p><strong>Ask:</strong></p>
-          <ul>
-            <li> if the child is not able to drink or breastfeed</li>
-            <li> if the child is vomiting everything</li>
-            <li> if the child has had convulsions</li>
-            <li> if there are periods of not </li>
-          </ul>
-          <p><strong>Look</strong> to see:</p>
-          <ul>
-            <li> If the child is lethargic or unconscious.</li>
-          </ul>
-          <p>A child with <strong>any</strong> general dcptrial sign needs <strong>urgent</strong> attention.</p>
-          </div>
-          },
-          {
             short_title: "Section 2",
             long_title: "Acute Respiratory Infections",
             content:
