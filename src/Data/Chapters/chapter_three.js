@@ -76,6 +76,11 @@ export let chapter_three = {
           <h4>Feeding and Fluids</h4>
           <p>In general, babies should breast-feed on demand from birth. There is no need for supplemental water or other feeds.</p>
           <p>For babies requiring special care (low birth weight, birth asphyxia,infection, etc) the following fluid regimen based on birth weight is recommended:</p>
+          <h5>Oral feeds</h5>
+          <ul>
+            <li>Day 1: 60ml per kg per 24 hrs. [40ml/kg/24hrs in severe birth asphyxia and meningitis].</li>
+            <li>Day 2 and subsequently: Increase by 20-30ml per kg per 24hrs depending on the general condition, to 150ml/kg/24hrs. If this is well tolerated increase further to 180-200ml/kg/24hrs</li>
+          </ul>
       </div>
       },
       {
