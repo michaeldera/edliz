@@ -135,7 +135,7 @@ export let chapter_three = {
               </table>
             </li>
           </ul>
-          <p>Consider transfer to a specialist unit for babies unable to feed and requiring intravenous fluids for longer than 3 days. (ALWAYS KEEP THE BABY WARM)</p>
+          <p>Consider transfer to a specialist unit for babies unable to feed and requiring intravenous fluids for longer than 3 days. <strong>Always keep the baby warm</strong></p>
         </div>
       },
       {
