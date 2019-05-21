@@ -63,6 +63,15 @@ export let chapter_three = {
             </li>
             <li>Hand the baby to the mother for her to put immediately to breast</li>
           </ul>
+          
+        </div>  
+
+      },
+      {
+        short_title: "Section 3",
+        long_title: "Rescuscitation of the newborn",
+        content: 
+        <div>
           <h4>Resuscitation of the newborn</h4>
           <p>Essential Newborn Care</p>
           <ul>
@@ -120,11 +129,11 @@ export let chapter_three = {
             </li>
           </ul>
           <p>Consider transfer to a specialist unit for babies unable to feed and requiring intravenous fluids for longer than 3 days. (ALWAYS KEEP THE BABY WARM)</p>
-        </div>  
+        </div>
 
       },
       {
-            short_title: "Section 2",
+            short_title: "Section 12",
             long_title: "Acute Respiratory Infections",
             content:
           <div>
