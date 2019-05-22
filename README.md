@@ -27,5 +27,6 @@ The project was started by Dr Tafadzwa Liberty Nyeve and  [Michael Dera](https:/
 If you contribute to this  project please add your name on this list along with you pull request
 
 1. Dr. Tafadzwa Liberty Nyeve
-1. Michael Dera
-1. Noel Moyo
+2. Michael Dera
+3. Noel Moyo
+4. Rou Mills
