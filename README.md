@@ -1,10 +1,15 @@
 # EDLIZ Essential Drugs and Medicines List  for Zimbabwe
 
-[![Build Status](https://dev.azure.com/Devshopzw/EDLIZ/_apis/build/status/edliz-ci-dev?branchName=master)](https://dev.azure.com/Devshopzw/EDLIZ/_build/latest?definitionId=20&branchName=master)
+[![Build Status](https://dev.azure.com/Devshopzw/EDLIZ/_apis/build/status/EDLIZ-CI?branchName=dev)](https://dev.azure.com/Devshopzw/EDLIZ/_build/latest?definitionId=10&branchName=dev)
+
 
 ## Motivation
 
 The guidelines are meant to be a pocketbook for every medical health professional and student in Zimbabwe. The aim of this project is to make the guidleine more accessible and reduce the costs of distribution.
+
+## Quick Start
+1. Run yarn install
+1. Run yarn start and keep the process running
 
 ## Download the pdf
 

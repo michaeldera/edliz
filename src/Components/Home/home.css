@@ -1,44 +1,129 @@
-.home{
-    padding: 10vh 10vw;
-    text-align:left;
-	background-color: #0093E9;
-	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);	
-    color:  #fff;
-    min-height: 80vh;
+.home {
+    display: flex;
+    box-sizing:border-box;
+    flex-direction: row;
+    padding: 80px;
+    -ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+    margin-bottom: 30px;
+    min-height: calc(100vh - 140px);
 }
 
-.main-title{
-    font-size: 2.4em;
-    line-height:  1.2;
+.main-title {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 38px;
+    color: #333333;
+    letter-spacing: 1.08px;
+    line-height: 46px;
+}
+.medicine-illustration-sm{
+    display: none;
 }
 
-.btn-read-guidelines {
-    border-radius: 50vh;
-    color:#0073c9;
-    font-family: 'Sarabun' sans-serif;
-    font-size:0.85em;
-    margin:5px;
-    margin-left:0;
-    box-shadow:  6px 6px 8px #0093e9;
-    padding: 3px 8px ;
-    border:1px solid #fff;
-    text-align: left;
-    background-color: #ffffff;
+.medicine-illustration{
+    box-sizing: border-box;
+    padding:40px;
+    max-width: 40vw;
+    max-height: 40vh;
+    margin-top:10vh;
 }
 
-.edliz-intro{
-    font-size: 1em;
-    line-height: 1.2em;
-    margin-bottom: 1.1em;
-    margin-top: 1.1em;
-    color: #fff;
+.introduction {
+    font-family: 'IBM Plex Serif', serif;
+    max-width: 1040px;
+    font-size: 18px;
+    color: #666666;
+    letter-spacing: 0.26px;
+    line-height: 30px;
+    margin: 40px auto;
 }
 
-.btn-settings {
-    border-radius: 50vh;
-    color: #ffffff;
-    font-size:0.85em;
-    border:1px solid #ffffff;
+
+.github {
+    display: flex;
+    justify-items: baseline;
+    margin: 0 0 150px 50px;
+    text-align: right;
+}
+.github img {
     margin-right: 6px;
-    padding: 3px 8px ;
+}
+.github small {
+    color: #6c63ff;
+    font-family: 'IBM Plex Serif', serif;
+    line-height:20px;
+    font-size: 14px;
+    letter-spacing: 0.26px;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {  
+    .home {
+        padding: 50px;
+    }  
+    .main-title {
+        font-size: 28px;
+    }
+    .introduction{
+        font-size:16px;
+        line-height:26px;
+    }
+    .medicine-illustration-sm{
+        display: block;
+        max-width: 60vw;
+        margin: 40px auto;
+    }
+}
+
+@media (min-width: 781px) {
+    .main-title {
+      margin: 90px 0 30px 0px;
+    }
+}
+
+@media (max-width: 780px) {
+    .home {
+        padding: 60px 15px 15px;
+    }    
+
+    .main-title {
+        font-size: 22px;
+        line-height: 26px;
+        margin: 30px auto 24px;
+        text-align: center;
+    }
+
+    .introduction {
+        font-size: 14px;
+        color: #101010;
+        line-height: 22px;
+        margin: 50px auto 40px;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    
+.start-reading {
+    text-align: center;
+}
+
+    .github {
+        display: flex;
+        justify-items: baseline;
+        margin: 0 10px 50px 10px;
+        text-align:center;
+    }
+    
+    .github img {
+        display: none;
+    }
+    .github small {
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 0.26px;
+        margin: 0 auto;
+    }
 }

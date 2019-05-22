@@ -1,0 +1,38 @@
+.main-nav{
+    line-height: 50px;
+    text-align: center;
+}
+
+.main-nav a {
+    margin-right: 14px;
+    margin-left: 14px;
+    text-decoration: none;
+}
+
+@media (max-width: 780px) {
+
+    .nav-on .main-nav{
+        display: block;
+    }
+
+    .nav-off .main-nav{
+        display: none;
+    }
+    .main-nav{
+        width: 100%;
+        position: fixed;
+        top:0;
+        background: #fff;
+        padding-top:50px;    
+        border-bottom: 1px solid #99f;
+    }
+    .main-nav a {        
+        color: #6c63ff;
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+        background: #ccf;
+        margin-top: 1px;
+        line-height: 60px;
+    }
+}

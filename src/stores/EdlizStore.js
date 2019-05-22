@@ -9,16 +9,19 @@ class EdlizStore {
   preferences = 'closed'
   books = book
 
+    // function toggles the Preference Panel. First it checks if the Navigation Panel is open (and closes it if it is). After that it toggles the state of the Preference panel.
   togglePreferences = (preferences) => {
     if (this.navigation === 'open') {
-      this.toggleNavigationPanel()
+      this.navigation = 'closed';
     }
     this.preferences = preferences === 'open' ? 'closed' : 'open'
   }
 
-  toggleNavigationPanel = navigation =>{
-    if (this.preferences === "open") {
-      this.togglePreferences();
+
+  // function toggles the Navigation Panel. First it checks if the Preferences Panel is open (and closes it if it is). After that it toggles the state of the  Navigation panel.
+  toggleNavigationPanel = navigation => {
+    if (this.preferences === 'open') {
+      this.preferences = 'closed';
     }
     this.navigation = navigation === 'open' ? 'closed' : 'open'
   }

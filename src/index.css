@@ -1,8 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #cae6f4;
+  background-color: #ffffff;
   font-family: 'IBM Plex Serif', serif;
+  font-weight: 300;
   transition: all 2s ease;
   line-height:1.5;
 }
@@ -19,3 +20,9 @@ h3{ font-size: 1.25em}
 h4{ font-size: 1.20em}
 h5{ font-size: 1.15em}
 h6{ font-size: 1.10em}
+
+.main{
+  text-align:left;
+  background-color: #ffffff;	
+  min-height: 80vh;
+}

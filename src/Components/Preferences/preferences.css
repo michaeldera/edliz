@@ -73,7 +73,7 @@
   height: 20px;
   width: 20px;
   border-radius: 50vh;
-  background: #21d4fd;
+  background: #6c63ff;
   cursor: pointer;
   margin-top: -10px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ /* Add cool effects to your sliders! */
 }
@@ -83,7 +83,7 @@
   height: 20px;
   width: 20px;
   border-radius: 50vh;
-  background: #21d4fd;
+  background:#6c63ff;
   cursor: pointer;
 }
 
@@ -93,7 +93,7 @@
   width: 20px;
   border: #000;
   border-radius: 50vh;
-  background: #21d4fd;
+  background: #6c63ff;
   cursor: pointer;
 }
 
@@ -102,7 +102,7 @@
   width: 100%;
   height: 1px;
   cursor: pointer;
-  background-color: #21d4fd;
+  background-color: #6c63ff;
   background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
   border-radius: 50vh;
 }
@@ -111,7 +111,7 @@
   width: 100%;
   height: 1px;
   cursor: pointer;
-  background-color: #21d4fd;
+  background-color: #6c63ff;
   background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
   border-radius: 50vh;
 }
@@ -125,20 +125,20 @@
   color: transparent;
 }
 .font-size-input::-ms-fill-lower {
-  background-color: #21d4fd;
+  background-color: #6c63ff;
   background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
   border-radius: 50vh;
 }
 .font-size-input:focus::-ms-fill-lower {
-  background-color: #21d4fd;
+  background-color:#6c63ff;
   background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
 }
 .font-size-input::-ms-fill-upper {
-  background-color: #21d4fd;
+  background-color: #6c63ff;
   background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
   border-radius: 50vh;
 }
 .font-size-input:focus::-ms-fill-upper {
-  background-color: #21d4fd;
+  background-color: #6c63ff;
   background-image: linear-gradient(122deg, #21d4fd 0%, #b721ff 100%);
 }

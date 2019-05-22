@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "husky": "^2.2.0",
     "mobx": "^5.9.0",
     "mobx-react": "^5.4.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-media": "^1.9.2",
     "react-mobx": "^0.0.4",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.1"
+    "react-scripts": "^2.1.1",
+    "react-scroll": "^1.7.11"
   },
   "scripts": {
     "start": "react-scripts start",
