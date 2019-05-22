@@ -2,30 +2,67 @@ import React from 'react';
 import './preferences.css'
 import Overlay from '../../Views/Overlay/Overlay';
 
-export default class Preferences extends React.PureComponent {
-
+export default class Preferences extends React.Component {
+  constructor(props){
+    super(props);
+    this.panel = React.createRef();
+    this.state ={isDragging : false, yPosition : null, bottom: 0};
+  }
   handlePreferences = () => {
     const { preferences, toggle } = this.props
     toggle(preferences)
   }
 
   handleMode = () => {
-    const { mode, toggleMode } = this.props
-    toggleMode(mode)
+    const { mode, toggleMode } = this.props;
+    toggleMode(mode);
   }
 
   handleFontSizeChange = event => {
     this.props.fontSizeChange(event.target.value)
   }
 
+  onTouchStart = event => {
+    console.log("Touch Started");
+    let offsetBottom = this.panel.current.offsetBottom;
+    this.setState({
+      yPosition : offsetBottom,
+      isDragging: true
+    })
+    event.stopPropagation();
+    event.preventDefault()
+  }
+
+  onTouchMove = event  => {
+    if(!this.state.isDragging) return;
+    this.setState({
+      bottom : event.pageY - this.state.yPosition 
+    });
+    event.stopPropagation();
+    event.preventDefault();
+  }
+
+  onTouchEnd = event => {
+    this.setState({
+      isDragging: false
+    });
+    if(this.state.bottom > -150 ){
+      this.setState({
+        bottom: 0
+      });
+    }
+    event.stopPropagation();
+    event.preventDefault();
+  }
+
   render(){
       const {preferences, mode, fontSize} =this.props;
-      const bottom = (preferences === "open") ? "0" : "-300px";
+      const bottom = (preferences === "open") ? this.state.bottom : "-300px";
       const  overlayVisibility = (preferences === "open")?  "visible" : "hidden";
       return (
           <React.Fragment>
-              <div className="preferences" style={{ bottom: bottom }}>
-                  <DrawerButton action={this.handlePreferences}/>                         
+              <div ref="panel" className="preferences" style={{ bottom: bottom }}>
+                  <DrawerButton action={this.handlePreferences} onDragAction={this.onTouchStart} onTouchMove={this.onTouchMove} onTouchEnd={this.onTouchEnd}/>                         
                   <label htmlFor="font-size-input" className="font-size-label">FONT SIZE</label>
                   <section className="p-section">
                       <input name="font-size-input" className="font-size-input" type="range" min="10" max="20" value={fontSize} onChange={this.handleFontSizeChange} />
@@ -49,7 +86,7 @@ class DrawerButton extends React.PureComponent {
           margin: "0.6rem auto 2.8rem auto",
           width: "2.6rem"
       };
-      return <div onClick={this.props.action} style={drawerButtonStyle}></div>;
+      return <div onClick={this.props.action} onTouchStart={this.props.dragAction} style={drawerButtonStyle}></div>;
   }
 }
 
