@@ -97,6 +97,12 @@ table{
     }
 }
 
+@media screen and (min-width: 992px){
+    .screen::-webkit-scrollbar {
+        width: auto;
+    }
+}
+
 .boxedlist{
     border: 1px solid;
     padding: 1em 3em;
