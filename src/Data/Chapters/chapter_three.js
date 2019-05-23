@@ -3,8 +3,20 @@ import React from 'react';
 export let chapter_three = {
     short_title: "Chapter 3",
     long_title: "Paediatric Conditions",
-    subsections: [{
-      short_title: "Section 0", 
+    subsections: [
+      {
+        short_title: "Section 0", 
+        long_title:  "General Notes",
+        content: 
+        <div>
+          <h2>General Notes</h2>
+          <p>The content of this chapter reflects the major causes of infant mortality and morbidity in Zimbabwe - prematurity, neonatal sepsis,perinatal asphyxia, acute respiratory infections, diarrhoeal diseases, malnutrition and, immunisable diseases. Some of the paediatric conditions may have underlying HIV infection.</p>
+          <p>Other paediatric conditions have been described in the relevant chapters in EDLIZ, and where possible paediatric doses have been given.</p>
+          <p>Note: doses are also given by age and weight wherever possible, and volumes of liquids or injections to be administered are indicated. <strong>Always check</strong> the concentration of the preparation however, as preparations may change. This should not be seen as a &quot;short-cut&quot; to calculating the proper dose.</p>
+        </div>
+      },
+      {
+      short_title: "Section 1", 
       long_title:  "Neonatal Conditions",
       content: 
       <div>
@@ -25,7 +37,14 @@ export let chapter_three = {
           </table>
           <small>NB: Not for gentamicin &mdash; see table 3.2</small>
           <small>For example: Benzyl pencillin dose 100,000u/kg/dose (0.1MU/kg) Thus a 2kg pre-term baby 5 days old would receive 200,000u Benzyl penicillin every 12 hours, whilst a 2kg term baby 5 days old would receive 200,000u every 8 hours.</small>
-          <h3>Routine Management at Birth</h3>
+      </div>
+      },
+      {
+        short_title: "Section 2",
+        long_title: "Routine Management At Birth",
+        content: 
+        <div>
+          <h2>Routine Management at Birth</h2>
           <ul>
             <li>Do not suction mouth routinely, only if there is something (e.g. thick meconium) to suck out.</li>
             <li>Dry and wrap up, preferably in a dry pre-warmed soft towel</li>
@@ -44,6 +63,15 @@ export let chapter_three = {
             </li>
             <li>Hand the baby to the mother for her to put immediately to breast</li>
           </ul>
+          
+        </div>  
+
+      },
+      {
+        short_title: "Section 3",
+        long_title: "Rescuscitation of the newborn",
+        content: 
+        <div>
           <h4>Resuscitation of the newborn</h4>
           <p>Essential Newborn Care</p>
           <ul>
@@ -53,41 +81,86 @@ export let chapter_three = {
             <li>Put baby skin to skin with the mother</li>
             <li><strong>Do not leave the baby alone</strong></li>
           </ul>
-      </div>
+          <p>Ensuring adequate warmth and ventilation (either by mask or intubation) is much more important than administering any medicines.</p>
+          <p>The following may be useful:</p>
+          <table>
+            <caption>For respiratory depression,but only if the mother was given pethidine in labour:</caption>
+                <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Frequency</th></tr>
+                <tr><td rowSpan="4">naloxane neonatal 20mcg/ml im <br/><em>NB: Note strength</em></td><td rowSpan="4">B V</td><td>&lt; 0 to 1kg: 10mcg = 0.5ml</td><td rowSpan="4">repeat as necessary</td></tr>
+                <tr><td> 1 to 2kg: 20mcg = 1ml</td></tr>
+                <tr><td> 2 to 3kg: 30mcg = 1.5ml</td></tr>
+                <tr><td>more than 4kg: 40mcg = 2ml</td></tr>
+                <tr><td>adrenaline dilute 1:10 000</td><td>C V</td><td>10mcg 1ml/kg</td><td>repeat as necessary</td></tr>
+          </table>
+          <table>
+            <caption><strong>Only</strong> if the baby has no spontaneous breathing after 5 minutes of ventilation, give a <strong>slow intravenous injection directly into the umbilical vein:</strong></caption>
+                <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th></tr>
+                <tr><td>sodium bicarbonate<br/>slow iv 4.2%</td><td>B N</td><td>4 to 6 ml/kg</td></tr>
+          </table>
+          <small><strong>or</strong> 2-3 ml/kg of 8.4% solution diluted with equal quantity of water for injection, if only strength available.</small>
+          <h4>Helping babies survive</h4>
+          <p>Every newborn baby must receive the &quot;Essential Care for Every Baby&quot; package of care is essential for preventing and managing common illnesses in the first 24hrs of life when newborn mortality is highest</p>
+          <small>See management algorithm on the next page</small>
+        </div>
       },
       {
-      short_title: "Section 1",
-      long_title: "Paediatric Conditions",
-      content:
+        short_title: "Section 4",
+        long_title: "Feeding and Fluids", 
+        content:
         <div>
-          <h1>Paediatric Conditions</h1>
-          <p>Common paediatric conditions such as acute respiratory infections (ARI), diarrhoea, child with fever (axillary temperature 37.5<sup>o</sup>C and above); severe malnutrition (PEM) are now incorporated in the Integrated Management of Childhood Illness (IMCI).</p>
-          <p><strong>General guidelines on the use of </strong></p>
-          <p>Paediatric doses are given in Tables 2.6 and 2.7 (Neonatal doses are given separately in Table 2.3)</p>
+          <h2>Feeding and Fluids</h2>
+          <p>In general, babies should breast-feed on demand from birth. There is no need for supplemental water or other feeds.</p>
+          <p>For babies requiring special care (low birth weight, birth asphyxia,infection, etc) the following fluid regimen based on birth weight is recommended:</p>
+          <h3>Oral feeds</h3>
           <ul>
-            <li>always do blood cultures in suspected sepsis.</li>
-            <li>supportive measures are often more important than antibiotics themselves: for example, fluids in diarrhoea and vomiting;</li>
-            <li>antibiotics should be given in the full dosage appropriate for the age and weight of the child;
-        <strong>dosage is best calculated according to body weight</strong> up to 40kg (do not exceed the adult dose);</li>
-            <li>change to oral administration wherever possible (except for meningitis); benzylpenicillin intramuscularly/ intravenously can be changed to procaine penicillin intramuscularly (if response is good) once child is afebrile. </li>
+            <li>Day 1: 60ml per kg per 24 hrs. [40ml/kg/24hrs in severe birth asphyxia and meningitis].</li>
+            <li>Day 2 and subsequently: Increase by 20-30ml per kg per 24hrs depending on the general condition, to 150ml/kg/24hrs. If this is well tolerated increase further to 180-200ml/kg/24hrs</li>
           </ul>
-          <p><strong>Check for General Danger Signs:</strong></p>
-          <p><strong>Ask:</strong></p>
+          <h3>Intravenous Fluids</h3>
+          <p><em>If intravenous not possible, try nasogastric feeding.</em></p>
           <ul>
-            <li> if the child is not able to drink or breastfeed</li>
-            <li> if the child is vomiting everything</li>
-            <li> if the child has had convulsions</li>
-            <li> if there are periods of not </li>
+            <li>Day 1
+              <table>
+              <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq</th><th>Duration</th></tr>
+                <tr><td>dextrose 10% iv infusion</td><td>A N</td><td colSpan="3">60ml/kg/24hrs</td></tr>
+              </table>
+            </li>
+            <li>Day 2
+              <table>
+              <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq</th><th>Duration</th></tr>
+                <tr><td>darrows half strength / dextrose 2.5% iv with 10% dextrose infusion*</td><td>C V</td><td colSpan="3">Same as for oral fluids up to a max. of 150ml/kg/24hrs – inclusive of all fluids Administered</td></tr>
+              <tr><td colSpan="5">or</td></tr>
+              <tr><td>neonatalyte iv infusion</td><td>B N</td><td colSpan="3">oral, nasogastric and intravenous.</td></tr>
+              <small>*This can be made up by withdrawing 30 ml from a 200 ml bag of half strength Darrows/dextrose 2.5% and replacing with 30 ml of 50% dextrose</small>
+              </table>
+            </li>
           </ul>
-          <p><strong>Look</strong> to see:</p>
-          <ul>
-            <li> If the child is lethargic or unconscious.</li>
-          </ul>
-          <p>A child with <strong>any</strong> general dcptrial sign needs <strong>urgent</strong> attention.</p>
-          </div>
-          },
-          {
-            short_title: "Section 2",
+          <p>Consider transfer to a specialist unit for babies unable to feed and requiring intravenous fluids for longer than 3 days. <strong>Always keep the baby warm</strong></p>
+        </div>
+      },
+      {
+        short_title:"Section 5", 
+        long_title: "Neonatal Infections", 
+        content: 
+        <div>
+          <h2>Neonatal Infection</h2>
+          <table>
+            <caption>Table 3.2 Gentamicin dosages:</caption>
+            <tr><th colSpan="4">Premature or full term neonates up to 7days old</th></tr>
+            <tr><th>Weight</th><th>Age</th><th>Dose</th><th>Frequency</th></tr>
+            <tr><td>less than 1000gm</td><td>28 weeks</td><td>2.5mg/kg</td><td>once every 24hrs</td></tr>
+            <tr><td>more than 1000gm</td><td>&gt;28weeks</td><td>2.5mg/kg</td><td>every 12hrs</td></tr>
+            <tr><th>Neonates more than 7 days old</th></tr>
+            <tr><td colSpan="2">less than 1200gm</td><td>2.5mg/kg</td><td>every 12hrs</td></tr>
+            <tr><td colSpan="2">more than 1200gm</td><td>2.5mg/kg</td><td>every 8hrs</td></tr>
+          </table>
+          <small>*consider -once daily gentamicin dosing in neonates &lt;35 weeks gestation: 3mg/kg every 24 hours, &gt;35 weeks gestation: 4mg/kg every 24hours and &gt;37 weeks: 5mg/kg</small>
+          <p>There are usually few localising signs in infants, and accurate diagnosis may not be possible. The following regimens are recommended for suspected sepsis.</p>
+        </div>
+
+      },
+      {
+            short_title: "Section 12",
             long_title: "Acute Respiratory Infections",
             content:
           <div>
