@@ -105,11 +105,6 @@
         text-align: center;
     }
 
-    
-.start-reading {
-    text-align: center;
-}
-
     .github {
         display: flex;
         justify-items: baseline;
