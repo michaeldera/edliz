@@ -1,7 +1,7 @@
-.rounded-btn {
+.btn {
     font-family: IBMPlexSerif-Light;
     background: #6c63ff;
-    border-radius: 100px;
+    border-radius: 6px;
     padding: 14px 20px;
     font-size: 14px;
     color: #ffffff;
@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-a.rounded-btn:hover,
-.rounded-btn:hover {
+a.btn:hover,
+.btn:hover {
     opacity: 0.6;
 }

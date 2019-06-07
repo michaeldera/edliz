@@ -7,7 +7,7 @@ import './Button.css'
 const Button = props => {
     let {type = 'link', className = '', ...rest} = props
 
-    className += ' rounded-btn'
+    className += ' btn'
 
     switch (type) {
         case 'a':
@@ -21,7 +21,7 @@ const Button = props => {
             return <button type='button' className={className} {...rest} />
 
         default:
-            console.error(`Invalid RoundedBtn type passed in props: ${type}`)
+            console.error(`Invalid Button type passed in props: ${type}`)
             return null
     }
 }
