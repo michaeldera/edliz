@@ -8,6 +8,9 @@
     margin-left: 14px;
     text-decoration: none;
 }
+    .main-nav a > img {        
+        display:none;
+    }
 
 @media (max-width: 780px) {
 
@@ -21,7 +24,6 @@
     .main-nav{
         position: fixed;
         top:0;
-        font-size:1.1rem;
         margin-left: 14px;
         background: #fff;
         margin-top:56px;
