@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from "react-router-dom"
 import Media from 'react-media'
 import MainMenu from '../MainMenu/MainMenu'
-import RoundedBtn from '../RoundedBtn/RoundedBtn'
+import Button from '../Button/Button'
 import Github from './github.svg'
 import medicine from './medicine.svg'
 import './home.css';
