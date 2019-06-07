@@ -5,7 +5,7 @@
   border-top-right-radius: 16px;
   border-top-left-radius: 16px;
   transition: all 2s ease;
-  box-shadow: 8px 0 8px #999;
+
   width: 100vw;
   z-index: 999;
   /* Transitions */
@@ -14,11 +14,13 @@
   transition: all 0.3s ease;
 }
 
-.day.preferences{
+.day.preferences{  
+    box-shadow: 0 0 16px #999;
     background-color: #fff;
 }
 
 .night.preferences {
+      box-shadow: 0 0 16px #333;
      background-color: #2a2a2a;
 }
 
@@ -31,8 +33,7 @@
   line-height: 24pt;
   padding: 0;
   margin: 0;
-  margin-bottom: 6px;
-  color: #ccc;
+  color: #aaa;
 }
 
 @media screen and (max-width: 450px) {
@@ -48,9 +49,7 @@
   display: block;
   -webkit-appearance: none;
   background: transparent;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom:16px;
+  margin: 16px auto;
   min-width: 70%;
 }
 
