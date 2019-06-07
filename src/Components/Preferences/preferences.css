@@ -5,8 +5,7 @@
   border-top-right-radius: 16px;
   border-top-left-radius: 16px;
   transition: all 2s ease;
-  background-color: #fff;
-  box-shadow: 8px 0 8px #bbb;
+  box-shadow: 8px 0 8px #999;
   width: 100vw;
   z-index: 999;
   /* Transitions */
@@ -15,18 +14,24 @@
   transition: all 0.3s ease;
 }
 
+.day.preferences{
+    background-color: #fff;
+}
+
+.night.preferences {
+     background-color: #2a2a2a;
+}
+
 .p-section {
-  border-top: 1px solid #eee;
   padding-top: 24px;
   padding-bottom: 6px;
-  border-bottom: 1px solid #eee;
 }
 
 .preview-text {
   line-height: 24pt;
   padding: 0;
   margin: 0;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
   color: #ccc;
 }
 
@@ -36,11 +41,7 @@
   }
 }
 
-.font-size-label {
-  margin: 0.1em;
-  font-size: 0.7em;
-  display: block;
-}
+
 /* Clear all default formating for range inputs*/
 
 .font-size-input {

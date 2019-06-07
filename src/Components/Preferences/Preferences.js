@@ -61,11 +61,10 @@ export default class Preferences extends React.Component {
       const  overlayVisibility = (preferences === "open")?  "visible" : "hidden";
       return (
           <React.Fragment>
-              <div ref="panel" className="preferences" style={{ bottom: bottom }}>
+              <div ref="panel" className={mode + " preferences"} style={{ bottom: bottom }}>
                   <DrawerButton action={this.handlePreferences} onDragAction={this.onTouchStart} onTouchMove={this.onTouchMove} onTouchEnd={this.onTouchEnd}/>                         
-                  <label htmlFor="font-size-input" className="font-size-label">FONT SIZE</label>
                   <section className="p-section">                      
-                      <p className="preview-text" style={{fontSize: fontSize + 'pt'}}>Preview Reading Text</p>
+                      <label htmlFor="font-size-input" className="preview-text" style={{fontSize: fontSize + 'pt'}}>Preview Reading Text</label>
                       <input name="font-size-input" className="font-size-input" type="range" min="10" max="20" value={fontSize} onChange={this.handleFontSizeChange} />
                   </section>
                   <ModeButton toggle={this.handleMode} mode={mode}/>
@@ -93,16 +92,14 @@ class DrawerButton extends React.PureComponent {
 class ModeButton extends React.PureComponent {
   render(){
       let modeButtonStyle = {
-          borderRadius: "50vh",
-          backgroundColor:"#eee",
-          color:"#6c63ff",
-          border: "1px solid #6c63ff",
-          lineHeight:  "0.8rem",
-          fontSize: "0.7rem",
+          borderRadius: "4px",
+          backgroundColor:"#6c63ff",
+          border: "none",
+          color:"#ccf",
           fontFamily: "'Muli' sans-serif",
           margin:"26px",
           width:"5rem",
-          padding: "4px 10px",
+          padding: "8px 16px",
           outline: "none"
       };
 
