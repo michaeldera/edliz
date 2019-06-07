@@ -11,6 +11,6 @@
 	background-color: #6c63ff;
 }
 
-.nav-btn:focus{
+.btn-preferences:focus{
     outline:none;
 }
