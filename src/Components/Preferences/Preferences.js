@@ -99,10 +99,11 @@ class ModeButton extends React.PureComponent {
           border: "1px solid #6c63ff",
           lineHeight:  "0.8rem",
           fontSize: "0.7rem",
-          fontFamily: "'Sarabun' sans-serif",
+          fontFamily: "'Muli' sans-serif",
           margin:"26px",
           width:"5rem",
-          padding: "4px 10px"
+          padding: "4px 10px",
+          outline: "none"
       };
 
       return (
