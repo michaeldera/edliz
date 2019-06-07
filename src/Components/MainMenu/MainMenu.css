@@ -1,6 +1,6 @@
 .main-nav{
-    line-height: 50px;
-    box-shadow: 0 0 5px #ccc;
+    line-height: 40px;
+    box-shadow: 0 0px 6px #bbb;
 }
 
 .main-nav a {
@@ -21,17 +21,24 @@
     .main-nav{
         position: fixed;
         top:0;
-        margin-left: 10px;
+        font-size:1.1rem;
+        margin-left: 14px;
         background: #fff;
         margin-top:56px;
         border-radius: 6px;    
     }
     .main-nav a {        
-        color: #6c63ff;
+        color: #333333;
         display: block;
         margin-right: 0;
         margin-left: 0;
         line-height: 40px;
-        padding: 10px 40px;
+        padding: 10px 30px;
+    }
+    .main-nav a > img {        
+        display:block;
+        margin: 11px 10px auto 0;
+        height: 1rem;
+        float: left;
     }
 }
