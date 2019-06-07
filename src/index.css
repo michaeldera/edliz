@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  color: #333;
   background-color: #ffffff;
   font-family: 'Muli', sans-serif;
   transition: all 2s ease;
