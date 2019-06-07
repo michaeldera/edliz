@@ -23,9 +23,9 @@ export default class Home extends React.Component {
                     of health workers at all levels of the health care system in Zimbabwe.
               </div>
               <p className="start-reading">
-                 <RoundedBtn href="/#/chapters/1" type="a">
+                 <Button href="/#/chapters/1" type="a">
                     Start Reading
-                 </RoundedBtn>
+                 </Button>
               </p>
           </div>
           <Media query="(min-width: 1024px)" render={() => <img className="medicine-illustration" src={medicine} alt=""/>} />
