@@ -1,6 +1,6 @@
 .main-nav{
     line-height: 50px;
-    text-align: center;
+    box-shadow: 0 0 5px #ccc;
 }
 
 .main-nav a {
@@ -19,20 +19,19 @@
         display: none;
     }
     .main-nav{
-        width: 100%;
         position: fixed;
         top:0;
+        margin-left: 10px;
         background: #fff;
-        padding-top:50px;    
-        border-bottom: 1px solid #99f;
+        margin-top:56px;
+        border-radius: 6px;    
     }
     .main-nav a {        
         color: #6c63ff;
         display: block;
         margin-right: 0;
         margin-left: 0;
-        background: #ccf;
-        margin-top: 1px;
-        line-height: 60px;
+        line-height: 40px;
+        padding: 10px 40px;
     }
 }
