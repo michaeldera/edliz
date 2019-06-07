@@ -64,9 +64,9 @@ export default class Preferences extends React.Component {
               <div ref="panel" className="preferences" style={{ bottom: bottom }}>
                   <DrawerButton action={this.handlePreferences} onDragAction={this.onTouchStart} onTouchMove={this.onTouchMove} onTouchEnd={this.onTouchEnd}/>                         
                   <label htmlFor="font-size-input" className="font-size-label">FONT SIZE</label>
-                  <section className="p-section">
-                      <input name="font-size-input" className="font-size-input" type="range" min="10" max="20" value={fontSize} onChange={this.handleFontSizeChange} />
+                  <section className="p-section">                      
                       <p className="preview-text" style={{fontSize: fontSize + 'pt'}}>Preview Reading Text</p>
+                      <input name="font-size-input" className="font-size-input" type="range" min="10" max="20" value={fontSize} onChange={this.handleFontSizeChange} />
                   </section>
                   <ModeButton toggle={this.handleMode} mode={mode}/>
               </div>
@@ -83,7 +83,7 @@ class DrawerButton extends React.PureComponent {
           borderRadius: "4px",
           display: "block", 
           height:"6px",
-          margin: "0.6rem auto 2.8rem auto",
+          margin: "1rem auto 2.8rem auto",
           width: "2.6rem"
       };
       return <div onClick={this.props.action} onTouchStart={this.props.dragAction} style={drawerButtonStyle}></div>;

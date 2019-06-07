@@ -26,6 +26,7 @@
   line-height: 24pt;
   padding: 0;
   margin: 0;
+  margin-bottom: 3px;
   color: #ccc;
 }
 
@@ -48,6 +49,7 @@
   background: transparent;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom:16px;
   min-width: 70%;
 }
 
