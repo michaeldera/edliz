@@ -6,7 +6,9 @@ nav {
 }
 
 .nav-heading{
-	margin-top:0;
+  margin-top:0;
+  font-size: 1rem;
+  color:#ccf;
 }
 
 .nav-meta{
@@ -90,6 +92,6 @@ nav {
 	background-color: #6c63ff;
     color: #ffffff;
     text-align: left;
-    padding: 2rem 1rem;
+    padding: 1.2rem 1rem;
     margin-top:0;
 }
