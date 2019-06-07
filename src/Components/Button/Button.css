@@ -1,13 +1,13 @@
 .btn {
-    font-family: IBMPlexSerif-Light;
+    display:block;
+    margin: auto;
+    width: fit-content;
+    font-family:'Muli', sans-serif;
     background: #6c63ff;
-    border-radius: 6px;
-    padding: 14px 20px;
+    border-radius: 4px;
+    padding: 12px 20px;
     font-size: 14px;
     color: #ffffff;
-    letter-spacing: 0;
-    line-height: 1;
-    display: inline-block;
     transition: opacity 0.3s ease-in-out;
     text-decoration: none;
     cursor: pointer;
