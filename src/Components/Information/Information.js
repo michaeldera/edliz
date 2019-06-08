@@ -1,5 +1,5 @@
 import React from 'react'
-import {inject, observer} from 'mobx-react/index'
+import {inject, observer} from 'mobx-react'
 import {toJS} from 'mobx/lib/mobx'
 import {Link, animateScroll as scroll} from 'react-scroll'
 import './information.css'
