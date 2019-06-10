@@ -1,6 +1,6 @@
 .main-nav{
-    line-height: 50px;
-    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0px 6px #bbb;
 }
 
 .main-nav a {
@@ -8,6 +8,9 @@
     margin-left: 14px;
     text-decoration: none;
 }
+    .main-nav a > img {        
+        display:none;
+    }
 
 @media (max-width: 780px) {
 
@@ -19,20 +22,25 @@
         display: none;
     }
     .main-nav{
-        width: 100%;
         position: fixed;
         top:0;
+        margin-left: 14px;
         background: #fff;
-        padding-top:50px;    
-        border-bottom: 1px solid #99f;
+        margin-top:56px;
+        border-radius: 6px;    
     }
     .main-nav a {        
-        color: #6c63ff;
+        color: #333333;
         display: block;
         margin-right: 0;
         margin-left: 0;
-        background: #ccf;
-        margin-top: 1px;
-        line-height: 60px;
+        line-height: 40px;
+        padding: 10px 30px;
+    }
+    .main-nav a > img {        
+        display:block;
+        margin: 11px 10px auto 0;
+        height: 1rem;
+        float: left;
     }
 }

@@ -1,25 +1,26 @@
 body {
   margin: 0;
   padding: 0;
+  color: #333;
   background-color: #ffffff;
-  font-family: 'IBM Plex Serif', serif;
-  font-weight: 300;
+  font-family: 'Muli', sans-serif;
   transition: all 2s ease;
   line-height:1.5;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-variant: all-small-caps;
-  font-family: 'Muli', sans-serif;
+  font-weight: 600;
   line-height: 1.1;
 }
 
-h1{ font-size: 1.35em}
-h2{ font-size: 1.30em}
-h3{ font-size: 1.25em}
-h4{ font-size: 1.20em}
-h5{ font-size: 1.15em}
-h6{ font-size: 1.10em}
+h1{ font-size: 1.80em}
+h2{ font-size: 1.70em}
+h3{ font-size: 1.60em}
+h4{ font-size: 1.50em}
+h5{ font-size: 1.40em}
+h6{ font-size: 1.30em}
 
 .main{
   text-align:left;
