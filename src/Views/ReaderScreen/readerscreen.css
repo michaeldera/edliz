@@ -1,14 +1,14 @@
 .screen{
     position:absolute;
     top:0;
-    top: 50px;
     bottom:50px;
     width:100vw;
+    box-sizing: border-box;
     right:0;
     left:0;
     padding:0em;
     text-align:left;
-    height:calc(100vh - 50px);
+    height:calc(100vh);
     overflow-y:scroll;
 }
 .day .screen {
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h6 {
 .article {
     display: block;
     margin:auto;
-    padding: 1em 1em 60px;
+    padding: 60px 1em 60px;
     max-width:840px;
 }
 
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h6 {
 
 table{
     margin: 10px auto;
-    min-width:450px;
+    min-width:400px;
 }
 
 .day th{
@@ -93,7 +93,13 @@ table{
 @media screen and (max-width: 450px){
     table {
         font-size: 85%;
-        min-width:100%;
+        min-width:90%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .screen::-webkit-scrollbar {
+        width: auto;
     }
 }
 

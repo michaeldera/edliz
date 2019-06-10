@@ -12,7 +12,6 @@
 }
 
 .main-title {
-    font-family: 'Muli', sans-serif;
     font-weight: 300;
     font-size: 38px;
     color: #333333;
@@ -32,7 +31,6 @@
 }
 
 .introduction {
-    font-family: 'IBM Plex Serif', serif;
     max-width: 1040px;
     font-size: 18px;
     color: #666666;
@@ -53,7 +51,6 @@
 }
 .github small {
     color: #6c63ff;
-    font-family: 'IBM Plex Serif', serif;
     line-height:20px;
     font-size: 14px;
     letter-spacing: 0.26px;
@@ -104,11 +101,6 @@
         padding: 0 20px;
         text-align: center;
     }
-
-    
-.start-reading {
-    text-align: center;
-}
 
     .github {
         display: flex;

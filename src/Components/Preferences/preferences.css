@@ -1,11 +1,11 @@
 .preferences {
   font-size: 1rem;
-  color: #0648fd;
   position: fixed;
   margin: 0;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
   transition: all 2s ease;
-  background-color: #fff;
-  box-shadow: 8px 0 8px #aaa;
+
   width: 100vw;
   z-index: 999;
   /* Transitions */
@@ -14,18 +14,26 @@
   transition: all 0.3s ease;
 }
 
+.day.preferences{  
+    box-shadow: 0 0 16px #999;
+    background-color: #fff;
+}
+
+.night.preferences {
+      box-shadow: 0 0 16px #333;
+     background-color: #2a2a2a;
+}
+
 .p-section {
-  border-top: 1px solid #eee;
   padding-top: 24px;
   padding-bottom: 6px;
-  border-bottom: 1px solid #eee;
 }
 
 .preview-text {
   line-height: 24pt;
   padding: 0;
   margin: 0;
-  color: #ccc;
+  color: #aaa;
 }
 
 @media screen and (max-width: 450px) {
@@ -34,19 +42,14 @@
   }
 }
 
-.font-size-label {
-  margin: 0.1em;
-  font-size: 0.7em;
-  display: block;
-}
+
 /* Clear all default formating for range inputs*/
 
 .font-size-input {
   display: block;
   -webkit-appearance: none;
   background: transparent;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 16px auto;
   min-width: 70%;
 }
 

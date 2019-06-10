@@ -1,5 +1,5 @@
 .btn-preferences{
-    position: absolute;
+    position: fixed;
     width: 36px;
     height:36px;
     bottom: 10px;
@@ -11,6 +11,6 @@
 	background-color: #6c63ff;
 }
 
-.nav-btn:focus{
+.btn-preferences:focus{
     outline:none;
 }
