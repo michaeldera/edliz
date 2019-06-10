@@ -2,8 +2,8 @@
     position:fixed; 
     top: 0; 
     left:0; 
+    border: none;
     z-index: 99999; 
-    border: none; 
     padding: 16px; 
     margin:0; 
     box-sizing:"border-box"; 
@@ -13,3 +13,7 @@
     outline: none;
 }
 
+
+.night > .hamburger-button {
+  background-color: #2a2a2a;
+} 
