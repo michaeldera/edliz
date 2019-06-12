@@ -50,6 +50,7 @@ class Reader extends React.Component{
           content={book.contents.chapters[this.props.chapter]}
         />
         <PreferenceButton
+          mode={mode}
           preferences={preferences}
           toggle={togglePreferences}
         />
