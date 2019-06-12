@@ -30,7 +30,7 @@ class Reader extends React.Component{
     } = this.props.EdlizStore
     return(
       <div className={mode}>
-        <HamburgerButton action={()=> toggleNavigationPanel(navigation)}/>
+        <HamburgerButton IsActive={ navigation === "open" ? true : false } action={()=> toggleNavigationPanel(navigation)}/>
         <Navigation
           content={books.contents}
           navigation={navigation}
