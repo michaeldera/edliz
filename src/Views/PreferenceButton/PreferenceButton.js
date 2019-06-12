@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import icon from './cog.svg';
 import './preferencebtn.css'
 
 class PreferenceButton extends React.PureComponent {
