@@ -10,10 +10,9 @@ import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton';
 class Reader extends React.Component{
 
   componentWillMount () {
-    const {toggleNavigationPanel, togglePreferences, toggleMode} = this.props.EdlizStore
+    const {toggleNavigationPanel, togglePreferences} = this.props.EdlizStore
     toggleNavigationPanel('open')
     togglePreferences('open')
-    toggleMode('night')
   }
 
   render () {

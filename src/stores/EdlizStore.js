@@ -1,11 +1,13 @@
-import React from 'react'
 import {observable, action, decorate } from 'mobx'
 import { book } from '../Data/data'
 
+const modeFromLS = window.localStorage.getItem("mode");
+const fontSizeFromLS = window.localStorage.getItem("font-size");
+
 class EdlizStore {
-  fontSize = 11
+  fontSize = fontSizeFromLS ? fontSizeFromLS : 11
   navigation = 'closed'
-  mode = 'day';
+  mode = modeFromLS ? modeFromLS : 'day';
   preferences = 'closed'
   books = book
 
@@ -28,10 +30,12 @@ class EdlizStore {
 
   toggleMode = mode => {
     this.mode = mode === "night" ? "day" : "night"
+    window.localStorage.setItem("mode", this.mode);
   }
 
   fontSizeChange = fontSize =>{
     this.fontSize = fontSize
+    window.localStorage.setItem("font-size", this.fontSize);
   }
 
 }
