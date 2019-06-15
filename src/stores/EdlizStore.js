@@ -1,4 +1,3 @@
-import React from 'react'
 import {observable, action, decorate } from 'mobx'
 import { book } from '../Data/data'
 
