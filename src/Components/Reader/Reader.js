@@ -10,10 +10,9 @@ import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton';
 class Reader extends React.Component{
 
   componentWillMount () {
-    const {toggleNavigationPanel, togglePreferences, toggleMode} = this.props.EdlizStore
+    const {toggleNavigationPanel, togglePreferences} = this.props.EdlizStore
     toggleNavigationPanel('open')
     togglePreferences('open')
-    toggleMode('night')
   }
 
   render () {
@@ -30,7 +29,7 @@ class Reader extends React.Component{
     } = this.props.EdlizStore
     return(
       <div className={mode}>
-        <HamburgerButton action={()=> toggleNavigationPanel(navigation)}/>
+        <HamburgerButton IsActive={ navigation === "open" ? true : false } action={()=> toggleNavigationPanel(navigation)}/>
         <Navigation
           content={books.contents}
           navigation={navigation}
@@ -50,6 +49,7 @@ class Reader extends React.Component{
           content={book.contents.chapters[this.props.chapter]}
         />
         <PreferenceButton
+          mode={mode}
           preferences={preferences}
           toggle={togglePreferences}
         />

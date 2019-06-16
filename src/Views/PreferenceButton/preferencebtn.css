@@ -4,7 +4,8 @@
     height:36px;
     bottom: 10px;
     right:10px;
-    border: 0.5px solid rgba(255, 255, 255, .25);
+    border: none;
+    padding: 8px;
     border-radius: 50%;
     border:none;
     z-index: 998;
