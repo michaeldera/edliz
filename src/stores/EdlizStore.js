@@ -1,8 +1,12 @@
 import {observable, action, decorate } from 'mobx'
 import { book } from '../Data/data'
+import { setAddressBarColor, setItem, getItem } from '../helpers';
 
-const modeFromLS = window.localStorage.getItem("mode");
-const fontSizeFromLS = window.localStorage.getItem("font-size");
+const nightModeAddressBarColor = '#32303e';
+const defaultAddressBarColor = '#0093e9';
+
+const modeFromLS = getItem("mode");
+const fontSizeFromLS = getItem("font-size");
 
 class EdlizStore {
   fontSize = fontSizeFromLS ? fontSizeFromLS : 11
@@ -30,12 +34,14 @@ class EdlizStore {
 
   toggleMode = mode => {
     this.mode = mode === "night" ? "day" : "night"
-    window.localStorage.setItem("mode", this.mode);
+    setItem("mode", this.mode);
+
+    setAddressBarColor(this.mode === "night" ? nightModeAddressBarColor : defaultAddressBarColor);
   }
 
   fontSizeChange = fontSize =>{
-    this.fontSize = fontSize
-    window.localStorage.setItem("font-size", this.fontSize);
+    this.fontSize = fontSize;
+    setItem("font-size", this.fontSize);
   }
 
 }
