@@ -15,12 +15,17 @@ The guidelines are meant to be a pocketbook for every medical health professiona
 
 The guidelines are translated to plain HTML to match the contents of the PDF version. If you would like to work on the content of the guideline you can download the PDF version of the guidelines [here](https://1drv.ms/b/s!Ao4d2kZfYkv5hKMKSW9x8-X-pE0zIg)
 
-## Contributors and Backers
+## Credits, Contributors and Backers
 
 If you would like to contribute to this project please read the [Contributing Guidelines](https://github.com/michaeldera/edliz/blob/master/CONTRIBUTING.md)
 
 This project is not funded and relies entrely upon the  efforts of contrbutors and well-wishers.
 The project was started by Dr Tafadzwa Liberty Nyeve and  [Michael Dera](https://www.github.com/michaeldera)
+
+### Credits
+
+- [Zondicons](https://www.zondicons.com/): For svg icons used on the app.
+- [unDraw](https://undraw.co/): for SVG illustration on the home page.
 
 ### Contributors
 
