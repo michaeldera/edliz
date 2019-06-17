@@ -40,8 +40,8 @@ class EdlizStore {
   }
 
   fontSizeChange = fontSize =>{
-    this.fontSize = fontSize
-    window.localStorage.setItem("font-size", this.fontSize);
+    this.fontSize = fontSize;
+    setItem("font-size", this.fontSize);
   }
 
 }
