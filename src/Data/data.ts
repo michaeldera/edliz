@@ -78,6 +78,8 @@ export const book = {
         chapter_twentyeight,
         chapter_twentynine,
         chapter_thirty,
+        chapter_thirtyone,
+        chapter_thirtytwo, 
         chapter_thirtythree,
         chapter_thirtyfour,
         chapter_thirtyfive,
