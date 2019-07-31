@@ -16,7 +16,7 @@ class EdlizStore {
   books = book
 
     // function toggles the Preference Panel. First it checks if the Navigation Panel is open (and closes it if it is). After that it toggles the state of the Preference panel.
-  togglePreferences = (preferences) => {
+  togglePreferences = (preferences: 'open' | 'closed') => {
     if (this.navigation === 'open') {
       this.navigation = 'closed';
     }
@@ -25,23 +25,23 @@ class EdlizStore {
 
 
   // function toggles the Navigation Panel. First it checks if the Preferences Panel is open (and closes it if it is). After that it toggles the state of the  Navigation panel.
-  toggleNavigationPanel = navigation => {
+  toggleNavigationPanel =( navigation : 'open' | 'closed') => {
     if (this.preferences === 'open') {
       this.preferences = 'closed';
     }
     this.navigation = navigation === 'open' ? 'closed' : 'open'
   }
 
-  toggleMode = mode => {
+  toggleMode = (mode: 'day' | 'night') => {
     this.mode = mode === "night" ? "day" : "night"
     setItem("mode", this.mode);
 
     setAddressBarColor(this.mode === "night" ? nightModeAddressBarColor : defaultAddressBarColor);
   }
 
-  fontSizeChange = fontSize =>{
+  fontSizeChange = (fontSize : number) =>{
     this.fontSize = fontSize;
-    setItem("font-size", this.fontSize);
+    setItem("font-size", this.fontSize.toString());
   }
 
 }
