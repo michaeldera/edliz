@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 import './Button.css'
 /* eslint-disable */
-const Button = props => {
+const Button = (props: any) => {
     let {type = 'link', className = '', ...rest} = props
 
     className += ' btn'

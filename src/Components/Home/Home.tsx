@@ -6,7 +6,7 @@ import Github from './github.svg'
 import medicine from './medicine.svg'
 import './home.css';
 
-export default class Home extends React.Component {
+export default class Home extends React.Component<any, {}> {
   render() {
     return (
       <div className="main">
@@ -30,9 +30,9 @@ export default class Home extends React.Component {
         </div>
         <div className="github">
           <a href="https://github.com/michaeldera/edliz" className="github-link">
-              <img src={Github} alt="" width="20" height="20" alt="GitHub Icon" />
+              <img src={Github} width="20" height="20" alt="GitHub Icon" />
           </a>
-          <small> Maintained on GitHub by well meaning developers</small>    
+          <small>Maintained on GitHub by well meaning developers</small>    
          </div>
       </div>
     );

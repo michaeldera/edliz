@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './settings.css';
 
-export default class Settings extends React.PureComponent {
+export default class Settings extends React.PureComponent<any, {}> {
 
   render() {
     return (

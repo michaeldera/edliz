@@ -7,7 +7,7 @@ import { book } from '../../Data/data'
 import { inject, observer } from "mobx-react";
 import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton';
 
-class Reader extends React.Component{
+class Reader extends React.Component<any, {}>{
 
   componentWillMount () {
     const {toggleNavigationPanel, togglePreferences} = this.props.EdlizStore

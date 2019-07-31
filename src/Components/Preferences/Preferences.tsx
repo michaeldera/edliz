@@ -2,10 +2,9 @@ import React from 'react';
 import './preferences.css'
 import Overlay from '../../Views/Overlay/Overlay';
 
-export default class Preferences extends React.Component {
-  constructor(props){
+export default class Preferences extends React.Component<any, any> {
+  constructor(props :any){
     super(props);
-    this.panel = React.createRef();
     this.state ={isDragging : false, yPosition : null, bottom: 0};
   }
   handlePreferences = () => {
@@ -18,41 +17,8 @@ export default class Preferences extends React.Component {
     toggleMode(mode);
   }
 
-  handleFontSizeChange = event => {
+  handleFontSizeChange = (event: any) => {
     this.props.fontSizeChange(event.target.value)
-  }
-
-  onTouchStart = event => {
-    console.log("Touch Started");
-    let offsetBottom = this.panel.current.offsetBottom;
-    this.setState({
-      yPosition : offsetBottom,
-      isDragging: true
-    })
-    event.stopPropagation();
-    event.preventDefault()
-  }
-
-  onTouchMove = event  => {
-    if(!this.state.isDragging) return;
-    this.setState({
-      bottom : event.pageY - this.state.yPosition 
-    });
-    event.stopPropagation();
-    event.preventDefault();
-  }
-
-  onTouchEnd = event => {
-    this.setState({
-      isDragging: false
-    });
-    if(this.state.bottom > -150 ){
-      this.setState({
-        bottom: 0
-      });
-    }
-    event.stopPropagation();
-    event.preventDefault();
   }
 
   render(){
@@ -62,7 +28,7 @@ export default class Preferences extends React.Component {
       return (
           <React.Fragment>
               <div ref="panel" className={mode + " preferences"} style={{ bottom: bottom }}>
-                  <DrawerButton action={this.handlePreferences} onDragAction={this.onTouchStart} onTouchMove={this.onTouchMove} onTouchEnd={this.onTouchEnd}/>                         
+                  <DrawerButton />                         
                   <section className="p-section">                      
                       <label htmlFor="font-size-input" className="preview-text" style={{fontSize: fontSize + 'pt'}}>Preview Reading Text</label>
                       <input name="font-size-input" className="font-size-input" type="range" min="10" max="20" value={fontSize} onChange={this.handleFontSizeChange} />
@@ -75,7 +41,7 @@ export default class Preferences extends React.Component {
   }
 }
 
-class DrawerButton extends React.PureComponent {
+class DrawerButton extends React.PureComponent<any, {}> {
   render(){
       let drawerButtonStyle = {
           backgroundColor: "#6c63ff",
@@ -85,14 +51,13 @@ class DrawerButton extends React.PureComponent {
           margin: "1rem auto 2.8rem auto",
           width: "2.6rem"
       };
-      return <div onClick={this.props.action} onTouchStart={this.props.dragAction} style={drawerButtonStyle}></div>;
+      return <div style={drawerButtonStyle}></div>;
   }
 }
 
-class ModeButton extends React.PureComponent {
+class ModeButton extends React.PureComponent<any, {}> {
   render(){
       const modeButtonStyle = {
-          borderRadius: "4px",
           backgroundColor:"#6c63ff",
           border: "none",
           width:"36px",

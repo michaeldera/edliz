@@ -5,7 +5,7 @@ import NavigationItem from '../../Views/NavigationItem/NavigationItem';
 import Overlay  from '../../Views/Overlay/Overlay';
 
 
-class Navigation extends Component {
+class Navigation extends Component<any, {}> {
 
   handleNavigation = () => {
     const {navigation, toggle} = this.props
@@ -24,7 +24,7 @@ class Navigation extends Component {
             <h2 className="nav-heading">{current.long_title}</h2>
           </div>
           <div className="tab-content">
-            { content.chapters.map( (section ,  index ) => (
+            { content.chapters.map( (section: any ,  index: any ) => (
               <NavigationItem clicked={this.handleNavigation} key={index} section={section} chapter={index + 1} />
             ))}
           </div>

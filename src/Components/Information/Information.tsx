@@ -7,7 +7,7 @@ import {book} from '../../Data/data'
 import MainMenu from '../MainMenu/MainMenu'
 import Button from '../Button/Button'
 
-class Information extends React.PureComponent {
+class Information extends React.PureComponent<any, {}> {
     scrollToTop = () => {
         scroll.scrollToTop()
     }

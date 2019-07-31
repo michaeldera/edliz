@@ -7,15 +7,15 @@ import read from './read.svg'
 import info from './information.svg'
 import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton';
 
-export default class MainMenu extends React.Component {
-    constructor(props){
+export default class MainMenu extends React.Component<any, any> {
+    constructor(props: any){
         super(props);
         this.state = { visible: false };
         this.toggleNavigation = this.toggleNavigation.bind(this);
     }
 
     toggleNavigation = () => {
-        this.setState((state) => ({
+        this.setState((state: any) => ({
             visible: !state.visible
         }));
     }
