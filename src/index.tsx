@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom'
 import registerServiceWorker from './registerServiceWorker';
 import {Provider} from 'mobx-react'
 import EdlizStore from './stores/EdlizStore'
