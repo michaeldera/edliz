@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/jest": "24.0.16",
+    "@types/node": "12.6.8",
+    "@types/react": "16.8.23",
+    "@types/react-dom": "16.8.5",
     "handlebars": "4.1.2",
     "husky": "^2.2.0",
     "mobx": "^5.9.0",
@@ -13,7 +17,11 @@
     "react-mobx": "^0.0.4",
     "react-router-dom": "^5.0.1",
     "react-scripts": "^2.1.1",
-    "react-scroll": "^1.7.11"
+    "react-scroll": "^1.7.11",
+    "typescript": "3.5.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,13 +29,20 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "devDependencies": {
-    "prettier": "1.18.2"
+    "prettier": "1.18.2",
+    "tslint-config-prettier": "^1.18.0"
   }
 }
