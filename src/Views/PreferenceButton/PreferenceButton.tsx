@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './preferencebtn.css'
 
-class PreferenceButton extends React.PureComponent {
+class PreferenceButton extends React.PureComponent<any, {}>{
   handleNavigation = () => {
     const  {preferences, toggle} = this.props
     toggle(preferences)

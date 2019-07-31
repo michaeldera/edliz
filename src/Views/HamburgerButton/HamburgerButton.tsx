@@ -1,7 +1,7 @@
 import React from 'react'
 import './hamburgerbutton.css'
 
-export default class HamburgerButton extends React.Component {
+export default class HamburgerButton extends React.Component<any, {}> {
     render(){  
         const {action, IsActive } = this.props;          
         return (

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import './navigationitem.css'
 
 
-export default class NavigationItem extends Component {
+export default class NavigationItem extends Component<any, {}> {
   render() {
     const section = this.props.section;
     return (
