@@ -24,7 +24,7 @@ class App extends React.Component {
   }
 }
 
-function RenderReader({ match }) {
+function RenderReader({ match } : { match : any}) {
   return <Reader chapter={match.params.chapterNumber - 1}/>;
 }
 
