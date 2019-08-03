@@ -7,7 +7,23 @@ import { book } from '../../Data/data'
 import { inject, observer } from "mobx-react";
 import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton';
 
-class Reader extends React.Component<any, {}>{
+interface IReaderProps {
+  chapter: number;
+  EdlizStore : {
+    toggleNavigationPanel : Function;
+    togglePreferences :Function;
+    fontSizeChange: Function;
+    toggleMode:Function;
+    mode: 'day' | 'night';
+    navigation: 'open' | 'close';
+    books : any;
+    fontSize: number;
+    preferences: "open" | 'closed';
+  };
+
+}
+
+class Reader extends React.Component<IReaderProps, {}>{
 
   componentWillMount () {
     const {toggleNavigationPanel, togglePreferences} = this.props.EdlizStore
