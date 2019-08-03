@@ -5,27 +5,25 @@ import Reader from './Components/Reader/Reader';
 import Home from './Components/Home/Home';
 import Settings from './Components/Settings/Settings';
 import Information from './Components/Information/Information';
-import {inject, observer} from 'mobx-react'
+import { inject, observer } from 'mobx-react'
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <HashRouter>
-          <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route path="/chapters/:chapterNumber" children={RenderReader} />
-            <Route path="/information" component={Information}/>
-            <Route path="/settings" component={Settings}/>
-          </Switch>
-        </HashRouter>
-      </div>
-    );
-  }
+const App: React.FunctionComponent = () => {
+  return (
+    <div className="App">
+      <HashRouter>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/chapters/:chapterNumber" children={RenderReader} />
+          <Route path="/information" component={Information} />
+          <Route path="/settings" component={Settings} />
+        </Switch>
+      </HashRouter>
+    </div>
+  );
 }
 
-function RenderReader({ match } : { match : any}) {
-  return <Reader chapter={match.params.chapterNumber - 1}/>;
+function RenderReader({ match }: { match: any }) {
+  return <Reader chapter={match.params.chapterNumber - 1} />;
 }
 
 export default inject('EdlizStore')(observer(App))
