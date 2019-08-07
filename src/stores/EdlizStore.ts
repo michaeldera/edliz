@@ -5,18 +5,32 @@ import { setAddressBarColor, setItem, getItem } from '../helpers';
 const nightModeAddressBarColor = '#32303e';
 const defaultAddressBarColor = '#0093e9';
 
+type toggleType = 'open' | 'closed'
+type modeType = 'day' | 'night'
 const modeFromLS = getItem("mode");
+
 const fontSizeFromLS = getItem("font-size");
 
-class EdlizStore {
-  fontSize = fontSizeFromLS ? fontSizeFromLS : 11
+export interface IEdlizStore {
+    fontSize: number
+    navigation: string
+    mode: string
+    preferences: string
+    togglePreferences(preferences: toggleType): void
+    toggleMode(mode: string): void
+    fontSizeChange(fontSize: number): void
+    toggleNavigationPanel(navigation: toggleType): void
+}
+
+export class EdlizStore implements IEdlizStore{
+  fontSize = fontSizeFromLS ? Number(fontSizeFromLS) : 11
   navigation = 'closed'
   mode = modeFromLS ? modeFromLS : 'day';
   preferences = 'closed'
   books = book
 
     // function toggles the Preference Panel. First it checks if the Navigation Panel is open (and closes it if it is). After that it toggles the state of the Preference panel.
-  togglePreferences = (preferences: 'open' | 'closed') => {
+  togglePreferences = (preferences: toggleType) => {
     if (this.navigation === 'open') {
       this.navigation = 'closed';
     }
@@ -25,14 +39,14 @@ class EdlizStore {
 
 
   // function toggles the Navigation Panel. First it checks if the Preferences Panel is open (and closes it if it is). After that it toggles the state of the  Navigation panel.
-  toggleNavigationPanel =( navigation : 'open' | 'closed') => {
+  toggleNavigationPanel =(navigation : toggleType) => {
     if (this.preferences === 'open') {
       this.preferences = 'closed';
     }
     this.navigation = navigation === 'open' ? 'closed' : 'open'
   }
 
-  toggleMode = (mode: 'day' | 'night') => {
+  toggleMode = (mode: modeType) => {
     this.mode = mode === "night" ? "day" : "night"
     setItem("mode", this.mode);
 
@@ -58,6 +72,6 @@ decorate(EdlizStore, {
   fontSizeChange: action
 })
 
-const store = new EdlizStore()
 
+const store = new EdlizStore()
 export default store

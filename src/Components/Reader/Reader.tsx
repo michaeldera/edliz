@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import Navigation from '../Navigation/Navigation';
 import PreferenceButton from '../../Views/PreferenceButton/PreferenceButton';
 import ReaderScreen from '../../Views/ReaderScreen/ReaderScreen';
@@ -6,50 +6,24 @@ import Preferences from '../Preferences/Preferences';
 import { book } from '../../Data/data'
 import { inject, observer } from "mobx-react";
 import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton';
+import { EdlizStore, IEdlizStore } from '../../stores/EdlizStore';
 
-interface IReaderProps {
-  chapter: number;
-  EdlizStore : {
-    toggleNavigationPanel : Function;
-    togglePreferences :Function;
-    fontSizeChange: Function;
-    toggleMode:Function;
-    mode: 'day' | 'night';
-    navigation: 'open' | 'close';
-    books : any;
-    fontSize: number;
-    preferences: "open" | 'closed';
-  };
-
+interface ReaderProps {
+  EdlizStore: IEdlizStore
 }
 
-class Reader extends React.Component<IReaderProps, {}>{
-
-  componentWillMount () {
-    const {toggleNavigationPanel, togglePreferences} = this.props.EdlizStore
-    toggleNavigationPanel('open')
-    togglePreferences('open')
-  }
-
-  render () {
-    const {
-      toggleNavigationPanel,
-      togglePreferences,
-      fontSizeChange,
-      toggleMode,
-      mode,
-      books,
-      navigation,
-      preferences,
-      fontSize
-    } = this.props.EdlizStore
-    return(
+class Reader extends React.Component<ReaderProps>  {
+  render(){
+    const {EdlizStore} = this.props
+    const { toggleNavigationPanel, togglePreferences, fontSizeChange, toggleMode, mode, books, navigation, preferences, fontSize, chapter } = EdlizStore;
+  
+    return (
       <div className={mode}>
-        <HamburgerButton IsActive={ navigation === "open" ? true : false } action={()=> toggleNavigationPanel(navigation)}/>
+        <HamburgerButton IsActive={navigation === "open" ? true : false} action={() => toggleNavigationPanel(navigation)} />
         <Navigation
           content={books.contents}
           navigation={navigation}
-          current={book.contents.chapters[this.props.chapter]}
+          current={book.contents.chapters[chapter]}
           toggle={toggleNavigationPanel}
         />
         <Preferences
@@ -61,8 +35,8 @@ class Reader extends React.Component<IReaderProps, {}>{
           toggle={togglePreferences}
         />
         <ReaderScreen
-          style={{fontSize: fontSize + 'pt'}}
-          content={book.contents.chapters[this.props.chapter]}
+          style={{ fontSize: fontSize + 'pt' }}
+          content={book.contents.chapters[chapter]}
         />
         <PreferenceButton
           mode={mode}
@@ -70,7 +44,7 @@ class Reader extends React.Component<IReaderProps, {}>{
           toggle={togglePreferences}
         />
       </div>
-    )
+    );
   }
-}
-export default inject('EdlizStore')(observer(Reader))
+})
+export default inject('EdlizStore')(Reader)

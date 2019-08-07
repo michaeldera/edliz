@@ -43,6 +43,15 @@ import { major_highlights } from './Information/major_highlights';
 import { preface } from './Information/preface';
 import { seventh_edition } from './Information/seventh_edition';
 
+export interface IBooks {
+  short_title: string
+  long_title: string
+  contents: {
+    chapters: [],
+    pre: []
+  }
+}
+
 export const book = {
     short_title: "EDLIZ",
     long_title: "The Essential Medicines List for Zimbabwe",
