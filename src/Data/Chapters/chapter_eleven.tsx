@@ -37,14 +37,14 @@ export const chapter_eleven: Chapters = {
             <p>NB Do not take any laboratory specimens, treat on clinical and epidemiological basis.</p>
             <p><strong>Initial treatment, in severe cases:</strong></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-              <tr><td></td><td><p><strong>benzylpenicillin im/iv</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>1-2 MU</p></td><td colspan="2"><p>4 times a day</p></td><td><p>initially, then</p></td></tr>
-              <tr><td><p><strong>then</strong></p> </td><td><p><strong>procaine penicillin im</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>3gm</p></td><td><p>once daily</p></td><td colspan="2"><p>7-10 days</p></td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+              <tr><td></td><td><p><strong>benzylpenicillin im/iv</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>1-2 MU</p></td><td colSpan={2}><p>4 times a day</p></td><td><p>initially, then</p></td></tr>
+              <tr><td><p><strong>then</strong></p> </td><td><p><strong>procaine penicillin im</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>3gm</p></td><td><p>once daily</p></td><td colSpan={2}><p>7-10 days</p></td></tr >
             </table>
             <p><strong>Less severe cases:</strong></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>Doxycycline* po</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="3">
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>Doxycycline* po</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={3}>
                 <p>200mg first dose, then</p></td></tr>
               <tr><td></td><td></td><td></td><td></td><td><p>100mg</p></td><td><p>once daily</p></td><td><p>7 days</p></td></tr>
             </table >
@@ -61,8 +61,8 @@ export const chapter_eleven: Chapters = {
             <h2>Tick Typhus (African)</h2>
             <p>Case definition: a rickettsial disease (spread usually by tick bites) that has a variable onset but most often marked by sudden headache, chills, prostration, fever and general pains. A maculopapular eruption appears on the 5 <sup>th</sup> – 7th day, initially on the upper trunk followed by a spread to the entire body but usually not to the face, palms or soles. Chancre, local erythema on bite site with local lymphadenopathy.</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>doxycycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="3">
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>doxycycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={3}>
                 <p>200mg first dose, then</p></td></tr>
               <tr><td></td><td></td><td></td><td></td><td><p>100mg</p></td><td><p>once daily</p></td><td><p>7 days</p></td></tr>
             </table>
@@ -90,8 +90,8 @@ export const chapter_eleven: Chapters = {
               </li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>rabies vaccine, human dcptrial cell im </strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>0.5ml</p></td><td colspan="2"><p>dcptrial doses on Day 0, 7 and 28 only</p> </td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>rabies vaccine, human dcptrial cell im </strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>0.5ml</p></td><td colSpan={2}><p>dcptrial doses on Day 0, 7 and 28 only</p> </td></tr >
             </table>
             <p>Give a booster every 2-3 years.</p>
             <p>Post-exposure Treatment</p>
@@ -103,18 +103,18 @@ export const chapter_eleven: Chapters = {
               <li> uncertain animal history or strong suspicion of rabid animal give:</li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>human rabies immunoglobulin</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10 IU/kg</p></td><td><p>once only</p></td><td><p>-</p></td></tr>
-              <tr><td></td><td colspan="5">
+              <tr><td></td><td colSpan={5}>
                 <p>(instilled and infiltrated locally around the wound)</p></td><td></td></tr>
               <tr><td>and</td><td><p><strong>human rabies immunoglobulin im</strong> (gluteal)</p></td><td><p><strong>B V</strong></p> </td><td><p>10 IU/kg</p></td><td><p>once only</p></td><td><p>-</p></td></tr>
             </table>
             <p>Vaccinate using the abbreviated multi-site regimen:</p>
             <p><strong>2-1-1 vaccination schedule:</strong></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>rabies vaccine (human diploid cell) im</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>0.5ml in <strong>each</strong> arm</p></td><td><p>one dose</p></td><td><p>on Day 0</p></td></tr>
-              <tr><td></td><td><p>(upper arm site)</p></td><td colspan="2"><p><strong>Then</strong></p> </td><td><p>0.5ml in <strong>one</strong> arm</p></td><td><p>one dose</p></td><td><p>on Days 7 and 21</p></td></tr>
+              <tr><td></td><td><p>(upper arm site)</p></td><td colSpan={2}><p><strong>Then</strong></p> </td><td><p>0.5ml in <strong>one</strong> arm</p></td><td><p>one dose</p></td><td><p>on Days 7 and 21</p></td></tr>
             </table>
             <p>Use a separate syringe and needle for each dose; store vials at 4-8 <sup>o</sup>C after reconstitution and use as soon as possible.</p>
             <p>Low Risk</p>
@@ -151,13 +151,13 @@ export const chapter_eleven: Chapters = {
             <p>Treatment:</p>
             <p>S. Haematobium</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Children and Adult dose</p></td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>praziquantel po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>40mg/kg</p></td><td colspan="2"><p>one dose only</p></td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Children and Adult dose</p></td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>praziquantel po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>40mg/kg</p></td><td colSpan={2}><p>one dose only</p></td></tr >
             </table>
             <p><strong>S. Mansoni :</strong></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-              <tr><td></td><td><p><strong>praziquantel po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>60 mg/kg</p></td><td colspan="2"><p>once a day</p></td><td><p>3 Days</p></td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+              <tr><td></td><td><p><strong>praziquantel po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>60 mg/kg</p></td><td colSpan={2}><p>once a day</p></td><td><p>3 Days</p></td></tr >
             </table>
             <p><strong>General notes:</strong></p>
             <ul>
@@ -179,9 +179,9 @@ export const chapter_eleven: Chapters = {
             <h2>Katayama Syndrome</h2>
             <p>This is a severe immunological reaction to recent heavy infection with <em>Schistosoma mansoni</em> or <em>haematobium</em> causing fever and acute serum sickness. Treat with:</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Adult and children dose</p></td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Adult and children dose</p></td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>praziquantel po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>40mg/kg</p></td><td><p>one dose</p></td><td><p>repeat after 2 weeks</p> </td></tr>
-              <tr><td>and</td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="3">
+              <tr><td>and</td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={3}>
                 <p>50mg, once a day, reducing by 5mg per day according to response.</p></td></tr>
             </table>
           </span>
@@ -204,9 +204,9 @@ export const chapter_eleven: Chapters = {
               </li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>albendazole po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>400mg</p></td><td colspan="2"><p>one dose only</p></td></tr>
-              <tr><td></td><td></td><td colspan="3">
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>albendazole po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>400mg</p></td><td colSpan={2}><p>one dose only</p></td></tr>
+              <tr><td></td><td></td><td colSpan={3}>
                 <p>&lt;2yrs = 200mg</p></td><td></td><td></td></tr >
             </table >
             <ul>
@@ -215,10 +215,10 @@ export const chapter_eleven: Chapters = {
               </li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td colspan="2">Duration</td><td></td></tr>
-              <tr><td></td><td><p><strong>albendazole po</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>E</strong></p> </td><td colspan="2"><p>400mg</p></td><td colspan="2"><p>once a day</p></td><td colspan="2"><p>3 days*</p></td></tr>
-              <tr><td></td><td></td><td colspan="5">
-                <p>&lt;2yrs = 200mg</p></td><td colspan="2"></td><td colspan="2"></td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td colSpan={2}>Duration</td><td></td></tr>
+              <tr><td></td><td><p><strong>albendazole po</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>E</strong></p> </td><td colSpan={2}><p>400mg</p></td><td colSpan={2}><p>once a day</p></td><td colSpan={2}><p>3 days*</p></td></tr>
+              <tr><td></td><td></td><td colSpan={5}>
+                <p>&lt;2yrs = 200mg</p></td><td colSpan={2}></td><td colSpan={2}></td></tr >
             </table>
             <p>*Note: If not cured after 3 dcptrial repeat the course.</p>
             <ul>
@@ -227,7 +227,7 @@ export const chapter_eleven: Chapters = {
               </li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>albendazole po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>400mg &lt;2yrs=200mg</p></td><td><p>once a day</p></td><td><p>7 days</p></td></tr>
             </table>
             <ul>
@@ -237,7 +237,7 @@ export const chapter_eleven: Chapters = {
             </ul>
             <p>Specialist inpatient treatment is required.</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>praziquantel po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>17mg/kg</p></td><td><p>3 times a day</p></td><td><p>15 days</p></td></tr>
               <tr><td>and</td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>15mg</p></td><td><p>2 times a day</p></td><td><p>18 days*</p></td></tr>
             </table>
@@ -252,9 +252,9 @@ export const chapter_eleven: Chapters = {
               <u>not</u>
             </strong> aspirate the cysts. Surgery is the treatment of choice. If inoperable:</p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>albendazole po</strong></p> </td><td colspan="2"><p><strong>C E</strong></p> </td><td><p>3mg/kg</p></td><td colspan="2"><p>3 times a day</p></td><td><p>30 days, then</p></td></tr>
-              <tr><td></td><td colspan="8">
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>albendazole po</strong></p> </td><td colSpan={2}><p><strong>C E</strong></p> </td><td><p>3mg/kg</p></td><td colSpan={2}><p>3 times a day</p></td><td><p>30 days, then</p></td></tr>
+              <tr><td></td><td colSpan={7}>
                 <p>wait 15 days (medicine free). Then repeat the cycle 4 times.</p></td></tr >
             </table>
             <p>DCPtrial progress with ultrasound.</p>
@@ -299,25 +299,25 @@ export const chapter_eleven: Chapters = {
               <li> Treat with:</li>
             </ul>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td colspan="2"><p><strong>streptomycin im</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="2"><p>1g</p></td><td><p>first dose</p></td><td><p>Then</p></td></tr>
-              <tr><td></td><td colspan="2"> </td><td></td><td></td><td colspan="2"><p>0.5g</p></td><td rowspan="2">
-                <p>6 hourly</p></td><td rowspan="2">
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td colSpan={2}><p><strong>streptomycin im</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={2}><p>1g</p></td><td><p>first dose</p></td><td><p>Then</p></td></tr>
+              <tr><td></td><td colSpan={2}> </td><td></td><td></td><td colSpan={2}><p>0.5g</p></td><td rowSpan={2}>
+                <p>6 hourly</p></td><td rowSpan={2}>
                   <p>10 days</p></td></tr>
-              <tr><td></td><td colspan="2"> </td><td colspan="4">
+              <tr><td></td><td colSpan={2}> </td><td colSpan={4}>
                 <p>Paed = 5-10mg/kg</p></td></tr>
-              <tr><td>or</td><td colspan="2"><p><strong>chloramphenicol im/iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="2"><p>12.5-25mg/kg</p></td><td rowspan="2">
-                <p>6 hourly</p></td><td rowspan="2">
+              <tr><td>or</td><td colSpan={2}><p><strong>chloramphenicol im/iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={2}><p>12.5-25mg/kg</p></td><td rowSpan={2}>
+                <p>6 hourly</p></td><td rowSpan={2}>
                   <p>10 days</p></td></tr>
-              <tr><td></td><td></td><td colspan="5">
+              <tr><td></td><td></td><td colSpan={5}>
                 <p>Paed = 6.25-12.5mg/kg</p></td></tr >
             </table>
             <ul>
               <li> Prophylaxis whilst nursing &amp; contacts:</li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>doxycycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td colspan="2"><p>2 times a day</p> </td><td><p>10 days</p></td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>doxycycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td colSpan={2}><p>2 times a day</p> </td><td><p>10 days</p></td></tr >
             </table>
   
           </span>
@@ -345,21 +345,21 @@ export const chapter_eleven: Chapters = {
             </a></p>
             <p>Screening of family contacts should be performed.</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>BCG vaccine</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="3">
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>BCG vaccine</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={3}>
                 <p>see section on Immunisation</p></td></tr >
             </table >
             <p><strong>Treatment of Paucibacillary Patients</strong></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>dapsone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>100mg</p></td><td><p>once a day</p></td><td><p>6 months</p></td></tr>
-              <tr><td></td><td></td><td colspan="3">
+              <tr><td></td><td></td><td colSpan={3}>
                 <p>Paed = 1-2mg/kg</p></td><td></td><td></td></tr>
-              <tr><td>and</td><td rowspan="2">
+              <tr><td>and</td><td rowSpan={2}>
                 <p>
-                  <strong>rifampicin po</strong> - supervised dose</p></td><td><p><strong>B V</strong></p> </td><td><p>600mg</p></td><td rowspan="2">
+                  <strong>rifampicin po</strong> - supervised dose</p></td><td><p><strong>B V</strong></p> </td><td><p>600mg</p></td><td rowSpan={2}>
                   <p>once a month</p></td><td><p>6 months</p></td></tr>
-              <tr><td></td><td colspan="3">
+              <tr><td></td><td colSpan={3}>
                 <p>Paed = 10-15mg/ kg*</p> </td><td></td></tr>
             </table>
             <p><strong>*</strong> but not less than 150 mg of rifampicin</p >
@@ -372,23 +372,23 @@ export const chapter_eleven: Chapters = {
             </ul>
             <p>Treat with:</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>dapsone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>100mg</p></td><td rowspan="2">
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>dapsone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>100mg</p></td><td rowSpan={2}>
                 <p>once a day</p></td><td><p>12 months</p></td></tr>
-              <tr><td></td><td></td><td colspan="3">
+              <tr><td></td><td></td><td colSpan={3}>
                 <p>Paed =1-2mg/kg</p></td><td></td></tr>
-              <tr><td>and</td><td><p><strong>clofazimine po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>50mg</p></td><td rowspan="2">
+              <tr><td>and</td><td><p><strong>clofazimine po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>50mg</p></td><td rowSpan={2}>
                 <p>once a day</p></td><td><p>12 months</p></td></tr>
-              <tr><td></td><td></td><td colspan="3">
+              <tr><td></td><td></td><td colSpan={3}>
                 <p>Paed = 0.5 –1mg/kg</p></td><td></td></tr>
-              <tr><td>and</td><td rowspan="2">
-                <p><strong>clofazimine po</strong> – supervised dose</p></td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>300mg</p></td><td rowspan="2">
+              <tr><td>and</td><td rowSpan={2}>
+                <p><strong>clofazimine po</strong> – supervised dose</p></td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>300mg</p></td><td rowSpan={2}>
                   <p>once a month</p></td><td><p>12 months</p></td></tr>
-              <tr><td></td><td colspan="3">
+              <tr><td></td><td colSpan={3}>
                 <p>Paed = 5-10mg/kg</p></td><td></td></tr>
-              <tr><td>and</td><td><p><strong>rifampicin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>600mg</p></td><td rowspan="2">
+              <tr><td>and</td><td><p><strong>rifampicin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>600mg</p></td><td rowSpan={2}>
                 <p>once a month</p></td><td><p>12 months</p></td></tr>
-              <tr><td></td><td></td><td colspan="3">
+              <tr><td></td><td></td><td colSpan={3}>
                 <p>Paed =10-15mg/kg*</p></td><td></td></tr>
             </table>
             <p>*Not less than 150 mg of rifampicin.</p>
@@ -398,8 +398,8 @@ export const chapter_eleven: Chapters = {
             <p>Mild Reversal Reaction</p>
             <p>A reaction in which only the skin, not the nerves, are involved:</p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>aspirin po</strong></p> </td><td colspan="2"><p><strong>C V</strong></p> </td><td><p>600mg</p></td><td colspan="2"><p>4 times a day</p></td><td><p>1-2 weeks</p></td></tr >
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>aspirin po</strong></p> </td><td colSpan={2}><p><strong>C V</strong></p> </td><td><p>600mg</p></td><td colSpan={2}><p>4 times a day</p></td><td><p>1-2 weeks</p></td></tr >
             </table>
             <p>If there is no improvement consider treatment with corticosteroids. If there is evidence of neuritis (tender nerves, nerve deficit) use corticosteriods as below. Do not wait for nerve damage to appear as it may be too late for function to return.</p>
             <p>Severe Reversal Reaction</p>
@@ -407,45 +407,45 @@ export const chapter_eleven: Chapters = {
             <p>‘New’ implies additional to what the patient already had at registration or developed within the last 6 months.</p>
             <p>Admit to hospital. Treat with corticosteroid:</p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>prednisolone po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>40mg (or 1mg/kg)</p></td><td><p>once a day</p></td><td><p>-</p></td></tr>
-              <tr><td></td><td colspan="4">
-                <p><strong>Then</strong></p> </td><td colspan="3">
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>prednisolone po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>40mg (or 1mg/kg)</p></td><td><p>once a day</p></td><td><p>-</p></td></tr>
+              <tr><td></td><td colSpan={4}>
+                <p><strong>Then</strong></p> </td><td colSpan={3}>
                   <p>reduce slowly by 5mg each week, once nerve tenderness subsides</p></td></tr>
-              <tr><td></td><td colspan="4">
+              <tr><td></td><td colSpan={4}>
                 <p><strong>then maintain at</strong></p> </td><td><p>20mg</p></td><td><p>once a day</p></td><td><p>2-3 months</p></td></tr>
-              <tr><td></td><td colspan="4">
-                <p><strong>Then</strong></p> </td><td colspan="2"><p>reduce slowly over 1-2 months</p></td><td><p>total 6 months</p></td></tr >
+              <tr><td></td><td colSpan={4}>
+                <p><strong>Then</strong></p> </td><td colSpan={2}><p>reduce slowly over 1-2 months</p></td><td><p>total 6 months</p></td></tr >
             </table>
             <p>Patients can be discharged at the dosage of 20 mg daily for subsequent outpatient review.</p >
             <p><strong>Erythema Nodosum Leprosum (ENL) Type II reaction</strong></p>
             <p>In this reaction immune complex formation and deposition occurs with the activation of complement. This type of reaction is characterised by crops of tender subcutaneous nodules on the face, trunk and extensor surfaces of the limbs. It may include systemic features such as fever, lymphadenitis, orchitis, arthritis, nephritis, iridocyclitis and peripheral neuritis. Severe ENL may also present with ulcerating and pustular lesions. The full dose of antileprosy medicines should be continued in addition to the treatment of the reaction.</p>
             <p>Mild Type II Reaction</p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>aspirin po</strong></p> </td><td colspan="2"><p><strong>C V</strong></p> </td><td><p>600mg</p></td><td colspan="2"><p>4 times a day</p></td><td><p>1-2 weeks</p></td></tr >
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>aspirin po</strong></p> </td><td colSpan={2}><p><strong>C V</strong></p> </td><td><p>600mg</p></td><td colSpan={2}><p>4 times a day</p></td><td><p>1-2 weeks</p></td></tr >
             </table>
             <p>If there is no improvement or the patient develops nerve damage, corticosteroids are indicated.</p >
             <p><strong>Severe Type II Reaction</strong></p>
             <p>Admit for corticosteroid therapy and refer to specialist urgently:</p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>prednisolone po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>40-60mg</p></td><td><p>once a day</p></td><td><p>1-2 weeks</p></td></tr>
-              <tr><td></td><td colspan="4">
-                <p><strong>then</strong></p> </td><td colspan="3">
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>prednisolone po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>40-60mg</p></td><td><p>once a day</p></td><td><p>1-2 weeks</p></td></tr>
+              <tr><td></td><td colSpan={4}>
+                <p><strong>then</strong></p> </td><td colSpan={3}>
                   <p>reduce slowly by 5mg-10mg each week, over a period of 4-6 weeks;</p></td></tr>
-              <tr><td></td><td></td><td colspan="2"> </td><td></td><td colspan="3">
+              <tr><td></td><td></td><td colSpan={2}> </td><td></td><td colSpan={3}>
                 <p>*total dcptrial = 6-10weeks</p> </td></tr >
             </table>
             <p>Recurrent Type II Reaction</p>
             <p>Use clofazimine in anti-inflammatory dosage in addition to prednisolone. Attempt to taper prednisolone while maintaining clofazimine as below:</p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-              <tr><td></td><td><p><strong>clofazimine po</strong></p> </td><td colspan="2"><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>100mg</p></td><td colspan="2"><p>3 times a day</p></td><td><p>3 months</p></td></tr>
-              <tr><td></td><td colspan="4">
-                <p><strong>then</strong></p> </td><td><p>100mg</p></td><td colspan="2"><p>2 times a day</p></td><td><p>3 months</p></td></tr>
-              <tr><td></td><td colspan="4">
-                <p><strong>then</strong></p> </td><td><p>100mg</p></td><td colspan="2"><p>once a day</p></td><td><p>6 months</p></td></tr >
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+              <tr><td></td><td><p><strong>clofazimine po</strong></p> </td><td colSpan={2}><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>100mg</p></td><td colSpan={2}><p>3 times a day</p></td><td><p>3 months</p></td></tr>
+              <tr><td></td><td colSpan={4}>
+                <p><strong>then</strong></p> </td><td><p>100mg</p></td><td colSpan={2}><p>2 times a day</p></td><td><p>3 months</p></td></tr>
+              <tr><td></td><td colSpan={4}>
+                <p><strong>then</strong></p> </td><td><p>100mg</p></td><td colSpan={2}><p>once a day</p></td><td><p>6 months</p></td></tr >
             </table>
             <p>Refer all patients developing abdominal complaints (pain, constipation, distension).</p>
             <p>It may take 4 to 6 weeks for clofazime to take effect in controlling ENL.</p>
@@ -512,73 +512,73 @@ export const chapter_eleven: Chapters = {
             <p><strong>Antimicrobial therapy for treatment of Typhoid fever</strong></p >
             <p><strong>i) Susceptibility: Fully Sensitive</strong></p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>ciprofloxacin po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colspan="2"><p>Twice a day</p></td><td><p>5-7days</p></td></tr >
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>ciprofloxacin po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colSpan={2}><p>Twice a day</p></td><td><p>5-7days</p></td></tr >
             </table >
             <p><strong>Alternative Medicines</strong></p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>chloramphenicol po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>1g</p></td><td colspan="2"><p>4 times a day</p> </td><td><p>14–21days</p></td></tr>
-              <tr><td>or</td><td><p><strong>amoxicillin po</strong></p> </td><td colspan="2"><p><strong>C V</strong></p> </td><td><p>2g</p></td><td colspan="2"><p>3 times a day</p></td><td><p>14days</p></td></tr >
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>chloramphenicol po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>1g</p></td><td colSpan={2}><p>4 times a day</p> </td><td><p>14–21days</p></td></tr>
+              <tr><td>or</td><td><p><strong>amoxicillin po</strong></p> </td><td colSpan={2}><p><strong>C V</strong></p> </td><td><p>2g</p></td><td colSpan={2}><p>3 times a day</p></td><td><p>14days</p></td></tr >
             </table >
             <p><strong>ii)Susceptibility: Multidrug Resistant</strong></p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>ciprofloxacin po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colspan="2"><p>Twice a day</p></td><td><p>7-14days</p></td></tr>
-              <tr><td>or</td><td><p><strong>cefixime po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>500-750mg</p></td><td colspan="2"><p>Twice a day</p></td><td><p>7days</p></td></tr >
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>ciprofloxacin po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colSpan={2}><p>Twice a day</p></td><td><p>7-14days</p></td></tr>
+              <tr><td>or</td><td><p><strong>cefixime po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>500-750mg</p></td><td colSpan={2}><p>Twice a day</p></td><td><p>7days</p></td></tr >
             </table >
             <p><strong>Alternative Medicines</strong></p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>azithromycin po</strong></p> </td><td colspan="2"><p><strong>C V</strong></p> </td><td><p>1gm</p></td><td colspan="2"><p>Once a day</p></td><td><p>5</p></td></tr>
-              <tr><td></td><td><p><strong>Cefixime po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>500-750mg</p></td><td colspan="2"><p>Twice a day</p></td><td><p>7-14</p></td></tr >
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>azithromycin po</strong></p> </td><td colSpan={2}><p><strong>C V</strong></p> </td><td><p>1gm</p></td><td colSpan={2}><p>Once a day</p></td><td><p>5</p></td></tr>
+              <tr><td></td><td><p><strong>Cefixime po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>500-750mg</p></td><td colSpan={2}><p>Twice a day</p></td><td><p>7-14</p></td></tr >
             </table >
             <p><strong>iii) Susceptibility: Quinoline Resistant</strong></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>azithromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>250-500mg</p></td><td colspan="2"><p>once a day</p></td><td><p>7</p></td></tr>
-              <tr><td>or</td><td><p><strong>ceftriaxone iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>2gm</p></td><td colspan="2"><p>once a day</p></td><td><p>10-14</p></td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>azithromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>250-500mg</p></td><td colSpan={2}><p>once a day</p></td><td><p>7</p></td></tr>
+              <tr><td>or</td><td><p><strong>ceftriaxone iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>2gm</p></td><td colSpan={2}><p>once a day</p></td><td><p>10-14</p></td></tr >
             </table >
             <p><strong>Alternative Medicines</strong></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>Cefixime po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>600mg</p></td><td colspan="2"><p>Twice a day</p></td><td><p>7-14</p></td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>Cefixime po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>600mg</p></td><td colSpan={2}><p>Twice a day</p></td><td><p>7-14</p></td></tr >
             </table >
             <p><strong>SEVERE TYPHOID DISEASE</strong></p>
             <p><strong>i) Susceptibility: Fully Sensitive</strong></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>ciprofloxacin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="2"><p>500mg</p></td><td><p>Twice a day</p></td><td><p>7-10</p></td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>ciprofloxacin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={2}><p>500mg</p></td><td><p>Twice a day</p></td><td><p>7-10</p></td></tr >
             </table >
             <p><strong>Alternative Medicines</strong></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>chloramphenicol po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td><p>4 times a day</p></td><td><p>14</p></td></tr>
               <tr><td>or</td><td><p><strong>amoxicillin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p></td><td><p>14</p></td></tr>
             </table >
             <p><strong>ii) Susceptibility: Multidrug Resistant</strong></p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>ciprofloxacin po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colspan="2"><p>Twice a day</p></td><td><p>10-14</p></td></tr>
-              <tr><td>or</td><td><p><strong>Cefixime</strong></p> </td><td colspan="2"><p><strong>C V</strong></p> </td><td><p>600mg</p></td><td colspan="2"><p>Twice a day</p></td><td><p>10-14</p></td></tr >
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>ciprofloxacin po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colSpan={2}><p>Twice a day</p></td><td><p>10-14</p></td></tr>
+              <tr><td>or</td><td><p><strong>Cefixime</strong></p> </td><td colSpan={2}><p><strong>C V</strong></p> </td><td><p>600mg</p></td><td colSpan={2}><p>Twice a day</p></td><td><p>10-14</p></td></tr >
             </table >
             <p><strong>Alternative Medicines</strong></p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>ceftriaxone iv</strong></p> </td><td colspan="2"><p><strong>C V</strong></p> </td><td><p>2gm</p></td><td><p>once a day</p></td><td><p>7-14</p></td></tr >
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>ceftriaxone iv</strong></p> </td><td colSpan={2}><p><strong>C V</strong></p> </td><td><p>2gm</p></td><td><p>once a day</p></td><td><p>7-14</p></td></tr >
             </table >
             <p><strong>iii) Susceptibility: Quinolone Resistance</strong></p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>ceftriaxone iv</strong></p> </td><td colspan="2"><p><strong>C V</strong></p> </td><td><p>2gm</p></td><td><p>once a day</p></td><td><p>7-14</p></td></tr>
-              <tr><td>or</td><td><p><strong>azithromycin po</strong></p> </td><td colspan="2"><p><strong>C V</strong></p> </td><td><p>Igm</p></td><td><p>once a day</p></td><td><p>5</p></td></tr >
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>ceftriaxone iv</strong></p> </td><td colSpan={2}><p><strong>C V</strong></p> </td><td><p>2gm</p></td><td><p>once a day</p></td><td><p>7-14</p></td></tr>
+              <tr><td>or</td><td><p><strong>azithromycin po</strong></p> </td><td colSpan={2}><p><strong>C V</strong></p> </td><td><p>Igm</p></td><td><p>once a day</p></td><td><p>5</p></td></tr >
             </table >
             <p>Dehydration is uncommon in Typhoid fever; however, electrolyte imbalance, e.g. hypoglycaemia, hypokalaemia and hyponatremia frequently occur and need to be corrected using appropriate electrolyte solutions. In cases where intestinal perforation is suspected surgery and parenteral nutrition may be required. In cases of moderate to severe dehydration, follow the guideline for treatment of dehydration.</p>
             <p><strong>A. Treatment of Carriers</strong></p>
             <p>An individual is considered to be a chronic carrier if he or she is asymptomatic and continues to have positive stool or rectal swab cultures for <em>S. typhi</em> a year following recovery from acute illness:</p>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>Ciprofloxacin po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colspan="2"><p>Twice a day</p></td><td><p>4 weeks</p></td></tr >
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>Ciprofloxacin po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colSpan={2}><p>Twice a day</p></td><td><p>4 weeks</p></td></tr >
             </table >
             <p>Ciprofloxacin can be used in children if the benefits outweigh the potential harms.</p>
             <p>And/or:</p>

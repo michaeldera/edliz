@@ -27,11 +27,11 @@ export const chapter_three: Chapters = {
         <p>The table below give the frequency of dosing for all medicines and is referref to in the therapies that follow in the text.</p>
         <table>
           <caption>Table 3.1 Frequency of dosage by gestational age</caption>
-            <tr><th colSpan="2">Gestational age &gt; 37 weeks (term baby)</th></tr>
+            <tr><th colSpan={2}>Gestational age &gt; 37 weeks (term baby)</th></tr>
             <tr><td>First two days</td><td>2 doses per 24 hours</td></tr>
             <tr><td>3 days to 2 weeks</td><td>3 doses per 24 hours</td></tr>
             <tr><td>&gt; 2 weeks</td><td>4 doses per 24 hours</td></tr>
-            <tr><th colSpan="2">Gestational age &lt; 37 weeks (pre-term baby)</th></tr>
+            <tr><th colSpan={2}>Gestational age &lt; 37 weeks (pre-term baby)</th></tr>
             <tr><td>First week</td><td>2 doses per 24 hours</td></tr>
             <tr><td>1 to 4 weeks</td><td>3 doses per 24 hours</td></tr>
             <tr><td>&gt; 4 weeks</td><td>4 doses per 24 hours</td></tr>
@@ -87,7 +87,7 @@ export const chapter_three: Chapters = {
           <table>
             <caption>For respiratory depression,but only if the mother was given pethidine in labour:</caption>
                 <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Frequency</th></tr>
-                <tr><td rowSpan="4">naloxane neonatal 20mcg/ml im <br/><em>NB: Note strength</em></td><td rowSpan="4">B V</td><td>&lt; 0 to 1kg: 10mcg = 0.5ml</td><td rowSpan="4">repeat as necessary</td></tr>
+                <tr><td rowSpan={4}>naloxane neonatal 20mcg/ml im <br/><em>NB: Note strength</em></td><td rowSpan={4}>B V</td><td>&lt; 0 to 1kg: 10mcg = 0.5ml</td><td rowSpan={4}>repeat as necessary</td></tr>
                 <tr><td> 1 to 2kg: 20mcg = 1ml</td></tr>
                 <tr><td> 2 to 3kg: 30mcg = 1.5ml</td></tr>
                 <tr><td>more than 4kg: 40mcg = 2ml</td></tr>
@@ -123,15 +123,15 @@ export const chapter_three: Chapters = {
             <li>Day 1
               <table>
               <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq</th><th>Duration</th></tr>
-                <tr><td>dextrose 10% iv infusion</td><td>A N</td><td colSpan="3">60ml/kg/24hrs</td></tr>
+                <tr><td>dextrose 10% iv infusion</td><td>A N</td><td colSpan={3}>60ml/kg/24hrs</td></tr>
               </table>
             </li>
             <li>Day 2
               <table>
               <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq</th><th>Duration</th></tr>
-                <tr><td>darrows half strength / dextrose 2.5% iv with 10% dextrose infusion*</td><td>C V</td><td colSpan="3">Same as for oral fluids up to a max. of 150ml/kg/24hrs – inclusive of all fluids Administered</td></tr>
-              <tr><td colSpan="5">or</td></tr>
-              <tr><td>neonatalyte iv infusion</td><td>B N</td><td colSpan="3">oral, nasogastric and intravenous.</td></tr>
+                <tr><td>darrows half strength / dextrose 2.5% iv with 10% dextrose infusion*</td><td>C V</td><td colSpan={3}>Same as for oral fluids up to a max. of 150ml/kg/24hrs – inclusive of all fluids Administered</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
+              <tr><td>neonatalyte iv infusion</td><td>B N</td><td colSpan={3}>oral, nasogastric and intravenous.</td></tr>
               <small>*This can be made up by withdrawing 30 ml from a 200 ml bag of half strength Darrows/dextrose 2.5% and replacing with 30 ml of 50% dextrose</small>
               </table>
             </li>
@@ -147,13 +147,13 @@ export const chapter_three: Chapters = {
           <h2>Neonatal Infection</h2>
           <table>
             <caption>Table 3.2 Gentamicin dosages:</caption>
-            <tr><th colSpan="4">Premature or full term neonates up to 7days old</th></tr>
+            <tr><th colSpan={4}>Premature or full term neonates up to 7days old</th></tr>
             <tr><th>Weight</th><th>Age</th><th>Dose</th><th>Frequency</th></tr>
             <tr><td>less than 1000gm</td><td>28 weeks</td><td>2.5mg/kg</td><td>once every 24hrs</td></tr>
             <tr><td>more than 1000gm</td><td>&gt;28weeks</td><td>2.5mg/kg</td><td>every 12hrs</td></tr>
             <tr><th>Neonates more than 7 days old</th></tr>
-            <tr><td colSpan="2">less than 1200gm</td><td>2.5mg/kg</td><td>every 12hrs</td></tr>
-            <tr><td colSpan="2">more than 1200gm</td><td>2.5mg/kg</td><td>every 8hrs</td></tr>
+            <tr><td colSpan={2}>less than 1200gm</td><td>2.5mg/kg</td><td>every 12hrs</td></tr>
+            <tr><td colSpan={2}>more than 1200gm</td><td>2.5mg/kg</td><td>every 8hrs</td></tr>
           </table>
           <small>*consider -once daily gentamicin dosing in neonates &lt;35 weeks gestation: 3mg/kg every 24 hours, &gt;35 weeks gestation: 4mg/kg every 24hours and &gt;37 weeks: 5mg/kg</small>
           <p>There are usually few localising signs in infants, and accurate diagnosis may not be possible. The following regimens are recommended for suspected sepsis.</p>
@@ -218,7 +218,7 @@ export const chapter_three: Chapters = {
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq.</th><th>Duration</th></tr>
             <tr><td>benzylpenicillin im</td><td>C V</td><td>0.05 –0.1MU/kg</td><td>6 hourly</td><td>10 days</td></tr>
-            <tr colSpan="5"><td>and</td></tr>
+            <tr><td colSpan={5}>and</td></tr>
             <tr><td>Gentamicin</td><td>C V</td><td>5-7mg/kg</td><td>Once daily</td><td>10 days</td></tr>
           </table>
           <p>Note: change to oral when possible</p>
@@ -262,7 +262,7 @@ export const chapter_three: Chapters = {
           </ul>
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq.</th><th>Duration</th></tr>
-            <tr><td colSpan="5">or</td></tr>
+            <tr><td colSpan={5}>or</td></tr>
             <tr><td>procaine penicillin</td><td>C V</td><td>&lt;1yr<br />1-3yrs<br />3-5yrs</td><td>= 150mg<br />= 300mg<br />= 450mg</td><td>once a day</td><td>5 days</td></tr>
           </table>
           <ul>
@@ -399,9 +399,9 @@ export const chapter_three: Chapters = {
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq.</th><th>Duration</th></tr>
             <tr><td><strong>salbutamol nebulised</strong> 5mg/ml in 2ml sterile water</td><td>B V</td><td><p>&lt;1yr</p><p>&gt;1yr</p></td><td><p>= 2.5mg</p><p>= 5mg</p></td><td>as required</td></tr>
-            <tr><td colSpan="5">Or</td></tr>
+            <tr><td colSpan={5}>Or</td></tr>
             <tr><td>salbutamol po</td><td>B V</td><td><p>2-12mnths</p><p>1-5yrs</p></td><td><p>= 1mg</p><p>= 2mg</p></td><td>3 times a day</td><td>-</td></tr>
-            <tr><td colSpan="5">Or5</td></tr>
+            <tr><td colSpan={5}>Or5</td></tr>
             <tr><td>adrenaline subcutaneously 1:1000</td><td>C V</td><td>0.01ml/kg up to a max of 0.25ml</td><td>repeat after 20mins if required</td></tr>
           </table>
           <p><strong><em>If asthma is suspected refer to Asthma section for detailed management</em></strong></p>
@@ -427,7 +427,7 @@ export const chapter_three: Chapters = {
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq.</th><th>Duration</th></tr>
             <tr><td>chloramphenicol iv</td><td>B V</td><td>12.5mg/kg</td><td>6hourly</td><td>7 days</td></tr>
-            <tr><td colSpan="5">and</td></tr>
+            <tr><td colSpan={5}>and</td></tr>
             <tr><td>cloxacillin iv</td><td>B V</td><td>12.5-25mg/kg</td><td>6hourly</td><td>7 days</td></tr>
           </table>
           <ul>
@@ -452,7 +452,7 @@ export const chapter_three: Chapters = {
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq.</th><th>Duration</th></tr>
             <tr><td>cloxacillin im/iv</td><td>B V</td><td>25mg/kg/dose</td><td>6 hourly</td><td>7 days</td></tr>
-            <tr><td colSpan="5">and</td></tr>
+            <tr><td colSpan={5}>and</td></tr>
             <tr><td>gentamicin im/iv</td><td>C V</td><td>6mg/kg</td><td>24 hourly</td><td>7 days</td></tr>
           </table>
           <h3>DCPtrial / lung abscess</h3>
@@ -460,7 +460,7 @@ export const chapter_three: Chapters = {
             <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq.</th><th>Duration</th></tr>
             <tr><td>cloxacillin iv/im/po</td><td>B V</td><td>12.5-25mg/kg</td><td>6hrly</td><td>6 weeks</td></tr>
             <tr><td>gentamicin im/iv</td><td>C V</td><td>5-7mg/kg</td><td>24 hourly</td><td>14 days</td></tr>
-            <tr><td colSpan="5">or</td></tr>
+            <tr><td colSpan={5}>or</td></tr>
             <tr><td>kanamycin im</td><td>C V</td><td>7.5mg/kg</td><td>12hrly</td><td>14 days</td></tr>
           </table>
           <p><strong>Empyema– should also insert a chest drain</strong></p>
@@ -536,7 +536,7 @@ export const chapter_three: Chapters = {
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq.</th><th>Duration</th></tr>
             <tr><td>procaine penicillin im</td><td>C V</td><td><p>&lt; 1yr</p><p>1 to 3yrs</p><p>3 to 5yrs</p></td><td><p>1/2mls(=150mg)</p><p>1ml(= 300mg)</p><p>11/2mls( 450mg)</p></td><td>once a day</td><td>5 days then penicillin V for 5 days</td></tr>
-            <tr><td colSpan="5">or</td></tr>
+            <tr><td colSpan={5}>or</td></tr>
             <tr><td>Amoxicillin po</td><td>C E</td><td><p>&lt;3yrs</p><p>&gt;3yrs &gt;12yrs</p></td><td><p>= 125mg</p><p>= 250mg</p><p>= 500mg</p></td><td>3 times a day</td><td>10 days</td></tr>
           </table>
           <ul>
@@ -547,7 +547,7 @@ export const chapter_three: Chapters = {
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Paed dose</th><th>Freq.</th><th>Duration</th></tr>
             <tr><td>nystatin po</td><td>B E</td><td>250 000iu after feeds</td><td>3-6 times a day</td><td>5 days</td></tr>
-            <tr><td colSpan="5">or</td></tr>
+            <tr><td colSpan={5}>or</td></tr>
             <tr><td>miconazole 2% gel po</td><td>C V</td><td>2.5ml after feeds</td></tr>
           </table>
           <p><strong>Managing a child with a blocked nose or nasal discharge</strong></p>

@@ -15,9 +15,9 @@ export const chapter_sixteen: Chapters = {
           <p>Usually presents with dysuria, frequency, urgency and suprapubic pain but note that in men dysuria more commonly indicates a sexually transmitted infection (STI). Always exclude an STI. With UTI, urine is often cloudy and smelly. Where possible diagnosis, should be made with leucocyte dipstick, microscopy or culture.</p>
           <p><strong> Treat with:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>norfloxacin* po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td colspan="2"><p>2 times a day</p></td><td><p>3 days</p></td></tr>
-            <tr><td>or</td><td><p><strong>amoxicillin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td colspan="2"><p>3 times a day</p> </td><td><p>3 days</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>norfloxacin* po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td colSpan={2}><p>2 times a day</p></td><td><p>3 days</p></td></tr>
+            <tr><td>or</td><td><p><strong>amoxicillin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td colSpan={2}><p>3 times a day</p> </td><td><p>3 days</p></td></tr >
           </table>
           <p> If still symptomatic after 3 days,
       <strong>refer</strong>.</p >
@@ -27,14 +27,14 @@ export const chapter_sixteen: Chapters = {
             <li> Mild acute pyelonephritis</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>norfloxacin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td colspan="2"><p>2 times a day</p></td><td><p>2 weeks</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>norfloxacin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td colSpan={2}><p>2 times a day</p></td><td><p>2 weeks</p></td></tr >
           </table>
           <ul>
             <li> Acutely ill patients: use IV antibiotics until apyrexial, and then change to oral therapy.</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>ceftriaxone iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1g</p></td><td><p>Once a day</p></td><td><p>review</p></td></tr>
             <tr><td>or</td><td><p><strong>gentamicin* iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>4-7mg/kg</p></td><td><p>once a day</p></td><td><p>review</p></td></tr>
           </table>
@@ -70,7 +70,7 @@ export const chapter_sixteen: Chapters = {
           <p><strong>Electrolytes:</strong> Ideally measure urea and electrolytes at least on alternate days. Monitor potassium levels.</p>
           <p><br /> To lower potassium levels in acute hyperkalaemia, give:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td >
             </td><td><p><strong>calcium gluconate (or chloride) 10%  IV</strong></p>
                 <p><strong>insulin with glucose</strong></p> </td><td><p><strong>B</strong></p >
@@ -81,9 +81,9 @@ export const chapter_sixteen: Chapters = {
             <tr><td><p><strong>/or</strong></p> </td><td><p><strong>salbutamol nebulised</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10mg</p></td><td><p>2 times a day</p></td><td><p>Review</p></td></tr>
             <tr><td><p><strong>plus</strong></p> </td><td><p><strong>insulin with dextrose</strong></p> </td><td><p><strong>B</strong></p>
             </td><td><p><strong>V</strong></p>
-              </td><td colspan="3">
+              </td><td colSpan={3}>
                 <p>50mls of 50% dextrose + 10 units of short dcptrial insulin</p> </td></tr>
-            <tr><td>or</td><td><p><strong>Calcium Resonium®</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td colspan="3">
+            <tr><td>or</td><td><p><strong>Calcium Resonium®</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td colSpan={3}>
               <p>45gm as enema. Leave enema in for as long as possible</p></td></tr>
           </table>
           <p>General measures in the management of acute renal failure</p>
@@ -117,7 +117,7 @@ export const chapter_sixteen: Chapters = {
           <p> Promote a diuresis with small doses of oral frusemide (40-80mg once daily). If response obtained put on a regular dose.</p>
           <p> If post-streptococcal aetiology is suspected give:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>amoxicillin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p></td><td><p>10 days</p></td></tr>
           </table>
           <p>
@@ -136,9 +136,9 @@ export const chapter_sixteen: Chapters = {
           <p>Diagnosed where there is generalised oedema, hypoalbuminaemia and proteinuria (&gt;3gm/day). Dipstick should show at least protein ++. To quantify the proteinuria, you can request a urine albumin: creatinine ratio. Estimate the GFR (creatinine clearance). See section on ART for calculation of GFR.. Check urine microscopy and U&amp;Es. Weigh patient at each review. Exclude SLE, HIV and Hepatitis B or C or even diabetes.</p>
           <p> Promote diuresis using:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>frusemide po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>40 – 80mg</p></td><td><p>once a day,</p></td><td><p>5 days</p></td></tr>
-            <tr><td colspan="3">
+            <tr><td colSpan={3}>
               <p>then refer if no response:</p></td><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td><p><strong>frusemide po or iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>40 – 200mg</p></td><td><p>twice a day</p></td><td><p>until resolution</p></td></tr>
           </table>
@@ -146,7 +146,7 @@ export const chapter_sixteen: Chapters = {
           <p><strong>Measure urea and electrolytes.</strong> Restrict fluid to 1 litre per day until diuresis occurs. If oedema is gross and no response, consider adding: prednisolone as a trial particularly if the urine sediment is benign (i.e. no red cells or casts).</p>
           <p><br /></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1mg/kg</p></td><td><p>once a day [mornings]</p></td><td><p>2 months</p></td></tr>
             <tr><td><p><strong>Plus</strong></p> </td><td><p><strong>enalapril po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>5-10mg</p></td><td><p>Once a day</p></td><td><p>review</p></td></tr>
           </table>
@@ -156,7 +156,7 @@ export const chapter_sixteen: Chapters = {
       <strong>Refer</strong> if there is dcptrial to reduce oedema within two weeks on high dose steroids.</p>
           <p> Anticoagulate if immobile:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>heparin sc</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>5000 units</p></td><td><p>3 times a day</p></td><td><p>until mobile</p></td></tr>
           </table>
           <p> Search for underlying cause -e.g. Diabetes, SLE, Hepatitis B/C, HIV, syphilis.</p>
@@ -216,7 +216,7 @@ export const chapter_sixteen: Chapters = {
             <tr><td><p>allopurinol</p></td><td><p>Reduce dose DCPtrial 200mg daily)</p> </td></tr>
             <tr><td><p>phenobarbitone</p></td><td><p>Use 25% of dcptrial dose or avoid if possible</p> </td></tr>
             <tr><td><p>benzodiazepines</p></td><td><p>Use 25% of normal dose or avoid</p></td></tr>
-            <tr><td colspan="2"><p><a><strong>Antiretroviral Medicines</strong>
+            <tr><td colSpan={2}><p><a><strong>Antiretroviral Medicines</strong>
             </a></p> </td></tr>
             <tr><td><p>Abacavir</p></td><td><p>Use usual dose</p></td></tr>
             <tr><td><p>Zidovudine</p></td><td><p>DCPtrial dose especially if on dialysis</p> </td></tr>

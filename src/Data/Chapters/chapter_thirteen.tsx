@@ -36,7 +36,7 @@ export const chapter_thirteen: Chapters = {
           </ul>
           <p> If tuberculosis <strong>is unlikely</strong> and the patient’s condition does not warrant admission, treat the infection with:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>amoxicillin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1g stat, then 500mg</p> </td><td><p>3 times a day</p></td><td><p>7 days+review (Return earlier if symptoms worsen)</p></td></tr>
             <tr><td>or</td><td><p><strong>If sensitive to penicillin use: erythromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>4 times a day</p></td><td><p>7 days</p></td></tr>
           </table>
@@ -59,7 +59,7 @@ export const chapter_thirteen: Chapters = {
             <li> Manage with:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>cotrimoxazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1920mg</p>
               <p>(4 tabs)</p></td><td><p>3 times a day</p></td><td><p>21 days</p></td></tr>
           </table>
@@ -67,15 +67,15 @@ export const chapter_thirteen: Chapters = {
             <li> or in sulphonamide allergy:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>clindamycin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>600mg</p></td><td><p>3 times a day</p></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>clindamycin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>600mg</p></td><td><p>3 times a day</p></td><td rowSpan={2}>
               <p>21 days</p></td></tr>
             <tr><td>and</td><td><p><strong>primaquine po</strong></p> </td><td><p><strong>B N</strong></p> </td><td><p>15mg</p></td><td><p>once a day</p></td></tr>
           </table>
           <p> If tachypnoea or cyanosis is present,
       <strong>add:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>40mg</p></td><td><p>twice a day</p></td><td><p>5 days</p></td></tr>
             <tr><td><p><strong>then</strong></p> </td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>40mg</p></td><td><p>once a day</p></td><td><p>5 days</p></td></tr>
             <tr><td><p><strong>then</strong></p> </td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>20mg</p></td><td><p>once a day</p></td><td><p>11 days</p></td></tr>
@@ -83,9 +83,9 @@ export const chapter_thirteen: Chapters = {
           <p>
       <strong>After PCP has been treated give cotrimoxazole prophylaxis and refer to the OI/ART clinic</strong>. If there is sulpha allergy, cotrimoxazole desensitization may be considered.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>cotrimoxazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="2"><p>960mg</p></td><td><p>once a day</p></td><td><p>Indefinitely</p></td></tr>
-            <tr><td></td><td></td><td colspan="3">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>cotrimoxazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={2}><p>960mg</p></td><td><p>once a day</p></td><td><p>Indefinitely</p></td></tr>
+            <tr><td></td><td></td><td colSpan={3}>
               <p>&lt; 6mths</p>
               <p>6-12mths</p>
               <p>&gt;1 year</p></td><td><p>= 120mg</p>
@@ -123,7 +123,7 @@ export const chapter_thirteen: Chapters = {
           <p> Always try to obtain sputum for MCS to establish the aetiological pathogen and its sensitivity to guide antibiotic treatment after empiric therapy.</p>
           <p>Pneumonia - segmental/ lobar (usually pneumococcal)</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>benzylpenicillin iv or im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1.5gm (=2.5MU)</p></td><td><p>6 hourly</p></td><td><p>7 days</p></td></tr>
             <tr><td>or</td><td><p><strong>ceftriaxone IV</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1gm</p></td><td><p>Daily or twice</p></td><td><p>7 days</p></td></tr>
             <tr><td><p><strong>+/-</strong></p> </td><td><p><strong>erythromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>4 times a day</p></td><td><p>7 days</p></td></tr>
@@ -133,14 +133,14 @@ export const chapter_thirteen: Chapters = {
           <p> If no improvement 48 hours, review diagnosis (consider tuberculosis or a complication of pneumonia e.g. lung abscess)</p>
           <p><a>Pneumonia - Staphylococcal</a></p>
           <table>
-            <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>cloxacillin iv*</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>1 - 2 gm</p></td><td><p>6 hourly</p></td><td><p>14 days</p></td></tr>
-            <tr><td>or</td><td><p><strong>clindamycin iv*</strong> in penicillin allergy</p> </td><td colspan="2"><p><strong>B N</strong></p> </td><td><p>600mg</p></td><td><p>3 – 4 times a day</p></td><td><p>14 days</p></td></tr >
+            <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>cloxacillin iv*</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>1 - 2 gm</p></td><td><p>6 hourly</p></td><td><p>14 days</p></td></tr>
+            <tr><td>or</td><td><p><strong>clindamycin iv*</strong> in penicillin allergy</p> </td><td colSpan={2}><p><strong>B N</strong></p> </td><td><p>600mg</p></td><td><p>3 – 4 times a day</p></td><td><p>14 days</p></td></tr >
           </table>
           <p><a>*iv for at least 7 days, then consider changing to oral route</a></p>
           <p>Pneumonia – Klebsiella, other gram negative</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>gentamicin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>120mg</p></td><td><p>12 hourly</p></td><td><p>10-14 days</p></td></tr>
             <tr><td>and</td><td><p><strong>ceftriaxone iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1gm</p></td><td><p>2 times a day</p></td><td><p>10-14 days</p></td></tr>
           </table>
@@ -159,11 +159,11 @@ export const chapter_thirteen: Chapters = {
             </li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>benzylpenicillin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1.5gm (=2.5MU)</p></td><td><p>6 hourly</p></td><td><p>4-8weeks*</p></td></tr>
             <tr><td>and</td><td><p><strong>metronidazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td><p>3 times a day</p></td><td><p>4-8weeks</p></td></tr>
             <tr><td></td><td><p><strong>Alternatively (alone)</strong></p> </td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>Co-amoxiclavulanic acid po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>V</strong></p> </td><td><p>625mg</p></td><td><p>3 times a day</p></td><td></td></tr>
           </table>
           <p>*continue until no longer toxic +/- 7 days, then complete treatment as outpatient for 4-8 weeks with oral <strong>amoxicillin</strong> 500mg three times a day. Be on the look out for C. dificille diarrheoa due to long course of antibiotics. Repeat the CXR at 6 weeks. If no significant resolution/response, refer to a Specialist to consider possibility of MRSA (if patient was previously hospitalised), TB or other pathologies such as malignancy.</p>
@@ -177,18 +177,18 @@ export const chapter_thirteen: Chapters = {
           <h2>In-patient Management</h2>
           <p> Institute pleural drainage with a <strong>large intercostal tube and underwater seal </strong>.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>benzylpenicillin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>2.5MU</p></td><td><p>6 hourly</p></td><td><p>10-14 days</p></td></tr>
             <tr><td>and</td><td><p><strong>metronidazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td><p>3 times a day</p></td><td><p>10-14 days</p></td></tr>
-            <tr><td></td><td><p><strong>Alternatively (alone)</strong></p> </td><td colspan="2"></td><td></td><td></td><td></td></tr>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>Alternatively (alone)</strong></p> </td><td colSpan={2}></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>Co-amoxiclavulanic acid po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>V</strong></p> </td><td><p>625mg</p></td><td><p>3 times a day</p></td><td></td></tr>
           </table>
           <p>Also institute thromboprophylaxis with heparin/warfarin (refer to Haematology section).</p>
           <p>Note: If pus still drains after two weeks refer for surgical opinion.</p>
           <p> If preceded by a suspected <em>staphylococcal</em> pneumonia use:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>cloxacillin iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1gm</p></td><td><p>6 hourly</p></td><td><p>10-14 days</p></td></tr>
             <tr><td>and</td><td><p><strong>metronidazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td><p>3 times a day</p></td><td><p>10-14 days</p></td></tr>
           </table>
@@ -200,7 +200,7 @@ export const chapter_thirteen: Chapters = {
           <p>Hospital Acquired Infections (Nosocomial)</p>
           <p><a>presenting 3 days after admission </a>:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>gentamicin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>120mg</p></td><td><p>12 hourly</p></td><td><p>7-10 days</p></td></tr>
             <tr><td>and</td><td><p><strong>benzylpenicillin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1.5gm (=2.5MU)</p></td><td><p>6 hourly</p></td><td><p>7-10 days</p></td></tr>
           </table>
@@ -222,23 +222,23 @@ export const chapter_thirteen: Chapters = {
           <p><strong>Treatment of COPD exacerbation</strong></p>
           <p>Antibiotics if sputum colour has changed to purulent, fever or new chest Xray infiltrates.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>amoxicillin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p></td><td><p>7 days</p></td></tr>
             <tr><td>or</td><td><p><strong>doxycycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td><p>once a day</p></td><td><p>7 days</p></td></tr>
           </table>
           <p> For airway obstruction and dyspnoea add:</p>
           <p> Mild /Moderate Disease and patient able to use inhaler (check technique):</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>salbutamol inhaler</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100-200mcg</p></td><td><p>6 hourly</p></td><td><p>review</p></td></tr>
             <tr><td><p>plus</p></td><td><p><strong>ipratropium inhaler</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>40mcg</p></td><td><p>6 hourly</p></td><td><p>review</p></td></tr>
           </table>
           <p> If dyspnoea is severe:</p>
           <table>
-            <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>salbutamol nebulised</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>5mg</p></td><td><p>6 hourly</p></td><td><p>review</p></td></tr>
-            <tr><td><p><strong>plus</strong></p> </td><td><p><strong>ipratropium nebulised</strong></p> </td><td colspan="2"><p><strong>S</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>500mcg</p></td><td><p>6 hourly</p></td><td><p>review</p></td></tr>
-            <tr><td>and</td><td><p><strong>prednisolone po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>30mg</p></td><td><p>once a day</p></td><td><p>7 to 14days</p></td></tr >
+            <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>salbutamol nebulised</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>5mg</p></td><td><p>6 hourly</p></td><td><p>review</p></td></tr>
+            <tr><td><p><strong>plus</strong></p> </td><td><p><strong>ipratropium nebulised</strong></p> </td><td colSpan={2}><p><strong>S</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>500mcg</p></td><td><p>6 hourly</p></td><td><p>review</p></td></tr>
+            <tr><td>and</td><td><p><strong>prednisolone po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>30mg</p></td><td><p>once a day</p></td><td><p>7 to 14days</p></td></tr >
           </table>
           <p> Preferably drive the nebuliser with air rather than oxygen.</p>
           <p> Controlled oxygen therapy - 2 litres/minute by nasal prongs or 28% ventimask (Avoid higher concentrations of oxygen unless access to blood gas analyser). if able to monitor oxygen saturation aim for SPO <sub>2</sub> 88-92%</p>
@@ -249,17 +249,17 @@ export const chapter_thirteen: Chapters = {
           <p> Use of bronchodilators</p>
           <p> If the patient has mild symptoms and infrequent exacerbations (1 or nil per year) use:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>salbutamol Inhaler</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>200mcg</p></td><td><p>PRN</p></td><td></td></tr>
           </table>
           <p> If no improvement add:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>ipratropium inhaler</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>400mcg</p></td><td><p>PRN</p></td><td></td></tr>
           </table>
           <p> If the patient has frequent to persistent symptoms of breathlessness and frequent exacerbations (more than 1 per year) refer to a specialist whilst trying the following:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>beclomethasone inhaler</strong></p>
               <p><strong>+ salbutamol Inhaler</strong></p> </td><td><p><strong>B</strong></p >
                 <p><strong>C V</strong></p >
@@ -294,7 +294,7 @@ export const chapter_thirteen: Chapters = {
             <li>Improve lung function if patient has proven airway obstruction</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>salbutamol inhaler</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>200mcg</p></td><td><p>PRN</p></td><td></td></tr>
             <tr><td><p><strong>+/-</strong></p> </td><td><p><strong>beclomethasone inhaler</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>200mcg</p></td><td><p>PRN</p></td><td></td></tr>
           </table>
@@ -360,31 +360,31 @@ export const chapter_thirteen: Chapters = {
           </ul>
           <p><strong>Mild Intermittent Asthma</strong> (symptoms once in 3 to 4 months)</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>salbutamol inhaler</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100–200mcg</p></td><td colspan="2"><p>as needed, or before exercise</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>salbutamol inhaler</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100–200mcg</p></td><td colSpan={2}><p>as needed, or before exercise</p></td></tr >
           </table>
           <p><a>Mild Chronic Asthma</a></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>beclomethasone inhaler 100mcg/puff</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>200-400mcg</p></td><td><p>2 times a day</p></td><td><p>continual</p></td></tr>
             <tr><td>and</td><td><p><strong>salbutamol inhaler</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100-200mcg</p></td><td><p>as required</p></td><td><p>Continual</p></td></tr>
           </table>
           <p>Moderate Chronic Asthma</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>beclomethasone inhaler</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>200mcg</p></td><td><p>Twice a day</p></td><td><p>-</p></td></tr>
             <tr><td></td><td><p><strong>salbutamol inhaler</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>200mcg</p></td><td><p>As required</p></td><td><p>-</p></td></tr>
           </table>
           <p><a>Severe Chronic Asthma</a></p>
           <p>If response is still not adequate and the inhaler technique is adequate:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>beclomethasone inhaler</strong> 100mcg/puff</p></td><td><p><strong>B V</strong></p> </td><td><p>400mcg</p></td><td><p>2- 4 times a day</p></td><td><p>Continual</p></td></tr>
-            <tr><td rowspan="2">
-              <p><strong>and</strong></p> </td><td><p><strong>prednisolone po*</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>2.5 – 10mg*</p></td><td rowspan="2">
-                <p>once a day (morning)</p></td><td rowspan="2">
+            <tr><td rowSpan={2}>
+              <p><strong>and</strong></p> </td><td><p><strong>prednisolone po*</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>2.5 – 10mg*</p></td><td rowSpan={2}>
+                <p>once a day (morning)</p></td><td rowSpan={2}>
                 <p>Continual</p></td></tr>
-            <tr><td colspan="4"></td></tr>
+            <tr><td colSpan={4}></td></tr>
             <tr><td>and</td><td><p><strong>salbutamol inhaler</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100-200mcg</p></td><td><p>as required</p></td><td><p>as required</p></td></tr>
             <tr><td>or</td><td><p><strong>Salmetarol/Fluticasone inhaler</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>50/250mg</p></td><td><p>Once/twice a day</p></td><td><p>continual</p></td></tr>
             <tr><td><p><strong>+/-</strong></p> </td><td><p><strong>theophylline slow release po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>200mg</p></td><td><p>2-3 times a day</p> </td><td><p>continual</p></td></tr>
@@ -408,25 +408,25 @@ export const chapter_thirteen: Chapters = {
             <li>Measure the pulse, respiratory rate,</li>
             <li>Auscultation of the chest (assess wheezes); Measure lung function by peak flow or spirometer (PEF or FEV <sub>1</sub>) and arterial blood gases if available).</li>
           </ul>
-          <ol start="2">
+          <ol start={2}>
             <li>Grade the asthma according to severity (mild, moderate, severe or imminent respiratory arrest)</li>
             <li>Use medicines and interventions that are appropriate to degree of severity.</li>
           </ol>
           <p>Humidified oxygen by mask at high concentration (6 litres/min) is important <em>.</em></p>
           <p>Give:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>salbutamol nebulised</strong> (in saline or sterile water)</p></td><td><p><strong>B V</strong></p> </td><td><p>5mg</p></td><td colspan="2"><p>repeat at ½ - 1 hr intervals, then every 2-4 hours until recovered</p></td></tr>
-            <tr><td><p><strong>+/-</strong></p> </td><td><p><strong>Ipratropium inhaler</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>500mcg</p></td><td colspan="2"></td></tr>
-            <tr><td>and</td><td><p><strong>oxygen</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>6 litres/min</p></td><td colspan="2"></td></tr>
-            <tr><td>or</td><td><p><strong>adrenaline 1:1000 sc</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>0.5ml</p></td><td colspan="2"><p>1-2 hourly as dcptrial</p> </td></tr>
-            <tr><td></td><td colspan="3">
-              <p>useful when no nebuliser available</p></td><td></td><td colspan="2"></td></tr>
-            <tr><td>and</td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td rowspan="2">
-              <p>40mg</p></td><td rowspan="2">
-                <p>once a day (mornings)</p></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>salbutamol nebulised</strong> (in saline or sterile water)</p></td><td><p><strong>B V</strong></p> </td><td><p>5mg</p></td><td colSpan={2}><p>repeat at ½ - 1 hr intervals, then every 2-4 hours until recovered</p></td></tr>
+            <tr><td><p><strong>+/-</strong></p> </td><td><p><strong>Ipratropium inhaler</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>500mcg</p></td><td colSpan={2}></td></tr>
+            <tr><td>and</td><td><p><strong>oxygen</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>6 litres/min</p></td><td colSpan={2}></td></tr>
+            <tr><td>or</td><td><p><strong>adrenaline 1:1000 sc</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>0.5ml</p></td><td colSpan={2}><p>1-2 hourly as dcptrial</p> </td></tr>
+            <tr><td></td><td colSpan={3}>
+              <p>useful when no nebuliser available</p></td><td></td><td colSpan={2}></td></tr>
+            <tr><td>and</td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td rowSpan={2}>
+              <p>40mg</p></td><td rowSpan={2}>
+                <p>once a day (mornings)</p></td><td rowSpan={2}>
                 <p>10-14 days</p></td></tr>
-            <tr><td></td><td colspan="3">
+            <tr><td></td><td colSpan={3}>
               <p>in all but the mildest cases</p></td></tr>
           </table>
           <ol>
@@ -434,9 +434,9 @@ export const chapter_thirteen: Chapters = {
             <li>If poor response to initial nebuliser therapy, SpO <sub>2</sub> not improving, risk of near fatal asthma or attack severe admit to HDU/ICU and add:</li>
           </ol>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>hydrocortisone iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>200mg</p></td><td colspan="2"><p>once only (unless oral dosing not possible)</p></td></tr>
-            <tr><td></td><td><p><strong>magnesium sulphate iv</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>V</strong></p> </td><td><p>1.2-2g</p></td><td colspan="2"><p>Slow iv over 20-30mins once</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>hydrocortisone iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>200mg</p></td><td colSpan={2}><p>once only (unless oral dosing not possible)</p></td></tr>
+            <tr><td></td><td><p><strong>magnesium sulphate iv</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>V</strong></p> </td><td><p>1.2-2g</p></td><td colSpan={2}><p>Slow iv over 20-30mins once</p></td></tr >
           </table>
           <p><a>Consider ventilation in severe cases.</a></p>
           <p>Criteria for ICU admission:</p>
@@ -468,22 +468,22 @@ export const chapter_thirteen: Chapters = {
           <p> The same general measures apply as in adults.</p>
           <p>Give:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td rowSpan={2}>
               <p>
                 <strong>salbutamol nebulised</strong> (in saline or sterile water)</p>
-              <p>- flow rate 6L/min</p></td><td><p><strong>B V</strong></p> </td><td rowspan="2">
+              <p>- flow rate 6L/min</p></td><td><p><strong>B V</strong></p> </td><td rowSpan={2}>
                 <p>&lt;5yrs = 2.5mg/2ml</p>
-                <p>&gt;5yrs = 5mg/2ml</p></td><td colspan="2"><p>repeat 2 times in the first hour,</p> </td></tr>
-            <tr><td></td><td></td><td></td><td colspan="2"><p>then every 4 hours until recovered.</p></td></tr>
+                <p>&gt;5yrs = 5mg/2ml</p></td><td colSpan={2}><p>repeat 2 times in the first hour,</p> </td></tr>
+            <tr><td></td><td></td><td></td><td colSpan={2}><p>then every 4 hours until recovered.</p></td></tr>
             <tr><td>or</td><td><p><strong>salbutamol inhaler</strong> through a spacer</p></td><td><p><strong>C V</strong></p> </td><td><p>100-200mcg (1-2 puffs)</p></td><td><p>as required</p></td><td><p>-</p></td></tr>
           </table>
           <p>Give oxygen between nebulisations.</p>
           <p> If nebulisation facilities are not available, or response is poor:</p>
           <table>
-            <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td><p><strong>+/-</strong></p> </td><td><p><strong>adrenaline 1:1000 sc</strong></p> </td><td colspan="2"><p><strong>C V</strong></p> </td><td><p>0.01ml/kg</p></td><td colspan="2"><p>may be dcptrial twice at 20 minute intervals</p> </td></tr>
-            <tr><td>and</td><td><p><strong>prednisolone po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>1-2mg/kg</p></td><td><p>once a day</p></td><td><p>3-5 days</p></td></tr >
+            <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td><p><strong>+/-</strong></p> </td><td><p><strong>adrenaline 1:1000 sc</strong></p> </td><td colSpan={2}><p><strong>C V</strong></p> </td><td><p>0.01ml/kg</p></td><td colSpan={2}><p>may be dcptrial twice at 20 minute intervals</p> </td></tr>
+            <tr><td>and</td><td><p><strong>prednisolone po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>1-2mg/kg</p></td><td><p>once a day</p></td><td><p>3-5 days</p></td></tr >
           </table >
         </span>
     },
@@ -495,16 +495,16 @@ export const chapter_thirteen: Chapters = {
           <h2>Severe Acute Attack in Children</h2>
           <p> If response to the above is inadequate, give intravenous fluids at 80-100 ml/kg/day, and:</p>
           <table>
-            <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>hydrocortisone iv/im</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td colspan="3">
+            <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>hydrocortisone iv/im</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td colSpan={3}>
               <p>4-8mg/kg once only, then</p></td></tr>
-            <tr><td></td><td></td><td colspan="2"> </td><td></td><td><p>2-4mg/kg</p></td><td><p>6 hourly</p></td><td><p>then:</p></td></tr>
-            <tr><td><p><strong>then</strong></p> </td><td><p><strong>prednisolone po</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>1-2mg/kg</p></td><td><p>once a day</p></td><td><p>5 days</p></td></tr >
+            <tr><td></td><td></td><td colSpan={2}> </td><td></td><td><p>2-4mg/kg</p></td><td><p>6 hourly</p></td><td><p>then:</p></td></tr>
+            <tr><td><p><strong>then</strong></p> </td><td><p><strong>prednisolone po</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>1-2mg/kg</p></td><td><p>once a day</p></td><td><p>5 days</p></td></tr >
           </table>
           <p> Using an dcptrial via a spacing device may be effective. A spacer can be improvised by using a plastic cup/ tumbler:</p>
           <table>
-            <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>salbutamol inhaler</strong></p> </td><td colspan="2"><p><strong>C V</strong></p> </td><td colspan="2"><p>200mcg – 400mcg</p></td><td><p>as required</p></td></tr >
+            <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>salbutamol inhaler</strong></p> </td><td colSpan={2}><p><strong>C V</strong></p> </td><td colSpan={2}><p>200mcg – 400mcg</p></td><td><p>as required</p></td></tr >
           </table >
   
         </span>
@@ -524,10 +524,10 @@ export const chapter_thirteen: Chapters = {
           <p><a>Mild asthma - dcptrial </a></p>
           <p>Mild or intermittent asthma mainly associated with respiratory infections:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2"><p>Paed dose</p></td><td colspan="2">Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>salbutamol inhaler</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="3">
-              <p>100-200mcg</p></td><td colspan="2"><p>as required</p></td><td><p>intermittent</p></td></tr>
-            <tr><td>or</td><td><p><strong>theophylline po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>5mg/kg</p></td><td colspan="4">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}><p>Paed dose</p></td><td colSpan={2}>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>salbutamol inhaler</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={3}>
+              <p>100-200mcg</p></td><td colSpan={2}><p>as required</p></td><td><p>intermittent</p></td></tr>
+            <tr><td>or</td><td><p><strong>theophylline po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>5mg/kg</p></td><td colSpan={4}>
               <p><u>&lt;</u> 4 times a day</p></td><td><p>intermittent</p></td></tr >
           </table>
           <p><a>Moderate asthma - children</a></p>
@@ -536,10 +536,10 @@ export const chapter_thirteen: Chapters = {
           <p>Severe, persistent asthma, persistent wheeze, and failure to respond to the above:
       <strong>add</strong> to the above</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
             <tr><td><p><strong>add</strong></p> </td><td><p><strong>beclomethasone inhaler</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>50-100mcg</p></td><td><p>3 – 4 times a day</p></td><td><p>continual</p></td></tr>
             <tr><td>or</td><td><p><strong>prednisolone po*</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1-2mg/kg</p></td><td><p>once in the morning</p></td><td><p>until control, then</p></td></tr>
-            <tr><td></td><td></td><td colspan="5">
+            <tr><td></td><td></td><td colSpan={5}>
               <p>dcptrial to the lowest, effective dose on alternate days</p> </td></tr>
           </table>
           <p>*long term prednisolone should be avoided in children, unless there is no alternative.</p>

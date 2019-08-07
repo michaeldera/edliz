@@ -15,7 +15,7 @@ export const chapter_twentyeight: Chapters = {
         <table>
           <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
           <tr><td><strong>ferrous sulphate po</strong></td><td>C E</td><td>200mg [60mg iron]</td><td>3 times a day</td><td>Review</td></tr>
-          <tr><td colSpan="5">Paed = 12mg, less than 1yr = 6mg iron</td></tr>
+          <tr><td colSpan={5}>Paed = 12mg, less than 1yr = 6mg iron</td></tr>
         </table>
         <p>Expected response rise is haemoglobin 1g/dl/week. Continue treatment for 3 months after haemoglobin has normalised to replenish body iron stores.</p>
         <h3>Megaloblastic Anaemia</h3>
@@ -27,7 +27,7 @@ export const chapter_twentyeight: Chapters = {
         <table>
           <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
           <tr><td>hydroxocobalamin (vitamin B<sub>12</sub> im)</td><td>B V</td><td>1mg</td><td>daily</td><td>3 days</td></tr>
-          <tr><td colSpan="2"></td><td colSpan="3">then weekly for 3 weeks, and monthly for 3 months and then every 3 month for a year and then twice a year.</td></tr>
+          <tr><td colSpan={2}></td><td colSpan={3}>then weekly for 3 weeks, and monthly for 3 months and then every 3 month for a year and then twice a year.</td></tr>
         </table>
         <h4>Folic Acid Deficiency</h4>
         <p>Occurs in most prolonged haemolytic anaemias, pregnancy, and seasonally in dry areas with no access to fresh vegetables, in malabsorption up to 15mg daily may be required.</p>
@@ -113,7 +113,7 @@ export const chapter_twentyeight: Chapters = {
           <caption><strong>Mild bleed:</strong></caption>
           <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
           <tr><td>factor IX concentrate</td><td>A V</td><td>2 x 500 IU</td><td>daily</td><td>Review</td></tr>
-          <tr><td colSpan="5">or</td></tr>
+          <tr><td colSpan={5}>or</td></tr>
           <tr><td>fresh frozen plasma</td><td>B V</td><td>4 - 6 bags</td><td>every 24hrs</td><td>if bleeding continues</td></tr>
         </table>
         <small>For children use appropriate dosage</small>
@@ -121,7 +121,7 @@ export const chapter_twentyeight: Chapters = {
           <caption><strong>Major bleeding:</strong></caption>
           <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
           <tr><td>factor IX concentrate</td><td>A V</td><td>3 - 6 x 500 IU</td><td>daily</td><td>Review</td></tr>
-          <tr><td colSpan="5">or</td></tr>
+          <tr><td colSpan={5}>or</td></tr>
           <tr><td>fresh frozen plasma</td><td>B V</td><td>8 - 12 bags</td><td>every 24hrs</td><td>if bleeding continues</td></tr>
         </table>
         <p>Factor VIII concentrate and cryoprecipitate are not useful for Haemophilia B, so accurate diagnosis is essential.</p>
@@ -178,7 +178,7 @@ export const chapter_twentyeight: Chapters = {
         <table>
           <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
           <tr><td>prednisolone po</td><td>B V</td><td>1mg/kg<br />then according to response (see notes)</td><td>once a day</td><td>2 weeks</td></tr>
-          <tr><td colSpan="5">or</td></tr>
+          <tr><td colSpan={5}>or</td></tr>
           <tr><td>immunoglobin iv</td><td>S E</td><td>1mg/kg</td><td>once a day</td><td>3 days</td></tr>
         </table>
         <p>Duration of therapy:<br />
@@ -242,14 +242,14 @@ export const chapter_twentyeight: Chapters = {
         <table>
           <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
           <tr><td>warfarin po</td><td>B V</td><td>10mg</td><td>once a day</td><td>2 days</td></tr>
-          <tr><td colSpan="5">or</td></tr>
+          <tr><td colSpan={5}>or</td></tr>
           <tr><td>heparin sc <br /> (unfractioned)</td><td>B V</td><td>5000 units</td><td>8 hourly</td><td>Review</td></tr>
         </table>
         <p>Treatment of DVT</p>
         <table>
           <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
           <tr><td>heparin sc <br /> (unfractioned)</td><td>B V</td><td>17500 units</td><td>Twice a day</td><td>see notes*</td></tr>
-          <tr><td colSpan="5">or</td></tr>
+          <tr><td colSpan={5}>or</td></tr>
           <tr><td>Low molecular heparin</td><td>B V</td><td>40mg</td><td>Once Daily</td><td></td></tr>
         </table>
         <small>
@@ -266,7 +266,7 @@ export const chapter_twentyeight: Chapters = {
         <table>
           <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
           <tr><td>Low molecular heparin</td><td>B V</td><td>40mg</td><td>once a day</td><td>1 month post partum</td></tr>
-          <tr><td colSpan="5">or</td></tr>
+          <tr><td colSpan={5}>or</td></tr>
           <tr><td>warfarin po<br />after 12 weeks up to 37 weeks</td><td>B V</td><td>keep INR in range 2 - 3</td><td></td><td>to 37 weeks then change to heparin</td></tr>
         </table>
         <small>
@@ -277,7 +277,7 @@ export const chapter_twentyeight: Chapters = {
         <table>
           <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
           <tr><td>hydrocortisone</td><td>B V</td><td>100mg</td><td>once a day</td><td>-</td></tr>
-          <tr><td>streptokinase iv</td><td>A N</td><td colSpan="3">loading dose of 250 000 units over 30minutes, then 100 000 u every hour 24 – 72 hrs</td></tr>
+          <tr><td>streptokinase iv</td><td>A N</td><td colSpan={3}>loading dose of 250 000 units over 30minutes, then 100 000 u every hour 24 – 72 hrs</td></tr>
         </table>
         <h4>Haematological malignanc</h4>
         <p>Refer all patients to a Central Hospital.</p>

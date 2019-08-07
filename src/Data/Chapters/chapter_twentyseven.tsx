@@ -39,7 +39,7 @@ export const chapter_twentyseven: Chapters = {
         <table>
           <tr><th>Medicine</th><th>Codes</th><th>Adult Dose</th><th>Frequency</th><th>Duration</th></tr>
           <tr><td>haloperidol po</td><td>A N</td><td>0.5 - 2mg</td><td>bd</td><td>review</td></tr>
-          <tr><td colSpan="5">or</td></tr>
+          <tr><td colSpan={5}>or</td></tr>
           <tr><td>haloperidol im</td><td>A N</td><td>1 - 5mg</td><td>bd</td><td>review</td></tr>
         </table>
         <small>Always start with the lower dose if possible. 0.5 mg bd is often enough. Avoid chlorpromazine and fluphenazine decanoate where possible as major irreversible side effects may occur. </small>
@@ -50,7 +50,7 @@ export const chapter_twentyseven: Chapters = {
         <table>
           <tr><th>Medicine</th><th>Codes</th><th>Adult Dose</th><th>Frequency</th><th>Duration</th></tr>
           <tr><td>aspirin po</td><td>C V</td><td>300 600mg</td><td>3 or more time per day</td><td>as required</td></tr>
-          <tr><td colSpan="5">or</td></tr>
+          <tr><td colSpan={5}>or</td></tr>
           <tr><td>ibuprofen po</td><td>C N</td><td>200mg</td><td>3 or more time per day</td><td>as required</td></tr>
         </table>
         <small><em>*add magnesium trisilicate as required for gastrointestinal side effects.</em></small>

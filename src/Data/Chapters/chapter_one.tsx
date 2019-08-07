@@ -133,7 +133,7 @@ export const chapter_one: Chapters = {
           <tbody>
             <tr><th>Medicine</th><th>Codes</th><th>Adult Dose</th><th>Frequency</th><th>Duration</th></tr>
             <tr><td>cotrimoxazole* po</td><td>C V</td><td>960mg</td><td>every day</td><td>for life or until CD4 count > 500 for 3 months with <abbr title="Antiretroviral">ARV</abbr>s</td></tr>
-            <tr><td colSpan="5"><small><em>*If there is a history of cotrimoxazole allergy and it was not StevensJohnson syndrome then it is likely that the person can be desensitised</em></small></td></tr>
+            <tr><td colSpan={5}><small><em>*If there is a history of cotrimoxazole allergy and it was not StevensJohnson syndrome then it is likely that the person can be desensitised</em></small></td></tr>
           </tbody>
         </table>
       </span>

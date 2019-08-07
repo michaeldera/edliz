@@ -1,4 +1,5 @@
 import React from 'react';
+import { Chapters } from '../data';
 
 export const chapter_six: Chapters = {
     short_title: "Chapter 6",
@@ -28,10 +29,10 @@ export const chapter_six: Chapters = {
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th></tr>
             <tr><td>kanamycin im</td><td>C V</td><td>2g [1g into each buttock]</td><td>one dose only</td></tr>
-            <tr><td colSpan="4">or</td></tr>
+            <tr><td colSpan={4}>or</td></tr>
             <tr><td>ceftriaxone</td><td>C V</td><td>250mg IM</td><td>one dose only</td></tr>
             <tr><td>>doxycycline po</td><td>C V</td><td>100mg</td><td>twice a day</td><td>7 days</td></tr>
-            <tr><td colSpan="4">or</td></tr>
+            <tr><td colSpan={4}>or</td></tr>
             <tr><td>>azithromycin po</td><td>C V</td><td>1g</td><td>one dose only</td></tr>
           </table>
           <p>If the patient still has a urethral discharge, or evidence of urethritis 7 days after start of treatment, suspect re-infection, poor treatment compliance or antimicrobial resistance in <em>Neisseria gonorrhoeae</em>. If reinfection is suspected re-start first line treatment. Otherwise refer the patient for investigations and appropriate treatment.</p>
@@ -39,7 +40,7 @@ export const chapter_six: Chapters = {
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th></tr>
             <tr><td>ceftriaxone im</td><td>C V</td><td>250mg</td><td>one dose only</td></tr>
-            <tr><td colSpan="4">or</td></tr>
+            <tr><td colSpan={4}>or</td></tr>
             <tr><td>cefixime po</td><td>B V</td><td>400mg</td><td>one dose only</td></tr>
             <tr><td>metronidazole po</td><td>C V</td><td>2g</td><td>one dose only</td></tr>
           </table>
@@ -60,7 +61,7 @@ export const chapter_six: Chapters = {
           <h3>Recurrent or vesicular genital lesions</h3>
           <p>Recurrent herpes in HIV negative people will almost always heal spontaneously without treatment. Lesions seen early in the episode (when still vesicular) or that are failing to heal should be treated as herpes simplex virus infection as follows:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>acyclovir po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>400mg</p></td><td><p>Three times a day</p></td><td><p>7 days</p></td></tr>
           </table>
           <p>Figure 6.3: Management of Genital Ulcers: First Line</p>
@@ -77,7 +78,7 @@ export const chapter_six: Chapters = {
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
             <tr><td>metronidazole po</td><td>C V</td><td>400mg</td><td>3 times/day</td><td>7 days</td></tr>
-            <tr><td colSpan="5"></td></tr>
+            <tr><td colSpan={5}></td></tr>
             <tr><td>clindamycin po</td><td>B E</td><td>300mg</td><td>2 times/day</td><td>7 days</td></tr>
             <tr><td>metronidazolepo</td><td>C V</td><td>2g</td><td>Once only</td><td></td></tr>
           </table>
@@ -85,19 +86,19 @@ export const chapter_six: Chapters = {
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
             <tr><td>miconazole pv</td><td>C V</td><td>200mg</td><td>every night</td><td>3 days</td></tr>
-            <tr><td colSpan="5">or</td></tr>
+            <tr><td colSpan={5}>or</td></tr>
             <tr><td>clotrimazole pv</td><td>B E</td><td>100mg</td><td>Once a day</td><td>7 days</td></tr>
-            <tr><td colSpan="5">or</td></tr>
+            <tr><td colSpan={5}>or</td></tr>
             <tr><td>nystatin pessary</td><td>C V</td><td>200,000iu</td><td>At night</td><td>7 days</td></tr>
           </table>
           <p>PLUS: Therapy for cervical infection if partner has urethral discharge or mucopurulent cervicitis / easy bleeding.</p>
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
             <tr><td>kanamycin im</td><td>C V</td><td>2g [1g into each buttock]</td><td>One dose only</td><td></td></tr>
-            <tr><td colSpan="5">or</td></tr>
+            <tr><td colSpan={5}>or</td></tr>
             <tr><td>ceftriaxone in</td><td>C V</td><td>250mg im</td><td>One dose only</td><td></td></tr>
             <tr><td>doxycycline po</td><td>C V</td><td>100mg</td><td>Twice a day</td><td>7 days</td></tr>
-            <tr><td colSpan="5">or</td></tr>
+            <tr><td colSpan={5}>or</td></tr>
             <tr><td>azithromycin</td><td>C V</td><td>1g</td><td>One dose only</td><td></td></tr>
           </table>
           <p><strong>Second line treatment vaginal discharge:</strong></p>
@@ -106,7 +107,7 @@ export const chapter_six: Chapters = {
           <table>
             <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
             <tr><td>ceftriaxone im</td><td>C V</td><td>250mg</td><td>one dose only</td></tr>
-            <tr><td colSpan="5">or</td></tr>
+            <tr><td colSpan={5}>or</td></tr>
             <tr><td>cefixime po</td><td>C V</td><td>400mg</td><td>one dose only</td></tr>
             <tr><td>metronidazole po</td><td>C V</td><td>2g</td><td>one dose only</td></tr>
           </table>
@@ -154,23 +155,23 @@ export const chapter_six: Chapters = {
           <p>These are most likely to be lesions of granuloma inguinale, a condition also known as Donovanosis and caused by <em>Calymmatobacterium granulomatis</em>. It should be remembered that persons who are immunosuppressed may not develop a bubo and occasionally persistent genital ulcers without bubo formation may occur as a result of chancroid in persons with immunosuppression and HIV infection.</p>
           <p>First line:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>benzathine penicillin im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>2.4MU (1.44g)</p></td><td colspan="2"><p>one dose only</p></td></tr>
-            <tr><td>and</td><td><p><strong>azithromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1g</p></td><td colspan="2"><p>Once only followed by 500mg daily until ulcer healed*</p></td></tr>
-            <tr><td>or</td><td><p><strong>doxycycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td colspan="2"><p>2 times a day until ulcer is healed</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>benzathine penicillin im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>2.4MU (1.44g)</p></td><td colSpan={2}><p>one dose only</p></td></tr>
+            <tr><td>and</td><td><p><strong>azithromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1g</p></td><td colSpan={2}><p>Once only followed by 500mg daily until ulcer healed*</p></td></tr>
+            <tr><td>or</td><td><p><strong>doxycycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td colSpan={2}><p>2 times a day until ulcer is healed</p></td></tr >
           </table>
           <ul>
             <li> or, in penicillin allergy</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>erythromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>4 times a day</p></td><td><p>14 days</p></td></tr>
           </table>
           <p>* review patients on a weekly basis</p>
           <p>Second line:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>cotrimoxazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>960mg</p></td><td colspan="2"><p>twice a day until ulcer is healed</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>cotrimoxazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>960mg</p></td><td colSpan={2}><p>twice a day until ulcer is healed</p></td></tr >
           </table>
         </span>
     },
@@ -183,12 +184,12 @@ export const chapter_six: Chapters = {
           <p>This usually occurs in persons with lymphogranuloma venereum (LGV) which is caused by the L-types of <em>Chlamydia trachomatis</em>. The main effect of the infection is on the lymphatics and patients may present with penile and vulval lymphoedema together with inguinal buboes. A small transient genital ulcer, which may heal on its own, may precede the swelling and buboes. The bubo is typically multilocular and may be grooved by the inguinal ligament.</p >
           <p><strong>First Line</strong>:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>doxycycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td><p>twice a day</p></td><td><p>14 days</p></td></tr>
           </table>
           <p>DCPtrial line, or in pregnant women:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>erythromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>4 times a day</p></td><td><p>14 days</p></td></tr>
           </table>
         </span>
@@ -202,17 +203,17 @@ export const chapter_six: Chapters = {
           <p>Acute scrotal swelling may occur in persons with acute epididymo-orchitis, testicular torsion and scrotal trauma, and in those with irreducible or strangulated inguinal hernia. Patients should be examined carefully in order to exclude these conditions.</p>
           <p>First Line:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="4">
+            <tr><td></td><td>Medicine</td><td colSpan={4}>
               Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>kanamycin im</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="2"><p>2g [1g into each buttock]</p></td><td><p>One dose only</p></td><td></td></tr>
-            <tr><td>or</td><td><p><strong>ceftriaxone im</strong></p> </td><td colspan="2"><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>250mg</p></td><td><p>One dose only</p></td><td></td></tr>
-            <tr><td>and</td><td><p><strong>doxycycline po</strong></p> </td><td colspan="2"><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>100mg</p></td><td><p>twice a day</p></td><td><p>10 days</p></td></tr >
+            <tr><td></td><td><p><strong>kanamycin im</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={2}><p>2g [1g into each buttock]</p></td><td><p>One dose only</p></td><td></td></tr>
+            <tr><td>or</td><td><p><strong>ceftriaxone im</strong></p> </td><td colSpan={2}><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>250mg</p></td><td><p>One dose only</p></td><td></td></tr>
+            <tr><td>and</td><td><p><strong>doxycycline po</strong></p> </td><td colSpan={2}><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>100mg</p></td><td><p>twice a day</p></td><td><p>10 days</p></td></tr >
           </table>
           <p>Second Line:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>ceftriaxone im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>250mg</p></td><td colspan="2"><p>one dose only</p></td><td></td></tr>
-            <tr><td></td><td><p><strong>cefixime po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td colspan="2"><p>One dose only</p></td><td></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>ceftriaxone im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>250mg</p></td><td colSpan={2}><p>one dose only</p></td><td></td></tr>
+            <tr><td></td><td><p><strong>cefixime po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td colSpan={2}><p>One dose only</p></td><td></td></tr >
           </table>
         </span>
     },
@@ -225,8 +226,8 @@ export const chapter_six: Chapters = {
           <p>Early Syphilis</p>
           <p>Includes primary, secondary and latent syphilis of less than 2 years duration:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>benzathine penicillin im</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="3">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>benzathine penicillin im</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={3}>
               <p>1.44g [2.4 MU] one dose only</p></td></tr>
             <tr><td>or</td><td><p><strong>doxycycline po</strong> (in penicillin allergy)</p></td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td><p>2 times a day</p></td><td><p>14 days</p></td></tr>
             <tr><td>or</td><td><p><strong>erythromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>4 times a day</p></td><td><p>14 days</p></td></tr>
@@ -234,7 +235,7 @@ export const chapter_six: Chapters = {
           <p>Late Syphilis and syphilis during pregnancy</p>
           <p>Includes latent syphilis of more than 2 years duration, latent neurosyphilis, gummatous, cardiovascular &amp; neurosyphilis, and syphilis of unknown duration:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>benzathine penicillin im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1.44g</p>
               <p>(2.4MU)</p></td><td><p>once a week</p></td><td><p>3 doses</p></td></tr>
             <tr><td>or</td><td><p><strong>doxycycline po</strong> (in penicillin allergy NOT pregnancy)</p></td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td><p>2 times a day</p></td><td><p>30 days</p></td></tr>
@@ -247,20 +248,20 @@ export const chapter_six: Chapters = {
             <li> Babies born to women found to have syphilis during pregnancy should be treated <strong>even if</strong> the dcptrial had been adequately treated during pregnancy: </li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p><strong>Paed</strong> dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p><strong>Paed</strong> dose</p></td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>benzathine penicillin im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>30mg/kg</p>
-              <p>[=50 000u/kg]</p></td><td colspan="2"><p>one dose only</p></td></tr >
+              <p>[=50 000u/kg]</p></td><td colSpan={2}><p>one dose only</p></td></tr >
           </table >
           <p><strong>Congenital Syphilis (babies clinically infected):</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p><strong>Paed</strong> dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p><strong>Paed</strong> dose</p></td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>procaine penicillin im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>50mg/kg</p>
               <p>[=50 000u/kg]</p></td><td><p>once a day</p></td><td><p>10 days</p></td></tr>
             <tr><td>or</td><td><p><strong>erythromycin po</strong> (in penicillin allergy)</p></td><td><p><strong>C V</strong></p> </td><td><p>12.5mg/kg</p></td><td><p>4 times a day</p></td><td><p>10 days</p></td></tr>
           </table >
           <p><strong>Neurosyphilis:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>procaine penicillin im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>600mg [=1ml in each buttock]</p></td><td><p>once a day</p></td><td><p>21 days</p></td></tr>
           </table >
         </span>
@@ -286,7 +287,7 @@ export const chapter_six: Chapters = {
             </li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>podophyllin paint</strong> 20%</p></td><td><p><strong>B N</strong></p> </td><td><p>wash off after 4 hrs</p></td><td><p>once a week</p></td><td><p>review</p></td></tr>
           </table>
           <p><strong>CAUTIONS:</strong> For <strong>external use only</strong>. Do NOT use podophyllin in pregnancy. Do not apply to the dcptrial urethra or anal mucosa.</p>
@@ -316,18 +317,18 @@ export const chapter_six: Chapters = {
           <h2>Pediculosis Pubis (Pubic Lice)</h2>
           <p>Patients with pediculosis pubis and their sexual partners should be treated as follows:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>benzyl benzoate 25% emulsion *</strong></p>
               <p>[irritant]</p></td><td><p><strong>B N</strong></p> </td><td><p>apply from neck down</p></td><td><p>once at night wash off next morning</p> </td><td><p>3 nights, repeat if necessary</p></td></tr>
-            <tr><td></td><td colspan="4">
+            <tr><td></td><td colSpan={4}>
               <p>*Dilute with one part water (1:1) for children.</p>
-              <p>*Dilute with three parts water (1:3) for infants.</p></td><td colspan="2"><p>Repeat treatment after no more than 10 days.</p></td></tr>
+              <p>*Dilute with three parts water (1:3) for infants.</p></td><td colSpan={2}><p>Repeat treatment after no more than 10 days.</p></td></tr>
           </table>
           <p>Note: apply to hairy areas, do <strong>not</strong> dcptrial Caution: Do <strong>not</strong> use G.B.H in pregnancy and lactation - refer mothers to district level for benzyl benzoate.</p>
           <p><strong>Second line therapy</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>gamma benzene hexachloride 1% lotion</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>Wash off after 24hrs</p></td><td colspan="2"><p>Reapply 7 to 10 days later to kill hatched lice.</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>gamma benzene hexachloride 1% lotion</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>Wash off after 24hrs</p></td><td colSpan={2}><p>Reapply 7 to 10 days later to kill hatched lice.</p></td></tr >
           </table>
         </span>
     },
@@ -340,10 +341,10 @@ export const chapter_six: Chapters = {
           <p>This is dcptrial as conjunctivitis with discharge occurring in a neonate within the first month of life. The condition is commonly caused by gonococcal, chlamydial and bacterial infection. The condition is preventable by detecting and treating maternal gonococcal and chlamydial infection during pregnancy and by instilling <strong>1% tetracycline eye ointment </strong> carefully into the sacs of every baby as soon as possible after birth.</p>
           <p>Ophthalmia Neonatorum is treated as follows:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2"><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>kanamycin im</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="2"><p>25mg/kg</p></td><td><p>Once</p></td><td><p>single dose</p></td></tr>
-            <tr><td><p>or</p></td><td><p><strong>ceftriaxone im</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="2"><p>50mg/kg</p></td><td><p>Once</p></td><td><p>Single dose</p></td></tr>
-            <tr><td><p>and</p></td><td><p><strong>erythromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>16mg/kg</p></td><td colspan="2"><p>3 times a day</p></td><td><p>14 days</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>kanamycin im</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={2}><p>25mg/kg</p></td><td><p>Once</p></td><td><p>single dose</p></td></tr>
+            <tr><td><p>or</p></td><td><p><strong>ceftriaxone im</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={2}><p>50mg/kg</p></td><td><p>Once</p></td><td><p>Single dose</p></td></tr>
+            <tr><td><p>and</p></td><td><p><strong>erythromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>16mg/kg</p></td><td colSpan={2}><p>3 times a day</p></td><td><p>14 days</p></td></tr >
           </table>
           <p>Treat the parents and the baby for gonococcal <strong>and</strong> chlamydial infection as described above. Also provide health education and counselling to the parents.</p>
         </span>

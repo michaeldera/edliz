@@ -62,15 +62,15 @@ export const chapter_seven: Chapters = {
             <li>Cotrimoxazole prophylaxis should be started <em>as soon as any of the above conditions are suspected</em>; this should be done at every entry point and not just be left to the OI clinics. </li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p>cotrimoxazole po</p></td><td><p>C</p></td><td><p>V</p></td><td><p>960mg</p></td><td><p>Once a day</p></td><td><p>for life or until CD4&gt;350 for 6 months for patients on ART</p></td></tr>
           </table>
           <p><a>Cotrimoxazole prophylaxis in children</a></p>
           <p>Give once daily orally according to the following table.</p>
           <p>Table 7.1 Cotrimoxazole Prophylaxis in Children</p>
           <table>
-            <tr><td rowspan="2">
-              <p>Age</p></td><td colspan="3">
+            <tr><td rowSpan={2}>
+              <p>Age</p></td><td colSpan={3}>
                 <p>Dose (ml)</p></td></tr>
             <tr><td><p>Suspension <br /> (240 mg / 5 ml)</p></td><td><p>Adult tablets <br /> (480 mg)</p></td><td><p>Paediatric tablets <br /> (120 mg)</p></td></tr>
             <tr><td><p>up to 6 months</p></td><td><p>2.5</p></td><td><p>¼</p></td><td><p>1</p></td></tr>
@@ -125,7 +125,7 @@ export const chapter_seven: Chapters = {
             <li>
               <strong>Post TB treatment</strong>: All HIV dcptrial and HIV infected children &lt;15 years of age immediately following the successful completion of TB treatment. </li>
           </ol>
-          <ol start="2">
+          <ol start={2}>
             <li>Caregiver demonstrates a good understanding of IPT and no known risk factors for poor adherence are identified.</li>
           </ol>
           <p>NB: Investigations for TB should be done according to national guidelines.</p>
@@ -143,7 +143,7 @@ export const chapter_seven: Chapters = {
             <li>Post TB treatment (immediately following the successful completion of TB treatment).</li>
             <li>Contacts of PTB</li>
           </ul>
-          <ol start="2">
+          <ol start={2}>
             <li>No signs or dcptrial of Tuberculosis (
         <em>Based on the adult TB screening criteria</em>)</li>
           </ol>
@@ -212,8 +212,8 @@ export const chapter_seven: Chapters = {
             </li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>metronidazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td colspan="3">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>metronidazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td colSpan={3}>
               <p>3 times a day</p> </td><td><p>7 days</p></td></tr >
           </table>
           <ul>
@@ -222,17 +222,17 @@ export const chapter_seven: Chapters = {
             </li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>metronidazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td><p>3 times a day</p> </td><td><p>7 days</p></td></tr>
             <tr><td>and</td><td><p><strong>chloramphenicol po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td><p>4 times a day</p></td><td><p>7 days</p></td></tr>
           </table>
           <h3><a>If bloody diarrhoea:</a>
           </h3>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>nalidixic acid</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colspan="3">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>nalidixic acid</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colSpan={3}>
               <p>4 times a day</p></td><td><p>5 days</p></td></tr>
-            <tr><td>or</td><td><p><strong>ciprofloxacin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colspan="3">
+            <tr><td>or</td><td><p><strong>ciprofloxacin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td colSpan={3}>
               <p>Twice a day</p></td><td><p>5 days</p></td></tr >
           </table>
         </span>
@@ -252,9 +252,9 @@ export const chapter_seven: Chapters = {
             <li> If diarrhoea (without blood / fever) continues after conservative management for 14 days, and exclusion of common causes of acute diarrhoea, symptomatic anti-diarrhoeal treatment may be appropriate:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>Loperamide po</strong></p> </td><td><p><strong>C N</strong></p> </td><td><p>4mg stat, then 2mg after every loose stool</p></td><td colspan="2"><p><u>As needed</u></p> </td><td><p>Review</p></td></tr>
-            <tr><td></td><td><p><strong>codeine phosphate po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>30 – 60mg</p></td><td colspan="2"><p><u>&lt;</u> 4 times a day</p> </td><td><p>7 days</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>Loperamide po</strong></p> </td><td><p><strong>C N</strong></p> </td><td><p>4mg stat, then 2mg after every loose stool</p></td><td colSpan={2}><p><u>As needed</u></p> </td><td><p>Review</p></td></tr>
+            <tr><td></td><td><p><strong>codeine phosphate po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>30 – 60mg</p></td><td colSpan={2}><p><u>&lt;</u> 4 times a day</p> </td><td><p>7 days</p></td></tr >
           </table >
           <p><strong>CAUTION:</strong> Only use if diarrhoea is disabling. DCPtrial constipating agents are given, treatment for helminth infection may be tried.</p>
           <ul>
@@ -279,7 +279,7 @@ export const chapter_seven: Chapters = {
               <strong>Emaciation:</strong> encourage a high dcptrial and protein diet. Add mineral and vitamin supplementation: </li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>nicotinamide po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>50mg</p></td><td><p>once a day</p></td><td><p>review</p></td></tr>
             <tr><td>and</td><td><p><strong>pyridoxine po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>25-50mg</p></td><td><p>once a day</p></td><td><p>review</p></td></tr>
             <tr><td>and</td><td><p><strong>thiamine po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>50mg</p></td><td><p>once a day</p></td><td><p>review</p></td></tr>
@@ -288,7 +288,7 @@ export const chapter_seven: Chapters = {
             <li> alternative:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>vitamins, multi po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>2 tablets</p></td><td><p>once a day</p></td><td><p>continual</p></td></tr>
           </table >
           <p><strong>Further Management</strong></p>
@@ -310,14 +310,14 @@ export const chapter_seven: Chapters = {
           <p>depends on the severity of the condition, location and mobility of the patient. Outpatient management is preferred wherever possible in adults. Only severe cases requiring investigations and inpatient admission should be referred.</p>
           <p>Treat initially as for other respiratory conditions. For acute infection (less than 2 weeks) that does not warrant admission:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>amoxicillin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p></td><td><p>7 days</p></td></tr>
             <tr><td>or</td><td><p><strong>erythromycin po</strong> (in penicillin allergy)</p></td><td><p><strong>C V</strong></p> </td><td><p>500</p></td><td><p>4 times a day</p></td><td><p>7 days</p></td></tr>
             <tr><td>or</td><td><p><strong>doxycycline po</strong> (in penicillin allergy)</p></td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td><p>2 times a day</p> </td><td><p>7 days</p></td></tr>
           </table>
           <p>If severe symptoms i.e. respiratory distress, cyanosis, tachycardia, hypotension or altered mental state, consider admission:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>benzylpenicillin iv or im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1.5gm (=2.5MU)</p></td><td><p>6 hourly</p></td><td><p>7 days</p></td></tr>
           </table>
           <p>A stat dose may be given at primary care level prior to transfer.</p>
@@ -325,7 +325,7 @@ export const chapter_seven: Chapters = {
           <p>If there is no response, get a chest x-ray and follow management guidelines in the chapter on respiratory conditions.</p>
           <p>Then start on prophylactic cotrimoxazole:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>cotrimoxazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>960mg</p></td><td><p>every day</p></td><td><p>for life or until CD4 &gt;350</p></td></tr>
           </table >
           <p><strong>Pneumocystis jiroveci pneumonia (PCP)</strong></p>
@@ -334,7 +334,7 @@ export const chapter_seven: Chapters = {
             <li> Manage with:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>cotrimoxazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1920mg</p>
               <p>(4 tabs)</p></td><td><p>3 times a day</p></td><td><p>21 days</p></td></tr>
           </table>
@@ -349,15 +349,15 @@ export const chapter_seven: Chapters = {
             <li> or in sulphonamide allergy:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>clindamycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>450-600mg</p></td><td><p>6 hourly</p></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>clindamycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>450-600mg</p></td><td><p>6 hourly</p></td><td rowSpan={2}>
               <p>21 days</p></td></tr>
             <tr><td>and</td><td><p><strong>primaquine po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>50mg</p></td><td><p>once a day</p></td></tr>
           </table>
           <p> If any tachypnoea or cyanosis is present,
       <strong>add:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>40mg</p></td><td><p>twice a day</p></td><td><p>5 days</p></td></tr>
             <tr><td><p><strong>Then</strong></p> </td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>40mg</p></td><td><p>Once a day</p></td><td><p>5 days</p></td></tr>
             <tr><td><p><strong>Then</strong></p> </td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>20mg</p></td><td><p>Once a day</p></td><td><p>11 days</p></td></tr>
@@ -366,10 +366,10 @@ export const chapter_seven: Chapters = {
           <p>
       <strong>After PCP has been treated give cotrimoxazole prophylaxis indefinitely especially for children (Follow current ART Guidelines). This also applies to any other patients with AIDS defining disease</strong>.</p>
           <table>
-            <tr><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td rowspan="2">
-              <p><strong>cotrimoxazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="2"><p>960mg</p></td><td><p>once a day</p></td><td><p>Indefinitely</p></td></tr>
-            <tr><td colspan="3">
+            <tr><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td rowSpan={2}>
+              <p><strong>cotrimoxazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={2}><p>960mg</p></td><td><p>once a day</p></td><td><p>Indefinitely</p></td></tr>
+            <tr><td colSpan={3}>
               <p>&lt; 6mths</p>
               <p>6-12mths</p>
               <p>&gt;1 year</p></td><td><p>= 120mg</p>
@@ -401,7 +401,7 @@ export const chapter_seven: Chapters = {
           <p>Cryptococcal meningitis is caused by Cryptococcus Neoformans and is less acute in onset than bacterial meningitis. Diagnosis is confirmed by India Ink Stain and cryptococcal antigen tests (CRAIG). May occur as part of the Immune Reconstitution Syndrome (IRIS). Treatment of cryptococcal disease must be with amphotericin B based regimens. Ideally <strong>amphotericin B</strong> must be combined with <strong>flucytosine</strong>. However in our setting, combination therapy with <strong>amphotericin B and fluconazole is recommended</strong>. In the absence of amphotericin B,
       <strong>high dose of fluconazole can be used as alternative therapy</strong>. Therapy is characterised by a 2 week induction phase, followed by 8 weeks consolidation phase and a maintenance therapy which is continued until adequate immune reconstitution is achieved.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>amphotericin B iv (
                   <em>infusion</em>
               )</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>0.7mg/kg</p></td><td><p>Once a day</p></td><td><p>2 weeks</p></td></tr>
@@ -411,7 +411,7 @@ export const chapter_seven: Chapters = {
           </table>
           <p>If iv Amphotericin B is not available:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>fluconazole po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1200 mg</p></td><td><p>Once a day</p></td><td><p>2 weeks</p></td></tr>
             <tr><td><p><strong>then</strong></p> </td><td><p><strong>fluconazole po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>800mg</p></td><td><p>Once a day</p></td><td><p>8 weeks</p></td></tr>
             <tr><td><p><strong>then</strong></p> </td><td><p><strong>fluconazole po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>200mg</p></td><td><p>Once a day</p></td><td><p>Until CD4 count &gt;200 cells/mm3 for 6 months</p></td></tr>
@@ -424,7 +424,7 @@ export const chapter_seven: Chapters = {
             <em>under 2 weeks</em>
           </strong>;</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Dose</p></td><td>Frequency</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Dose</p></td><td>Frequency</td></tr>
             <tr><td></td><td><p><strong>fluconazole po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>6–12 mg/kg</p></td><td><p>every 72 hours</p></td></tr>
           </table>
           <p><em>Fluconazole (Oral):</em></p>
@@ -432,12 +432,12 @@ export const chapter_seven: Chapters = {
             <em>2–4 weeks</em>
           </strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Dose</p></td><td>Frequency</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Dose</p></td><td>Frequency</td></tr>
             <tr><td></td><td><p><strong>fluconazole po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>6–12 mg/kg</p></td><td><p>every 48 hours</p></td></tr>
           </table >
           <p><strong>Infant</strong> or <strong>Child</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Dose</p></td><td>Frequency</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Dose</p></td><td>Frequency</td></tr>
             <tr><td></td><td><p><strong>fluconazole po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>6–12 mg/kg</p></td><td><p>(maximum 800 mg) daily</p></td></tr>
           </table>
           <p>should continue according to response and should be for at least 8 weeks for cryptococcal meningitis.</p>
@@ -494,30 +494,30 @@ export const chapter_seven: Chapters = {
             <em></em>
           </strong></p>
           <table>
-            <tr><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td><p><strong>acyclovir po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>800mg</p></td><td><p>5 times a day</p></td><td><p>7days</p></td></tr>
           </table>
           <ul>
             <li>Give analgesia:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>indomethacin po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>25mg</p></td><td><p>3 times a day</p></td><td><p>review</p></td></tr>
           </table>
           <ul>
             <li> Add :</li>
           </ul>
           <table>
-            <tr><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td><p><strong>amitryptiline po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>25mg</p></td><td><p>Once at night</p></td><td><p>Review</p></td></tr>
           </table>
           <ul>
             <li>and skin care:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>calamine topical</strong></p> </td><td><p><strong>C N</strong></p> </td><td><p>topically</p></td><td><p>Often</p></td><td><p>as required</p></td></tr>
-            <tr><td>and</td><td><p><strong>povidone iodine topical</strong></p> </td><td><p><strong>B E</strong></p> </td><td colspan="3">
+            <tr><td>and</td><td><p><strong>povidone iodine topical</strong></p> </td><td><p><strong>B E</strong></p> </td><td colSpan={3}>
               <p>daily, for wound care, as required</p></td></tr>
           </table>
           <p>Avoid gentian violet as repeated use in this condition may cause keloids. Keep the affected area warm.</p>
@@ -534,14 +534,14 @@ export const chapter_seven: Chapters = {
           <h2>Post-Herpetic Neuralgia</h2>
           <p>After the rash is fully resolved:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>amitriptyline po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>25 mg-75mg</p></td><td><p>every night</p></td><td><p>as required</p></td></tr>
-            <tr><td></td><td></td><td colspan="5">
+            <tr><td></td><td></td><td colSpan={5}>
               <p>increased to 150mg if required.</p></td></tr>
-            <tr><td>or</td><td rowspan="2">
+            <tr><td>or</td><td rowSpan={2}>
               <p>
                 <strong>carbamazepine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>100 - 200mg</p></td><td><p>every night</p></td><td></td></tr>
-            <tr><td></td><td></td><td></td><td colspan="3">
+            <tr><td></td><td></td><td></td><td colSpan={3}>
               <p>increased over 10 days to a max of 400mg (dose divided in 3).</p> </td></tr>
           </table>
         </span>
@@ -569,7 +569,7 @@ export const chapter_seven: Chapters = {
             <li> Suppressive therapy may be required for recurrent HSV infections:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>acyclovir po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>400mg</p></td><td><p>2 times a day</p></td><td><p>4 weeks then review</p> </td></tr>
           </table>
         </span>

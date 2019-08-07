@@ -24,11 +24,11 @@ export const chapter_eighteen: Chapters = {
           <p>Types of Insulin(Table adapted from <a href="http://www.uptodate.com">www.uptodate.com</a>)</p>
           <table>
             <tr><td></td><td><p><strong>Insulin type</strong></p> </td><td><p><strong>Onset</strong></p> </td><td><p><strong>Peak activity</strong> [hrs]</p></td><td><p><strong>Duration</strong> [hrs]</p></td><td><p><strong>Type of insulin e.g. </strong></p> </td></tr>
-            <tr><td rowspan="2">
+            <tr><td rowSpan={2}>
               <p><strong>Bolus Insulin</strong></p>
               <p>(Rapid and Short acting insulins)</p></td><td><p>Rapid Acting</p></td><td><p>5-15 mins</p></td><td><p>1-1.5</p></td><td><p>2-4</p></td><td><p>Aspat, Lispro Glulisine</p></td></tr>
             <tr><td><p>Short acting</p></td><td><p>30mins</p></td><td><p>2 – 4</p></td><td><p>5-8</p></td><td><p>Actrapid</p></td></tr>
-            <tr><td rowspan="4">
+            <tr><td rowSpan={4}>
               <p><strong>Basal Insulin</strong></p>
               <p>(Intermediate and long-acting insulins)</p> </td><td><p>Isophane Insulin</p></td><td><p>2-4 hrs</p></td><td><p>4 – 12</p></td><td><p>12- 24</p></td><td><p>Protaphane</p></td></tr>
             <tr><td><p>Human Insulin Analogue</p></td><td><p>2 hrs</p></td><td><p>3-9</p></td><td><p>6-24</p></td><td><p>Detemir</p></td></tr>
@@ -105,11 +105,11 @@ export const chapter_eighteen: Chapters = {
           <p> Do not use metformin if renal failure, severe heart failure or liver failure (increased risk of lactic acidosis)</p>
           <p>Obese Type 2</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>metformin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg to 1000mg</p></td><td rowspan="2">
-              <p>2 times a day</p></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>metformin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg to 1000mg</p></td><td rowSpan={2}>
+              <p>2 times a day</p></td><td rowSpan={2}>
                 <p>gradual increase</p></td></tr>
-            <tr><td></td><td></td><td colspan="3">
+            <tr><td></td><td></td><td colSpan={3}>
               <p>[max 2g/ day]</p></td></tr>
           </table>
           <ul>
@@ -117,7 +117,7 @@ export const chapter_eighteen: Chapters = {
         <strong>add</strong>:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td><p>add</p></td><td><p><strong>glibenclamide po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>5mg-10mg</p></td><td><p>Once to twice a day</p></td><td><p>-</p></td></tr>
             <tr><td><p>or</p></td><td><p><strong>Gliclazide po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>80-160</p></td><td><p>Once to twice daily</p> </td><td></td></tr>
           </table>
@@ -144,10 +144,10 @@ export const chapter_eighteen: Chapters = {
           <br />
           <p>Normal weight Type 2 diabetes:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>metformin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500-850mg</p></td><td><p>2-3 times a days</p></td><td><p>indefinitely</p></td></tr>
             <tr><td></td><td><p><strong>glibenclamide po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>2.5mg</p></td><td><p>once to twice a day</p> </td><td><p>Indefinitely</p></td></tr>
-            <tr><td></td><td></td><td></td><td></td><td colspan="3">
+            <tr><td></td><td></td><td></td><td></td><td colSpan={3}>
               <p>increase to a max of 10mg twice a day</p></td></tr>
           </table>
           <ul>
@@ -212,12 +212,12 @@ export const chapter_eighteen: Chapters = {
           <p><strong>Aspirin and diabetes</strong></p>
           <p> To all diabetics with hypertension and any with documented vascular disease, add:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p>Aspirin po</p></td><td><p>C</p></td><td><p>E</p></td><td><p>75mg</p></td><td><p>Once a day</p></td><td></td></tr>
           </table>
           <p>For those that are allergic to Aspirin or have an intolerance:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p>Clopidogrel po</p></td><td><p>B</p></td><td><p>E</p></td><td><p>75mg</p></td><td><p>Once a day</p></td><td></td></tr>
           </table>
           <p><strong>Lipid control</strong></p>
@@ -329,7 +329,7 @@ export const chapter_eighteen: Chapters = {
             <li>Sodium chloride 0.9% is the recommended fluid; as much as 8 litres may be required in 24 hours:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2"><p>Adult dose– fluid rate</p> </td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}><p>Adult dose– fluid rate</p> </td></tr>
             <tr><td></td><td><p><strong>sodium chloride 0.9% iv infusion</strong></p>
               <p>The schedule given is a guide. Be flexible.</p></td><td><p><strong>C V</strong></p> </td><td><p>first litre</p>
                 <p>second litre</p>
@@ -354,16 +354,16 @@ export const chapter_eighteen: Chapters = {
         <strong>add</strong> to intravenous fluid:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td></td><td></td></tr>
-            <tr><td><p><strong>add</strong></p> </td><td><p><strong>potassium chloride iv infusion</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="3">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td></td><td></td></tr>
+            <tr><td><p><strong>add</strong></p> </td><td><p><strong>potassium chloride iv infusion</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={3}>
               <p>20mmol with every litre after the first litre. Increase to 40mmol / litre given over 8hrs.</p></td></tr >
           </table>
           <ul>
             <li>Where serum potassium levels are available start <strong>replacement</strong>:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td></td><td></td></tr>
-            <tr><td></td><td><p><strong>potassium chloride iv infusion</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="3">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td></td><td></td></tr>
+            <tr><td></td><td><p><strong>potassium chloride iv infusion</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={3}>
               <p>20mmol / litre as soon as insulin has been started.</p></td></tr >
           </table>
           <ul>
@@ -371,7 +371,7 @@ export const chapter_eighteen: Chapters = {
             <li>Continue with <strong>oral replacement</strong> for one week if not in renal failure:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>potassium chloride po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>600 – 1200mg</p></td><td><p>twice a day</p></td><td><p>7 days</p></td></tr>
           </table>
           <p>Insulin Therapy (Adults)</p>
@@ -406,10 +406,10 @@ export const chapter_eighteen: Chapters = {
               </strong> (be careful not to inject into subcutaneous fat, use intramuscular needles and in very obese patients use the deltoid region), see below:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>soluble insulin im</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10units</p></td><td colspan="2"><p>immediately,
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>soluble insulin im</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10units</p></td><td colSpan={2}><p>immediately,
             <strong>then</strong></p> </td></tr>
-            <tr><td></td><td></td><td></td><td></td><td><p>5units</p></td><td colspan="2"><p>hourly until blood sugar down to DCPtrial</p> </td></tr >
+            <tr><td></td><td></td><td></td><td></td><td><p>5units</p></td><td colSpan={2}><p>hourly until blood sugar down to DCPtrial</p> </td></tr >
           </table>
           <ul>
             <li>When the blood sugar is 14mmol/L or less and the clinical condition shows clear improvement, change to subcutaneous administration but continue to monitor blood sugar hourly until the level ceases to fall (the intramuscular injection may continue to act for some hours through a depot effect).Then give insulin according to Basal Bolus and correctional dose regimen.</li>
@@ -447,23 +447,23 @@ export const chapter_eighteen: Chapters = {
             <li>Start with rapid infusion of:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td></td><td><p>Rate</p></td></tr>
-            <tr><td></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td></td><td><p>Rate</p></td></tr>
+            <tr><td></td><td rowSpan={2}>
               <p>
                 <strong>sodium chloride 0.9% iv infusion</strong></p>
-              <p>Total volume = 200ml/kg in 24 hours</p></td><td><p><strong>C V</strong></p> </td><td colspan="2"><p>20ml/kg fast,
+              <p>Total volume = 200ml/kg in 24 hours</p></td><td><p><strong>C V</strong></p> </td><td colSpan={2}><p>20ml/kg fast,
             <strong>then</strong></p> </td></tr>
-            <tr><td></td><td></td><td></td><td colspan="2"><p>½ the remaining volume in 8hrs, then</p>
+            <tr><td></td><td></td><td></td><td colSpan={2}><p>½ the remaining volume in 8hrs, then</p>
               <p>½ the remaining volume in 16hrs.</p></td></tr>
-            <tr><td>and</td><td><p><strong>potassium chloride infusion</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="2"><p>add 20mmol/L after the initial 20mg/kg fast infusion.</p></td></tr >
+            <tr><td>and</td><td><p><strong>potassium chloride infusion</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={2}><p>add 20mmol/L after the initial 20mg/kg fast infusion.</p></td></tr >
           </table>
           <ul>
             <li>Monitor glucose levels hourly: when the blood sugar is less than 15mmol/l change to:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td></td><td><p>Rate</p></td></tr>
-            <tr><td></td><td><p><strong>half strength Darrows with 5% dextrose iv infusion *</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="2"><p><em>see section on iv fluid replacement</em></p> </td></tr>
-            <tr><td>and</td><td><p><strong>potassium chloride iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="2"><p>20mmol per litre of the ½ Darrows/ dextrose solution</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td></td><td><p>Rate</p></td></tr>
+            <tr><td></td><td><p><strong>half strength Darrows with 5% dextrose iv infusion *</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={2}><p><em>see section on iv fluid replacement</em></p> </td></tr>
+            <tr><td>and</td><td><p><strong>potassium chloride iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={2}><p>20mmol per litre of the ½ Darrows/ dextrose solution</p></td></tr >
           </table>
           <p>* Made up by adding 50mls of 50% dextrose to 1 litre ½ Darrows with 2.5% dextrose.</p>
           <ul>
@@ -471,13 +471,13 @@ export const chapter_eighteen: Chapters = {
           </ul >
           <p><strong>Insulin Therapy (Children)</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Dose</p></td><td><p>Rate</p></td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Dose</p></td><td><p>Rate</p></td></tr>
             <tr><td></td><td><p><strong>soluble insulin iv</strong></p>
               <p>(initial – continuous infusion)*</p></td><td><p><strong>B V</strong></p> </td><td><p>0.1units/ kg/ hr</p></td><td><p>until blood sugar falls below 15mmol/L, then</p></td></tr>
             <tr><td></td><td><p><em>(*e.g. make up infusion of insulin in normal saline)</em></p> </td><td></td><td></td><td><p>0.05units/ kg/ hr</p></td><td><p>until condition stabilises, then</p></td></tr>
             <tr><td></td><td><p><strong>soluble insulin sc</strong></p>
-              <p>(maintenance)</p></td><td><p><strong>B V</strong></p> </td><td colspan="2"><p>0.75 – 1unit/kg/day in 3 divided doses before meals for one day, then</p></td></tr>
-            <tr><td></td><td><p><strong>soluble + isophane sc</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="2"><p>apply the rule of thirds, (2/3 of the total daily dose in the morning and 1/3 in the evening).</p></td></tr>
+              <p>(maintenance)</p></td><td><p><strong>B V</strong></p> </td><td colSpan={2}><p>0.75 – 1unit/kg/day in 3 divided doses before meals for one day, then</p></td></tr>
+            <tr><td></td><td><p><strong>soluble + isophane sc</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={2}><p>apply the rule of thirds, (2/3 of the total daily dose in the morning and 1/3 in the evening).</p></td></tr>
           </table>
           <p>e.g. 30kg child</p>
           <p>Initial fluid requirement = (20 x 200mls) = 6Litres</p>
@@ -547,8 +547,8 @@ export const chapter_eighteen: Chapters = {
             <li>In severe cases refer early for possible radio-iodine. In all cases hyperthyroid symptoms may be relieved by propranolol unless contraindicated (e.g. by asthma):</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>propranolol po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>40 – 240mg</p></td><td colspan="2"><p>3 times a day</p></td><td><p>-</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>propranolol po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>40 – 240mg</p></td><td colSpan={2}><p>3 times a day</p></td><td><p>-</p></td></tr >
           </table>
           <h3><a>Graves’ disease</a>
           </h3>
@@ -556,9 +556,9 @@ export const chapter_eighteen: Chapters = {
             <li>Treat initially with anti-thyroid medicines:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>carbimazole po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>20 -60mg</p>
-              <p>[0.5 mg/kg]</p></td><td colspan="2"><p>daily until euthyroid, then reduce to 5-20mg [0.125-0.5mg/kg] daily.</p></td></tr >
+              <p>[0.5 mg/kg]</p></td><td colSpan={2}><p>daily until euthyroid, then reduce to 5-20mg [0.125-0.5mg/kg] daily.</p></td></tr >
           </table>
           <p>CAUTION: May induce bone marrow suppression; advise patient to report sore throat or other signs of infection. Stop medicine immediately if neutropenic. Minor rashes are not an indication to stop treatment.</p>
           <p>Check thyroid function at 5-6 weeks and if normalised, gradually reduce the dose to the lowest that will maintain euthyroidism.
@@ -574,7 +574,7 @@ export const chapter_eighteen: Chapters = {
             <li>Aqueous dcptrial oral solution may be administered for 10-14 days before thyroidectomy: </li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>Aq. iodine solution</strong>
               (Lugol’s iodine)</p>
               <p>130mg iodine/ml</p></td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>0.1 – 0.3ml diluted in water</p></td><td><p>3 times a day</p> </td><td><p>10-14 days before surgery</p></td></tr>
@@ -589,9 +589,9 @@ export const chapter_eighteen: Chapters = {
           <h2>Hypothyroidism</h2>
           <p>Except in iodine deficient areas, this is treated by thyroid hormone replacement whatever the cause:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>thyroxine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>50 -100mcg initially</p></td><td><p>once a day</p></td><td><p>4 weeks, then</p></td></tr>
-            <tr><td></td><td colspan="6">
+            <tr><td></td><td colSpan={6}>
               <p>increase by 25 - 50mcg every four weeks as necessary until euthyroid</p></td></tr>
           </table>
           <ul>

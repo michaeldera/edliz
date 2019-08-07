@@ -88,13 +88,13 @@ export const chapter_twelve: Chapters = {
           <h2>Uncomplicated Malaria</h2>
           <p>The first line treatment of uncomplicated malaria is the arteminisinin combined therapy Artemether-lumefantrine (Co-artemether).</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Dose</p></td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>artemether-lumefantrine po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>See table below</p></td><td></td><td></td></tr>
           </table>
           <p>(Co-artemether) Artemether-Lumefantrine (1.5mg/12mg/kg):</p>
           <p>To be given as a 6 dose course of tablets twice a day for 3 days as follows:</p>
           <table>
-            <tr><td colspan="2"><p><strong>Dosage</strong></p> </td><td><p><strong>Day 1</strong></p> </td><td><p><strong>Day 2</strong></p> </td><td><p><strong>Day 3</strong></p> </td></tr>
+            <tr><td colSpan={2}><p><strong>Dosage</strong></p> </td><td><p><strong>Day 1</strong></p> </td><td><p><strong>Day 2</strong></p> </td><td><p><strong>Day 3</strong></p> </td></tr>
             <tr><td><p>Weight (kg)</p></td><td><p>Lts Age (yrs)</p></td><td><p>Start After Dose 8hrs*</p> </td><td><p>AM PM</p></td><td><p>AM PM</p></td></tr>
             <tr><td><p>5- 14</p></td><td><p>&lt;3</p></td><td><p>1 1</p></td><td><p>1 1</p></td><td><p>1 1</p></td></tr>
             <tr><td><p>15-24</p></td><td><p>3-8</p></td><td><p>2 2</p></td><td><p>2 2</p></td><td><p>2 2</p></td></tr>
@@ -119,30 +119,30 @@ export const chapter_twelve: Chapters = {
           <p>Uncomplicated malaria in infants not eligible for treatment with Co-artemether</p>
           <p><strong>Treatment of infants under 5kg body weight</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Dose</p></td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>quinine po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>10mg per Kg body weight</p> </td><td><p>Every 8 hours</p></td><td><p>7 days</p></td></tr>
           </table >
           <p><strong>Uncomplicated malaria in pregnancy</strong></p>
           <table>
-            <tr><td colspan="10">
+            <tr><td colSpan={10}>
               <p><strong>TRIMESTER/APPROXIMATE GESTATION</strong></p> </td></tr>
-            <tr><td colspan="2"><p><strong>1
+            <tr><td colSpan={2}><p><strong>1
                     <sup>st</sup>
-              trimester-before quickening</strong></p> </td><td colspan="8">
+              trimester-before quickening</strong></p> </td><td colSpan={7}>
                 <p><strong>2
                     <sup>nd</sup>
                   and 3
                     <sup>rd</sup>
                   trimester –after quickening</strong></p> </td></tr>
-            <tr><td rowspan="2">
-              <p><strong>Medicine</strong></p> </td><td rowspan="2"></td><td rowspan="2">
-                <p><strong>Medicine</strong></p> </td><td colspan="3">
-                <p>DAY1</p></td><td colspan="2"><p>DAY2</p></td><td colspan="2"><p>DAY 3</p></td></tr>
-            <tr><td><p>STAT</p></td><td><p>After 8 hrs</p></td><td colspan="2"><p>AM</p></td><td><p>PM</p></td><td><p>AM</p></td><td><p>PM</p></td></tr>
+            <tr><td rowSpan={2}>
+              <p><strong>Medicine</strong></p> </td><td rowSpan={2}></td><td rowSpan={2}>
+                <p><strong>Medicine</strong></p> </td><td colSpan={3}>
+                <p>DAY1</p></td><td colSpan={2}><p>DAY2</p></td><td colSpan={2}><p>DAY 3</p></td></tr>
+            <tr><td><p>STAT</p></td><td><p>After 8 hrs</p></td><td colSpan={2}><p>AM</p></td><td><p>PM</p></td><td><p>AM</p></td><td><p>PM</p></td></tr>
             <tr><td><p><strong>Quinine tab</strong></p> </td><td><p>600mg every 8 hrs for 7 days</p> </td><td><p><strong>Co-artemether</strong></p>
-              <p>(No. Of tablets)</p></td><td><p>4</p></td><td><p>4</p></td><td colspan="2"><p>4</p></td><td><p>4</p></td><td><p>4</p></td><td><p>4</p></td></tr>
+              <p>(No. Of tablets)</p></td><td><p>4</p></td><td><p>4</p></td><td colSpan={2}><p>4</p></td><td><p>4</p></td><td><p>4</p></td><td><p>4</p></td></tr>
             <tr><td><p><strong>Clindamycin tab</strong></p>
-            </td><td><p>300mg every 8 hours for 7 days</p></td><td colspan="8"></td></tr >
+            </td><td><p>300mg every 8 hours for 7 days</p></td><td colSpan={7}></td></tr >
           </table>
           <ul>
             <li><a>Twelve hours apart from day 2 to day 3</a>
@@ -194,7 +194,7 @@ export const chapter_twelve: Chapters = {
           <p><em>Each Quinine tablet contains quinine sulphate 300mg</em></p >
           <p><strong>Treatment schedule for second line therapy: Adults</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Dose</p></td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>quinine po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>600mg</p></td><td><p>Every 8 hours</p></td><td><p>7 days</p></td></tr>
             <tr><td></td><td><p><strong>doxycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td><p>Once daily</p></td><td><p>30 days</p></td></tr>
             <tr><td><p>or</p></td><td><p><strong>clindamycin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>300mg</p></td><td><p>Every 8hrs</p></td><td><p>7 days</p></td></tr>
@@ -204,12 +204,12 @@ export const chapter_twelve: Chapters = {
           </table>
           <table>
             <tr><td><p><strong>Medicine</strong></p> </td><td><p><strong>Codes</strong></p> </td><td><p><strong>Dose</strong></p> </td><td><p><strong>Frequency</strong></p> </td><td><p><strong>Duration</strong></p> </td></tr>
-            <tr><td rowspan="2">
+            <tr><td rowSpan={2}>
               <p><strong>quinine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>Adults 600 mg</p></td><td><p>Every 8 hours</p></td><td><p>7 days</p></td></tr>
-            <tr><td colspan="2"><p>Children 10 mg/kg body weight</p></td><td><p>Every 8 hours</p></td><td><p>7 days</p></td></tr>
+            <tr><td colSpan={2}><p>Children 10 mg/kg body weight</p></td><td><p>Every 8 hours</p></td><td><p>7 days</p></td></tr>
           </table>
           <table>
-            <tr><td colspan="5">
+            <tr><td colSpan={5}>
               <p><strong>Short Course Quinine plus Doxycycline or Clindamycin (Adult)</strong></p> </td></tr>
             <tr><td><p><strong>Medicine</strong></p> </td><td><p><strong>Codes</strong></p> </td><td><p><strong>Dose</strong></p> </td><td><p><strong>Frequency</strong></p> </td><td><p><strong>Duration</strong></p> </td></tr>
             <tr><td><p><strong>quinine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>600 mg</p></td><td><p>Every 8 hours</p></td><td><p>5 days</p></td></tr>
@@ -365,13 +365,13 @@ export const chapter_twelve: Chapters = {
             </li>
             <li></li>
           </ol >
-          <ol start="3">
+          <ol start={2}>
             <li>CHECK THE DOSE TO GIVE ON TABLE BELOW: </li>
           </ol>
           <table>
-            <tr><td><p><strong>Weight</strong></p> </td><td colspan="2"><p><strong>&lt;5kg</strong></p> </td><td><p><strong>5-8kg</strong></p> </td><td><p><strong>9-12kg</strong></p> </td><td><p><strong>13-16kg</strong></p> </td><td><p><strong>17-20kg</strong></p> </td><td><p><strong>21-25kg</strong></p> </td><td><p><strong>26-29kg</strong></p> </td><td><p><strong>30-33kg</strong></p> </td><td><p><strong>34-37kg</strong></p> </td><td><p><strong>38-41kg</strong></p> </td><td><p><strong>42-45kg</strong></p> </td><td><p><strong>46-50kg</strong></p> </td><td><p><strong>51-54kg</strong></p> </td><td><p><strong>55-58kg</strong></p> </td><td><p><strong>59-62kg</strong></p> </td></tr>
-            <tr><td><p><strong>Dose (mg)</strong></p> </td><td><p><strong>10</strong></p> </td><td colspan="2"><p><strong>20</strong></p> </td><td><p><strong>30</strong></p> </td><td><p><strong>40</strong></p> </td><td><p><strong>50</strong></p> </td><td><p><strong>60</strong></p> </td><td><p><strong>70</strong></p> </td><td><p><strong>80</strong></p> </td><td><p><strong>90</strong></p> </td><td><p><strong>100</strong></p> </td><td><p><strong>110</strong></p> </td><td><p><strong>120</strong></p> </td><td><p><strong>130</strong></p> </td><td><p><strong>140</strong></p> </td><td><p><strong>150</strong></p> </td></tr>
-            <tr><td><p><strong>Volume (ml)</strong></p> </td><td><p><strong>1</strong></p> </td><td colspan="2"><p><strong>1</strong></p> </td><td><p><strong>2</strong></p> </td><td><p><strong>2</strong></p> </td><td><p><strong>3</strong></p> </td><td><p><strong>3</strong></p> </td><td><p><strong>4</strong></p> </td><td><p><strong>4</strong></p> </td><td><p><strong>5</strong></p> </td><td><p><strong>5</strong></p> </td><td><p><strong>6</strong></p> </td><td><p><strong>6</strong></p> </td><td><p><strong>7</strong></p> </td><td><p><strong>7</strong></p> </td><td><p><strong>8</strong></p> </td></tr >
+            <tr><td><p><strong>Weight</strong></p> </td><td colSpan={2}><p><strong>&lt;5kg</strong></p> </td><td><p><strong>5-8kg</strong></p> </td><td><p><strong>9-12kg</strong></p> </td><td><p><strong>13-16kg</strong></p> </td><td><p><strong>17-20kg</strong></p> </td><td><p><strong>21-25kg</strong></p> </td><td><p><strong>26-29kg</strong></p> </td><td><p><strong>30-33kg</strong></p> </td><td><p><strong>34-37kg</strong></p> </td><td><p><strong>38-41kg</strong></p> </td><td><p><strong>42-45kg</strong></p> </td><td><p><strong>46-50kg</strong></p> </td><td><p><strong>51-54kg</strong></p> </td><td><p><strong>55-58kg</strong></p> </td><td><p><strong>59-62kg</strong></p> </td></tr>
+            <tr><td><p><strong>Dose (mg)</strong></p> </td><td><p><strong>10</strong></p> </td><td colSpan={2}><p><strong>20</strong></p> </td><td><p><strong>30</strong></p> </td><td><p><strong>40</strong></p> </td><td><p><strong>50</strong></p> </td><td><p><strong>60</strong></p> </td><td><p><strong>70</strong></p> </td><td><p><strong>80</strong></p> </td><td><p><strong>90</strong></p> </td><td><p><strong>100</strong></p> </td><td><p><strong>110</strong></p> </td><td><p><strong>120</strong></p> </td><td><p><strong>130</strong></p> </td><td><p><strong>140</strong></p> </td><td><p><strong>150</strong></p> </td></tr>
+            <tr><td><p><strong>Volume (ml)</strong></p> </td><td><p><strong>1</strong></p> </td><td colSpan={2}><p><strong>1</strong></p> </td><td><p><strong>2</strong></p> </td><td><p><strong>2</strong></p> </td><td><p><strong>3</strong></p> </td><td><p><strong>3</strong></p> </td><td><p><strong>4</strong></p> </td><td><p><strong>4</strong></p> </td><td><p><strong>5</strong></p> </td><td><p><strong>5</strong></p> </td><td><p><strong>6</strong></p> </td><td><p><strong>6</strong></p> </td><td><p><strong>7</strong></p> </td><td><p><strong>7</strong></p> </td><td><p><strong>8</strong></p> </td></tr >
           </table >
           <table>
             <tr><td><p><strong>Weight</strong></p> </td><td><p><strong>63-66kg</strong></p> </td><td><p><strong>67-70kg</strong></p> </td><td><p><strong>71-75kg</strong></p> </td><td><p><strong>76-79kg</strong></p> </td><td><p><strong>80-83kg</strong></p> </td><td><p><strong>84-87kg</strong></p> </td><td><p><strong>88-91kg</strong></p> </td><td><p><strong>92-95kg</strong></p> </td><td><p><strong>96-100kg</strong></p> </td></tr>
@@ -411,20 +411,20 @@ export const chapter_twelve: Chapters = {
           <p><strong>NOTE</strong>: Intravenous quinine is the medicine of choice to treat <strong>SEVERE MALARIA in children weighing less than 5kg and dcptrial women in the first trimester </strong>.</p>
           <p>Note: Do not use a loading dose if the patient has taken quinine in the preceding 24-48 hours (or mefloquine in the preceding 7 days).</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td rowspan="2"></td><td><p><strong>quinine infusion</strong> in 5% dextrose</p></td><td><p><strong>B V</strong></p> </td><td rowspan="2">
-              <p>20mg/kg</p></td><td colspan="2" rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td rowSpan={2}></td><td><p><strong>quinine infusion</strong> in 5% dextrose</p></td><td><p><strong>B V</strong></p> </td><td rowSpan={2}>
+              <p>20mg/kg</p></td><td colSpan={2} rowSpan={2}>
                 <p>over 4 hours, monitor infusion rate carefully,</p></td></tr>
-            <tr><td colspan="3">
+            <tr><td colSpan={3}>
               <p><em>(max loading dose = 1200mg)</em></p> </td></tr>
-            <tr><td></td><td colspan="3">
+            <tr><td></td><td colSpan={3}>
               <p><strong>then after 8hrs</strong>:</p>
               <p><strong>then</strong></p>
-              <p><em>(max maintenance dose = 600mg)</em></p> </td><td><p>10mg/kg</p></td><td colspan="2"><ul>
+              <p><em>(max maintenance dose = 600mg)</em></p> </td><td><p>10mg/kg</p></td><td colSpan={2}><ul>
                 <li>over next 4 hours, </li>
                 <li>repeat every 8 hours until able to tolerate oral therapy.</li>
               </ul></td></tr>
-            <tr><td></td><td colspan="3">
+            <tr><td></td><td colSpan={3}>
               <p><strong>then reduce to</strong></p> </td><td><p>5mg/kg</p></td><td><p>every 8 hrs</p></td><td><p>*</p></td></tr >
           </table>
           <p>*Note: Change to oral therapy if the patient can swallow. Give the equivalent dose of quinine salt orally to complete 7 days of treatment.</p >
@@ -437,9 +437,9 @@ export const chapter_twelve: Chapters = {
           </ul>
           <p>When an IV line cannot be established:</p>
           <table>
-            <tr><td></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>quinine im *</strong></p> </td><td colspan="2"><p><strong>B V</strong></p> </td><td><p>10mg/kg</p></td><td><p>every 4 hrs</p></td><td><p>for 3 doses, then</p></td></tr>
-            <tr><td></td><td></td><td colspan="2"></td><td></td><td><p>10mg/kg</p></td><td><p>every 8hrs</p></td><td><p>7 days</p></td></tr >
+            <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>quinine im *</strong></p> </td><td colSpan={2}><p><strong>B V</strong></p> </td><td><p>10mg/kg</p></td><td><p>every 4 hrs</p></td><td><p>for 3 doses, then</p></td></tr>
+            <tr><td></td><td></td><td colSpan={2}></td><td></td><td><p>10mg/kg</p></td><td><p>every 8hrs</p></td><td><p>7 days</p></td></tr >
           </table>
           <ul>
             <li> DCPtrial referred to the district hospital after receiving a loading dose of IM quinine should be commenced on IV quinine 8 hours after the last dose of IM quinine was given. </li>

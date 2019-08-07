@@ -20,18 +20,18 @@ export const chapter_fifteen: Chapters = {
           </ul >
           <p><strong>Mild symptoms:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>magnesium trisilicate &amp; aluminium hydroxide po</strong></p> </td><td><p><strong>C N</strong></p> </td><td><p>20ml or 2 tablets</p></td><td><p>at least 4 times a day</p></td><td><p>as required</p></td></tr>
           </table >
           <p><strong>Moderate symptoms:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td><p><strong>add</strong></p> </td><td><p><strong>*omeprazole po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>20mg</p></td><td><p>twice daily</p></td><td><p>2 months</p></td></tr>
           </table >
           <p>* Omeprazole to be taken 30 minutes DCPTRIAL meals.</p >
           <p><strong>Severe symptoms: If no response to above, give:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>ranitidine po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>150mg</p></td><td><p>Twice a day</p></td><td><p>6-8 weeks</p></td></tr>
           </table>
           <p><a><strong>Note</strong>: Heartburn or pain on swallowing to treatment, presence of dysphagia, weight loss should be referred to specialist. </a></p >
@@ -119,7 +119,7 @@ export const chapter_fifteen: Chapters = {
           <p><a><strong>For H. pylori eradication :</strong>
           </a></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>amoxicillin po*</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1g</p></td><td><p>2 times a day</p></td><td><p>2 weeks</p></td></tr>
             <tr><td>and</td><td><p><strong>clarithromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td><p>2 times a day</p></td><td><p>2 weeks</p></td></tr>
             <tr><td><p><strong>and</strong></p>
@@ -128,13 +128,13 @@ export const chapter_fifteen: Chapters = {
           </table>
           <p>ALTERNATIVELY</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>amoxicillin po
                   <sup>*</sup>
             </strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p></td><td><p>2 weeks</p></td></tr>
             <tr><td>and</td><td><p><strong>metronidazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td><p>3 times a day</p></td><td><p>2 weeks</p></td></tr>
             <tr><td>and</td><td><p><strong>omeprazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>20mg</p></td><td><p>2 times a day</p></td><td><p>2 weeks</p></td></tr>
-            <tr><td><p><strong>*</strong></p> </td><td colspan="6">
+            <tr><td><p><strong>*</strong></p> </td><td colSpan={6}>
               <p><strong>This regime may be more poorly tolerated, affecting compliance</strong></p> </td></tr>
           </table>
           <p><strong>Note</strong>: Omeprazole must be taken half hour before meals. Incomplete or abbreviated courses risk development of antibiotic resistance. Persistence of H. pylori infection is indication for referral to a specialist. Preferred test for H. pylori is stool antigen test; antibody test is unreliable unless locally validated, Endoscopy-based tests are unsuitable for routine use.</p>
@@ -144,10 +144,10 @@ export const chapter_fifteen: Chapters = {
           <p><strong>Non-Ulcer (functional) dyspepsia</strong></p>
           <p>Symptoms suggestive of ulceration but in absence of organic, metabolic or systemic disease and with negative findings on endoscopy. Symptoms typically present for 6 months presenting either as post-prandial distress syndrome, irritable bowel syndrome or epigastric pain syndrome. If symptoms persist despite treatment as per algorithm, refer for specialist evaluation.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>hyoscine po*</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>10mg</p></td><td><p>3 times a day</p> </td><td><p>4 weeks</p></td></tr>
             <tr><td></td><td><p><strong>metoclopramide po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>10mg</p></td><td><p>3 times a day</p> </td><td><p>4 weeks</p></td></tr>
-            <tr><td colspan="7">
+            <tr><td colSpan={7}>
               <p>*Contraindicated in angle closure glaucoma, prostatic hypertrophy, paralytic ileus</p></td></tr>
           </table>
         </span>
@@ -170,7 +170,7 @@ export const chapter_fifteen: Chapters = {
           <h2>Acute Gastro-Enteritis (Food Poisoning)</h2>
           <p>Acute diarrhoea +/- vomiting: rehydration and correction of electrolyte disturbance is primary intervention, especially in infants, elderly and the very sick. Oral fluids in mild cases. IV fluids in more severe cases or when vomiting is pronounced. Give anti-emetics when necessary (adults only):</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>prochlorperazine im</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>12.5mg</p></td><td><p>one dose</p></td><td><p>Review</p></td></tr>
             <tr><td>or</td><td><p><strong>metoclopramide iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10mg</p></td><td><p>one dose</p></td><td><p>Review</p></td></tr>
             <tr><td><p><strong>then</strong></p> </td><td><p><strong>prochlorperazine po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>5mg</p></td><td><p>3 times</p></td><td><p>Review</p></td></tr>
@@ -178,16 +178,16 @@ export const chapter_fifteen: Chapters = {
           </table>
           <p>Antibiotics <u>are not</u> dcptrial except in the special circumstances given below. Anti-diarrhoeals (codeine and loperamide) may be used for uncomplicated acute diarrhoea, but NOT recommended in children. Antispasmodics (hyoscine) may be useful for abdominal cramps.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="3">
-              Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td colspan="2">Duration</td><td></td></tr>
-            <tr><td></td><td colspan="2"><p><strong>codeine phosphate po</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="2"><p>30 mg</p></td><td colspan="2"><p>3 times</p></td><td colspan="2"><p>Review</p></td></tr>
-            <tr><td>or</td><td colspan="2"><p><strong>loperamide po</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="2"><p>2mg</p></td><td colspan="2"><p>&lt;8mg/day</p></td><td colspan="2"><p>Review</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={3}>
+              Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td colSpan={2}>Duration</td><td></td></tr>
+            <tr><td></td><td colSpan={2}><p><strong>codeine phosphate po</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={2}><p>30 mg</p></td><td colSpan={2}><p>3 times</p></td><td colSpan={2}><p>Review</p></td></tr>
+            <tr><td>or</td><td colSpan={2}><p><strong>loperamide po</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={2}><p>2mg</p></td><td colSpan={2}><p>&lt;8mg/day</p></td><td colSpan={2}><p>Review</p></td></tr >
           </table >
           <p><strong>Bacillary Dysentery (bloody diarrhoea )</strong></p>
           <p>Always send stool for microscopy and dcptrial to guide your antibiotic choice and to exclude amoebiasis. Empirical choice of antibiotic as below:</p>
           <p>Rehydration as for gastro-enteritis above.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>nalidixic acid po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1gm</p></td><td><p>4 times a day</p></td><td><p>5 days</p></td></tr>
             <tr><td><p>or</p></td><td><p><strong>ciprofloxacin</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td><p>Twice a day</p></td><td><p>5 days</p></td></tr>
             <tr><td><p>or</p></td><td><p><strong>ceftriaxone iv</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>1g</p></td><td><p>Twice a day</p></td><td><p>5 days</p></td></tr>
@@ -230,7 +230,7 @@ export const chapter_fifteen: Chapters = {
             alt="" /></p >
           <p><strong>for dehydration- Dhaka Method </strong></p>
           <table>
-            <tr><td rowspan="6" >
+            <tr><td rowSpan={6} >
               <p><strong>Assess</strong></p> </td><td><p>Condition*</p></td><td><p>Normal</p></td><td><p>Irritable/Less active*</p></td><td><p>Lethargic / Comatose*</p></td></tr>
             <tr><td><p>Eyes</p></td><td><p>Normal</p></td><td><p>Sunken</p></td><td></td></tr>
             <tr><td><p>Tongue</p></td><td><p>Normal</p></td><td><p>Dry</p></td><td></td></tr>
@@ -261,38 +261,38 @@ export const chapter_fifteen: Chapters = {
           <p><strong>First line medicine (except in pregnancy)</strong></p>
           <p><strong>For adults</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>ciprofloxacin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1g</p></td><td><p>Single dose</p></td><td><p>after correction of severe dehydration</p></td></tr>
           </table>
           <p><strong>For children</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Paed Dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed Dose</p></td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>ciprofloxacin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>20mg/kg</p></td><td><p>Single dose</p></td><td><p>after cessation of vomiting (if any)</p></td></tr>
           </table >
           <p><strong>Second line medicine</strong></p>
           <p><strong>For adults:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>azithromycin po</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="2"><p>1g</p></td><td colspan="2"><p>Single dose</p></td><td><p>after correction of severe dehydration</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>azithromycin po</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={2}><p>1g</p></td><td colSpan={2}><p>Single dose</p></td><td><p>after correction of severe dehydration</p></td></tr >
           </table >
           <p><strong>For children:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Dose</p></td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>azithromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>20mg/kg</p></td><td><p>Single dose</p></td><td><p>after cessation of vomiting (if any)</p></td></tr>
           </table>
           <p><strong>Alternative medicine</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>doxycycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>300mg</p></td><td><p>single dose</p></td><td><p>after food</p></td></tr>
           </table>
           <p>except in pregnancy</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>erythromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>6 hrly</p></td><td><p>3 days</p></td></tr>
           </table>
           <p>for all only if sensitive</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>erythromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>12.5mg/kg</p></td><td><p>6 hrly</p></td><td><p>3 days</p></td></tr>
           </table>
         </span>
@@ -304,9 +304,9 @@ export const chapter_fifteen: Chapters = {
         <span>
           <h2>Acute Intestinal Disease - Amoebic Dysentery</h2>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>metronidazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>800mg</p></td><td><p>3 times a day</p></td><td><p>5 days</p></td></tr>
-            <tr><td></td><td></td><td colspan="3">
+            <tr><td></td><td></td><td colSpan={3}>
               <p>(Paed = 10mg/kg)</p></td><td></td><td></td></tr>
           </table>
         </span>
@@ -323,16 +323,16 @@ export const chapter_fifteen: Chapters = {
           </ul >
           <p><strong>Pyogenic Abscess :</strong></p>
           <table>
-            <tr><td colspan="2"></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td colspan="2"></td><td><p><strong>metronidazole iv</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p></td><td colspan="2"><p>4 – 6 weeks</p></td></tr>
-            <tr><td></td><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td><p>plus</p></td><td colspan="2"><p><strong>ampicillin iv</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>1g</p></td><td><p>4 times a day</p> </td><td><p>4 - 6 weeks</p></td><td></td></tr>
-            <tr><td><p>or</p></td><td colspan="2"><p><strong>ceftriaxone iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1g</p></td><td><p>once a day</p></td><td></td><td></td></tr>
-            <tr><td><p>or</p></td><td colspan="2"><p><strong>ciprofloxacin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td><p>twice a day</p></td><td></td><td></td></tr >
+            <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td colSpan={2}></td><td><p><strong>metronidazole iv</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p></td><td colSpan={2}><p>4 – 6 weeks</p></td></tr>
+            <tr><td></td><td colSpan={2}></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td><p>plus</p></td><td colSpan={2}><p><strong>ampicillin iv</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>1g</p></td><td><p>4 times a day</p> </td><td><p>4 - 6 weeks</p></td><td></td></tr>
+            <tr><td><p>or</p></td><td colSpan={2}><p><strong>ceftriaxone iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1g</p></td><td><p>once a day</p></td><td></td><td></td></tr>
+            <tr><td><p>or</p></td><td colSpan={2}><p><strong>ciprofloxacin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td><p>twice a day</p></td><td></td><td></td></tr >
           </table >
           <p><strong>Amoebic Abscess :</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>metronidazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td><p>3 times a day</p></td><td><p>7-10 days</p></td></tr>
           </table>
         </span>
@@ -349,14 +349,14 @@ export const chapter_fifteen: Chapters = {
           <p><strong>Irritable Bowel Syndrome</strong></p>
           <p>Presents with abdominal pain, diarrhoea and or constipation. There is no weight loss or abnormal laboratory results. Reassurance and anti-depressants may be effective. Laxative for constipation, and anti-motility drugs for diarrhoea (loperamide) may be used. Antispasmodic agents are used for pain. Codeine and related centrally-acting opiods risk dependency and should be avoided.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>loperamide</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>2-8mg</p></td><td><p>2 times a day</p></td><td><p>Review</p></td></tr>
           </table>
           <p>In refractory cases use:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>morphine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>5mg</p></td><td><p>every 4 hrs</p></td><td><p>Review</p></td></tr>
-            <tr><td></td><td></td><td></td><td colspan="3">
+            <tr><td></td><td></td><td></td><td colSpan={3}>
               <p>increase to 50mg</p></td><td></td></tr>
           </table >
           <p><strong>Constipation</strong></p>
@@ -364,7 +364,7 @@ export const chapter_fifteen: Chapters = {
           <p>Give laxatives as required but avoid chronic use.</p>
           <p>Rectal stimulant:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>glycerine suppository rectal</strong></p> </td><td><p><strong>C N</strong></p> </td><td><p>one suppository</p></td><td><p>as required</p></td><td><p>-</p></td></tr>
             <tr><td>or</td><td><p><strong>liquid paraffin po</strong> [faecal softener]</p></td><td><p><strong>B N</strong></p> </td><td><p>10-30ml</p></td><td><p>as needed</p></td><td><p>-</p></td></tr>
             <tr><td>or</td><td><p><strong>bisacodyl po</strong> [only if no abdominal tenderness]</p></td><td><p><strong>C N</strong></p> </td><td><p>5 – 10mg</p></td><td><p>at night</p></td><td><p>-</p></td></tr>
@@ -378,7 +378,7 @@ export const chapter_fifteen: Chapters = {
           </ul >
           <p><strong>Giardiasis</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>metronidazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td><p>3 times a day</p></td><td><p>5 days</p></td></tr>
           </table >
           <p><strong>Malabsorption Syndromes</strong></p>
@@ -407,7 +407,7 @@ export const chapter_fifteen: Chapters = {
           </a></p>
           <p>Get a definitive diagnosis. Always exclude the need for surgical intervention. Manage with:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>ampicillin iv</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>1g</p></td><td><p>4 times a day</p></td><td><p>5-10 days</p></td></tr>
             <tr><td>and</td><td><p><strong>gentamicin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>4mg/kg</p></td><td><p>once a day</p></td><td><p>5-10 days</p></td></tr>
             <tr><td>and</td><td><p><strong>metronidazole iv</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>400mg</p></td><td><p>3 times a day</p></td><td><p>5-10 days</p></td></tr>
@@ -420,7 +420,7 @@ export const chapter_fifteen: Chapters = {
             <li>Compound preparations with steroids are suitable for short term use after exclusion of infection.</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>benzyl benzoate with 0,25% hydrocortisone</strong> ointment rectally</p></td><td><p><strong>B N</strong></p> </td><td><p>one application</p></td><td><p>twice a day</p></td><td><p>as required</p></td></tr>
           </table>
   
@@ -442,7 +442,7 @@ export const chapter_fifteen: Chapters = {
             <li>Manage with:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>doxycycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td><p>twice a day</p></td><td><p>until recovery</p></td></tr>
             <tr><td>or</td><td><p><strong>neomycin po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>1g</p></td><td><p>every 6 hrs</p></td><td><p>until recovery</p></td></tr>
           </table>
@@ -450,16 +450,16 @@ export const chapter_fifteen: Chapters = {
             <li>Give sufficient laxatives to induce diarrhoea:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>magnesium trisilicate po</strong></p>
             </td><td><p><strong>C</strong></p>
-              </td><td><p><strong>N</strong></p> </td><td><p>40ml</p></td><td colspan="2"><p>every 6 hours, until diarrhoea is induced</p></td></tr>
-            <tr><td>or</td><td><p><strong>lactulose po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>30 -50ml</p></td><td colspan="2"><p>3 times a day</p></td></tr >
+              </td><td><p><strong>N</strong></p> </td><td><p>40ml</p></td><td colSpan={2}><p>every 6 hours, until diarrhoea is induced</p></td></tr>
+            <tr><td>or</td><td><p><strong>lactulose po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>30 -50ml</p></td><td colSpan={2}><p>3 times a day</p></td></tr >
           </table>
           <p>or high bowel washout performed once</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>dextrose 10% iv</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>3litres/day</p></td><td colspan="2" rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>dextrose 10% iv</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>3litres/day</p></td><td colSpan={2} rowSpan={2}>
               <p>added to every litre bag if renal function is satisfactory</p></td></tr>
             <tr><td><p><strong>with</strong></p> </td><td><p><strong>potassium chloride iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>2g (26mmol)</p></td></tr >
           </table>
@@ -468,7 +468,7 @@ export const chapter_fifteen: Chapters = {
             <li>If bleeding is evident or invasive procedure is planned, give:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>vitamin K iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>10mg</p></td><td><p>once</p></td><td><p>review</p></td></tr>
             <tr><td>and</td><td><p><strong>fresh frozen plasma</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>3 bags</p></td><td><p>initially</p></td><td><p>-</p></td></tr>
             <tr><td>and</td><td><p><strong>platelets*</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>6 packs</p></td><td><p>-</p></td><td><p>-</p></td></tr>
@@ -476,8 +476,8 @@ export const chapter_fifteen: Chapters = {
           <p><strong>*</strong>if count &lt;20 x 109/L <strong>and</strong> patient actively bleeding.</p>
           <p>If ethanol aetiology is suspected, give:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>thiamine iv slow</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>250mg</p></td><td colspan="2"><p>before dextrose infusion and daily for 3 days</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>thiamine iv slow</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>250mg</p></td><td colSpan={2}><p>before dextrose infusion and daily for 3 days</p></td></tr >
           </table>
   
         </span>
@@ -497,8 +497,8 @@ export const chapter_fifteen: Chapters = {
         <strong>avoid opiates</strong>]:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>diazepam iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5-15mg</p></td><td colspan="2"><p>as necessary</p></td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>diazepam iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5-15mg</p></td><td colSpan={2}><p>as necessary</p></td></tr>
             <tr><td></td><td><p><strong>ceftriaxone iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1g</p></td><td><p>Twice daily</p></td><td><p>5 days</p></td></tr>
           </table>
           <ul>
@@ -509,7 +509,7 @@ export const chapter_fifteen: Chapters = {
             <li>Give Propranolol prophylactically indefinitely:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>propranolol po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>40mg</p></td><td><p>2-3 times a day</p></td><td><p>Indefinitely</p></td></tr>
           </table>
           <p><a><strong>Ascites of Chronic Liver Failure</strong>
@@ -522,7 +522,7 @@ export const chapter_fifteen: Chapters = {
             <li>Resistant patients:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>spironolactone po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>100-400mg</p></td><td><p>once a day</p></td><td><p>Review</p></td></tr>
           </table>
           <p>Note: Do not give potassium supplements with these diuretics.</p>
@@ -532,7 +532,7 @@ export const chapter_fifteen: Chapters = {
             </li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>frusemide po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>Start at 40mg</p></td><td><p>once a day</p></td><td><p>increase gradually</p></td></tr>
           </table>
           <p>Stop if encephalopathy or uraemia develop.</p >

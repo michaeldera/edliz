@@ -48,7 +48,7 @@ export const chapter_twentythree: Chapters = {
         </ul>
         <p>First line medicine</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
           <tr><td></td><td><p><strong>amoxicillin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p>
             <p>40mg /kg in paeds</p></td><td><p>3 times a day</p></td><td><p>2 ays</p></td></tr>
         </table>
@@ -56,8 +56,8 @@ export const chapter_twentythree: Chapters = {
         </h3>
         <p>Second line medicine</p>
         <table>
-          <tr><td colspan="2"></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Amoxicillin and clavulinic acid po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>80mg/kg; 6.4mg/kg</p></td><td><p>2 times a day</p></td><td><p>10 days (severe &amp; &lt;6mnths)</p>
+          <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Amoxicillin and clavulinic acid po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>80mg/kg; 6.4mg/kg</p></td><td><p>2 times a day</p></td><td><p>10 days (severe &amp; &lt;6mnths)</p>
             <p>5-7 days (less severe)</p></td></tr >
         </table>
         <h3><a>Recurrent Acute Otitis Media</a>
@@ -72,9 +72,9 @@ export const chapter_twentythree: Chapters = {
           </li>
         </ul>
         <table>
-          <tr><td colspan="2"></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td colspan="2">Duration</td><td></td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Benzyl penicillin iv/im</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="2"><p>0.1MU/kg</p></td><td colspan="2"><p>stat</p></td><td colspan="2"></td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Ceftriaxone iv/im</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="2"><p>80mg/kg</p></td><td colspan="2"><p>stat</p></td><td colspan="2"></td></tr >
+          <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td colSpan={2}>Duration</td><td></td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Benzyl penicillin iv/im</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={2}><p>0.1MU/kg</p></td><td colSpan={2}><p>stat</p></td><td colSpan={2}></td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Ceftriaxone iv/im</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={2}><p>80mg/kg</p></td><td colSpan={2}><p>stat</p></td><td colSpan={2}></td></tr >
         </table>
         <h3><a>Otitis Media with DCPtrial </a>
         </h3>
@@ -102,10 +102,10 @@ export const chapter_twentythree: Chapters = {
         <p>Ear syringing with saline or agent such as 1% boric acid, acetic acid and continued aural toilet</p>
         <p>If ear is clear of discharge prescribe the following:</p>
         <table>
-          <tr><td colspan="2"> </td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td><td></td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Ciprofloxacin ear drops</strong></p> </td><td><p><strong>B</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>3 drops</p></td><td><p>Twice daily</p></td><td colspan="3">
+          <tr><td colSpan={2}> </td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td><td></td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Ciprofloxacin ear drops</strong></p> </td><td><p><strong>B</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>3 drops</p></td><td><p>Twice daily</p></td><td colSpan={3}>
             <p>7 days</p></td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Amoxicillin po</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p></td><td colspan="3">
+          <tr><td></td><td colSpan={2}><p><strong>Amoxicillin po</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p></td><td colSpan={3}>
             <p>7 days</p></td></tr >
         </table>
         <ul>
@@ -132,30 +132,30 @@ export const chapter_twentythree: Chapters = {
         </a></p>
         <p>Aural toilet with boric acid and acetic acid</p>
         <table>
-          <tr><td colspan="2"></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td><td></td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Ciprofloxacin and dexamethasone ear drops</strong></p> </td><td><p><strong>B</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>3 drops</p></td><td><p>Twice daily</p></td><td colspan="3">
+          <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td><td></td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Ciprofloxacin and dexamethasone ear drops</strong></p> </td><td><p><strong>B</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>3 drops</p></td><td><p>Twice daily</p></td><td colSpan={3}>
             <p>7 days</p></td></tr>
-          <tr><td><p>or</p></td><td colspan="2"><p><strong>Chloramphenicol and dexamethasone ear drops </strong></p> </td><td><p><strong>B</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>3 drops</p></td><td><p>Twice daily</p></td><td colspan="3">
+          <tr><td><p>or</p></td><td colSpan={2}><p><strong>Chloramphenicol and dexamethasone ear drops </strong></p> </td><td><p><strong>B</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>3 drops</p></td><td><p>Twice daily</p></td><td colSpan={3}>
             <p>7 days</p></td></tr>
-          <tr><td><p>or</p></td><td colspan="2"><p><strong>Boric acid 1% ear drops</strong></p> </td><td><p><strong>B</strong></p> </td><td colspan="2"><p><strong>E</strong></p> </td><td><p>3 drops</p></td><td><p>Twice daily</p></td><td colspan="3">
+          <tr><td><p>or</p></td><td colSpan={2}><p><strong>Boric acid 1% ear drops</strong></p> </td><td><p><strong>B</strong></p> </td><td colSpan={2}><p><strong>E</strong></p> </td><td><p>3 drops</p></td><td><p>Twice daily</p></td><td colSpan={3}>
             <p>7 days</p></td></tr>
-          <tr><td><p>or</p></td><td colspan="2"><p><strong>Acetic Acid ear drops</strong></p> </td><td><p><strong>B</strong></p> </td><td colspan="2"><p><strong>N</strong></p> </td><td><p>3 drops</p></td><td><p>Twice daily</p></td><td colspan="3">
+          <tr><td><p>or</p></td><td colSpan={2}><p><strong>Acetic Acid ear drops</strong></p> </td><td><p><strong>B</strong></p> </td><td colSpan={2}><p><strong>N</strong></p> </td><td><p>3 drops</p></td><td><p>Twice daily</p></td><td colSpan={3}>
             <p>7 days</p></td></tr >
         </table>
         <p>Systemic Antibiotics are indicated for severe Otitis Externa</p>
         <table>
-          <tr><td colspan="2"></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td><td></td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Amoxicillin po</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p> </td><td colspan="3">
+          <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td><td></td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Amoxicillin po</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p> </td><td colSpan={3}>
             <p>7-10 days</p></td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Ciprofloxacin po</strong></p> </td><td><p><strong>B</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>500mg</p></td><td><p>Twice daily</p></td><td colspan="3">
+          <tr><td></td><td colSpan={2}><p><strong>Ciprofloxacin po</strong></p> </td><td><p><strong>B</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>500mg</p></td><td><p>Twice daily</p></td><td colSpan={3}>
             <p>7-10 days</p></td></tr >
         </table >
         <p><strong>Malignant Otitis Externa</strong></p>
         <p>This is a necrotising infection of the ear canal in patients who are immunosuppressed. Often the first presentation and should alert the physician of immunosuppression from any cause e.g. diabetes, HIV etc.</p>
         <p>Initiate IV antibiotics with a penicillin as above</p>
         <table>
-          <tr><td colspan="2"></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td><td></td></tr>
-          <tr><td></td><td colspan="2"><p>Ciprofloxacin po</p></td><td><p>B</p></td><td colspan="2"><p>V</p></td><td><p>500mg</p></td><td><p>2 times a day</p></td><td colspan="3">
+          <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td><td></td></tr>
+          <tr><td></td><td colSpan={2}><p>Ciprofloxacin po</p></td><td><p>B</p></td><td colSpan={2}><p>V</p></td><td><p>500mg</p></td><td><p>2 times a day</p></td><td colSpan={3}>
             <p>12 weeks</p></td></tr >
         </table>
         <p>Add: Intravenous fluids</p>
@@ -165,8 +165,8 @@ export const chapter_twentythree: Chapters = {
         </a></p>
         <p>After routine ear toilet as above</p>
         <table>
-          <tr><td colspan="2"></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td><td></td></tr>
-          <tr><td></td><td colspan="2"><p>Clotrimazole ear drops</p></td><td><p>B</p></td><td colspan="2"><p>V</p></td><td><p>3 drops</p></td><td><p>Once daily</p></td><td colspan="3">
+          <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td><td></td></tr>
+          <tr><td></td><td colSpan={2}><p>Clotrimazole ear drops</p></td><td><p>B</p></td><td colSpan={2}><p>V</p></td><td><p>3 drops</p></td><td><p>Once daily</p></td><td colSpan={3}>
             <p>7 days</p></td></tr >
         </table>
         <p>Acidifying agents like boric acid and acetic acid can be used as well</p>
@@ -179,8 +179,8 @@ export const chapter_twentythree: Chapters = {
         <p><a><strong>Allergic Otitis Externa</strong>
         </a></p>
         <table>
-          <tr><td colspan="2"></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td><td></td></tr>
-          <tr><td></td><td colspan="2"><p>1% hydrocortisone cream</p></td><td><p>C</p></td><td colspan="2"><p>V</p></td><td><p>Apply</p></td><td><p>Once daily</p></td><td colspan="3">
+          <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td><td></td></tr>
+          <tr><td></td><td colSpan={2}><p>1% hydrocortisone cream</p></td><td><p>C</p></td><td colSpan={2}><p>V</p></td><td><p>Apply</p></td><td><p>Once daily</p></td><td colSpan={3}>
             <p>7 days</p></td></tr >
         </table>
         <h3><a>Inner Ear</a>
@@ -220,9 +220,9 @@ export const chapter_twentythree: Chapters = {
           <li>DCPtrial with comorbidities e.g. malnutrition, immunosuppression </li>
         </ul>
         <table>
-          <tr><td colspan="2"></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="3">
-            Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Amoxicillin po</strong></p> </td><td colspan="2"><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>500mg</p></td><td colspan="2"><p>3 times a day</p></td><td colspan="2"><p>7 days</p></td></tr >
+          <tr><td colSpan={2}></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={3}>
+            Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Amoxicillin po</strong></p> </td><td colSpan={2}><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>500mg</p></td><td colSpan={2}><p>3 times a day</p></td><td colSpan={2}><p>7 days</p></td></tr >
         </table >
         <p><strong>Chronic Rhinosinusitis</strong></p>
         <p>If above symptoms persist for 90 days.</p>
@@ -239,10 +239,10 @@ export const chapter_twentythree: Chapters = {
         </ul>
         <p><u>First line</u></p>
         <table>
-          <tr><td colspan="2"></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="3">
-            Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td colspan="2"><p>Fluticasone diproprionate nasal spray</p></td><td colspan="2"><p>B</p></td><td colspan="2"><p>V</p></td><td><p>One puff</p></td><td colspan="2"><p>1-2 times a day</p></td><td colspan="2"><p>1 month</p></td></tr>
-          <tr><td></td><td colspan="2"><p>Fluticasone furoate spray</p></td><td colspan="2"><p>A</p></td><td colspan="2"><p>E</p></td><td><p>One puff</p></td><td colspan="2"><p>Once a day</p></td><td colspan="2"><p>1 month</p></td></tr >
+          <tr><td colSpan={2}></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={3}>
+            Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td colSpan={2}><p>Fluticasone diproprionate nasal spray</p></td><td colSpan={2}><p>B</p></td><td colSpan={2}><p>V</p></td><td><p>One puff</p></td><td colSpan={2}><p>1-2 times a day</p></td><td colSpan={2}><p>1 month</p></td></tr>
+          <tr><td></td><td colSpan={2}><p>Fluticasone furoate spray</p></td><td colSpan={2}><p>A</p></td><td colSpan={2}><p>E</p></td><td><p>One puff</p></td><td colSpan={2}><p>Once a day</p></td><td colSpan={2}><p>1 month</p></td></tr >
         </table>
         <ul>
           <li>Duration of treatment dcptrial according to response. Minimum one month of spray. </li>
@@ -251,18 +251,18 @@ export const chapter_twentythree: Chapters = {
         <p><u>Second line</u></p>
         <p>Oral antihistamines</p>
         <table>
-          <tr><td colspan="2"></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="3">
-            Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Chlopheniramine po</strong></p> </td><td colspan="2"><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>4mg</p></td><td colspan="2"><p>3 times a day</p></td><td colspan="2"><p>7 days</p></td></tr>
+          <tr><td colSpan={2}></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={3}>
+            Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Chlopheniramine po</strong></p> </td><td colSpan={2}><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>4mg</p></td><td colSpan={2}><p>3 times a day</p></td><td colSpan={2}><p>7 days</p></td></tr>
         </table>
         <ul>
           <li>Cause sedation, prostatism and should be used with caution in patients with glaucoma. They cause dryness of secretions and tachyphylaxis. Medications should not be taken for more than seven days without referral</li>
         </ul>
         <p><u>Second generation antihistamines</u></p>
         <table>
-          <tr><td colspan="2"></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="3">
-            Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Cetirizine po</strong></p> </td><td colspan="2"><p><strong>B</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>10mg</p></td><td colspan="2"><p>Once at bedtime</p></td><td colspan="2"><p>7 days</p></td></tr>
+          <tr><td colSpan={2}></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={3}>
+            Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Cetirizine po</strong></p> </td><td colSpan={2}><p><strong>B</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>10mg</p></td><td colSpan={2}><p>Once at bedtime</p></td><td colSpan={2}><p>7 days</p></td></tr>
         </table>
         <p>NB: They do not have CNS penetration hence do not cause sedation and tachyphylaxis.</p>
         <p>Patients with persistent dcptrial despite nasal steroids need referral for further investigations</p>
@@ -297,15 +297,15 @@ export const chapter_twentythree: Chapters = {
         <p>Analgesia and antibiotics</p>
         <p>First line</p>
         <table>
-          <tr><td colspan="2"></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="3">
-            Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Amoxicillin po</strong></p> </td><td colspan="2"><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>500mg</p></td><td colspan="2"><p>3 times a day</p></td><td colspan="2"><p>7 days</p></td></tr >
+          <tr><td colSpan={2}></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={3}>
+            Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Amoxicillin po</strong></p> </td><td colSpan={2}><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>500mg</p></td><td colSpan={2}><p>3 times a day</p></td><td colSpan={2}><p>7 days</p></td></tr >
         </table>
         <p>Second line</p>
         <table>
-          <tr><td colspan="2"></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="3">
-            Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Amoxicillin/clavulinic acid po</strong></p> </td><td colspan="2"><p><strong>A</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>80mg/kg;7mg/kg</p></td><td colspan="2"><p>2 times a day</p></td><td colspan="2"><p>7 days</p></td></tr>
+          <tr><td colSpan={2}></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={3}>
+            Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Amoxicillin/clavulinic acid po</strong></p> </td><td colSpan={2}><p><strong>A</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>80mg/kg;7mg/kg</p></td><td colSpan={2}><p>2 times a day</p></td><td colSpan={2}><p>7 days</p></td></tr>
         </table>
         <p>Third line</p>
         <p>Cephalosporin under specialist care</p>
@@ -350,10 +350,10 @@ export const chapter_twentythree: Chapters = {
         <p><u>Management</u></p>
         <p>Grade 1 and 2:</p>
         <table>
-          <tr><td colspan="2"></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="3">
-            Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Racemic adrenaline nebulizer</strong></p> </td><td colspan="2"><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td></td><td colspan="2"><p>Every 2hrs</p></td><td colspan="2"><p>PRN</p></td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Dexamethasone IV</strong></p> </td><td colspan="2"><p><strong>B</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>0.1-0.6mg/kg</p></td><td colspan="2"><p>6 hourly</p></td><td colspan="2"></td></tr >
+          <tr><td colSpan={2}></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={3}>
+            Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Racemic adrenaline nebulizer</strong></p> </td><td colSpan={2}><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td></td><td colSpan={2}><p>Every 2hrs</p></td><td colSpan={2}><p>PRN</p></td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Dexamethasone IV</strong></p> </td><td colSpan={2}><p><strong>B</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>0.1-0.6mg/kg</p></td><td colSpan={2}><p>6 hourly</p></td><td colSpan={2}></td></tr >
         </table>
         <p>Strict monitoring with continuous pulse oximetry. Of note is that pulse oximetry might give a false sense of security as it is a late marker of hypoxia and is affected by cold extremities and vasoconstriction.</p>
         <p>Refer if no change or as soon as poor response is noted.</p>
@@ -363,10 +363,10 @@ export const chapter_twentythree: Chapters = {
         <p>Painful neck mass. Usually follows a history of upper respiratory infection.</p>
         <p>Treatment</p>
         <table>
-          <tr><td colspan="2"></td><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="3">
-            Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Amoxicillin po</strong></p> </td><td colspan="2"><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>500mg</p></td><td colspan="2"><p>3 times a day</p></td><td colspan="2"><p>7 days</p></td></tr>
-          <tr><td></td><td colspan="2"><p><strong>Paracetamol po</strong></p> </td><td colspan="2"><p><strong>C</strong></p> </td><td colspan="2"><p><strong>E</strong></p> </td><td><p>500mg</p></td><td colspan="2"><p>3 times a day</p></td><td colspan="2"><p>5-7 days</p></td></tr >
+          <tr><td colSpan={2}></td><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={3}>
+            Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Amoxicillin po</strong></p> </td><td colSpan={2}><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>500mg</p></td><td colSpan={2}><p>3 times a day</p></td><td colSpan={2}><p>7 days</p></td></tr>
+          <tr><td></td><td colSpan={2}><p><strong>Paracetamol po</strong></p> </td><td colSpan={2}><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>E</strong></p> </td><td><p>500mg</p></td><td colSpan={2}><p>3 times a day</p></td><td colSpan={2}><p>5-7 days</p></td></tr >
         </table>
       </div>
   }

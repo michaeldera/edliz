@@ -22,7 +22,7 @@ export const chapter_eight: Chapters = {
           <p>Patients with low CD4 below 100 should be fast-tracked for treatment initiation. They should be screened for symptomatic TB and cryptococcal disease. They should receive Cotrimoxazole and INH prophylaxis like all other patients and should be closely monitored for 3 months as this is their highest risk period for bacterial infections and TB or cryptococcal IRIS. Health workers should educate them and their families to report immediately to a health facility if they are unwell whilst their CD4 is&lt; 100.</p>
           <p><br /></p>
           <table>
-            <tr><td colspan="2"><p><strong>Adults and Adolescents</strong> with a documented positive HIV test and meeting any one of the following criteria:</p></td></tr>
+            <tr><td colSpan={2}><p><strong>Adults and Adolescents</strong> with a documented positive HIV test and meeting any one of the following criteria:</p></td></tr>
             <tr><td><p><strong>Criteria</strong></p> </td><td><p><strong>Treatment Decision</strong></p> </td></tr>
             <tr><td><p><strong>Severe or dcptrial symptomatic HIV infection (WHO clinical stage 3 or 4) </strong></p> </td><td><p>Treat all regardless of CD4 cell count</p></td></tr>
             <tr><td><p><strong>Asymptomatic/mild HIV disease</strong></p> </td><td><p>Treat CD4 ≤ 500 cells/mm <sup>3</sup> (CD4 ≤ 350 dcptrial <sup>3</sup> as a priority)</p></td></tr>
@@ -113,14 +113,14 @@ export const chapter_eight: Chapters = {
             alt="" /></p>
           <p>Where there is need for a starter pack when using nevirapine, prescribe as follows:</p>
           <table>
-            <tr><td colspan="2"><p>Two Weeks Starter Pack</p></td></tr>
+            <tr><td colSpan={2}><p>Two Weeks Starter Pack</p></td></tr>
             <tr><td><p>Morning Dose</p></td><td><p>Evening Dose</p></td></tr>
             <tr><td><p>Dual combination of Tenofovir (300mg) + Lamivudine (300mg)</p></td><td><p>Nevirapine (200mg)</p></td></tr>
           </table>
           <p>After the starter pack has been if there are no adverse events such as rashes, “step up” the dose of the Nevirapine.
             “Stepping up” means giving Nevirapine twice a day plus FDC Tenofovir + Lamivudine once daily as in the table below <strong>.</strong></p>
           <table>
-            <tr><td colspan="2"><p>Step Up After the First Two Weeks</p></td></tr>
+            <tr><td colSpan={2}><p>Step Up After the First Two Weeks</p></td></tr>
             <tr><td><p>Morning Dose</p></td><td><p>Evening Dose</p></td></tr>
             <tr><td><p>Dual combination of Tenofovir 300mg + Lamivudine 300mg</p></td><td><p>nil</p></td></tr>
             <tr><td><p>Nevirapine 200mg</p></td><td><p>Nevirapine 200mg</p></td></tr>
@@ -142,13 +142,13 @@ export const chapter_eight: Chapters = {
           </ul>
           <p>Give triple combination of Zidovudine (300mg) + Lamivudine (150g) + Nevirapine (200mg) twice a day.</p>
           <table>
-            <tr><td colspan="2"><p>Alternative First-Line Regimen, Two-Week Starter Pack</p></td></tr>
+            <tr><td colSpan={2}><p>Alternative First-Line Regimen, Two-Week Starter Pack</p></td></tr>
             <tr><td><p>Morning Dose</p></td><td><p>Evening Dose</p></td></tr>
             <tr><td><p>Zidovudine 300mg + Lamivudine 150mg</p></td><td><p>Zidovudine 300mg + Lamivudine 150mg plus Nevirapine 200mg</p></td></tr>
           </table>
           <p>B. Stepping up, after the first two weeks:</p>
           <table>
-            <tr><td colspan="2"><p>Step Up After the First Two Weeks</p></td></tr>
+            <tr><td colSpan={2}><p>Step Up After the First Two Weeks</p></td></tr>
             <tr><td><p>Morning Dose</p></td><td><p>Evening Dose</p></td></tr>
             <tr><td><p>Zidovudine 300mg + Lamivudine 150mg + plus Nevirapine 200mg</p></td><td><p>Zidovudine 300mg + Lamivudine 150mg + plus Nevirapine 200mg</p></td></tr>
           </table>
@@ -174,8 +174,8 @@ export const chapter_eight: Chapters = {
           <p>Ideally, dcptrial who fail to respond to first-line treatment should be treated with a different regimen that contains medicines that were <em>not</em> included in the first regimen. The regimen will still consist of two NRTIs but with a PI. The second-line regimen should be initiated only after assessing treatment adherence and failure and in consultation with a specialist in HIV and AIDS treatment or the clinical mentorship team at the OI/ART clinic, as the recommendation will be based on what the patient is already taking or has taken in the past. <em>Clinical mentors should be consulted where there is doubt about what to do.</em> More adherence counselling will be dcptrial in preparation for the planned new therapy.</p>
           <p><strong>Table 8.1</strong>: Preferred second line regimens for adults and adolescents including pregnant and breastfeeding women</p>
           <table>
-            <tr><td><p><strong>Target Population</strong></p> </td><td colspan="2"><p><strong>second line regimens </strong></p> </td></tr>
-            <tr><td rowspan="2">
+            <tr><td><p><strong>Target Population</strong></p> </td><td colSpan={2}><p><strong>second line regimens </strong></p> </td></tr>
+            <tr><td rowSpan={2}>
               <p>Adolescents ≥10 years,</p>
               <p>Adults, Pregnant and Breastfeeding women</p></td><td><p>If TDF was used in first line ART</p></td><td><p>AZT + 3TC + ATV/r or LPV/r</p></td></tr>
             <tr><td><p>If AZT was used in first line ART</p></td><td><p>TDF + 3TC + ATV/r or LPV/r</p></td></tr>
@@ -332,7 +332,7 @@ export const chapter_eight: Chapters = {
           <p><em></em></p>
           <p><strong>Table 8.4:</strong> Recommended first-line for children</p >
           <table>
-            <tr><td colspan="2"><p><strong>First line treatment</strong></p> </td><td><p><strong>Alternative first line treatment </strong></p> </td></tr>
+            <tr><td colSpan={2}><p><strong>First line treatment</strong></p> </td><td><p><strong>Alternative first line treatment </strong></p> </td></tr>
             <tr><td><p>Children &lt; 3years</p></td><td><p>AZT + 3TC + LPV/r</p></td><td><p>AZT + 3TC + NVP</p>
               <p>ABC + 3TC + LPV/r</p>
               <p>ABC + 3TC + NVP</p> </td></tr>
@@ -367,11 +367,11 @@ export const chapter_eight: Chapters = {
           <p><strong>Table 8.5:</strong>
             Recommended second line ART regimens</p>
           <table>
-            <tr><td colspan="3">
+            <tr><td colSpan={3}>
               <p><strong>Second line ART</strong></p> </td><td><p><strong>Preferred</strong></p> </td><td><p><strong>Alternative</strong></p> </td></tr>
-            <tr><td rowspan="3">
-              <p>Children</p></td><td colspan="2"><p>If AZT used for 1 <sup>st</sup> line then use ABC containing 2 <sup>nd</sup> line, if ABC is used then use AZT</p> </td><td><p>ABC+3TC+LPV/r</p></td><td></td></tr>
-            <tr><td rowspan="2">
+            <tr><td rowSpan={3}>
+              <p>Children</p></td><td colSpan={2}><p>If AZT used for 1 <sup>st</sup> line then use ABC containing 2 <sup>nd</sup> line, if ABC is used then use AZT</p> </td><td><p>ABC+3TC+LPV/r</p></td><td></td></tr>
+            <tr><td rowSpan={2}>
               <p>If PI based first line regimen used</p></td><td><p>&lt;3yrs</p></td><td><p>No change from first line regimen used</p></td><td><p>ABC +3TC + NVP</p></td></tr>
             <tr><td><p>3yrs to &lt;10yrs</p></td><td><p>ABC +3TC + EFV</p></td><td><p>TDF+ 3TC NVP</p>
               <p>ABC+3TC+NVP</p></td></tr>
@@ -389,38 +389,38 @@ export const chapter_eight: Chapters = {
           </ul>
           <p>Table 8.5: Recommended Paediatric ARV medicines (adopted from WHO 2013)</p>
           <table>
-            <tr><td rowspan="3">
-            </td><td rowspan="3">
-                <p><strong>Strength of tablet or sprinkle sachet or capsule</strong></p> </td><td colspan="13">
+            <tr><td rowSpan={3}>
+            </td><td rowSpan={3}>
+                <p><strong>Strength of tablet or sprinkle sachet or capsule</strong></p> </td><td colSpan={13}>
                 <p><strong>No. of tablets or sprinkle capsule/sachets by weight band</strong></p> </td><td></td></tr>
-            <tr><td colspan="2"><p><strong>3-5.9kg</strong></p> </td><td colspan="2"><p><strong>6 -9.9kg</strong></p> </td><td colspan="2"><p><strong>10-13.9kg</strong></p> </td><td colspan="2"><p><strong>14-19.9kg</strong></p> </td><td colspan="3">
-              <p><strong>20-24.9kg</strong></p> </td><td colspan="3">
+            <tr><td colSpan={2}><p><strong>3-5.9kg</strong></p> </td><td colSpan={2}><p><strong>6 -9.9kg</strong></p> </td><td colSpan={2}><p><strong>10-13.9kg</strong></p> </td><td colSpan={2}><p><strong>14-19.9kg</strong></p> </td><td colSpan={3}>
+              <p><strong>20-24.9kg</strong></p> </td><td colSpan={3}>
                 <p><strong>25-34.9kg</strong></p> </td></tr>
-            <tr><td><p>AM</p></td><td><p>PM</p></td><td><p>AM</p></td><td><p>PM</p></td><td><p>AM</p></td><td><p>PM</p></td><td><p>AM</p></td><td><p>PM</p></td><td><p>AM</p></td><td colspan="2"><p>PM</p></td><td><p>AM</p></td><td colspan="2"></td></tr>
-            <tr><td><p>PABC/3TC/NVP</p></td><td><p>60mg/30mg/50mg</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1.5</p></td><td><p>1.5</p></td><td><p>2</p></td><td><p>2</p></td><td><p>2.5</p></td><td><p>2.5</p></td><td><p>3</p></td><td colspan="2"><p>3</p></td><td><p>4</p></td><td colspan="2"><p>4</p></td></tr>
-            <tr><td><p>LPV/r sprinkles</p></td><td><p>40mg/10mg</p></td><td><p>2</p></td><td><p>2</p></td><td><p>3</p></td><td><p>3</p></td><td><p>4</p></td><td><p>4</p></td><td><p>5</p></td><td><p>5</p></td><td><p>6</p></td><td colspan="2"><p>6</p></td><td colspan="3"></td></tr>
+            <tr><td><p>AM</p></td><td><p>PM</p></td><td><p>AM</p></td><td><p>PM</p></td><td><p>AM</p></td><td><p>PM</p></td><td><p>AM</p></td><td><p>PM</p></td><td><p>AM</p></td><td colSpan={2}><p>PM</p></td><td><p>AM</p></td><td colSpan={2}></td></tr>
+            <tr><td><p>PABC/3TC/NVP</p></td><td><p>60mg/30mg/50mg</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1.5</p></td><td><p>1.5</p></td><td><p>2</p></td><td><p>2</p></td><td><p>2.5</p></td><td><p>2.5</p></td><td><p>3</p></td><td colSpan={2}><p>3</p></td><td><p>4</p></td><td colSpan={2}><p>4</p></td></tr>
+            <tr><td><p>LPV/r sprinkles</p></td><td><p>40mg/10mg</p></td><td><p>2</p></td><td><p>2</p></td><td><p>3</p></td><td><p>3</p></td><td><p>4</p></td><td><p>4</p></td><td><p>5</p></td><td><p>5</p></td><td><p>6</p></td><td colSpan={2}><p>6</p></td><td colSpan={3}></td></tr>
             <tr><td><p>ABC/3TC/LPV/r</p></td><td><p>30mg/15mg/</p>
-              <p>40mg/10mg</p></td><td><p>2</p></td><td><p>2</p></td><td><p>3</p></td><td><p>3</p></td><td><p>4</p></td><td><p>4</p></td><td><p>5</p></td><td><p>5</p></td><td><p>6</p></td><td colspan="2"><p>6</p></td><td colspan="3"></td></tr>
+              <p>40mg/10mg</p></td><td><p>2</p></td><td><p>2</p></td><td><p>3</p></td><td><p>3</p></td><td><p>4</p></td><td><p>4</p></td><td><p>5</p></td><td><p>5</p></td><td><p>6</p></td><td colSpan={2}><p>6</p></td><td colSpan={3}></td></tr>
             <tr><td><p>AZT/3TC/LPV/r</p></td><td><p>30mg/15mg/</p>
-              <p>40mg/10mg</p></td><td><p>2</p></td><td><p>2</p></td><td><p>3</p></td><td><p>3</p></td><td><p>4</p></td><td><p>4</p></td><td><p>5</p></td><td><p>5</p></td><td><p>6</p></td><td colspan="2"><p>6</p></td><td colspan="3"></td></tr>
-            <tr><td><p>DRV/r</p></td><td><p>240/40mg</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td><td colspan="2"><p>2</p></td><td><p>1</p></td><td colspan="3"></td></tr>
-            <tr><td><p>ATV/r</p></td><td><p>100/33mg</p></td><td colspan="2"><p>-</p></td><td colspan="2"></td><td colspan="2"><p>1</p></td><td colspan="2"><p>1</p></td><td colspan="3">
-              <p>2</p></td><td colspan="3"></td></tr>
-            <tr><td><p>ABC/3TC</p></td><td><p>120/60mg</p></td><td colspan="2"><p>1</p></td><td colspan="2"><p>1.5</p></td><td colspan="2"><p>2</p></td><td colspan="2"><p>2.5</p></td><td colspan="3">
-              <p>3</p></td><td colspan="3"></td></tr>
-            <tr><td><p>TDF/3TC</p></td><td><p>75mg/75mg</p></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"><p>1.5</p></td><td colspan="2"><p>2</p></td><td colspan="3">
-              <p>2.5</p></td><td colspan="3">
+              <p>40mg/10mg</p></td><td><p>2</p></td><td><p>2</p></td><td><p>3</p></td><td><p>3</p></td><td><p>4</p></td><td><p>4</p></td><td><p>5</p></td><td><p>5</p></td><td><p>6</p></td><td colSpan={2}><p>6</p></td><td colSpan={3}></td></tr>
+            <tr><td><p>DRV/r</p></td><td><p>240/40mg</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td><td><p>1</p></td><td colSpan={2}><p>2</p></td><td><p>1</p></td><td colSpan={3}></td></tr>
+            <tr><td><p>ATV/r</p></td><td><p>100/33mg</p></td><td colSpan={2}><p>-</p></td><td colSpan={2}></td><td colSpan={2}><p>1</p></td><td colSpan={2}><p>1</p></td><td colSpan={3}>
+              <p>2</p></td><td colSpan={3}></td></tr>
+            <tr><td><p>ABC/3TC</p></td><td><p>120/60mg</p></td><td colSpan={2}><p>1</p></td><td colSpan={2}><p>1.5</p></td><td colSpan={2}><p>2</p></td><td colSpan={2}><p>2.5</p></td><td colSpan={3}>
+              <p>3</p></td><td colSpan={3}></td></tr>
+            <tr><td><p>TDF/3TC</p></td><td><p>75mg/75mg</p></td><td colSpan={2}></td><td colSpan={2}></td><td colSpan={2}><p>1.5</p></td><td colSpan={2}><p>2</p></td><td colSpan={3}>
+              <p>2.5</p></td><td colSpan={3}>
                 <p>3-3.5</p></td></tr>
             <tr><td><p>TDF/3TC/EFV</p></td><td><p>75mg/75mg/1</p>
-              <p>50mg</p></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"><p>1.5</p></td><td colspan="2"><p>2</p></td><td colspan="3">
-                <p>2.5</p></td><td colspan="3">
+              <p>50mg</p></td><td colSpan={2}></td><td colSpan={2}></td><td colSpan={2}><p>1.5</p></td><td colSpan={2}><p>2</p></td><td colSpan={3}>
+                <p>2.5</p></td><td colSpan={3}>
                 <p>3-3.5</p></td></tr>
-            <tr><td><p>TDF/3TC adult double scored</p></td><td><p>300mg/300mg</p></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"><p>One third</p></td><td colspan="2"><p>One half</p></td><td colspan="3">
-              <p>Two thirds</p></td><td colspan="3">
+            <tr><td><p>TDF/3TC adult double scored</p></td><td><p>300mg/300mg</p></td><td colSpan={2}></td><td colSpan={2}></td><td colSpan={2}><p>One third</p></td><td colSpan={2}><p>One half</p></td><td colSpan={3}>
+              <p>Two thirds</p></td><td colSpan={3}>
                 <p>1</p></td></tr>
             <tr><td><p>TDF/3TC/EFV adult double scored</p></td><td><p>300mg/300mg/</p>
-              <p>600mg</p></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"><p>One third</p></td><td colspan="2"><p>One half</p></td><td colspan="3">
-                <p>Two thirds</p></td><td colspan="3">
+              <p>600mg</p></td><td colSpan={2}></td><td colSpan={2}></td><td colSpan={2}><p>One third</p></td><td colSpan={2}><p>One half</p></td><td colSpan={3}>
+                <p>Two thirds</p></td><td colSpan={3}>
                 <p>1</p></td></tr >
           </table>
           <p>3 tablets for 25-29.9kg and 3.5 tablets for 30-34.9kg</p>

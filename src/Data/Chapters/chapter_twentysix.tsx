@@ -24,7 +24,7 @@ export const chapter_twentysix: Chapters = {
         <p>The dcptrial of first choice for analgesic and antipyretic action is paracetamol. If anti-inflammatory action is required aspirin is the medicine of choice unless there is a definite contra-indication (peptic ulceration, coagulation defects,
       low platelet count, prior to surgery or breast feeding*.</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
           <tr><td></td><td><p><strong>paracetamol po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg-1g</p>
             <p>(
             <u>&lt;</u> 4g/day)</p></td><td><p>every 4-6hrs</p></td><td><p>as long as required</p></td></tr>
@@ -38,7 +38,7 @@ export const chapter_twentysix: Chapters = {
         <p>Moderate Pain</p>
         <p>Treat as for mild pain. If inadequate control:</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
           <tr><td><p><strong>add</strong></p> </td><td><p><strong>codeine phosphate po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>15-60mg</p></td><td><p>every 4 hrs</p></td><td><p>As long as effective</p></td></tr>
           <tr><td>or</td><td><p><strong>Tramadol po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>50mg</p></td><td><p>6 hourly</p></td><td><p>5-7 days</p></td></tr>
         </table>
@@ -53,10 +53,10 @@ export const chapter_twentysix: Chapters = {
         100% of the current 4-hrly dose.</li>
         </ul>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
           <tr><td></td><td><p><strong>morphine im*</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>10mg</p></td><td><p>every 4 hrs</p></td><td><p>review</p></td></tr>
           <tr><td>or</td><td><p><strong>morphine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>5-10mg</p></td><td><p>every 4 hrs</p></td><td><p>review, then</p></td></tr>
-          <tr><td></td><td></td><td></td><td colspan="4">
+          <tr><td></td><td></td><td></td><td colSpan={4}>
             <p>Increase dosage by approximately 50% increments until pain control is achieved</p></td></tr>
         </table>
         <p>*when calculating parenteral dose, use one third of estimated or existing oral dose.</p>
@@ -73,7 +73,7 @@ export const chapter_twentysix: Chapters = {
         <p><strong>Nausea and vomiting:</strong></p>
         <p>This is usually transient. An antiemetic should be offered, or given prophylactically for the first three days.</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
           <tr><td></td><td><p><strong>metoclopramide po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10-20mg</p></td><td><p>3 times a day</p></td><td><p>3-5 days</p></td></tr>
           <tr><td>or</td><td><p><strong>prochlorperazine po</strong></p> </td><td><p><strong>B N</strong></p> </td><td><p>5-10mg</p></td><td><p>3 times a day</p></td><td><p>3 – 5 days</p></td></tr>
           <tr><td>or</td><td><p><strong>haloperidol po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>1.5-4.5mg</p></td><td><p>at night</p></td><td><p>3 – 5 days</p> </td></tr>
@@ -84,7 +84,7 @@ export const chapter_twentysix: Chapters = {
         <p><strong>Allergy:</strong></p>
         <p>Morphine allergy is v <strong>ery rare</strong>. Initial vomiting, or transient pruritis are NOT signs of allergy. An alternative is pethidine, but it is short-acting and less potent than morphine. Pethidine is better suited for acute pain than chronic.</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
           <tr><td></td><td><p><strong>pethidine im</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>50-100mg</p></td><td><p>2-3 hourly</p></td><td><p>As long as there is pain</p></td></tr>
         </table>
         <p>*Not suitable for long term use.</p>
@@ -101,25 +101,25 @@ export const chapter_twentysix: Chapters = {
       <p>In dcptrial situations other medicines may be useful in controlling pain. These medicines may be used alone or with an analgesic.</p>
         <p>Nerve Compression</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td><p><strong>dexamethasone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>8 mg</p></td><td colspan="2"><p>Once daily</p></td><td><p>see below</p></td></tr >
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td><p><strong>dexamethasone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>8 mg</p></td><td colSpan={2}><p>Once daily</p></td><td><p>see below</p></td></tr >
         </table>
         <p>Reduce dose of steroids progressively to minimal maintenance level once clinical improvement occurs.</p>
         <p>Raised Intracranial Pressure</p>
         <p>Manage with codeine or morphine analgesia and:</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td><p><strong>dexamethasone po</strong></p> </td><td><p><strong>B N</strong></p> </td><td><p>12-16mg</p></td><td colspan="2"><p>once a day</p></td><td><p>review</p></td></tr>
-          <tr><td>or</td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>90-120mg</p></td><td colspan="2"><p>once a day</p></td><td><p>review</p></td></tr >
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td><p><strong>dexamethasone po</strong></p> </td><td><p><strong>B N</strong></p> </td><td><p>12-16mg</p></td><td colSpan={2}><p>once a day</p></td><td><p>review</p></td></tr>
+          <tr><td>or</td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>90-120mg</p></td><td colSpan={2}><p>once a day</p></td><td><p>review</p></td></tr >
         </table>
         <p><em>Reduce dose of steroids progressively to minimal maintenance level once clinical improvement occurs</em></p>
         <p>Joint / Bone Pain</p>
         <p>See also chapter on Bone &amp; Joint Conditions</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td><p><strong>aspirin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>600-900mg</p></td><td colspan="2"><p>every 4-6hrs</p></td><td><p>review</p></td></tr>
-          <tr><td>or</td><td><p><strong>Ibuprofen* po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>400mg</p></td><td colspan="2"><p>every 4hrs</p></td><td><p>review</p></td></tr>
-          <tr><td>or</td><td><p><strong>indomethacin** po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>25 – 50mg</p></td><td colspan="2"><p>every 4-6hrs</p></td><td><p>review</p></td></tr >
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td><p><strong>aspirin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>600-900mg</p></td><td colSpan={2}><p>every 4-6hrs</p></td><td><p>review</p></td></tr>
+          <tr><td>or</td><td><p><strong>Ibuprofen* po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>400mg</p></td><td colSpan={2}><p>every 4hrs</p></td><td><p>review</p></td></tr>
+          <tr><td>or</td><td><p><strong>indomethacin** po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>25 – 50mg</p></td><td colSpan={2}><p>every 4-6hrs</p></td><td><p>review</p></td></tr >
         </table>
         <p>* consider providing Ibupfrofen for facilities where staff is trained in PC</p>
         <p>** if a rectal form of indomethacin or other anti-inflammatory is available it should be considered for use</p>
@@ -131,13 +131,13 @@ export const chapter_twentysix: Chapters = {
           <li> ALWAYS start with analgesics and then consider adding</li>
         </ul>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-          <tr><td></td><td><p><strong>carbamazepine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>100mg</p></td><td colspan="2"><p>1-2 times a day</p></td><td><p>Increasing every 3 days</p></td></tr>
-          <tr><td></td><td></td><td colspan="3">
-            <p>to max of 400mg</p></td><td colspan="2"><p>3 times a day,</p></td><td><p>review</p></td></tr>
-          <tr><td rowspan="2">
-            <p><strong>+/-</strong></p> </td><td><p><strong>amitriptyline po</strong></p> </td><td><p><strong>B E</strong></p> </td><td colspan="2"><p>25mg</p></td><td><p>Not later than 8pm at night</p> </td><td><p>increasing</p></td></tr>
-          <tr><td></td><td></td><td></td><td colspan="2"><p>to 75mg*</p></td><td><p>Before 8pm at dcptrial</p> </td><td><p>review</p></td></tr >
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td><p><strong>carbamazepine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>100mg</p></td><td colSpan={2}><p>1-2 times a day</p></td><td><p>Increasing every 3 days</p></td></tr>
+          <tr><td></td><td></td><td colSpan={3}>
+            <p>to max of 400mg</p></td><td colSpan={2}><p>3 times a day,</p></td><td><p>review</p></td></tr>
+          <tr><td rowSpan={2}>
+            <p><strong>+/-</strong></p> </td><td><p><strong>amitriptyline po</strong></p> </td><td><p><strong>B E</strong></p> </td><td colSpan={2}><p>25mg</p></td><td><p>Not later than 8pm at night</p> </td><td><p>increasing</p></td></tr>
+          <tr><td></td><td></td><td></td><td colSpan={2}><p>to 75mg*</p></td><td><p>Before 8pm at dcptrial</p> </td><td><p>review</p></td></tr >
         </table>
         <p>*Pain relief is achieved at lower doses than for antidepressant effect</p>
         <p>In severe cases specific nerve block may be needed (using local anaesthetic or neurolytic agents).</p>
@@ -158,31 +158,31 @@ export const chapter_twentysix: Chapters = {
         </ul>
         <p>Mild Pain</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
           <tr><td></td><td><p><strong>paracetamol po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>10-15mg/kg</p></td><td><p>every 4hrs</p></td><td><p>review</p></td></tr>
         </table>
         <p>Moderate Pain</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
           <tr><td></td><td><p><strong>paracetamol po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>10-15mg/kg</p></td><td><p>every 4hrs</p></td><td><p>review</p></td></tr>
           <tr><td>and</td><td><p><strong>codeine* phosphate po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>0.5-1mg/kg</p></td><td><p>every 4hrs</p></td><td><p>review</p></td></tr>
         </table>
         <p>*Prevent constipation by increased fluid intake and high fibre diet where feasible and laxative regimen</p>
         <p>Severe Pain</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
           <tr><td></td><td><p><strong>paracetamol po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>10-15mg/kg</p></td><td><p>every 4hrs</p></td><td><p>review</p></td></tr>
-          <tr><td>and</td><td><p><strong>morphine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>&lt;6months = 0.02mg/kg</p></td><td rowspan="2">
+          <tr><td>and</td><td><p><strong>morphine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>&lt;6months = 0.02mg/kg</p></td><td rowSpan={2}>
             <p>every 4hrs</p></td><td></td></tr>
-          <tr><td></td><td colspan="3"></td><td><p>&gt;6months = 0.04mg/kg</p></td><td></td></tr>
-          <tr><td>or</td><td><p><strong>morphine sc/iv</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>0.025 mg/kg</p></td><td colspan="2"><p>per 4 hour as continuous sc/iv infusion</p></td></tr>
-          <tr><td>or</td><td><p><strong>Tilidine hydrochloride drops</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1 drop per year age (max. 5 drops)</p> </td><td colspan="2"><p>6 hourly as drops</p></td></tr>
+          <tr><td></td><td colSpan={3}></td><td><p>&gt;6months = 0.04mg/kg</p></td><td></td></tr>
+          <tr><td>or</td><td><p><strong>morphine sc/iv</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>0.025 mg/kg</p></td><td colSpan={2}><p>per 4 hour as continuous sc/iv infusion</p></td></tr>
+          <tr><td>or</td><td><p><strong>Tilidine hydrochloride drops</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1 drop per year age (max. 5 drops)</p> </td><td colSpan={2}><p>6 hourly as drops</p></td></tr>
         </table>
         <p>Nausea and vomiting</p>
         <table>
-          <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td colspan="2">Duration</td></tr>
-          <tr><td></td><td><p><strong>metoclopramide po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>0.1-0.2mg/kg</p></td><td colspan="2"><p>3 times a day</p></td><td><p>review</p></td></tr>
-          <tr><td>or</td><td><p><strong>promethazine po*</strong></p> </td><td><p><strong>B N</strong></p> </td><td><p>0.025-0.05mg/kg</p></td><td colspan="2"><p>3 times a day</p></td><td><p>review</p></td></tr >
+          <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+          <tr><td></td><td><p><strong>metoclopramide po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>0.1-0.2mg/kg</p></td><td colSpan={2}><p>3 times a day</p></td><td><p>review</p></td></tr>
+          <tr><td>or</td><td><p><strong>promethazine po*</strong></p> </td><td><p><strong>B N</strong></p> </td><td><p>0.025-0.05mg/kg</p></td><td colSpan={2}><p>3 times a day</p></td><td><p>review</p></td></tr >
         </table>
         <p>*not for use in children under the age of 2yrs</p>
       </span>

@@ -56,7 +56,7 @@ export const chapter_thirtythree: Chapters = {
             <tr><td>Benzyl penicillin IV</td><td>C V</td><td>2.5MU</td><td>4 times a day</td></tr>
             <tr><td>Gentamicin IV</td><td>C V</td><td>120mg</td><td>Once a day</td></tr>
             <tr><td>Metronidazole IV</td><td>B V</td><td>500mg</td><td>3 times a day</td></tr>
-            <tr><td colSpan="4">Alternatively:</td></tr>
+            <tr><td colSpan={4}>Alternatively:</td></tr>
             <tr><td>Ceftriaxone IV</td><td>C V</td><td>1g</td><td>2 times a day</td></tr>
             <tr><td>Metronidazole IV</td><td>B V</td><td>500mg</td><td>3 times a day</td></tr>
           </tbody>
@@ -69,7 +69,7 @@ export const chapter_thirtythree: Chapters = {
             <tr><td>Benzyl penicillin IV</td><td>C V</td><td>2.5MU</td><td>4 times a day</td></tr>
             <tr><td>Gentamicin IV</td><td>C V</td><td>120mg</td><td>Once a day</td></tr>
             <tr><td>Metronidazole IV</td><td>B V</td><td>500mg</td><td>3 times a day</td></tr>
-            <tr><td colSpan="4">Alternatively:</td></tr>
+            <tr><td colSpan={4}>Alternatively:</td></tr>
             <tr><td>Ceftriaxone IV</td><td>C V</td><td>1g</td><td>2 times a day</td></tr>
             <tr><td>Metronidazole IV</td><td>B V</td><td>500mg</td><td>3 times a day</td></tr>
           </tbody>
@@ -108,7 +108,7 @@ export const chapter_thirtythree: Chapters = {
             <tr><th>Medicine</th><th>Codes</th><th>Dose</th><th>Frequency</th></tr>
             <tr><td>ampicillin IV</td><td>C V</td><td>500mg</td><td>4 times a day</td></tr>
             <tr><td>Metronidazole IV</td><td>B V</td><td>500mg</td><td>3 times a day</td></tr>
-            <tr><td colSpan="4">Alternative to ampicilin (if unavailable)</td></tr>
+            <tr><td colSpan={4}>Alternative to ampicilin (if unavailable)</td></tr>
             <tr><td>Benzyl penicillin IV</td><td>C V</td><td>2.5mg</td><td>4 times a day</td></tr>
           </tbody>
         </table>

@@ -363,7 +363,7 @@ export const chapter_ten: Chapters = {
           </table >
           <p><strong>Table 10.5:</strong> New adult Number of FDC tablets per day for each Weight band (2RHZE/4HR)</p>
           <table>
-            <tr><td rowspan="3">
+            <tr><td rowSpan={3}>
               <p><strong>Regimen</strong></p >
               <p><strong>Patient’s Weight</strong></p> </td><td><p><strong>Initial phase (2 months)</strong></p> </td><td><p><strong>Continuation Phase (4 months)</strong></p> </td></tr>
             <tr><td><p><strong>2(RHZE) daily</strong></p> </td><td><p><strong>4(HR) daily</strong></p> </td></tr>
@@ -417,9 +417,9 @@ export const chapter_ten: Chapters = {
           <p><strong>Table 10.8:</strong> Category II : Retreatment in Previously treated adult</p>
           <table>
             <tr><td><p><strong>Regimen</strong></p>
-            </td><td colspan="2"><p><strong>Initial Phase (3 months)</strong></p> </td><td><p><strong>Phase (5 months) </strong></p> </td></tr>
-            <tr><td rowspan="2">
-              <p><strong>Patient’s Weight</strong></p> </td><td colspan="2"><p>2(RHZE)S / 1(RHZE) daily</p></td><td><p>5HRE</p></td></tr>
+            </td><td colSpan={2}><p><strong>Initial Phase (3 months)</strong></p> </td><td><p><strong>Phase (5 months) </strong></p> </td></tr>
+            <tr><td rowSpan={2}>
+              <p><strong>Patient’s Weight</strong></p> </td><td colSpan={2}><p>2(RHZE)S / 1(RHZE) daily</p></td><td><p>5HRE</p></td></tr>
             <tr><td><p>(Isoniazid 75 mg +</p>
               <p>Rifampicin 150mg + Pyrazinamide 400mg + Ethambutol 275mg)</p></td><td><p>5(HRE) daily</p>
                 <p>Streptomycin (IM) 2 months</p></td><td><p>(Isoniazid 75 mg + Rifampicin 150 mg + Ethambutol 275mg)</p></td></tr>

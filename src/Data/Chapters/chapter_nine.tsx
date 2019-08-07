@@ -45,14 +45,14 @@ export const chapter_nine: Chapters = {
         <p><strong>Table 9.1</strong>: Timing of Initiation of ART for Mother and ARV Prophylaxis for Infant (PMTCT)</p >
         <table>
           <tr><td><p><strong>Pregnancy</strong></p> </td><td><p><strong>Labour</strong></p> </td><td><p><strong>Post delivery (breastfeeding and non breastfeeding)</strong></p> </td></tr>
-          <tr><td colspan="2"><p><strong>Maternal</strong></p> </td><td rowspan="2">
+          <tr><td colSpan={2}><p><strong>Maternal</strong></p> </td><td rowSpan={2}>
             <p><strong>Infant (Birth to six weeks)</strong></p> </td></tr>
-          <tr><td colspan="2"><p><strong>Preferred first line</strong></p> </td></tr>
-          <tr><td colspan="2"><p>+ Lamivudine +Efavirenz</p> </td><td><p>BW&lt;2500: NVP 10mg daily</p>
+          <tr><td colSpan={2}><p><strong>Preferred first line</strong></p> </td></tr>
+          <tr><td colSpan={2}><p>+ Lamivudine +Efavirenz</p> </td><td><p>BW&lt;2500: NVP 10mg daily</p>
             <p>BW ≥2500: NVP 15mg daily</p></td></tr>
-          <tr><td colspan="3">
+          <tr><td colSpan={3}>
             <p><strong>Alternative First line</strong></p> </td></tr>
-          <tr><td colspan="2"><p>Zidovudine +Lamivudine + Efavirenz</p></td><td><p>BW&lt;2500: NVP 10mg daily</p>
+          <tr><td colSpan={2}><p>Zidovudine +Lamivudine + Efavirenz</p></td><td><p>BW&lt;2500: NVP 10mg daily</p>
             <p>BW≥2500: NVP 15mg daily</p></td></tr>
         </table >
         <p>When using ARVs in pregnant women, certain precautions should be kept in mind:</p >

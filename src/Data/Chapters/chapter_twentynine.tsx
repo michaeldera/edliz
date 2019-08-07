@@ -54,7 +54,7 @@ export let chapter_twentynine: Chapters = {
               <tbody>
                 <tr><th>Medicine</th><th>Codes</th><th>Adult Dose</th></tr>
                 <tr><td>sodium chloride 0.9% iv</td><td>C V</td><td>0.5 - 1litre</td></tr>
-                <tr><td colSpan="3">or</td></tr>
+                <tr><td colSpan={3}>or</td></tr>
                 <tr><td>ringer lactate iv</td><td>C V</td><td>0.5 - 1litre</td></tr>
                 <tr><td>dextrose 5% in water iv</td><td>C V</td><td>1.5 - 2litre</td></tr>
                 <tr><td>Potassium chloride iv</td><td>B V</td><td>20 mmol added to each litre</td></tr>
@@ -64,7 +64,7 @@ export let chapter_twentynine: Chapters = {
             <table>
               <tbody>
                 <tr><th>Medicine</th><th>Codes</th><th>Paed Dose</th><th>Frequency</th></tr>
-                <tr><td rowSpan="2">half strength Darrow's solution with dextrose 2.5% iv</td><td rowSpan="2">C V</td><td>0 to 10kg</td><td>100ml/kg/24hrs</td></tr>
+                <tr><td rowSpan={2}>half strength Darrow's solution with dextrose 2.5% iv</td><td rowSpan={2}>C V</td><td>0 to 10kg</td><td>100ml/kg/24hrs</td></tr>
                 <tr><td>5 to 10years</td><td>75ml/kg/24hrs</td></tr>
               </tbody>
             </table>
@@ -72,7 +72,7 @@ export let chapter_twentynine: Chapters = {
             <table>
               <tbody>
                 <tr><th>Medicine</th><th>Codes</th><th>Paed Dose</th><th>Frequency</th></tr>
-                <tr><td>neonatal multi electrolyte maintenance solution ('neonatalyte')</td><td>B N</td><td colSpan="3" >up to 10kg</td></tr>
+                <tr><td>neonatal multi electrolyte maintenance solution ('neonatalyte')</td><td>B N</td><td colSpan={3} >up to 10kg</td></tr>
               </tbody>
             </table>
             <small><em>*Do not exceed 60 ml/kg/24 hrs in the first 24 hours of life - see section on neonates in paediatric chapter. </em></small>        </span>

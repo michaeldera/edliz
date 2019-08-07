@@ -46,7 +46,7 @@ export const chapter_thirty: Chapters = {
               4 years 0.4ml<br />
               3 years 0.3ml<br />
               2 years 0.2ml<br />
-              1 years 0.1ml<br /></td><td colSpan="2">Repeat as necessary every 10mins until improvement occurs.</td></tr>
+              1 years 0.1ml<br /></td><td colSpan={2}>Repeat as necessary every 10mins until improvement occurs.</td></tr>
           </tbody>
         </table>
         <table>

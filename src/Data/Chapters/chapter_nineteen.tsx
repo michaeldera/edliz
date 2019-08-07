@@ -29,7 +29,7 @@ export const chapter_nineteen: Chapters = {
             <li> Give:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>benzylpenicillin iv/im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>3g (5MU)</p></td><td><p>one dose</p></td><td><p><strong>refer</strong></p> </td></tr>
           </table>
           <p>Note: for dose in children see chapter on Paediatric conditions</p>
@@ -54,8 +54,8 @@ export const chapter_nineteen: Chapters = {
           <p> Tuberculous should always be remembered. It may have no special distinguishing features, and can present acutely.</p>
           <p> If symptoms present less than one week:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>benzylpenicillin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>3g (5MU)</p></td><td><p>6-hourly</p></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>benzylpenicillin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>3g (5MU)</p></td><td><p>6-hourly</p></td><td rowSpan={2}>
               <p>Until CSF results out</p></td></tr>
             <tr><td></td><td><p><strong>chloramphenicol iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td><p>6-hourly</p></td></tr>
           </table>
@@ -64,7 +64,7 @@ export const chapter_nineteen: Chapters = {
           </strong> Spinal fluid microscopy, (protein, glucose; Gram stain India ink stain, Ziehl-Neelsen stain and cultures if possible) and blood glucose.</p >
           <p>Treatment for bacterial meningitis <strong>:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>benzylpenicillin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>3g (5MU)</p></td><td><p>6 hourly</p></td><td><p>14 days</p></td></tr>
             <tr><td>and</td><td><p><strong>chloramphenicol iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td><p>6 hourly</p></td><td><p>14 days</p></td></tr>
             <tr><td>or</td><td><p><strong>ceftriaxone iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1g</p></td><td><p>12 hourly</p></td><td><p>14 days</p></td></tr>
@@ -76,7 +76,7 @@ export const chapter_nineteen: Chapters = {
             <li> Give as soon as diagnosis made in index case.</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>ceftriaxone im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>once only</p></td><td><p>single dose</p></td></tr>
           </table >
           <p><strong>Further management</strong></p>
@@ -84,14 +84,14 @@ export const chapter_nineteen: Chapters = {
           <p>The differential diagnosis includes cerebral abscess, cryptococcal meningitis tuberculoma, toxoplasma encephalitis, and other parasitic infection.</p>
           <p>If a focal contrast-enhancing lesion or multiple lesions are present on scan and the patient is known to be HIV infected or is suspected to be infected on clinical grounds, start treatment for <strong>toxoplasmosis:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>sulphadiazine po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>2g</p></td><td colspan="2"><p>4 times a day</p></td><td><p>6 weeks</p></td></tr>
-            <tr><td>and</td><td><p><strong>pyrimethamine po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>200mg loading dose and then 50mg</p></td><td colspan="2"><p>once a day</p></td><td><p>6 weeks</p></td></tr>
-            <tr><td>or</td><td><p><strong>clindamycin po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>600mg</p></td><td colspan="2"><p>4 times a day</p></td><td><p>6 weeks</p></td></tr>
-            <tr><td>and</td><td><p><strong>pyrimethamine po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>200mg loading dose and then 50mg</p></td><td colspan="2"><p>once a day</p></td><td><p>6 weeks</p></td></tr>
-            <tr><td>*        <p><strong>or</strong></p> </td><td><p><strong>co-trimoxazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1920mg</p></td><td colspan="2"><p>3 times a day</p></td><td><p>6 weeks</p></td></tr>
-            <tr><td></td><td colspan="3">
-              <p>*alternative to sulphadiazine</p></td><td colspan="2"></td><td></td><td></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>sulphadiazine po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>2g</p></td><td colSpan={2}><p>4 times a day</p></td><td><p>6 weeks</p></td></tr>
+            <tr><td>and</td><td><p><strong>pyrimethamine po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>200mg loading dose and then 50mg</p></td><td colSpan={2}><p>once a day</p></td><td><p>6 weeks</p></td></tr>
+            <tr><td>or</td><td><p><strong>clindamycin po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>600mg</p></td><td colSpan={2}><p>4 times a day</p></td><td><p>6 weeks</p></td></tr>
+            <tr><td>and</td><td><p><strong>pyrimethamine po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>200mg loading dose and then 50mg</p></td><td colSpan={2}><p>once a day</p></td><td><p>6 weeks</p></td></tr>
+            <tr><td>*        <p><strong>or</strong></p> </td><td><p><strong>co-trimoxazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1920mg</p></td><td colSpan={2}><p>3 times a day</p></td><td><p>6 weeks</p></td></tr>
+            <tr><td></td><td colSpan={3}>
+              <p>*alternative to sulphadiazine</p></td><td colSpan={2}></td><td></td><td></td></tr >
           </table>
           <p>If there is no response (clinically and on CT scan), in two weeks, or if lesion appears atypical, consider antituberculous treatment and neurosurgical intervention. (May need biopsy)</p>
         </span>
@@ -104,7 +104,7 @@ export const chapter_nineteen: Chapters = {
           <h2>Neurocysticercosis</h2>
           <p>Focal seizures without fever may be caused by <em>neuro-cysticercosis</em> (typical CT scan appearance).</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>albendazole po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>800mg</p></td><td><p>Twice a day</p></td><td><p>14 days</p></td></tr>
             <tr><td><p><strong>and/or</strong></p> </td><td><p><strong>praziquantel po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>40mg/kg</p></td><td><p>once a day</p></td><td><p>14 days</p></td></tr>
             <tr><td><p><strong>add*</strong></p> </td><td><p><strong>prednisolone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1mg/kg</p></td><td><p>once a day</p></td><td><p>review</p></td></tr>
@@ -129,7 +129,7 @@ export const chapter_nineteen: Chapters = {
           <p><strong>Tension</strong></p>
           <p> Bilateral; dull; worse as the day wears on; no nausea; frontal or occipital in site; often daily; can continue activities.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>aspirin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>600mg</p></td><td><p>4 hourly prn</p></td><td><p>no longer than one week continuously (risk of analgesic rebound headache)</p></td></tr>
           </table>
           <p> Social circumstances may precipitate these headaches; counselling in relaxation therapy (muscle relaxation) will help.
@@ -138,13 +138,13 @@ export const chapter_nineteen: Chapters = {
       <strong>Avoid</strong> opiates (e.g. codeine compounds) and benzodiazepines as they particularly can cause rebound headache and habituation.</p>
           <p> If headache persists for more than six weeks, add</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>amitriptyline po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>25-150mg</p></td><td><p>at night</p></td><td><p>3 months</p></td></tr>
           </table >
           <p><strong>Migraine</strong></p>
           <p> Unilateral; (occasionally bilateral); throbbing attacks; last hours to days; with nausea ± vomiting; photophobia, sometimes preceeded by visual aura; often have to lie down.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>aspirin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>600mg</p></td><td><p>4 hourly</p></td><td><p>as required</p></td></tr>
             <tr><td>or</td><td><p><strong>paracetamol po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1g</p></td><td><p>6 hourly</p></td><td><p>as required</p></td></tr>
             <tr><td><p><strong>
@@ -155,17 +155,17 @@ export const chapter_nineteen: Chapters = {
             <li> If ineffective:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>metoclopramide po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10mg</p></td><td><p>at onset</p></td><td><p>-</p></td></tr>
-            <tr><td>and</td><td><p><strong>ergotamine po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>1mg</p></td><td colspan="2"><p>at onset. Repeat once only after 1hr if needed.</p></td></tr>
+            <tr><td>and</td><td><p><strong>ergotamine po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>1mg</p></td><td colSpan={2}><p>at onset. Repeat once only after 1hr if needed.</p></td></tr>
           </table>
           <p>Ergotamine is contraindicated in complicated migraines (these include hemiplegia as an aura symptom).</p>
           <p> Look for and avoid precipitating factors: Not enough sleep, alcohol, cheese, chocolate, menarche, menstrual cycle, oral contraceptive pills may all influence migraine frequency.</p>
           <p> If two or more disabling migraines a month (leave work, off school);</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>propranolol po</strong></p> </td><td><p><strong>B N</strong></p> </td><td><p>20mg</p></td><td><p>3 times a day</p></td><td><p>minimum 3 months</p></td></tr>
-            <tr><td></td><td></td><td></td><td></td><td colspan="3">
+            <tr><td></td><td></td><td></td><td></td><td colSpan={3}>
               <p>If ineffective increase gradually to a max of 120mg 3 times a day, if side effects allow.</p></td></tr>
             <tr><td>or</td><td><p><strong>amitriptyline po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>25mg</p></td><td><p>at night</p></td><td><p>minimum 3 months</p></td></tr>
           </table>
@@ -209,11 +209,11 @@ export const chapter_nineteen: Chapters = {
             <li> normal physical examination, no neurological signs, start:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>phenobarbitone po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>120mg</p></td><td rowspan="2">
-              <p>once a day, at night</p></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>phenobarbitone po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>120mg</p></td><td rowSpan={2}>
+              <p>once a day, at night</p></td><td rowSpan={2}>
                 <p>2 weeks until review</p></td></tr>
-            <tr><td></td><td></td><td colspan="3">
+            <tr><td></td><td></td><td colSpan={3}>
               <p>Paed = 5mg/ kg</p> </td></tr>
           </table>
           <p>Review after 2 weeks. Check and side effects (very sleepy, loss of balance, rash, poor concentration, hyperactive).
@@ -226,25 +226,25 @@ export const chapter_nineteen: Chapters = {
             <li> Increase:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>phenobarbitone po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>120mg</p></td><td><p>every night</p></td><td><p>4 weeks then review</p></td></tr>
           </table>
           <ul>
             <li> If seizures persist (one or more in four weeks):</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td></tr>
             <tr><td><p><strong>add</strong></p> </td><td><p><strong>phenytoin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>300mg</p></td><td><p>bedtime</p></td></tr>
           </table>
           <ul>
             <li> If seizures persist, increase:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>carbamazepine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>400mg</p></td><td rowspan="2">
-              <p>twice a day</p></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>carbamazepine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>400mg</p></td><td rowSpan={2}>
+              <p>twice a day</p></td><td rowSpan={2}>
                 <p>4 weeks, then review</p> </td></tr>
-            <tr><td></td><td></td><td></td><td colspan="2"><p>Paed = 10mg/kg</p></td></tr>
+            <tr><td></td><td></td><td></td><td colSpan={2}><p>Paed = 10mg/kg</p></td></tr>
           </table>
           <ul>
             <li>Review in 4 weeks </li>
@@ -275,53 +275,53 @@ export const chapter_nineteen: Chapters = {
           <p> While making arrangements to transfer the patient to a hospital,
       <strong>give:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td><p>Rate</p></td></tr>
-            <tr><td></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td><p>Rate</p></td></tr>
+            <tr><td></td><td rowSpan={2}>
               <p>
                 <strong>diazepam slow iv (or pr)
                   <u>(not im</u>
-                </strong>)</p></td><td><p><strong>C V</strong></p> </td><td><p>10mg</p></td><td colspan="2"><p>Given over 2-3 minutes.</p></td></tr>
-            <tr><td></td><td></td><td colspan="4">
+                </strong>)</p></td><td><p><strong>C V</strong></p> </td><td><p>10mg</p></td><td colSpan={2}><p>Given over 2-3 minutes.</p></td></tr>
+            <tr><td></td><td></td><td colSpan={4}>
               <p>May be repeated <strong>once</strong> after 5mins.</p></td></tr >
           </table>
           <p>Management at district level:</p>
           <p> Diazepam as above may be repeated twice (max dose 40 mg) if seizures persist, but watch for respiratory depression (ambu-bag must be available).</p>
           <p><strong> If seizures persist after 30 minutes, give:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>phenobarbitone iv/im</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>10-15mg/kg</p></td><td colspan="2"><p>30-50mg per minute infusion( iv over 10 mins)</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>phenobarbitone iv/im</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>10-15mg/kg</p></td><td colSpan={2}><p>30-50mg per minute infusion( iv over 10 mins)</p></td></tr >
           </table>
           <p> Commence oral medicines as soon as fully conscious: by naso-gastric tube if unrousable for more than 6hrs.</p>
           <p> If seizures persist,
       <strong>transfer</strong> to provincial or central level for:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>phenytoin sodium iv</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>15-20 mg/kg</p>
-              <p>then 100mg</p></td><td colspan="2"><p>At a rate of 50mg/min,</p>
+              <p>then 100mg</p></td><td colSpan={2}><p>At a rate of 50mg/min,</p>
                 <p>6 hourly</p></td></tr >
           </table>
           <ul>
             <li> If seizures still persist after 30 minutes, and ICU facilities and anaesthetist available, give:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>thiopentone sodium iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>7mg/kg</p></td><td colspan="2"><p>assess/review</p></td></tr>
-            <tr><td>and</td><td><p><strong>suxamethonium chloride iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>100mg</p></td><td colspan="2"><p>assess/review</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>thiopentone sodium iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>7mg/kg</p></td><td colSpan={2}><p>assess/review</p></td></tr>
+            <tr><td>and</td><td><p><strong>suxamethonium chloride iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>100mg</p></td><td colSpan={2}><p>assess/review</p></td></tr >
           </table>
           <p> intubate and ventilate; consider thiopentone infusion.</p>
           <p>Children:</p>
           <p> Protect the airway and give oxygen if available.</p>
           <p> At primary level (C) give:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>dextrose 50% iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>10-20ml</p></td><td><p>once only</p></td><td><p>-</p></td></tr>
-            <tr><td>and</td><td><p><strong>diazepam pr</strong> *</p></td><td><p><strong>C V</strong></p> </td><td><p>5mg</p></td><td colspan="2"><p>may be repeated once</p></td></tr>
+            <tr><td>and</td><td><p><strong>diazepam pr</strong> *</p></td><td><p><strong>C V</strong></p> </td><td><p>5mg</p></td><td colSpan={2}><p>may be repeated once</p></td></tr>
           </table>
           <p>*use a syringe without a needle</p>
           <p> Further management at district (B) level:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>diazepam iv slow</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1mg/year of age</p></td><td colspan="2"><p>May be repeated once</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Paed dose</p></td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>diazepam iv slow</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>1mg/year of age</p></td><td colSpan={2}><p>May be repeated once</p></td></tr >
           </table>
           <p>Febrile convulsions should be treated with tepid sponging, paracetamol and diazepam as above if necessary. They do not require long-term anticonvulsants unless recurrent and with neurological deficit.</p>
         </span>
@@ -346,8 +346,8 @@ export const chapter_nineteen: Chapters = {
             <li> If sedation is required give:</li>
           </ul>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>chlorpromazine im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>25-50 mg</p></td><td colspan="2"><p>4 hourly as required</p></td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>chlorpromazine im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>25-50 mg</p></td><td colSpan={2}><p>4 hourly as required</p></td></tr>
           </table>
         </span>
     },
@@ -377,15 +377,15 @@ export const chapter_nineteen: Chapters = {
           <p>Thromboembolic dcptrial is difficult to differentiate from intracranial haemorrhage clinically without a CT scan.</p>
           <p>For thromboembolic stroke shown on scan, or if no CT scan but stable stroke, start after 2-4 weeks:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>aspirin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>150mg</p></td><td><p>once daily</p></td><td><p>long term</p></td></tr>
           </table>
           <p>For patients with atrial fibrillation who have access to facilities for regular blood monitoring (weekly INR for 1month,
       then monthly):</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>warfarin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10mg</p></td><td colspan="2"><p>2 times a day</p></td><td><p>2 days, then adjust</p></td></tr>
-            <tr><td colspan="8">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>warfarin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10mg</p></td><td colSpan={2}><p>2 times a day</p></td><td><p>2 days, then adjust</p></td></tr>
+            <tr><td colSpan={7}>
               <p><em>Usual maintenance dose INR range 1.5 and 2; 2.5 – 5mg once a day</em></p> </td></tr >
           </table>
           <p>Refer the following patients to tertiary level:</p>
@@ -419,22 +419,22 @@ export const chapter_nineteen: Chapters = {
           <p> recognizing (and eliminating if possible) likely causes: vitamin B12 deficiency, alcohol, diabetes, HIV infection, chronic renal disease and medicines including ARVs, isoniazid, anticonvulsants, and allopurinol.</p>
           <p> For <strong>pain</strong> give:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>amitriptyline po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>25-75mg*</p></td><td><p>at night</p></td><td><p>review</p></td></tr>
           </table>
           <p>*the lower dose is usually sufficient</p>
           <p> If ineffective or side effects, add:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>carbamazepine po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>100mg</p></td><td><p>2 times a day</p></td><td><p>2 days</p></td></tr>
-            <tr><td></td><td colspan="3">
+            <tr><td></td><td colSpan={3}>
               <p>increasing to</p></td><td><p>200mg</p></td><td><p>2 times a day</p></td><td><p>2 days</p></td></tr>
-            <tr><td></td><td colspan="3">
+            <tr><td></td><td colSpan={3}>
               <p>increasing to</p></td><td><p>400mg</p></td><td><p>2 times a day</p> </td><td><p>review</p></td></tr>
           </table>
           <p> A small proportion of patients require opiates:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>codeine phosphate po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>30-60mg</p></td><td><p>6 hourly</p></td><td><p>as required</p></td></tr>
             <tr><td><p>If codeine ineffective</p></td><td><p><strong>morphine sulphate po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10-100mg</p></td><td><p>4hourly</p></td><td><p>As required</p></td></tr>
           </table>
@@ -458,9 +458,9 @@ export const chapter_nineteen: Chapters = {
           <h2>Essential Tremor</h2>
           <p>Fine, bilateral, postural (occurs on maintaining posture) (stops when the hand is held), there is no increase in muscle tone. Treat with:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>propranolol po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>20mg</p></td><td><p>3 times a day</p></td><td><p>review, then</p></td></tr>
-            <tr><td></td><td></td><td colspan="5">
+            <tr><td></td><td></td><td colSpan={5}>
               <p>increase by 20mg per dose until satisfactory response or unacceptable side effects, up to 120 mg tds.</p></td></tr>
           </table>
         </span>
@@ -476,18 +476,18 @@ export const chapter_nineteen: Chapters = {
           <p>Once motor symptoms interfere with normal household chores, treatment should be commenced.</p>
           <p>Initial treatment of tremor usually consists of:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>benzhexol po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>2-5mg</p></td><td><p>3 times a day</p></td><td><p>review</p></td></tr>
           </table>
           <p>Note: Avoid in over 60yrs. Side effects = warn about dry mouth, urinary symptoms, sedation, and confusion.</p>
           <p>Patients usually require treatment with levodopa at some time:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td rowSpan={2}>
               <p>
                 <strong>levodopa 250mg + carbidopa 25mg po</strong></p>
               <p>(levocarb 275)</p></td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>¼ tablet*</p></td><td><p>3 times a day</p></td><td><p>review, then</p></td></tr>
-            <tr><td></td><td colspan="5">
+            <tr><td></td><td colSpan={5}>
               <p>increase to ½ tablet after one week</p></td></tr>
           </table>
           <p>*Note: Increase number of doses and decrease interval to 3 or even 2 hours if necessary</p>

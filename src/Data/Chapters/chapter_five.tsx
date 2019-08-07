@@ -114,7 +114,7 @@ export const chapter_five: Chapters = {
               <caption><strong>Injectable Contraceptive</strong></caption>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th></tr>
               <tr><td>medroxyprogesterone acetate im</td><td>C V</td><td>150mg</td><td>once every 3 months</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>norethisterone enanthate im</td><td>B N</td><td>200mg</td><td>once every 2 months</td></tr>
             </table>
             <p><em>CAUTION: In hypertension and in women without proven fertility do not administer medroxyprogesterone [Depo-provera ®]. Side effects of medroxyprogesterone are similar to those of Progestogen Only Pills i.e. headaches, irregular uterine bleeding, nausea and vomiting, weight changes and depression. Transient infertility and irregular cycles may occur after discontinuation.</em></p>
@@ -134,10 +134,10 @@ export const chapter_five: Chapters = {
               <caption><em>Hormonal OC <strong>-Within 72 hours</strong> of unprotected give: </em></caption>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th></tr>
               <tr><td>combined oral contraceptive pill</td><td>C V</td><td>2 tablets</td><td>repeat after 12 hours</td></tr>
-              <tr><td colspan="4"><small>50mcg ethinyloestradiol + 150-250mcg levonorgestrel</small></td></tr>
-              <tr><td colSpan="4">or</td></tr>
+              <tr><td colSpan={4}><small>50mcg ethinyloestradiol + 150-250mcg levonorgestrel</small></td></tr>
+              <tr><td colSpan={4}>or</td></tr>
               <tr><td>combined oral contraceptive pill</td><td>C V</td><td>4 tablets</td><td>repeat after 12 hours</td></tr>
-              <tr><td colspan="4"><small>30-35mcg ethinyloestradiol + 150-250mcg levonorgestrel</small></td></tr>
+              <tr><td colSpan={4}><small>30-35mcg ethinyloestradiol + 150-250mcg levonorgestrel</small></td></tr>
               <tr><td>Levonorgestrel 750mcg</td><td>C V</td><td>1 tablet</td><td>Repeat after 12 hours</td></tr>
             </table>
             <p><em>Note: Advise to return if menstruation does not occur within 3 weeks. Give appropriate contraceptive advice.</em></p>
@@ -157,14 +157,14 @@ export const chapter_five: Chapters = {
               <caption><strong>First line:</strong></caption>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
               <tr><td>amoxicillin po</td><td>C V</td><td>500mg</td><td>3 times a day</td><td>*7 days</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>ciprofloxacin po</td><td>B V</td><td>500mg</td><td>2 times a day</td><td>7 days</td></tr>
             </table>
             <table>
               <caption><strong>Second line:</strong></caption>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
               <tr><td>norflocaxin</td><td>B N</td><td>400mg</td><td>2 times a day</td><td>*7 days</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>nalidixic acid po</td><td>B V</td><td>500mg</td><td>4 times a day</td><td>*7 days</td></tr>
             </table>
             <p><em>*Note: Duration for UTI in pregnancy longer than other general UTI.</em></p>
@@ -183,9 +183,9 @@ export const chapter_five: Chapters = {
             <table>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
               <tr><td>miconazole vag pessary</td><td>C N</td><td>100mg</td><td>once a day</td><td>3 days</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>clotrimazole pessary</td><td>C V</td><td>500mg</td><td>Once daily</td><td>3 days</td></tr>
-              <tr><td colSpan="5">and</td></tr>
+              <tr><td colSpan={5}>and</td></tr>
               <tr><td>metronidazole po</td><td>C V</td><td>400mg</td><td>3 times a day</td><td>7days</td></tr>
             </table>
             <p><em>Creams of miconazole and clotrimazole can also be used</em></p>
@@ -205,7 +205,7 @@ export const chapter_five: Chapters = {
               <caption>Mild/moderate sepsis:</caption>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
               <tr><td>amoxicillin po</td><td>C V</td><td>500mg</td><td>3 times a day</td><td>10 days</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>ciprofloxacin po</td><td>B V</td><td>500mg</td><td>2 times a day</td><td>10 days</td></tr>
               <tr><td>metronidazole po</td><td>C V </td><td>400mg</td><td>3 times a day</td><td>10 days</td></tr>
               <tr><td>doxycycline po</td><td>C V</td><td>100mg</td><td>2 times a day</td><td>10 days</td></tr>
@@ -268,10 +268,10 @@ export const chapter_five: Chapters = {
             <h2>Prolonged Rupture of Membranes (PROM)</h2>
             <table>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
-              <tr><td>oxytocin infusion <br/> then (see induction of labour)</td><td>B V</td><td colspan="3">1 unit initially<br/>4 units in 1L sodium chloride at 15, 30, 60 drops per minute until regular contractions</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td>oxytocin infusion <br/> then (see induction of labour)</td><td>B V</td><td colSpan={3}>1 unit initially<br/>4 units in 1L sodium chloride at 15, 30, 60 drops per minute until regular contractions</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>misoprostol po</td><td>B V</td><td>25 mcg</td><td>4 hourly</td><td>max 3 doses</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>misoprostol pv</td><td>B V</td><td>50 mcg</td><td>24 hourly</td><td>max 1 doses</td></tr>
             </table>
             <p>Note: For oral administration, dissolve Misoprostol 200mcg in 200ml of normal saline or water for injection. This gives a concentration of 1mcg per ml.</p>
@@ -300,9 +300,9 @@ export const chapter_five: Chapters = {
               <caption>As the patient is put on theatre trolley:</caption>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
               <tr><td>benzylpenicillin iv</td><td>C V</td><td>5MU</td><td>once only</td><td>single dose</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>ceftriaxone iv</td><td>C V</td><td>1 gm</td><td>once only</td><td>single dose</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>Cefuroxime iv</td><td>B V</td><td>750 mg</td><td>once only</td><td>single dose</td></tr>
               <tr><td>chloramphenicol iv</td><td>B V</td><td>1g</td><td>once only</td><td>single dose</td></tr>
             </table>
@@ -321,9 +321,9 @@ export const chapter_five: Chapters = {
             <table>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
               <tr><td>promethazine po</td><td>C N</td><td>25mg</td><td>once at night*</td><td>as required</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>chlorpheniramine po</td><td>C E</td><td>4mg</td><td>once at night*</td><td>5 days</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>metoclopramide</td><td>C N</td><td>10mg</td><td>3 times a day</td><td>as required</td></tr>
             </table>
             <p><em>*Note: If severe, the dose may be given two to three times a day.</em></p>
@@ -332,7 +332,7 @@ export const chapter_five: Chapters = {
               <caption>Admit or refer for intravenous fluids and give:</caption>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
               <tr><td>prochlorperazine im</td><td>B E</td><td>12.5mg</td><td>twice a day</td><td>as needed</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>promethazine im</td><td>B V</td><td>25mg</td><td>twice a day</td><td>as needed</td></tr>
             </table>
             <table>
@@ -353,7 +353,7 @@ export const chapter_five: Chapters = {
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
               <tr><td>ferrous sulphate po</td><td>C E</td><td>200mg</td><td>once a day</td><td>Throughout pregnancy</td></tr>
               <tr><td>folic acid po</td><td>C E</td><td>5mg</td><td>once a week</td><td>Throughout pregnancy</td></tr>
-              <tr><td colSpan="5">or</td></tr>
+              <tr><td colSpan={5}>or</td></tr>
               <tr><td>Combined ferrous and folic acid po</td><td>C E</td><td></td><td>Once daily</td><td>Throughout pregnancy</td></tr>
             </table>
             <p><em>* Start at booking for antenatal care. Continue prophylaxis for 6 weeks after delivery. Also give dietary advice.</em></p>
@@ -412,7 +412,7 @@ export const chapter_five: Chapters = {
             </ul>
             <table>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
-              <tr><td>oxytocin</td><td>C V</td><td>10units</td><td colspan="2">once at delivery of the anterior shoulder</td></tr>
+              <tr><td>oxytocin</td><td>C V</td><td>10units</td><td colSpan={2}>once at delivery of the anterior shoulder</td></tr>
             </table>
             <ul><li>Post-natally keep the woman in high care for 24 hours.</li></ul>
             <p><strong>Contraception:</strong><br/>
@@ -460,7 +460,7 @@ export const chapter_five: Chapters = {
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
               <tr><td>methyldopa po</td><td>C V</td><td>250-500mg</td><td>3-4 times a day</td><td>review</td></tr>
               <tr><td>Nifedipine SR po</td><td>B V</td><td>20mg</td><td>Twice a day</td><td>review</td></tr>
-              <tr><td colSpan="5">plus</td></tr>
+              <tr><td colSpan={5}>plus</td></tr>
               <tr><td>hydralazine im</td><td>B V</td><td>10mg</td><td>every 4 hours</td><td>review</td></tr>
             </table>
             <h4>Severe Pre-Eclampsia (Proteinuric pregnancy-induced hypertension)</h4>
@@ -476,7 +476,7 @@ export const chapter_five: Chapters = {
             <ul><li> Plan urgent delivery. Prevent convulsions with:</li></ul>
             <table>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
-              <tr><td>magnesium sulphate</td><td>C V</td><td colspan="3">4 gm iv in 20mls of Normal Saline over 20 minutes plus 5 gm in each buttock as the loading dose, followed by 5gm in alternate buttocks every four hrs until 24 hours after delivery</td></tr>
+              <tr><td>magnesium sulphate</td><td>C V</td><td colSpan={3}>4 gm iv in 20mls of Normal Saline over 20 minutes plus 5 gm in each buttock as the loading dose, followed by 5gm in alternate buttocks every four hrs until 24 hours after delivery</td></tr>
             </table>
             <ul><li>Check blood pressure at least hourly. If diastolic pressure &gt; 110 mmHg give anti-hypertensives as for severe PIH (above).</li>
             </ul>
@@ -488,7 +488,7 @@ export const chapter_five: Chapters = {
             </ul>
             <table>
               <tr><th>Medicine</th><th>Codes</th><th>Adult dose</th><th>Frequency</th><th>Duration</th></tr>
-              <tr><td>magnesium sulphate</td><td>C V</td><td colspan="3">4 gm iv in 20mls of Normal Saline over 20 minutes plus 5 gm in each buttock as the loading dose, followed by 5gm in alternate buttocks every four hrs until 24 hours after delivery, or 24 hrs after the last fit whichever is the later.</td></tr >
+              <tr><td>magnesium sulphate</td><td>C V</td><td colSpan={3}>4 gm iv in 20mls of Normal Saline over 20 minutes plus 5 gm in each buttock as the loading dose, followed by 5gm in alternate buttocks every four hrs until 24 hours after delivery, or 24 hrs after the last fit whichever is the later.</td></tr >
             </table>
             <ul>
               <li> Plan urgent delivery, within 6 hours.</li>
@@ -535,8 +535,8 @@ export const chapter_five: Chapters = {
               </li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>magnesium trisilicate po</strong></p> </td><td><p><strong>C N</strong></p> </td><td><p>10-20ml</p></td><td colspan="2"><p>as required</p></td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>magnesium trisilicate po</strong></p> </td><td><p><strong>C N</strong></p> </td><td><p>10-20ml</p></td><td colSpan={2}><p>as required</p></td></tr >
             </table>
             <ul>
               <li>
@@ -545,7 +545,7 @@ export const chapter_five: Chapters = {
             </ul>
             <p>Prior to going to theatre for caesarean sections, or any pregnant woman about to have a general anaesthetic, give:</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>sodium citrate po</strong></p> </td><td><p><strong>B N</strong></p> </td><td><p>15ml</p></td><td><p>once only</p></td><td><p>-</p></td></tr>
             </table>
             <p>CAUTION: Particulate antacids (e.g. magnesium trisilicate) may be harmful to the lungs if aspirated; sodium citrate is favoured if available.</p>
@@ -555,7 +555,7 @@ export const chapter_five: Chapters = {
               </li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>pethidine im</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>50-100mg</p></td><td><p>4-6 hourly</p></td><td><p>max. 3 doses</p></td></tr>
               <tr><td>or</td><td><p><strong>morphine im</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>5mg</p></td><td><p>4 hourly</p></td><td><p>as required</p></td></tr>
               <tr><td>and</td><td><p><strong>promethazine im</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>25mg</p></td><td><p>once a day</p></td><td><p>max. 3 doses</p></td></tr>
@@ -567,7 +567,7 @@ export const chapter_five: Chapters = {
             <p>If the neonate is breathing poorly after pethidine was given to the mother, give respiratory support plus naloxone. See the section in Neonatal Conditions.</p>
             <p>For the dcptrial and subsequent suturing of episiotomies</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>lignocaine 1% local infiltration</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>Up to max of 10ml</p></td><td><p>once</p></td><td><p>-</p></td></tr>
             </table>
             <p>CAUTION: Avoid injecting into a vein! Draw back several times during infiltration.</p>
@@ -584,8 +584,8 @@ export const chapter_five: Chapters = {
               <li> Give the mother:</li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>dexamethasone im</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="2"><p>12mg for 2 doses 12 hours apart</p></td><td></td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>dexamethasone im</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={2}><p>12mg for 2 doses 12 hours apart</p></td><td></td></tr>
             </table>
           </span>
       },
@@ -601,7 +601,7 @@ export const chapter_five: Chapters = {
               <li> The safest and simplest method of ripening the cervix:</li>
             </ul>
             <table>
-              <tr><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td><p><strong>misoprostol pv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>50 mcg</p></td><td><p>Once daily</p></td><td><p>Max 1 dose</p></td></tr>
               <tr><td><p><strong>misoprostol po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>25mcg</p></td><td><p>4 hourly</p></td><td><p>Max 3 doses</p></td></tr>
             </table>
@@ -627,28 +627,28 @@ export const chapter_five: Chapters = {
               <li> Artificial rupture of membranes. If labour fails to progress, give :</li>
             </ul>
             <table>
-              <tr><td colspan="2">Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td colspan="2"><p>
-                <strong>oxytocin iv infusion</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="4">
+              <tr><td colSpan={2}>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td colSpan={2}><p>
+                <strong>oxytocin iv infusion</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={4}>
                   <p>Initially 1 unit,</p>
                   <p>Then 4 units in 1L sodium chloride 0.9% at 15, 30, 60 drops per minute – until regular contractions are maintained.</p></td></tr>
-              <tr><td colspan="8">
+              <tr><td colSpan={7}>
                 <ul>
                   <li>If 4 units is insufficient, and it is the woman’s first pregnancy:</li>
                 </ul></td></tr>
-              <tr><td></td><td colspan="7">
+              <tr><td></td><td colSpan={7}>
                 <p>Increase the dose stepwise with regular monitoring – 16, 32 then 64 units in the litre of sodium chloride 0.9% -
             each time increasing the delivery rate through 15, 30 and 60 drops per minute.</p></td></tr>
-              <tr><td></td><td><p><strong>misoprostol pv</strong></p> </td><td><p><strong>B</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="3">
+              <tr><td></td><td><p><strong>misoprostol pv</strong></p> </td><td><p><strong>B</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={3}>
                 <p>50 mcg every 24 hrs (max 2 doses)</p></td></tr>
-              <tr><td><p>or</p></td><td><p><strong>misoprostol po</strong></p> </td><td><p><strong>B</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="3">
+              <tr><td><p>or</p></td><td><p><strong>misoprostol po</strong></p> </td><td><p><strong>B</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={3}>
                 <p>25 mcg every 4 hours (max 4 doses)</p></td></tr >
             </table>
             <p>Augmentation of Labour</p>
             <p>Membranes already ruptured and labour not progressing: follow the same steps and precautions as above. Obstructed labour should be considered as a cause if labour fails to progress.</p>
             <p>Active management of the third stage of labour</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>oxytocin</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>10 units</p></td><td><p>Once with the appearance of the anterior shoulder</p></td><td></td></tr>
             </table>
             <ul>
@@ -656,10 +656,10 @@ export const chapter_five: Chapters = {
               <li> </li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>oxytocin iv infusion</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="3">
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>oxytocin iv infusion</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={3}>
                 <p>20 units in 1L of sodium chloride 0.9% running in at 10 – 60 drops per minute.</p></td></tr>
-              <tr><td>or</td><td><p><strong>misoprostol pr</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="3">
+              <tr><td>or</td><td><p><strong>misoprostol pr</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={3}>
                 <p>600mcg once only</p></td></tr >
             </table>
           </span>
@@ -685,7 +685,7 @@ export const chapter_five: Chapters = {
               <li>cover with antibiotics where appropriate</li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>amoxicillin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>3 times a day</p></td><td><p>5 days</p></td></tr>
               <tr><td>or</td><td><p><strong>ciprofloxacin po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>500mg</p></td><td><p>2 times a day</p></td><td><p>5 days</p></td></tr>
               <tr><td>and</td><td><p><strong>metronidazole po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>400mg</p></td><td><p>3 times a day</p></td><td><p>5 days</p></td></tr>
@@ -694,51 +694,51 @@ export const chapter_five: Chapters = {
             <p>First trimester (up to 13 weeks)</p>
             <p><em>Cervical ripening pre instrumentation</em></p>
             <table>
-              <tr><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td><p><strong>misoprostol pv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>400mcg</p></td><td><p>4 hours before procedure</p></td><td><p>once only</p></td></tr>
             </table>
             <p><em>Induced</em> abortion</p>
             <table>
-              <tr><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td><p><strong>misoprostol pv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>600mcg</p></td><td><p>12 hourly</p></td><td><p>Max 2 doses</p></td></tr>
             </table>
             <p><em>Missed abortion</em></p>
             <table>
-              <tr><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td><p><strong>misoprostol pv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>600mcg</p></td><td><p>12hourly</p></td><td><p>Max 2 doses</p></td></tr>
             </table>
             <p><em>Incomplete abortion</em></p>
             <table>
-              <tr><td>Medicine</td><td colspan="2">Codes</td><td colspan="3">
+              <tr><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={3}>
                 Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td><p><strong>misoprostol po</strong></p> </td><td><p><strong>B</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td><p>600mcg</p></td><td colspan="2"><p>Single dose</p></td><td></td></tr >
+              <tr><td><p><strong>misoprostol po</strong></p> </td><td><p><strong>B</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td><p>600mcg</p></td><td colSpan={2}><p>Single dose</p></td><td></td></tr >
             </table>
             <p>SECOND TRIMESTER (14 TO 27 WEEKS)</p>
             <p><em>Induced abortion</em></p>
             <table>
-              <tr><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td><p><strong>misoprostol pv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>200mcg</p></td><td><p>12 hourly</p></td><td><p>Max 4 doses</p></td></tr>
             </table>
             <p><em>Intra uterine fetal death (13-17 weeks)</em></p>
             <table>
-              <tr><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td><p><strong>misoprostol pv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>200mcg</p></td><td><p>12 hourly</p></td><td><p>Max 4 doses</p></td></tr>
             </table>
             <p><em>Intra uterine fetal death (18-27weeks)</em></p>
             <table>
-              <tr><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td><p><strong>misoprostol pv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>100mcg</p></td><td><p>12 hourly</p></td><td><p>Max 3 doses</p></td></tr>
             </table>
             <p><u>Third trimester (28-40weeks)</u></p>
             <p><em>Intra uterine fetal death (27-43weeks)</em></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>misoprostol po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>25mcg</p></td><td><p>4 hourly</p></td><td><p>max 4 doses</p></td></tr>
               <tr><td><p>or</p></td><td><p><strong>misoprostol pv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>50mcg</p></td><td><p>24 hourly</p></td><td><p>max 2 doses</p></td></tr>
             </table>
             <p><em>Induction of labour</em></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>misoprostol pv</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>50mcg</p></td><td><p>24 hourly</p></td><td><p>max 2 doses</p></td></tr>
               <tr><td><p>or</p></td><td><p><strong>misoprostol po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>25 mcg</p></td><td><p>4 hourly</p></td><td><p>max x3 doses</p></td></tr>
             </table>
@@ -748,7 +748,7 @@ export const chapter_five: Chapters = {
               <li>should be given STI prophylaxis/post exposure prophylaxis:</li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>amoxicillin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td><p>8 hourly</p></td><td><p>7 days</p></td></tr>
               <tr><td>and</td><td><p><strong>doxycycline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>100mg</p></td><td><p>twice a day</p></td><td><p>7 days</p></td></tr>
               <tr><td>and</td><td><p><strong>zidovudine, lamivudine, lopinavir/ritonavir</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>See ART guidelines</p></td><td></td><td></td></tr>
@@ -763,16 +763,16 @@ export const chapter_five: Chapters = {
                 <strong>Within 72 hours</strong> of unprotected intercourse, give:</li>
             </ul>
             <table>
-              <tr><td></td><td colspan="2">Medicine</td><td colspan="4">
-                Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td colspan="2"><p>
-                <strong>combined oral contraceptive pill</strong></p> </td><td colspan="2"><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="2"><p>2 tablets</p></td><td colspan="2"><p>repeat after 12 hours</p></td><td><p>-</p></td></tr>
-              <tr><td></td><td colspan="8">
-                <p>50mcg ethinyloestradiol + 150-250mcg levonorgestrel</p></td><td colspan="2"></td><td></td></tr>
-              <tr><td>or</td><td colspan="2"><p><strong>combined oral contraceptive pill</strong></p> </td><td colspan="2"><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="2"><p>4 tablets</p></td><td colspan="2"><p>repeat after 12 hours</p></td><td></td></tr>
-              <tr><td></td><td colspan="10">
+              <tr><td></td><td colSpan={2}>Medicine</td><td colSpan={4}>
+                Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td colSpan={2}><p>
+                <strong>combined oral contraceptive pill</strong></p> </td><td colSpan={2}><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={2}><p>2 tablets</p></td><td colSpan={2}><p>repeat after 12 hours</p></td><td><p>-</p></td></tr>
+              <tr><td></td><td colSpan={7}>
+                <p>50mcg ethinyloestradiol + 150-250mcg levonorgestrel</p></td><td colSpan={2}></td><td></td></tr>
+              <tr><td>or</td><td colSpan={2}><p><strong>combined oral contraceptive pill</strong></p> </td><td colSpan={2}><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={2}><p>4 tablets</p></td><td colSpan={2}><p>repeat after 12 hours</p></td><td></td></tr>
+              <tr><td></td><td colSpan={10}>
                 <p>30-35mcg ethinyloestradiol + 150-250mcg levonorgestrel</p></td><td></td></tr>
-              <tr><td colspan="2"><p><strong>or</strong></p> </td><td colspan="2"><p><strong>Levonorgestrel 750mcg</strong></p> </td><td colspan="2"><p>C</p></td><td colspan="2"><p>V</p></td><td colspan="2"><p>1 tablet</p></td><td colspan="2"><p>Repeat after 12 hrs</p></td></tr >
+              <tr><td colSpan={2}><p><strong>or</strong></p> </td><td colSpan={2}><p><strong>Levonorgestrel 750mcg</strong></p> </td><td colSpan={2}><p>C</p></td><td colSpan={2}><p>V</p></td><td colSpan={2}><p>1 tablet</p></td><td colSpan={2}><p>Repeat after 12 hrs</p></td></tr >
             </table>
             <p>Note: Advise to return if menstruation does not occur within 3 weeks. Give appropriate contraceptive advice.</p>
           </span>
@@ -814,8 +814,8 @@ export const chapter_five: Chapters = {
               Table 5.2: Medicines to be used with caution or avoided in pregnancy [Cont]</p>
             <table>
               <tr><td><p><strong>Medicine</strong></p> </td><td><p><strong>Trim.</strong></p> </td><td><p><strong>Note</strong></p> </td><td><p><strong>Rationale / advice</strong></p> </td></tr>
-              <tr><td rowspan="2">
-                <p>Albendazole</p></td><td><p>1</p></td><td><p>Avoid</p></td><td rowspan="2">
+              <tr><td rowSpan={2}>
+                <p>Albendazole</p></td><td><p>1</p></td><td><p>Avoid</p></td><td rowSpan={2}>
                   <p>Potentially teratogenic. Wait until after delivery.</p></td></tr>
               <tr><td><p>2 &amp; 3</p></td><td><p>Caution</p></td></tr>
               <tr><td><p>Alcohol</p></td><td><p>All</p></td><td><p>Avoid</p></td><td><p>Small quantities probably not harmful</p></td></tr>
@@ -823,12 +823,12 @@ export const chapter_five: Chapters = {
               <tr><td><p>Androgens</p></td><td><p>All</p></td><td><p>Avoid</p></td><td><p>Virilisation of female foetus.</p></td></tr>
               <tr><td><p>Antiemetics</p></td><td><p>All</p></td><td><p>Caution</p></td><td><p>Use promethazine or chlorpheniramine ONLY if vomiting is severe.</p></td></tr>
               <tr><td><p>Antiepileptics</p></td><td><p>All</p></td><td><p>Caution</p></td><td><p>Benefits outweigh risks - monitor blood levels and adjust dose accordingly. Use single medicine if possible. See individually listed medicines.</p></td></tr>
-              <tr><td rowspan="2">
-                <p>Aspirin</p></td><td><p>3</p></td><td><p>Avoid</p></td><td rowspan="2">
+              <tr><td rowSpan={2}>
+                <p>Aspirin</p></td><td><p>3</p></td><td><p>Avoid</p></td><td rowSpan={2}>
                   <p>Low dose aspirin in PIH is safe in 2 and 3.</p></td></tr>
               <tr><td><p>1 &amp; 2</p></td><td><p>Caution</p></td></tr>
-              <tr><td rowspan="2">
-                <p>Atenolol Propranolol</p></td><td><p>3</p></td><td><p>Caution</p></td><td rowspan="2">
+              <tr><td rowSpan={2}>
+                <p>Atenolol Propranolol</p></td><td><p>3</p></td><td><p>Caution</p></td><td rowSpan={2}>
                   <p>Neonatal hypoglycaemia, bradycardia, intrauterine growth retardation.</p></td></tr>
               <tr><td><p>1 &amp; 2</p></td><td><p>Avoid</p></td></tr>
               <tr><td><p>Carbimazole</p></td><td><p>2 &amp; 3</p></td><td><p>Caution</p></td><td><p>Refer to specialist.</p></td></tr>
@@ -842,8 +842,8 @@ export const chapter_five: Chapters = {
               <tr><td><p>Heparin</p></td><td><p>All</p></td><td><p>Caution</p></td><td><p>Maternal bone demineralisation/ thrombocytopenia.</p></td></tr>
               <tr><td><p>Laxatives-stimulant</p></td><td><p>All</p></td><td><p>Caution</p></td><td></td></tr>
               <tr><td><p>Lithium</p></td><td><p>All</p></td><td><p>Avoid</p></td><td><p>Needs careful control of levels.</p></td></tr>
-              <tr><td rowspan="2">
-                <p>Metronidazole</p></td><td><p>1</p></td><td><p>Avoid</p></td><td rowspan="2">
+              <tr><td rowSpan={2}>
+                <p>Metronidazole</p></td><td><p>1</p></td><td><p>Avoid</p></td><td rowSpan={2}>
                   <p>Avoid high doses.</p></td></tr>
               <tr><td><p>2 &amp; 3</p></td><td><p>Caution</p></td></tr>
               <tr><td><p>NSAIDS -Other</p></td><td><p>All</p></td><td><p>Avoid</p></td><td><p>Paracetamol is preferred for analgesia in standard doses.</p></td></tr>
@@ -854,9 +854,9 @@ export const chapter_five: Chapters = {
                 <p>Phenytoin</p></td><td><p>1 &amp; 3</p></td><td><p>Caution</p></td><td><p>Congenital malformations. Prophylactic use of vitamin K and folate is recommended.</p></td></tr>
               <tr><td><p>Praziquantel</p></td><td><p>1</p></td><td><p>Avoid</p></td><td><p>Wait.</p></td></tr>
               <tr><td><p>Prednisolone</p></td><td><p>All</p></td><td><p>Caution</p></td><td><p>If essential cover neonate for adrenal suppression.</p></td></tr>
-              <tr><td rowspan="2">
+              <tr><td rowSpan={2}>
                 <p>Pyrimethamine/</p>
-                <p>Sulphadoxine</p></td><td><p>1 &amp; 3</p></td><td><p>Avoid</p></td><td rowspan="2">
+                <p>Sulphadoxine</p></td><td><p>1 &amp; 3</p></td><td><p>Avoid</p></td><td rowSpan={2}>
                   <p>Give with folic acid.</p></td></tr>
               <tr><td><p>2</p></td><td><p>Caution</p></td></tr>
               <tr><td><p>Quinine</p></td><td><p>All</p></td><td><p>Caution</p></td><td><p>High doses teratogenic. Benefit outweighs risk</p></td></tr>
@@ -866,8 +866,8 @@ export const chapter_five: Chapters = {
               <tr><td><p>Thiazides</p></td><td><p>All</p></td><td><p>Caution</p></td><td><p>May cause neonatal thrombocytopenia. Avoid for of hypertension.</p> </td></tr>
               <tr><td><p>Vaccines – live</p></td><td><p>All</p></td><td><p>Avoid</p></td><td></td></tr>
               <tr><td><p>Vitamin A</p></td><td><p>1</p></td><td><p>Avoid</p></td><td><p>High dose may be teratogenic in early pregnancy.</p></td></tr>
-              <tr><td rowspan="2">
-                <p>Warfarin</p></td><td><p>1</p></td><td><p>Avoid</p></td><td rowspan="2">
+              <tr><td rowSpan={2}>
+                <p>Warfarin</p></td><td><p>1</p></td><td><p>Avoid</p></td><td rowSpan={2}>
                   <p>Subcutaneous heparin may be substituted in the first trimester and the last few weeks of pregnancy in those with prosthetic heart valves, deep vein thrombosis and pulmonary embolism.</p></td></tr>
               <tr><td><p>2 &amp; 3</p></td><td><p>Caution</p></td></tr>
             </table >

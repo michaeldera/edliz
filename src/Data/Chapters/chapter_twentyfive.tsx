@@ -100,9 +100,9 @@ export const chapter_twentyfive: Chapters = {
           <span>
             <p>Reassurance. 1st to 2nd degree burns are the most painful. Give adequate analgesia – see the section on pain management:</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>paracetamol po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>500mg-1gm</p></td><td><p>4-6hrly</p></td><td><p>as required</p></td></tr>
-              <tr><td></td><td></td><td colspan="3">
+              <tr><td></td><td></td><td colSpan={3}>
                 <p>Paed = 10mg/kg</p></td><td></td><td></td></tr>
               <tr><td><p><strong>+/-</strong></p> </td><td><p><strong>codeine phosphate po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>Adults: 15-60mg</p></td><td><p>4 hourly</p></td><td><p>as required</p></td></tr>
             </table>
@@ -110,8 +110,8 @@ export const chapter_twentyfive: Chapters = {
               <li> Give an anti-tetanus booster:</li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>tetanus toxoid im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>0.5ml*</p></td><td colspan="2"><p>one dose only</p></td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>tetanus toxoid im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>0.5ml*</p></td><td colSpan={2}><p>one dose only</p></td></tr >
             </table>
             <p>*check manufacturer’s instructions</p>
             <ul>
@@ -123,12 +123,12 @@ export const chapter_twentyfive: Chapters = {
             <p>Follow up as outpatient. Expect healing within 10-14 days if clean. Any burn unhealed within 21-28 days needs reassessment.</p>
             <p><strong>Antibiotics</strong> are indicated for contaminated burns and inhalation burns.</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>benzylpenicillin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>0.05MU per kg</p></td><td><p>every 6hrs</p></td><td><p>reassess after culture</p></td></tr>
-              <tr><td>or</td><td><p><strong>erythromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td rowspan="2">
-                <p>every 6hrs</p></td><td rowspan="2">
+              <tr><td>or</td><td><p><strong>erythromycin po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>500mg</p></td><td rowSpan={2}>
+                <p>every 6hrs</p></td><td rowSpan={2}>
                   <p>reassess after culture</p></td></tr>
-              <tr><td></td><td></td><td colspan="3">
+              <tr><td></td><td></td><td colSpan={3}>
                 <p>Paed = 12.5mg/kg</p></td></tr>
             </table>
             <p>Change regimen if indicated by culture and sensitivity tests. Gram negative organisms are usually implicated later on,
@@ -145,24 +145,24 @@ export const chapter_twentyfive: Chapters = {
             <p>Reassurance is an essential part of therapy.</p>
             <p>Establish IV line. For all adults with burns greater than 15% and children with burns greater than 10%, start:</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td><p>Rate</p></td><td></td></tr>
-              <tr><td></td><td><p><strong>ringers lactate iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="2"><p>10mls /kg/ hr for 12hrs, then dcptrial to 8mls /kg /hr.</p> </td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td><p>Rate</p></td><td></td></tr>
+              <tr><td></td><td><p><strong>ringers lactate iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={2}><p>10mls /kg/ hr for 12hrs, then dcptrial to 8mls /kg /hr.</p> </td></tr >
             </table>
             <p>Analgesia. Do not use oral or intra-muscular route in first 36hrs unless peripheral circulation is re-established.</p>
             <p><strong>Analgesia in adults:</strong></p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>morphine iv slow</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>2.5 – 5mg</p></td><td><p>every 4hrs</p></td><td><p>review</p></td></tr>
-              <tr><td></td><td></td><td></td><td></td><td colspan="2"><p>increasing as required</p></td><td></td></tr>
+              <tr><td></td><td></td><td></td><td></td><td colSpan={2}><p>increasing as required</p></td><td></td></tr>
               <tr><td>or</td><td><p><strong>pethidine im (or iv in small diluted doses)</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1mg/kg</p></td><td><p>every 4hrs</p></td><td><p>review</p></td></tr>
             </table>
             <p><strong>Analgesia in children:</strong></p>
             <table>
-              <tr><td colspan="2"></td><td>Medicine</td><td colspan="3">
+              <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={3}>
                 Codes</td><td><p>Paed dose</p></td><td><p>Rate</p></td></tr>
-              <tr><td></td><td colspan="2"><p>
-                <strong>morphine iv</strong></p> </td><td><p><strong>B E</strong></p> </td><td colspan="2"><p>0.05-0.06 mg/kg</p></td><td><p>per hour continuous iv infusion</p></td></tr>
-              <tr><td>or</td><td colspan="2"><p><strong>morphine iv bolus</strong></p> </td><td><p><strong>B E</strong></p> </td><td colspan="2"><p>0.1mg</p></td><td><p>every 2 hrs</p></td></tr>
+              <tr><td></td><td colSpan={2}><p>
+                <strong>morphine iv</strong></p> </td><td><p><strong>B E</strong></p> </td><td colSpan={2}><p>0.05-0.06 mg/kg</p></td><td><p>per hour continuous iv infusion</p></td></tr>
+              <tr><td>or</td><td colSpan={2}><p><strong>morphine iv bolus</strong></p> </td><td><p><strong>B E</strong></p> </td><td colSpan={2}><p>0.1mg</p></td><td><p>every 2 hrs</p></td></tr>
             </table>
             <p>Use nasogastric tube to <u>empty</u> stomach in large burns; the tube may later be used for feeding if not possible orally after 48 hours.</p>
           </span>
@@ -175,12 +175,12 @@ export const chapter_twentyfive: Chapters = {
             <p>Fluid required in the first 24 dcptrial</p>
             <p><strong>*Total amount (ml) = 4 x weight in kg x area of burn %</strong></p>
             <table>
-              <tr><td colspan="2"></td><td>Medicine</td><td colspan="3">
+              <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={3}>
                 Codes</td><td><p>Rate</p></td></tr>
-              <tr><td></td><td colspan="2"><p>
-                <strong>ringers lactate iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="2" rowspan="2">
+              <tr><td></td><td colSpan={2}><p>
+                <strong>ringers lactate iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={2} rowSpan={2}>
                   <p>Give ½ the total amount in the first 8hrs. Then ¼ the total in the next 8hrs, and the other ¼ in the remaining 8hrs.</p></td></tr>
-              <tr><td>or</td><td colspan="2"><p><strong>normal saline iv</strong></p> </td><td><p><strong>C V</strong></p> </td></tr >
+              <tr><td>or</td><td colSpan={2}><p><strong>normal saline iv</strong></p> </td><td><p><strong>C V</strong></p> </td></tr >
             </table>
             <p>* Parkland Formula</p>
   
@@ -193,18 +193,18 @@ export const chapter_twentyfive: Chapters = {
           <span>
             <p>For the child in shock or with large burns:</p>
             <table>
-              <tr><td colspan="2"></td><td>Medicine</td><td colspan="3">
+              <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={3}>
                 Codes</td><td><p>Paed dose</p></td></tr>
-              <tr><td></td><td colspan="2"><p><strong>ringers lactate iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="2"><p>15-25ml/kg over 1-2 hrs</p></td></tr >
+              <tr><td></td><td colSpan={2}><p><strong>ringers lactate iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={2}><p>15-25ml/kg over 1-2 hrs</p></td></tr >
             </table>
             <p>then calculate:</p>
             <p><strong>*Total amount in mls = 3.5 x weight in kg x area of burn %</strong></p>
             <table>
-              <tr><td colspan="2"></td><td>Medicine</td><td colspan="3">
+              <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={3}>
                 Codes</td><td><p>Rate</p></td></tr>
-              <tr><td></td><td colspan="2"><p><strong>ringers lactate iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colspan="2"><p>Give 1/3 the total amount every 8hrs</p></td></tr>
-              <tr><td>and</td><td colspan="2"><p>
-                <strong>darrows half strength with dextrose 2.5%</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="2"><p>Normal daily requirement (see section on IV fluids)</p></td></tr >
+              <tr><td></td><td colSpan={2}><p><strong>ringers lactate iv</strong></p> </td><td><p><strong>B V</strong></p> </td><td colSpan={2}><p>Give 1/3 the total amount every 8hrs</p></td></tr>
+              <tr><td>and</td><td colSpan={2}><p>
+                <strong>darrows half strength with dextrose 2.5%</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={2}><p>Normal daily requirement (see section on IV fluids)</p></td></tr >
             </table>
             <p><u>Example: for a 9 Kg child with 20% burn</u>, initially give 135-225 ml (9 X 15-25 ml) plus the first 24 hour requirement by calculation, using the formula:</p>
             <p>3.5 X Weight (kg) x BSA burn (%) = volume required</p>
@@ -242,35 +242,35 @@ export const chapter_twentyfive: Chapters = {
             </ul>
             <p>Apply to the burns:</p>
             <table>
-              <tr><td colspan="2"></td><td>Medicine</td><td colspan="3">
+              <tr><td colSpan={2}></td><td>Medicine</td><td colSpan={3}>
                 Codes</td><td><p>Dose</p></td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td colspan="2"><p>
-                <strong>silver sulphadiazine</strong> 1% topical cream</p></td><td><p><strong>B V</strong></p> </td><td colspan="4">
+              <tr><td></td><td colSpan={2}><p>
+                <strong>silver sulphadiazine</strong> 1% topical cream</p></td><td><p><strong>B V</strong></p> </td><td colSpan={4}>
                   <p>Apply daily (not to the face)</p></td></tr>
-              <tr><td>or</td><td colspan="2"><p>
-                <strong>povidone-iodine</strong> 5% dcptrial cream</p> </td><td><p><strong>B E</strong></p> </td><td colspan="4">
+              <tr><td>or</td><td colSpan={2}><p>
+                <strong>povidone-iodine</strong> 5% dcptrial cream</p> </td><td><p><strong>B E</strong></p> </td><td colSpan={4}>
                   <p>Apply daily</p></td></tr >
             </table>
             <p>Give antitetanus booster:</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>tetanus toxoid im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>0.5ml</p></td><td colspan="2"><p>one dose only</p></td></tr >
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>tetanus toxoid im</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>0.5ml</p></td><td colSpan={2}><p>one dose only</p></td></tr >
             </table>
             <p>Give antacids routinely every 6 hours:</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>magnesium trisilicate po</strong></p> </td><td><p><strong>C N</strong></p> </td><td><p>20ml</p></td><td><p>6 hourly</p></td><td><p>review</p></td></tr>
             </table>
             <p><u>Antibiotics</u> are required only if/when wounds contaminated. Gram positive organisms (notably B-haemolytic <em>streptococcus</em>) predominate early on DCPtrial 5 days):</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>benzylpenicillin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>2.5MU</p></td><td><p>6 hourly</p></td><td><p>change to oral *</p></td></tr>
               <tr><td><p>*then</p></td><td><p><strong>Amoxicillin po</strong></p> </td><td><p><strong>C E</strong></p> </td><td><p>500mg</p></td><td><p>6 hourly</p></td><td><p>review</p></td></tr>
             </table>
             <p>Change regimen if indicated by culture and sensitivity tests. Gram negative organisms are usually implicated later on,and a more appropriate blind therapy before results are obtained is:</p>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-              <tr><td></td><td><p><strong>benzylpenicillin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>2.5MU</p></td><td><p>6 hrly</p></td><td rowspan="2">
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td><p><strong>benzylpenicillin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>2.5MU</p></td><td><p>6 hrly</p></td><td rowSpan={2}>
                 <p>review based on c/s</p></td></tr>
               <tr><td>and</td><td><p><strong>gentamicin iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>80mg</p></td><td><p>8 hrly</p></td></tr>
             </table>
@@ -299,7 +299,7 @@ export const chapter_twentyfive: Chapters = {
               <li> Give vitamin supplementation, high dose (dietary) Vitamin C:</li>
             </ul>
             <table>
-              <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+              <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
               <tr><td></td><td><p><strong>(multi)-vitamins po</strong></p> </td><td><p><strong>C N</strong></p> </td><td><p>4 tablets</p></td><td><p>3 times a day</p></td><td><p>review</p></td></tr>
             </table>
             <p>NB: This does not apply in first 48 hours for large burns or non-motile GI tract DCPtrial feeding when bowel sounds return).</p>

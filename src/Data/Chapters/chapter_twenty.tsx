@@ -29,7 +29,7 @@ export const chapter_twenty: Chapters = {
           <p>People with psychoses may present with hallucinations, delusions, loss of contact with reality. They may be violent; some may be withdrawn and mute.</p>
           <p>Medicine Potency Relationships</p>
           <table>
-            <tr><td colspan="2"><p>Potency Relationship</p></td></tr>
+            <tr><td colSpan={2}><p>Potency Relationship</p></td></tr>
             <tr><td>Medicine</td><td><p>Dose equivalent 100mg Chlorpromazine</p></td></tr>
             <tr><td><p>Haloperidol</p></td><td><p>2 - 3 mg</p></td></tr>
             <tr><td><p>Olanzapine</p></td><td><p>5mg</p></td></tr>
@@ -49,7 +49,7 @@ export const chapter_twenty: Chapters = {
           <p>Rapid Tranquillisation</p>
           <p>For the violent or agitated patient there may be a need for rapid tranquillisation. The following is recommended:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>chlorpromazine inj</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>50-100mg IMI</p></td><td><p>Initially then can be repeated after 6 hours</p></td><td><p>Until calm and/or can be given oral medication</p></td></tr>
             <tr><td>or</td><td><p><strong>haloperidol inj</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>2-6mg IMI (Total max 18mg daily)</p></td><td><p>Initially, then can be repeated after 6 hours</p></td><td><p>Until calm and/or can be given oral medication</p></td></tr>
             <tr><td>or</td><td><p><strong>Diazepam inj</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5-10mg IMI/IVI</p></td><td><p>Initially then can be repeated after 6hrs</p></td><td><p>Until calmand/or can be given oral medication</p></td></tr>
@@ -64,14 +64,14 @@ export const chapter_twenty: Chapters = {
             </em></p>
           <p><strong>First line medicines</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td colspan="2">Frequency</td><td colspan="2">Duration</td><td></td></tr>
-            <tr><td></td><td><p><strong>Chlopromazine po</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="2"><p>50-200 mg</p></td><td colspan="2"><p>2-3 times daily</p></td><td colspan="2"><p>Continual</p></td></tr>
-            <tr><td><p>or</p></td><td><p>haloperidol po</p></td><td><p>B</p></td><td colspan="2"><p>V</p></td><td colspan="2"><p>1.25-5 mg</p></td><td colspan="2"><p>2-3 times daily</p></td><td colspan="2"><p>Continual</p></td></tr>
-            <tr><td>or</td><td><p><strong>sulpiride po</strong></p> </td><td><p><strong>C</strong></p> </td><td colspan="2"><p><strong>V</strong></p> </td><td colspan="2"><p>50-200 mg</p></td><td colspan="2"><p>2-3 times daily</p></td><td colspan="2"><p>Continual</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td colSpan={2}>Frequency</td><td colSpan={2}>Duration</td><td></td></tr>
+            <tr><td></td><td><p><strong>Chlopromazine po</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={2}><p>50-200 mg</p></td><td colSpan={2}><p>2-3 times daily</p></td><td colSpan={2}><p>Continual</p></td></tr>
+            <tr><td><p>or</p></td><td><p>haloperidol po</p></td><td><p>B</p></td><td colSpan={2}><p>V</p></td><td colSpan={2}><p>1.25-5 mg</p></td><td colSpan={2}><p>2-3 times daily</p></td><td colSpan={2}><p>Continual</p></td></tr>
+            <tr><td>or</td><td><p><strong>sulpiride po</strong></p> </td><td><p><strong>C</strong></p> </td><td colSpan={2}><p><strong>V</strong></p> </td><td colSpan={2}><p>50-200 mg</p></td><td colSpan={2}><p>2-3 times daily</p></td><td colSpan={2}><p>Continual</p></td></tr >
           </table>
           <p>Second Line therapy</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>trifluoperazine po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>5 – 10mg</p></td><td><p>2 times a day</p></td><td><p>continual</p></td></tr>
             <tr><td>or</td><td><p><strong>olanzopine po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>5-10 mg</p></td><td><p>2 times a day</p></td><td><p>continual</p></td></tr>
             <tr><td>or</td><td><p><strong>Risperidone po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>1-3 mg</p></td><td><p>2 times a day</p></td><td><p>continual</p></td></tr>
@@ -98,14 +98,14 @@ export const chapter_twenty: Chapters = {
           <p>Depot Medications</p>
           <p>Adequate health education should be given to the patient on the importance of compliance and adherence. Where patients have difficulty in adherence, they should be offered the choice of depot preparations.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>Risperidone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>5mg</p></td><td colspan="2"><p>As a test dose then after monthly</p></td></tr>
-            <tr><td><p>or</p></td><td><p><strong>fluphenazine decanoate im</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>12.5mg</p></td><td colspan="2"><p>as a test dose*, followed after 2 weeks by</p></td></tr>
-            <tr><td></td><td colspan="3">
-              <p>adjust dose to response</p> </td><td><p>25 – 50mg</p></td><td colspan="2"><p>once every 4 weeks, continual</p></td></tr>
-            <tr><td><p>or</p></td><td><p><strong>flupentixol decanoate im</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>20mg</p></td><td colspan="2"><p>as a test dose*, then after at least 1 week</p></td></tr>
-            <tr><td></td><td colspan="3">
-            </td><td><p>20 – 40mg</p></td><td colspan="2"><p>Every 2 – 4 weeks depending on response</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>Risperidone po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>5mg</p></td><td colSpan={2}><p>As a test dose then after monthly</p></td></tr>
+            <tr><td><p>or</p></td><td><p><strong>fluphenazine decanoate im</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>12.5mg</p></td><td colSpan={2}><p>as a test dose*, followed after 2 weeks by</p></td></tr>
+            <tr><td></td><td colSpan={3}>
+              <p>adjust dose to response</p> </td><td><p>25 – 50mg</p></td><td colSpan={2}><p>once every 4 weeks, continual</p></td></tr>
+            <tr><td><p>or</p></td><td><p><strong>flupentixol decanoate im</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>20mg</p></td><td colSpan={2}><p>as a test dose*, then after at least 1 week</p></td></tr>
+            <tr><td></td><td colSpan={3}>
+            </td><td><p>20 – 40mg</p></td><td colSpan={2}><p>Every 2 – 4 weeks depending on response</p></td></tr >
           </table>
           <p>Duration of therapy:</p>
           <p><strong>First or dcptrial psychotic episode </strong></p>
@@ -125,29 +125,29 @@ export const chapter_twenty: Chapters = {
           </ul>
           <p>Treat with:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>Orphenadrine po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>50mg</p></td><td colspan="3">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>Orphenadrine po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>50mg</p></td><td colSpan={3}>
               <p>Once a day</p></td><td><p>1 week</p></td></tr>
-            <tr><td>or</td><td><p><strong>benzhexol po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5mg</p></td><td colspan="3">
+            <tr><td>or</td><td><p><strong>benzhexol po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5mg</p></td><td colSpan={3}>
               <p>1-2 times a day</p></td><td><p>1 week</p></td></tr>
-            <tr><td>or</td><td><p><strong>diazepam po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5-10mg</p></td><td colspan="3">
+            <tr><td>or</td><td><p><strong>diazepam po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5-10mg</p></td><td colSpan={3}>
               <p>1-2 times a day</p></td><td><p>1 week</p></td></tr >
           </table>
           <p>If severe give:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>biperiden im/ iv</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>2 – 4mg</p></td><td colspan="2"><p>once only</p></td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>biperiden im/ iv</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>2 – 4mg</p></td><td colSpan={2}><p>once only</p></td></tr>
           </table>
           <p>And then continue with benzhexol as above. Reduce the dose of the anti-psychotic therapy.</p>
           <p><strong>Medium term side effects:</strong></p>
           <p>Medicine-induced Parkinsonism, stiffness of arms and legs, muscle cramps, internal restlessness [akathisia] require addition of:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>Orphenadrine po</strong></p> </td><td><p>C</p></td><td><p>V</p></td><td><p>50mg</p></td><td colspan="3">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>Orphenadrine po</strong></p> </td><td><p>C</p></td><td><p>V</p></td><td><p>50mg</p></td><td colSpan={3}>
               <p>Once a day</p></td><td><p>review</p></td></tr>
-            <tr><td></td><td><p><strong>benzhexol po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5mg</p></td><td colspan="3">
+            <tr><td></td><td><p><strong>benzhexol po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5mg</p></td><td colSpan={3}>
               <p>1-2 times a day</p></td><td><p>Review</p></td></tr>
-            <tr><td><p><strong>and/or</strong></p> </td><td><p><strong>diazepam po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5mg</p></td><td colspan="3">
+            <tr><td><p><strong>and/or</strong></p> </td><td><p><strong>diazepam po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5mg</p></td><td colSpan={3}>
               <p>1 – 2 times daily</p></td><td><p>Review</p></td></tr >
           </table>
           <p>Note: Avoid long-term use of benzhexol because there is a risk of developing dependence.</p>
@@ -158,8 +158,8 @@ export const chapter_twenty: Chapters = {
           <p><strong>Long term side effects:</strong></p>
           <p><strong>Tardive dyskinesia</strong>: reduce medicine and eventually stop and refer for specialist opinion. Use benzodiazepine and switch to atypical antipsychotics.</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td colspan="2">Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>Clonazepam po</strong></p> </td><td><p>A</p></td><td><p>V</p></td><td colspan="2"><p>0.25-0.5mg</p></td><td colspan="2"><p>In divided doses upto 1mg per day</p></td><td><p>Continual</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td colSpan={2}>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>Clonazepam po</strong></p> </td><td><p>A</p></td><td><p>V</p></td><td colSpan={2}><p>0.25-0.5mg</p></td><td colSpan={2}><p>In divided doses upto 1mg per day</p></td><td><p>Continual</p></td></tr >
           </table>
           <p><strong>Neuroleptic Malignant Syndrome</strong> is characterized by hyperthermia, fluctuating level of consciousness, muscle rigidity and autonomic dysfunction with pallor, tachycardia, labile blood pressure, sweating and urinary incontinence.</p>
           <p>This is a <strong>rare but potentially fatal side effect</strong>. Discontinuation of the antipsychotic is essential and an emergency referral made to a physician at a central hospital. During the transferring of patient, there is need to take care of rehydration of the patient, nutritional and fever control. Renal failure, hypoxia and acidosis should be managed at a referral centre. Bromocriptine may be use in doses of 2-3mg/kg body weight maximum 40mg/day and not for more than 10days.</p>
@@ -177,37 +177,37 @@ export const chapter_twenty: Chapters = {
           <p>Treatment is as for other psychoses i.e. with antipsychotics but add mood stabilisers.</p>
           <p>Use:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td colspan="2">Adult Dose</td><td>Frequency</td><td colspan="2">Duration</td></tr>
-            <tr><td></td><td><p><strong>carbamazepine po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>100-400mg</p></td><td colspan="3">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td colSpan={2}>Adult Dose</td><td>Frequency</td><td colSpan={2}>Duration</td></tr>
+            <tr><td></td><td><p><strong>carbamazepine po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>100-400mg</p></td><td colSpan={3}>
               <p>3 times daily</p></td><td><p>continual</p></td></tr>
-            <tr><td>or</td><td><p><strong>Sodium valproate</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>200-500mg</p></td><td colspan="3">
+            <tr><td>or</td><td><p><strong>Sodium valproate</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>200-500mg</p></td><td colSpan={3}>
               <p>2 times daily</p></td><td><p>continual</p></td></tr>
-            <tr><td></td><td><p><strong>lithium carbonate po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>250mg-1g</p></td><td colspan="3">
+            <tr><td></td><td><p><strong>lithium carbonate po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>250mg-1g</p></td><td colSpan={3}>
               <p>At night</p></td><td><p>continual</p></td></tr>
-            <tr><td>or</td><td><p><strong>Lamotrigine po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>50-200mg</p></td><td colspan="3">
+            <tr><td>or</td><td><p><strong>Lamotrigine po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>50-200mg</p></td><td colSpan={3}>
               <p>2 times a day</p></td><td><p>continual</p></td></tr >
           </table>
           <p>For HIV/AIDS patients use:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>sodium valproate po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>200 – 500mg</p></td><td><p>2 times daily</p></td><td colspan="2"><p>Continual</p></td></tr>
-            <tr><td>or</td><td><p><strong>Lamotrigine po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>50-200mg</p></td><td><p>2 times daily</p></td><td colspan="2"><p>continual</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>sodium valproate po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>200 – 500mg</p></td><td><p>2 times daily</p></td><td colSpan={2}><p>Continual</p></td></tr>
+            <tr><td>or</td><td><p><strong>Lamotrigine po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>50-200mg</p></td><td><p>2 times daily</p></td><td colSpan={2}><p>continual</p></td></tr >
           </table>
           <p><strong>Note: Avoid carbamazepine in HIV and AIDS patients.</strong></p>
           <p>In manic patients with psychoses,</p>
           <table>
-            <tr><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td><p><strong>olanzapine po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>2.5 – 5mg</p></td><td colspan="2"><p>2 times a day Continual</p></td></tr>
-            <tr><td><p><strong>Quietiapine po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>50-200mg</p></td><td colspan="2"><p>Once a day Continual</p></td></tr >
+            <tr><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td><p><strong>olanzapine po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>2.5 – 5mg</p></td><td colSpan={2}><p>2 times a day Continual</p></td></tr>
+            <tr><td><p><strong>Quietiapine po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>50-200mg</p></td><td colSpan={2}><p>Once a day Continual</p></td></tr >
           </table>
           <p>HIV Induced Mood Disorders</p>
           <p>For rapid tranquilisation, avoid chlorpromazine, use benzodiazepines</p>
           <table>
-            <tr><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td><p><strong>Diazepam IM/IV</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5-10mg</p></td><td colspan="2"><p>Intially then can</p>
+            <tr><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td><p><strong>Diazepam IM/IV</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5-10mg</p></td><td colSpan={2}><p>Intially then can</p>
               <p>be repeated</p>
               <p>after 6hours Till Calm</p></td></tr>
-            <tr><td><p><strong>lorazepam IM</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1 – 2mg</p></td><td colspan="2"><p>Initially then Till calm</p>
+            <tr><td><p><strong>lorazepam IM</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>1 – 2mg</p></td><td colSpan={2}><p>Initially then Till calm</p>
               <p>can be repeated</p>
               <p>After 6 hours</p></td></tr >
           </table>
@@ -239,19 +239,19 @@ export const chapter_twenty: Chapters = {
           <p>As for depressive episodeUse of anti-depressants and admission very important to allow monitoring of the patient.</p>
           <p><strong>First Line Medicines:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td colspan="2">Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>amitriptyline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>Start at 50mg and increase by 25mg every 2 nights up to 150mg</p></td><td colspan="2"><p>Once at night 1 hour before sleep</p></td><td><p>DCPtrial progress after 2 weeeks</p> </td></tr>
-            <tr><td></td><td><p><strong>imipramine po</strong></p> </td><td><p><strong>C V</strong></p> </td><td colspan="2"><p>Start at 50mg and increase by 25mg every 2 nights up to 150mg</p></td><td><p>Once at night 1 hour before sleep</p></td><td><p>DCPtrial progress after 2weeks</p> </td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td colSpan={2}>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>amitriptyline po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>Start at 50mg and increase by 25mg every 2 nights up to 150mg</p></td><td colSpan={2}><p>Once at night 1 hour before sleep</p></td><td><p>DCPtrial progress after 2 weeeks</p> </td></tr>
+            <tr><td></td><td><p><strong>imipramine po</strong></p> </td><td><p><strong>C V</strong></p> </td><td colSpan={2}><p>Start at 50mg and increase by 25mg every 2 nights up to 150mg</p></td><td><p>Once at night 1 hour before sleep</p></td><td><p>DCPtrial progress after 2weeks</p> </td></tr >
           </table>
           <p><strong>Second line Medicines</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>fluoxetine po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>V</strong></p> </td><td><p>20-80mg</p></td><td><p>Once daily in morning with food</p></td><td><p>Assess response after 2 weeks</p></td></tr>
             <tr><td>or</td><td><p><strong>Citalopram po</strong></p> </td><td><p><strong>B V</strong></p> </td><td><p>10-40mg</p></td><td><p>Once daily morning</p></td><td><p>Assess response after 2 weeks</p></td></tr>
           </table >
           <p><strong>Third Line Medicines:</strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p>Venlafaxine po</p></td><td><p>S</p></td><td><p>E</p></td><td><p>75mg</p></td><td><p>Once daily in the dcptrial with food</p> </td><td><p>continual</p></td></tr>
             <tr><td><p>or</p></td><td><p>Duloxetine po</p></td><td><p>S</p></td><td><p>E</p></td><td><p>30mg</p></td><td><p>Once daily in the morning with food</p></td><td><p>continual</p></td></tr>
             <tr><td><p>or</p></td><td><p>Mianserin po</p></td><td><p>S</p></td><td><p>E</p></td><td><p>15-40mg</p></td><td><p>Once at bedtime</p></td><td><p>continual</p></td></tr>
@@ -269,16 +269,16 @@ export const chapter_twenty: Chapters = {
           <p>Patients with DCPtrial Affective Disorder in the depressive phase may need both an antidepressant and a mood stabiliser (Refer to section under mania above)</p>
           <p>depression with psychomotor agitation give:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>amitriptyline po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>50 –75mg</p></td><td><p>once at night</p></td><td rowspan="2">
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>amitriptyline po</strong></p> </td><td><p><strong>B E</strong></p> </td><td><p>50 –75mg</p></td><td><p>once at night</p></td><td rowSpan={2}>
               <p>*14- 21days then review</p></td></tr>
             <tr><td>or</td><td><p><strong>imipramine po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>50 –75mg</p></td><td><p>once at night</p></td></tr>
           </table>
           <p>*It may take up to 14 - 21 days before therapeutic effect occurs.</p>
           <p>For depression with psychomotor retardation use:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
-            <tr><td></td><td><p><strong>fluoxetine po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>20 – 60mg</p></td><td colspan="2"><p>once only Continual</p></td></tr >
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td><p><strong>fluoxetine po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>20 – 60mg</p></td><td colSpan={2}><p>once only Continual</p></td></tr >
           </table>
           <p>Do not issue large quantities of antidepressant medicines; tricyclic antidepressants can be fatal in overdose!</p>
           <p><strong>CAUTIONS</strong>: Avoid both amitriptyline and imipramine in patients with history of heart disease, urinary retention; glaucoma and epilepsy [refer such patients to a specialist]. In elderly patients, start with 25-50 mg/day. Imipramine is less sedating than amitriptyline.</p>
@@ -305,7 +305,7 @@ export const chapter_twenty: Chapters = {
           </ul>
           <p>In addition to counselling, give:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>diazepam po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>5mg [up to 10-15mg]</p></td><td><p>once a day</p></td><td><p>Max 2 weeks</p></td></tr>
             <tr><td></td><td><p><strong>clonazepam po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>0.5mg</p></td><td><p>Up to 3 times a day</p></td><td><p>Max 2 weeks</p></td></tr>
           </table>
@@ -323,11 +323,11 @@ export const chapter_twenty: Chapters = {
           <p>1 unit of alcohol = 200ml of beer (5% weight/volume), or one glass of wine, or one tot of any spirit.</p>
           <p>Severe Alcohol Dependence</p>   <p>Treat physical and social complications. Counsel, with family involvement. Alcohol use must be stopped: refer to a support organisation. If severe withdrawal symptoms occur e.g. severe tremors, insomnia, confusion, hallucinations, give:</p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>diazepam iv</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>10mg</p></td><td><p>once only</p></td><td><p>then</p></td></tr>
-            <tr><td></td><td><p><strong>diazepam po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>20-40mg</p></td><td><p>once a day</p></td><td rowspan="2">
+            <tr><td></td><td><p><strong>diazepam po</strong></p> </td><td><p><strong>C V</strong></p> </td><td><p>20-40mg</p></td><td><p>once a day</p></td><td rowSpan={2}>
               <p>discontinue within 7 – 14days</p></td></tr>
-            <tr><td></td><td></td><td colspan="4">
+            <tr><td></td><td></td><td colSpan={4}>
               <p>[reduce by 5mg every other day]</p> </td></tr>
             <tr><td>and</td><td><p><strong>multivitamins po</strong></p> </td><td><p><strong>C N</strong></p> </td><td><p>2 tablets</p></td><td><p>once a day</p></td><td><p>review</p></td></tr>
             <tr><td>or</td><td><p><strong>thiamine po</strong></p> </td><td><p><strong>A</strong></p> </td><td><p><strong>N</strong></p> </td><td><p>50mg</p></td><td><p>once a day</p></td><td><p>review</p></td></tr>
@@ -336,7 +336,7 @@ export const chapter_twenty: Chapters = {
           <p>These vitamin replacements protect against the development of Wernicke’s encephalopathy (ophthalmoplegia, ataxia, confusion and altered level of consciousness)</p>
           <p><strong>Deficit Hyperactivity Disorder </strong></p>
           <table>
-            <tr><td></td><td>Medicine</td><td colspan="2">Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
+            <tr><td></td><td>Medicine</td><td colSpan={2}>Codes</td><td>Adult Dose</td><td>Frequency</td><td>Duration</td></tr>
             <tr><td></td><td><p><strong>methylphenidate po</strong></p> </td><td><p><strong>S</strong></p> </td><td><p><strong>E</strong></p> </td><td><p>10-60mg</p></td><td><p>Daily in 2 – 3 divided doses</p></td><td><p>with regular reviews</p> </td></tr>
           </table>
         </span>
