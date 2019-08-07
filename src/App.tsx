@@ -6,8 +6,13 @@ import Home from './Components/Home/Home';
 import Settings from './Components/Settings/Settings';
 import Information from './Components/Information/Information';
 import { inject, observer } from 'mobx-react'
+import { IEdlizStore } from './stores/EdlizStore';
 
-const App: React.FunctionComponent = () => {
+export interface IMobxStore {
+  EdlizStore?: IEdlizStore
+}
+
+const App: React.FC = () => {
   return (
     <div className="App">
       <HashRouter>

@@ -6,7 +6,7 @@ import Github from './github.svg'
 import medicine from './medicine.svg'
 import './home.css';
 
-const Home: React.FunctionComponent = () => {
+const Home: React.FC = () => {
   return (
     <div className="main">
       <MainMenu />

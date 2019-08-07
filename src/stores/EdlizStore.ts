@@ -1,11 +1,10 @@
 import {observable, action, decorate } from 'mobx'
-import { book } from '../Data/data'
+import { book, IBooks } from '../Data/data'
 import { setAddressBarColor, setItem, getItem } from '../helpers';
 
 const nightModeAddressBarColor = '#32303e';
 const defaultAddressBarColor = '#0093e9';
 
-type toggleType = 'open' | 'closed'
 type modeType = 'day' | 'night'
 const modeFromLS = getItem("mode");
 
@@ -15,11 +14,12 @@ export interface IEdlizStore {
     fontSize: number
     navigation: string
     mode: string
+    books: IBooks
     preferences: string
-    togglePreferences(preferences: toggleType): void
+    togglePreferences(preferences: string): void
     toggleMode(mode: string): void
     fontSizeChange(fontSize: number): void
-    toggleNavigationPanel(navigation: toggleType): void
+    toggleNavigationPanel(navigation: string): void
 }
 
 export class EdlizStore implements IEdlizStore{
@@ -30,7 +30,7 @@ export class EdlizStore implements IEdlizStore{
   books = book
 
     // function toggles the Preference Panel. First it checks if the Navigation Panel is open (and closes it if it is). After that it toggles the state of the Preference panel.
-  togglePreferences = (preferences: toggleType) => {
+  togglePreferences = (preferences: 'open' | 'closed') => {
     if (this.navigation === 'open') {
       this.navigation = 'closed';
     }
@@ -39,7 +39,7 @@ export class EdlizStore implements IEdlizStore{
 
 
   // function toggles the Navigation Panel. First it checks if the Preferences Panel is open (and closes it if it is). After that it toggles the state of the  Navigation panel.
-  toggleNavigationPanel =(navigation : toggleType) => {
+  toggleNavigationPanel =(navigation : 'open' | 'closed') => {
     if (this.preferences === 'open') {
       this.preferences = 'closed';
     }

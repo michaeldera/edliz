@@ -6,18 +6,19 @@ import './information.css'
 import {book} from '../../Data/data'
 import MainMenu from '../MainMenu/MainMenu'
 import Button from '../Button/Button'
+import { IMobxStore } from '../../App';
 
-class Information extends React.PureComponent<any, {}> {
-    scrollToTop = () => {
-        scroll.scrollToTop()
-    }
+const scrollToTop = () => {
+    scroll.scrollToTop()
+}
 
-    render() {
-        const {toggleNavigationPanel, navigation} = toJS(this.props.EdlizStore)
+const Information: React.FC<IMobxStore> = ({EdlizStore}) => {
+    
+        const {toggleNavigationPanel, navigation} = toJS(EdlizStore!)
 
         return (
             <div className="main">
-                <MainMenu toggle={toggleNavigationPanel} navigation={navigation} />
+                <MainMenu/>
                 <div className="information">
                     <div className="jump">Jump to Section</div>
                     <div>
@@ -44,7 +45,7 @@ class Information extends React.PureComponent<any, {}> {
                         <section className={elem.short_title} key={elem.short_title}>
                             {elem.content}
                             <br />
-                            <Button onClick={this.scrollToTop} type="button">
+                            <Button onClick={scrollToTop} type="button">
                             Back to top
                             </Button>
                         </section>
@@ -53,6 +54,6 @@ class Information extends React.PureComponent<any, {}> {
             </div>
         )
     }
-}
+
 
 export default inject('EdlizStore')(observer(Information))

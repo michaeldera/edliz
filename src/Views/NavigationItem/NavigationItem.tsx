@@ -2,20 +2,25 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
 import './navigationitem.css'
+import { Chapters } from '../../Data/data';
 
-
-export default class NavigationItem extends Component<any, {}> {
-  render() {
-    const section = this.props.section;
-    return (
-      <NavLink
-        onClick={this.props.clicked}
-        className="nav-item" to={"/chapters/" + this.props.chapter.toString()}
-        activeClassName="nav-active"
-      >
-        <span className="nav-short-title">{section.short_title}</span>
-        <span className="nav-long-title">{section.long_title}</span>
-      </NavLink>
-    );
-  }
+interface NavigationItemProps {
+  section: Chapters
+  clicked: () => void
+  chapter: number
 }
+
+const NavigationItem: React.FC<NavigationItemProps> = ({section, clicked, chapter}) => {
+  return (
+    <NavLink
+      onClick={clicked}
+      className="nav-item" to={"/chapters/" + chapter.toString()}
+      activeClassName="nav-active"
+    >
+      <span className="nav-short-title">{section.short_title}</span>
+      <span className="nav-long-title">{section.long_title}</span>
+    </NavLink>
+  );
+}
+
+export default NavigationItem

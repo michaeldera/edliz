@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
 import './readerscreen.css'
 
-export default class ReaderScreen extends Component<any, {}> {
-    render() {
-        return (
-            <div className="screen">
-                <div className="article" style={this.props.style}>
-                    {(this.props.content.subsections)? this.props.content.subsections.map((section: any) =>  {
-                        return <section key={section.short_title}>{section.content}</section>
-                    }) : this.props.content.content }
-                </div>
-            </div>
-        );
-    }
+interface ReaderScreenProps {
 }
+
+const ReaderScreen: React.FC = ({style, content}) => {
+    return (
+        <div className="screen">
+            <div className="article" style={style}>
+                {(content.subsections) ? content.subsections.map((section: any) =>  {
+                    return <section key={section.short_title}>{section.content}</section>
+                }) : content.content }
+            </div>
+        </div>
+    );
+}
+
+
+export default ReaderScreen

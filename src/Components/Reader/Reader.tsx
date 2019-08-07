@@ -6,17 +6,15 @@ import Preferences from '../Preferences/Preferences';
 import { book } from '../../Data/data'
 import { inject, observer } from "mobx-react";
 import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton';
-import { EdlizStore, IEdlizStore } from '../../stores/EdlizStore';
+import {IEdlizStore } from '../../stores/EdlizStore';
+import { IMobxStore } from '../../App';
 
-interface ReaderProps {
-  EdlizStore: IEdlizStore
+interface ReaderProps extends IMobxStore {
+  chapter: number
 }
 
-class Reader extends React.Component<ReaderProps>  {
-  render(){
-    const {EdlizStore} = this.props
-    const { toggleNavigationPanel, togglePreferences, fontSizeChange, toggleMode, mode, books, navigation, preferences, fontSize, chapter } = EdlizStore;
-  
+const Reader: React.FC<ReaderProps> = ({EdlizStore, chapter}) =>  {
+    const { toggleNavigationPanel, togglePreferences, fontSizeChange, toggleMode, mode, books, navigation, preferences, fontSize} = EdlizStore!;
     return (
       <div className={mode}>
         <HamburgerButton IsActive={navigation === "open" ? true : false} action={() => toggleNavigationPanel(navigation)} />
@@ -24,7 +22,7 @@ class Reader extends React.Component<ReaderProps>  {
           content={books.contents}
           navigation={navigation}
           current={book.contents.chapters[chapter]}
-          toggle={toggleNavigationPanel}
+          toggleNavigationPanel={toggleNavigationPanel}
         />
         <Preferences
           preferences={preferences}
@@ -32,7 +30,7 @@ class Reader extends React.Component<ReaderProps>  {
           fontSize={fontSize}
           fontSizeChange={fontSizeChange}
           toggleMode={toggleMode}
-          toggle={togglePreferences}
+          togglePreferences={togglePreferences}
         />
         <ReaderScreen
           style={{ fontSize: fontSize + 'pt' }}
@@ -41,10 +39,10 @@ class Reader extends React.Component<ReaderProps>  {
         <PreferenceButton
           mode={mode}
           preferences={preferences}
-          toggle={togglePreferences}
+          togglePreferences={togglePreferences}
         />
       </div>
     );
-  }
-})
+  
+}
 export default inject('EdlizStore')(Reader)

@@ -2,11 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './settings.css';
 
-export default class Settings extends React.PureComponent<any, {}> {
-
-  render() {
-    return (
-      <div className="settings">
+const Settings: React.FC = () => (<div className="settings">
         <Link to="/" className="back-link">back...</Link>
         <h1>Settings</h1>
 
@@ -21,6 +17,7 @@ export default class Settings extends React.PureComponent<any, {}> {
         <h3>Website</h3>
         <p>Still in development. coming soon</p>
       </div>
-    );
-  }
-}
+    )
+  
+
+export default Settings

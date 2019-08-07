@@ -3,17 +3,18 @@ import { Link } from "react-router-dom";
 import './navigation.css'
 import NavigationItem from '../../Views/NavigationItem/NavigationItem';
 import Overlay  from '../../Views/Overlay/Overlay';
+import { IEdlizStore } from '../../stores/EdlizStore';
+import { Chapters, Contents } from '../../Data/data';
+interface NavigationProps extends Pick<IEdlizStore, 'navigation' | 'toggleNavigationPanel'>{
+  current: Chapters
+  content: Contents
+}
 
+const Navigation: React.FC<NavigationProps> = ({navigation, toggleNavigationPanel, content, current}) => {
 
-class Navigation extends Component<any, {}> {
-
-  handleNavigation = () => {
-    const {navigation, toggle} = this.props
-    toggle(navigation)
+  const handleNavigation = () => {
+    toggleNavigationPanel(navigation)
   }
-
-  render() {
-    const {navigation, content, current } = this.props
     const  overlayVisibility = (navigation === "open")?  "visible" : "hidden";
     return (
       <>
@@ -24,16 +25,15 @@ class Navigation extends Component<any, {}> {
             <h2 className="nav-heading">{current.long_title}</h2>
           </div>
           <div className="tab-content">
-            { content.chapters.map( (section: any ,  index: any ) => (
-              <NavigationItem clicked={this.handleNavigation} key={index} section={section} chapter={index + 1} />
+            { content.chapters.map((section: Chapters ,  index: number ) => (
+              <NavigationItem clicked={handleNavigation} key={index} section={section} chapter={index + 1} />
             ))}
           </div>
         </nav>
-        <Overlay visibility={overlayVisibility} dismiss={this.handleNavigation}/>
+        <Overlay visibility={overlayVisibility} dismiss={handleNavigation}/>
       </>
     );
   }
-}
 
 
 export default Navigation;
