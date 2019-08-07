@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import './readerscreen.css'
+import { Chapters } from '../../Data/data';
 
 interface ReaderScreenProps {
+    style: {
+        fontSize: string;
+    }
+    content: Chapters
 }
 
-const ReaderScreen: React.FC = ({style, content}) => {
+const ReaderScreen: React.FC<ReaderScreenProps> = ({style, content}) => {
     return (
         <div className="screen">
             <div className="article" style={style}>

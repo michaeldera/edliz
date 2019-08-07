@@ -37,7 +37,6 @@ export class EdlizStore implements IEdlizStore{
     this.preferences = preferences === 'open' ? 'closed' : 'open'
   }
 
-
   // function toggles the Navigation Panel. First it checks if the Preferences Panel is open (and closes it if it is). After that it toggles the state of the  Navigation panel.
   toggleNavigationPanel =(navigation : 'open' | 'closed') => {
     if (this.preferences === 'open') {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './preferencebtn.css'
-import EdlizStore from '../../stores/EdlizStore'
+import {IEdlizStore} from '../../stores/EdlizStore'
 
-interface PreferenceButtonProps extends Pick<IEdlizStore, 'preferences' | 'togglePreferences', 'mode'>{}
+interface PreferenceButtonProps extends Pick<IEdlizStore, 'preferences' | 'togglePreferences'| 'mode'>{}
 
 const PreferenceButton: React.FC<PreferenceButtonProps> = ({preferences, togglePreferences, mode}) => {
     return(

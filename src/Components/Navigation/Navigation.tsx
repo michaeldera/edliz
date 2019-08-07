@@ -20,7 +20,7 @@ const Navigation: React.FC<NavigationProps> = ({navigation, toggleNavigationPane
       <>
         <nav className={navigation} >
           <div className="nav-header">
-            <Link className="home-link" to="/">Home</Link>
+            <Link className="home-link" to="/" onClick={handleNavigation}>Home</Link>
             <small className="nav-meta">currently reading:</small>
             <h2 className="nav-heading">{current.long_title}</h2>
           </div>

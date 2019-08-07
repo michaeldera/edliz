@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './preferences.css'
 import Overlay from '../../Views/Overlay/Overlay';
 import DrawerButton from './DrawerButton'
@@ -11,15 +11,19 @@ interface PreferencesProps extends Omit<IEdlizStore, 'navigation' | 'toggleNavig
 const Preferences: React.FC<PreferencesProps> = ({preferences, mode, fontSize, fontSizeChange, togglePreferences, toggleMode}) =>  {
   const [bottom, setBottom] = useState<string| number>(0)
 
+  useEffect(() => {
+    if(preferences !== "open") setBottom("-300px");
+  }, [preferences])
+
   const handleFontSizeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     fontSizeChange(Number(event.target.value))
   }
 
-      if(preferences !== "open") setBottom("-300px");
+      
       const  overlayVisibility = (preferences === "open")?  "visible" : "hidden";
       return (
           <React.Fragment>
-              <div ref="panel" className={mode + " preferences"} style={{ bottom: bottom }}>
+              <div className={mode + " preferences"} style={{ bottom: bottom }}>
                   <DrawerButton />                         
                   <section className="p-section">                      
                       <label htmlFor="font-size-input" className="preview-text" style={{fontSize: fontSize + 'pt'}}>Preview Reading Text</label>

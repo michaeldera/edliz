@@ -15,7 +15,7 @@ const MainMenu: React.FC = () => {
     }
     return (
         <header className={showNavigation? "nav-on": "nav-off"}>  
-        <Media query="(max-width: 780px)" render={() => <HamburgerButton action={toggleNavigation}/>} />
+        <Media query="(max-width: 780px)" render={() => <HamburgerButton onClick={toggleNavigation}/>} />
              <div className="main-nav">
                 <Link to="/"><img src={home} alt="information icon"/>Home</Link>
                 <Link to="/chapters/1"><img src={read} alt="information icon" />Start Reading</Link>
