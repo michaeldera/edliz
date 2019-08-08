@@ -33,7 +33,8 @@
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
-        "typecheck": "tsc --noEmit"
+        "typecheck": "tsc --noEmit",
+        "lint": "eslint --cache 'src/**/*.ts' 'src/**/*.tsx'"
     },
     "browserslist": {
         "production": [
@@ -48,12 +49,17 @@
         ]
     },
     "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^1.13.0",
+        "@typescript-eslint/parser": "^1.13.0",
+        "eslint": "^6.1.0",
+        "eslint-plugin-react-hooks": "^1.6.1",
         "prettier": "1.18.2",
         "tslint-config-prettier": "^1.18.0"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "yarn pretty-quick --staged --pattern '**/*.+(js|jsx|ts|tsx|html|css)'"
+            "pre-commit": "yarn pretty-quick --staged --pattern '**/*.+(js|jsx|ts|tsx|html|css)'",
+            "pre-push": "yarn lint && yarn typecheck"
         }
     }
 }
