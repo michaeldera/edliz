@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_eleven: Chapters = {
     short_title: 'Chapter 11',
@@ -32,9 +32,7 @@ export const chapter_eleven: Chapters = {
             content: (
                 <span>
                     <h3>
-                        <a>
-                            <br /> Anthrax (Cutaneous){' '}
-                        </a>
+                        <br /> Anthrax (Cutaneous){' '}
                     </h3>
                     <p>
                         Case definition: an acute bacterial dcptrial caused by <u>Bacillus anthracis</u>{' '}
@@ -160,11 +158,7 @@ export const chapter_eleven: Chapters = {
                     </table>
                     <p>*avoid use of doxycycline in pregnant women and children</p>
                     <p>
-                        <a>
-                            <strong>
-                                NB: Pulmonary form of Anthrax- refer to designated Infectious Disease Hospital
-                            </strong>
-                        </a>
+                        <strong>NB: Pulmonary form of Anthrax- refer to designated Infectious Disease Hospital</strong>
                     </p>
                 </span>
             ),
@@ -224,9 +218,7 @@ export const chapter_eleven: Chapters = {
                         </tr>
                     </table>
                     <p>
-                        <a>
-                            <strong>If no improvement - refer</strong>
-                        </a>
+                        <strong>If no improvement - refer</strong>
                     </p>
                 </span>
             ),
@@ -966,11 +958,9 @@ export const chapter_eleven: Chapters = {
                         <strong>Patients should be referred for specialist management.</strong>
                     </p>
                     <p>
-                        <a>
-                            Drug therapy for chronic elephantiasis does not alter the eventual clinical outcome. Surgery
-                            for hydrocoele is indicated with local care of the limbs through daily cleaning/hygiene,
-                            elevation, exercise and use of foot ware.
-                        </a>
+                        Drug therapy for chronic elephantiasis does not alter the eventual clinical outcome. Surgery for
+                        hydrocoele is indicated with local care of the limbs through daily cleaning/hygiene, elevation,
+                        exercise and use of foot ware.
                     </p>
                 </span>
             ),
@@ -1186,9 +1176,7 @@ export const chapter_eleven: Chapters = {
                         in doubt, the patient should be treated as MB leprosy.
                     </p>
                     <p>
-                        <a>
-                            <strong>Primary Prevention</strong>
-                        </a>
+                        <strong>Primary Prevention</strong>
                     </p>
                     <p>Screening of family contacts should be performed.</p>
                     <table>
@@ -1810,24 +1798,18 @@ export const chapter_eleven: Chapters = {
                 <span>
                     <h2>Human African Trypanosomiasis</h2>
                     <p>
-                        <a>
-                            <strong>General notes</strong>
-                        </a>
+                        <strong>General notes</strong>
                     </p>
                     <p>
-                        <a>
-                            Human African Trypanosomiasis (HAT) is dcptrial by the protozoa of the genus trypanosoma
-                            that is transmitted by the bite of tsetse fly in sub-Saharan Africa. The disease is also
-                            known as sleeping sickness and has been reported from remote areas mainly from the game
-                            parks in Mashonaland Central, Mashonaland West and Matebeland North.{' '}
-                        </a>
+                        Human African Trypanosomiasis (HAT) is dcptrial by the protozoa of the genus trypanosoma that is
+                        transmitted by the bite of tsetse fly in sub-Saharan Africa. The disease is also known as
+                        sleeping sickness and has been reported from remote areas mainly from the game parks in
+                        Mashonaland Central, Mashonaland West and Matebeland North.{' '}
                     </p>
                     <p>There are two forms of HAT:</p>
                     <ul>
                         <li>
-                            <a>
-                                <em>Trypanosoma brucei rhodisiense</em> – found in East and DCPtrial Africa{' '}
-                            </a>
+                            <em>Trypanosoma brucei rhodisiense</em> – found in East and DCPtrial Africa{' '}
                         </li>
                         <li>
                             <em>Trypanosoma brucei gambiense – found mainly in Central and West Africa.</em>
@@ -2579,4 +2561,4 @@ export const chapter_eleven: Chapters = {
             <h1>Tropical Diseases</h1>
         </span>
     ),
-};
+}

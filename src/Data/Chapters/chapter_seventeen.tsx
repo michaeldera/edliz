@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_seventeen: Chapters = {
     short_title: 'Chapter 17',
@@ -12,9 +12,7 @@ export const chapter_seventeen: Chapters = {
                 <span>
                     <h2>Infections</h2>
                     <p>
-                        <a>
-                            <strong>Septic arthritis , and Acute osteomyelitis </strong>
-                        </a>
+                        <strong>Septic arthritis , and Acute osteomyelitis </strong>
                     </p>
                     <p>
                         Surgical drainage is recommended in all cases presenting with a greater than 24 hours history.
@@ -80,15 +78,11 @@ export const chapter_seventeen: Chapters = {
                         response is achieved.
                     </p>
                     <p>
-                        <a>
-                            <strong>Chronic osteomyelitis</strong>
-                        </a>
+                        <strong>Chronic osteomyelitis</strong>
                     </p>
                     <p>Surgery is recommended. Antibiotics alone are not generally recommended.</p>
                     <p>
-                        <a>
-                            <strong>Compound fractures</strong>
-                        </a>
+                        <strong>Compound fractures</strong>
                     </p>
                     <p>
                         General management as for simple fractures below. Careful debridement of the site is required.
@@ -154,12 +148,8 @@ export const chapter_seventeen: Chapters = {
                         Pain relief. Splinting and reduction. Consider circulation to areas beyond the fracture site.
                         Nil by mouth at appropriate point in referral chain prior to manipulation under anaesthetic.
                     </p>
-                    <p>
-                        <a>Tuberculosis of bones - see chapter on Tuberculosis</a>
-                    </p>
-                    <p>
-                        <a>Metastatic Bone Disease - see chapter on Pain</a>
-                    </p>
+                    <p>Tuberculosis of bones - see chapter on Tuberculosis</p>
+                    <p>Metastatic Bone Disease - see chapter on Pain</p>
                 </span>
             ),
         },
@@ -170,9 +160,7 @@ export const chapter_seventeen: Chapters = {
                 <span>
                     <h2>Back and Neck Pain</h2>
                     <p>Exclude serious pathology (fractures, neurological complications, infection)</p>
-                    <p>
-                        <a>Acute pain:</a>
-                    </p>
+                    <p>Acute pain:</p>
                     <table>
                         <tr>
                             <td></td>
@@ -271,9 +259,7 @@ export const chapter_seventeen: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <p>
-                        <a>Chronic pain:</a>
-                    </p>
+                    <p>Chronic pain:</p>
                     <p>Use the lowest effective dose analgesia with increased dosages for flare-ups.</p>
                 </span>
             ),
@@ -284,9 +270,7 @@ export const chapter_seventeen: Chapters = {
             content: (
                 <span>
                     <h2>Gout</h2>
-                    <p>
-                        <a>Acute gout</a>
-                    </p>
+                    <p>Acute gout</p>
                     <p>
                         The possibility of septic arthritis should always be considered. Allopurinol should{' '}
                         <strong>not</strong> be given during or within three weeks following an acute attack unless if
@@ -368,9 +352,7 @@ export const chapter_seventeen: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <p>
-                        <a>Chronic gout</a>
-                    </p>
+                    <p>Chronic gout</p>
                     <p>Treat acute attacks as they occur. Stop dcptrial diuretics, avoid dehydration.</p>
                     <table>
                         <tr>
@@ -519,9 +501,7 @@ export const chapter_seventeen: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <p>
-                        <a>Dietary management of gout</a>
-                    </p>
+                    <p>Dietary management of gout</p>
                     <p>Choice of foods aims to control the amount of purine in the diet.</p>
                     <ul>
                         <li> Reduce weight (limit fats and refined carbohydrates).</li>
@@ -546,9 +526,7 @@ export const chapter_seventeen: Chapters = {
                 <span>
                     <h2>Rheumatological Conditions</h2>
                     <p>
-                        <a>
-                            <strong>General Guidelines</strong>
-                        </a>
+                        <strong>General Guidelines</strong>
                     </p>
                     <ul>
                         <li>
@@ -586,11 +564,9 @@ export const chapter_seventeen: Chapters = {
                         shares a number of pathogenic and aetiological factors related to autoimmunity.
                     </p>
                     <p>
-                        <a>
-                            <strong>
-                                Rheumatoid Arthritis and Juvenile Chronic Arthritis (Juvenile Rheumatoid Arthritis)
-                            </strong>
-                        </a>
+                        <strong>
+                            Rheumatoid Arthritis and Juvenile Chronic Arthritis (Juvenile Rheumatoid Arthritis)
+                        </strong>
                     </p>
                     <p>
                         To avert the erosive damage of progressive rheumatoid arthritis, early diagnosis and initiation
@@ -841,11 +817,9 @@ export const chapter_seventeen: Chapters = {
                         </tr>
                     </table>
                     <p>
-                        <a>
-                            <strong>
-                                <em>Note: Best results are achieved with combination of medicines.</em>
-                            </strong>
-                        </a>
+                        <strong>
+                            <em>Note: Best results are achieved with combination of medicines.</em>
+                        </strong>
                     </p>
                     <p>
                         <strong>Systemic Lupus Erythematosus (SLE)</strong>
@@ -943,9 +917,7 @@ export const chapter_seventeen: Chapters = {
                         care.
                     </p>
                     <p>
-                        <a>
-                            <strong>Degenerative Osteoarthritis &amp; Spinal Spondylosis</strong>
-                        </a>
+                        <strong>Degenerative Osteoarthritis &amp; Spinal Spondylosis</strong>
                     </p>
                     <p>Manage with:</p>
                     <table>
@@ -1049,13 +1021,11 @@ export const chapter_seventeen: Chapters = {
                     <p>
                         <strong>Rheumatoid factor negative spondyloarthropathies</strong>
                     </p>
-                    <p>
-                        <a>Reiter’s disease and Post Infective Arthritis</a>
-                    </p>
+                    <p>Reiter’s disease and Post Infective Arthritis</p>
                     <p>Treat as for osteoarthritis as above. Exclude UTI/ bowel infection and HIV infection.</p>
                 </span>
             ),
         },
     ],
     content: <div> </div>,
-};
+}

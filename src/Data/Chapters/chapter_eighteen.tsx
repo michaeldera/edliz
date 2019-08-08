@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_eighteen: Chapters = {
     short_title: 'Chapter 18',
@@ -873,9 +873,7 @@ export const chapter_eighteen: Chapters = {
                             oral antidiabetic medications.
                         </li>
                     </ul>
-                    <h3>
-                        <a>Hypoglycaemia and Hypoglycaemic Coma </a>
-                    </h3>
+                    <h3>Hypoglycaemia and Hypoglycaemic Coma</h3>
                     <ul>
                         <li>Educate patients about hypoglycaemic symptoms (hunger, sweating, irritability, etc).</li>
                     </ul>
@@ -1687,9 +1685,7 @@ export const chapter_eighteen: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <h3>
-                        <a>Graves’ disease</a>
-                    </h3>
+                    <h3>Graves’ disease</h3>
                     <ul>
                         <li>Treat initially with anti-thyroid medicines:</li>
                     </ul>
@@ -1886,4 +1882,4 @@ export const chapter_eighteen: Chapters = {
         },
     ],
     content: <div></div>,
-};
+}

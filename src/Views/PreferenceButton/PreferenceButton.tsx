@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import './preferencebtn.css';
-import { IEdlizStore } from '../../stores/EdlizStore';
+import React from 'react'
+import './preferencebtn.css'
+import {IEdlizStore} from '../../stores/EdlizStore'
 
 interface PreferenceButtonProps extends Pick<IEdlizStore, 'preferences' | 'togglePreferences' | 'mode'> {}
 
-const PreferenceButton: React.FC<PreferenceButtonProps> = ({ preferences, togglePreferences, mode }) => {
+const PreferenceButton: React.FC<PreferenceButtonProps> = ({preferences, togglePreferences, mode}) => {
     return (
         <>
             <button className="btn-preferences" onClick={() => togglePreferences(preferences)}>
@@ -18,7 +18,7 @@ const PreferenceButton: React.FC<PreferenceButtonProps> = ({ preferences, toggle
                 </svg>
             </button>
         </>
-    );
-};
+    )
+}
 
-export default PreferenceButton;
+export default PreferenceButton

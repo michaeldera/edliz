@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_twenty: Chapters = {
     short_title: 'Chapter 20',
@@ -887,9 +887,7 @@ export const chapter_twenty: Chapters = {
                 <span>
                     <h2>Mood Affective Disorders</h2>
                     <p>
-                        <a>
-                            <strong>Bipolar Disorders</strong>
-                        </a>
+                        <strong>Bipolar Disorders</strong>
                     </p>
                     <p>
                         <em>It is a condition characterised by elation (mania) and low mood (depression).</em>
@@ -1184,12 +1182,7 @@ export const chapter_twenty: Chapters = {
             content: (
                 <span>
                     <h2>Depression</h2>
-                    <p>
-                        <a>
-                            Assess severity and duration, identify stressoers, and carry out risk assessment for
-                            suicide.
-                        </a>
-                    </p>
+                    <p>Assess severity and duration, identify stressoers, and carry out risk assessment for suicide.</p>
                     <ul>
                         <li>
                             <strong>Depressive Episode (Mild)</strong>
@@ -1549,10 +1542,8 @@ export const chapter_twenty: Chapters = {
                         In elderly patients, start with 25-50 mg/day. Imipramine is less sedating than amitriptyline.
                     </p>
                     <p>
-                        <a>
-                            <strong>Side effects:</strong> Common side effects include dry mouth, blurring of vision,
-                            postural hypotension, appetite increase and constipation.
-                        </a>
+                        <strong>Side effects:</strong> Common side effects include dry mouth, blurring of vision,
+                        postural hypotension, appetite increase and constipation.
                     </p>
                     <p>
                         With usage an EEG is recommended prior to initiating the medicine and blood pressure needs
@@ -1845,4 +1836,4 @@ export const chapter_twenty: Chapters = {
         },
     ],
     content: <div></div>,
-};
+}

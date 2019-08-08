@@ -1,20 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './navigation.css';
-import NavigationItem from '../../Views/NavigationItem/NavigationItem';
-import Overlay from '../../Views/Overlay/Overlay';
-import { IEdlizStore } from '../../stores/EdlizStore';
-import { Chapters, Contents } from '../../Data/data';
+import React from 'react'
+import {Link} from 'react-router-dom'
+import './navigation.css'
+import NavigationItem from '../../Views/NavigationItem/NavigationItem'
+import Overlay from '../../Views/Overlay/Overlay'
+import {IEdlizStore} from '../../stores/EdlizStore'
+import {Chapters, Contents} from '../../Data/data'
 interface NavigationProps extends Pick<IEdlizStore, 'navigation' | 'toggleNavigationPanel'> {
-    current: Chapters;
-    content: Contents;
+    current: Chapters
+    content: Contents
 }
 
-const Navigation: React.FC<NavigationProps> = ({ navigation, toggleNavigationPanel, content, current }) => {
+const Navigation: React.FC<NavigationProps> = ({navigation, toggleNavigationPanel, content, current}) => {
     const handleNavigation = () => {
-        toggleNavigationPanel(navigation);
-    };
-    const overlayVisibility = navigation === 'open' ? 'visible' : 'hidden';
+        toggleNavigationPanel(navigation)
+    }
+    const overlayVisibility = navigation === 'open' ? 'visible' : 'hidden'
     return (
         <>
             <nav className={navigation}>
@@ -33,7 +33,7 @@ const Navigation: React.FC<NavigationProps> = ({ navigation, toggleNavigationPan
             </nav>
             <Overlay visibility={overlayVisibility} dismiss={handleNavigation} />
         </>
-    );
-};
+    )
+}
 
-export default Navigation;
+export default Navigation

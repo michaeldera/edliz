@@ -8,12 +8,7 @@ module.exports = {
         project: './tsconfig.json',
         tsconfigRootDir: './',
     },
-    extends: [
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:prettier/recommended',
-        'eslint:recommended',
-    ],
+    extends: ['plugin:prettier/recommended', 'eslint:recommended'],
     plugins: ['react-hooks'],
     rules: {
         'no-async-promise-executor': 'error',
@@ -25,4 +20,4 @@ module.exports = {
         // Disable below rule because we need to sometimes import svg using svgr and sometimes using file-loader ¯\_(ツ)_/¯
         'import/no-webpack-loader-syntax': 0,
     },
-};
+}

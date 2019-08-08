@@ -1,20 +1,16 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_nine: Chapters = {
     short_title: 'Chapter 9',
     long_title: 'Use of ARVs for Prevention of Mother-to-Child Transmission of HIV (PMTCT)',
     content: (
         <div>
-            <h1>
-                <a>USE of ARVs for Prevention of Mother-to-Child Transmission of HIV (PMTCT)</a>
-            </h1>
+            <h1>USE of ARVs for Prevention of Mother-to-Child Transmission of HIV (PMTCT)</h1>
             <p>General Notes</p>
             <p>Infant and young child feeding recommendations</p>
             <h3>
-                <a>
-                    <br /> General Notes
-                </a>
+                <br /> General Notes
             </h3>
             <p>
                 Mother-to-child transmission is responsible for more than 90% of HIV infection in children and at least
@@ -160,9 +156,7 @@ export const chapter_nine: Chapters = {
                 women at risk of becoming pregnant. However, WHO issued evidence based update on Efavirenz safety in
                 pregnancy in 2011 which recommends it to be safe for use even in the first trimester.
             </p>
-            <h3>
-                <a>Infant and young child feeding recommendations</a>
-            </h3>
+            <h3>Infant and young child feeding recommendations</h3>
             <p>
                 All mothers whether known to be infected with HIV or not should exclusively breastfeed their infants (no
                 mixed feeding) for the first 6 months of life, introducing safe, adequate and nutritious complementary
@@ -209,4 +203,4 @@ export const chapter_nine: Chapters = {
             </ul>
         </div>
     ),
-};
+}

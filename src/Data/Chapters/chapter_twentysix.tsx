@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_twentysix: Chapters = {
     short_title: 'Chapter 26',
@@ -452,9 +452,7 @@ export const chapter_twentysix: Chapters = {
                     </table>
                     <p>*Not suitable for long term use.</p>
                     <p>
-                        <a>
-                            <strong>Constipation :</strong>
-                        </a>
+                        <strong>Constipation :</strong>
                     </p>
                     <p>
                         This is an INVARIABLE side-effect of opioid analgesics and all patients should receive regular
@@ -1104,4 +1102,4 @@ export const chapter_twentysix: Chapters = {
         },
     ],
     content: <div></div>,
-};
+}

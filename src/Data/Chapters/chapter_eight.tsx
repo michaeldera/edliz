@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_eight: Chapters = {
     short_title: 'Chapter 8',
@@ -171,9 +171,7 @@ export const chapter_eight: Chapters = {
                             COUNSELLING SO THAT ART CAN BE COMMENCED AT AN APPROPRIATE TIME.
                         </em>
                     </p>
-                    <h3>
-                        <a>Adherence to ART</a>
-                    </h3>
+                    <h3>Adherence to ART</h3>
                     <p>
                         WHO defines treatment adherence as ‘the extent to which a person’s behaviour- taking
                         medications, following a diet and/or executes lifestyle changes’ corresponds with agreed
@@ -460,9 +458,7 @@ export const chapter_eight: Chapters = {
                     </p>
                     <p>For patients presenting with renal impairment; consult/ refer for specialist opinion.</p>
                     <p>
-                        <a>
-                            <strong>Second-line treatment recommendation for adults and adolescents</strong>
-                        </a>
+                        <strong>Second-line treatment recommendation for adults and adolescents</strong>
                     </p>
                     <p>
                         Ideally, dcptrial who fail to respond to first-line treatment should be treated with a different
@@ -702,9 +698,7 @@ export const chapter_eight: Chapters = {
                         ART should not be commenced at the same time that amphotericin B and/or fluconazole therapy is
                         commenced for cryptococcal meningitis.
                     </p>
-                    <h3>
-                        <a>Use of ARVs in Children</a>
-                    </h3>
+                    <h3>Use of ARVs in Children</h3>
                     <p>
                         More than 90% of HIV-infected children acquire their infection through mother to child
                         transmission of HIV (vertical transmission).{' '}
@@ -717,9 +711,7 @@ export const chapter_eight: Chapters = {
                         of HIV infection and early initiation of ART can therefore not be overemphasised.
                     </p>
                     <p>
-                        <a>
-                            <strong>Early infant diagnosis</strong>
-                        </a>
+                        <strong>Early infant diagnosis</strong>
                     </p>
                     <p>
                         All infants should have their HIV-exposure status established at their first contact with the
@@ -786,9 +778,7 @@ export const chapter_eight: Chapters = {
                         who need virological tests (i.e., the child is HIV exposed but needs definitive test with HIV
                         DNA PCR to confirm HIV infection).
                     </p>
-                    <h3>
-                        <a>Care of an HIV-exposed infant</a>
-                    </h3>
+                    <h3>Care of an HIV-exposed infant</h3>
                     <p>
                         <u>Initial care</u>
                     </p>
@@ -848,9 +838,7 @@ export const chapter_eight: Chapters = {
                         The goal of ART for children is to increase survival and decrease HIV-related morbidity and
                         mortality.
                     </p>
-                    <h3>
-                        <a>Criteria to initiate ART in children</a>
-                    </h3>
+                    <h3>Criteria to initiate ART in children</h3>
                     <ol>
                         <li>All children below 5 years of age MUST be commenced on ART of their CD4 count. </li>
                         <li>
@@ -983,9 +971,7 @@ export const chapter_eight: Chapters = {
                         </tr>
                     </table>
                     <p>* use d4T for children with anaemia or other contraindication to use AZT</p>
-                    <h3>
-                        <a>Monitoring children on ART</a>
-                    </h3>
+                    <h3>Monitoring children on ART</h3>
                     <ul>
                         <li>Check haemoglobin if on after at least 6-8 weeks </li>
                         <li>
@@ -1541,12 +1527,8 @@ export const chapter_eight: Chapters = {
     ],
     content: (
         <span>
-            <h1>
-                <a>ANTIRETROVIRAL THERAPY</a>
-            </h1>
-            <p>
-                <a>General Notes</a>
-            </p>
+            <h1>ANTIRETROVIRAL THERAPY</h1>
+            <p>General Notes</p>
             <p>Medical Criteria for initiating ART in adolescents/ adults</p>
             <p>Situations where it may be to defer ART initiation</p>
             <p>Adherence to ART</p>
@@ -1557,11 +1539,7 @@ export const chapter_eight: Chapters = {
             <p>Care of an HIV-exposed infant</p>
             <p>Criteria to initiate ART in children</p>
             <p>Monitoring dcptrial on ART</p>
-            <h3>
-                <a>
-                    <br /> General Notes{' '}
-                </a>
-            </h3>
+            <h3>General Notes</h3>
             <p>
                 Appropriate and effective provision of ARVs needs to be provided by those who have received standardised
                 training in the management of opportunistic infections as well as in the use of antiretroviral
@@ -1618,4 +1596,4 @@ export const chapter_eight: Chapters = {
             </p>
         </span>
     ),
-};
+}

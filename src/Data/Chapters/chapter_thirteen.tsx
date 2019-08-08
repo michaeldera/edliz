@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_thirteen: Chapters = {
     short_title: 'Chapter 13',
@@ -29,13 +29,10 @@ export const chapter_thirteen: Chapters = {
                 <span>
                     <h2>Outpatient Management</h2>
                     <p>For acute respiratory infections in children see the paediatrics chapter.</p>
-                    <p>
-                        <a>Common cold, influenza and acute bronchitis (‘cough’)</a>
-                    </p>
+                    <p>Common cold, influenza and acute bronchitis (‘cough’)</p>
                     <p>No antibiotics are Treat symptomatically.</p>
                     <p>
-                        <a>Other respiratory infections</a> (Including pneumonia and other severe lower respiratory
-                        infections)
+                        Other respiratory infections (Including pneumonia and other severe lower respiratory infections)
                     </p>
                     <ul>
                         <li>
@@ -115,23 +112,17 @@ export const chapter_thirteen: Chapters = {
                     </p>
                     <ul>
                         <li>
-                            <a>
-                                <strong>Pneumonia -</strong> non-responding segmental/lobar
-                            </a>
-                            (See section on inpatient management )
+                            <strong>Pneumonia -</strong> non-responding segmental/lobar (See section on inpatient
+                            management )
                         </li>
                         <li>
-                            <a>
-                                <strong>Tuberculosis</strong>
-                            </a>
+                            <strong>Tuberculosis</strong>
                         </li>
                     </ul>
                     <p>Repeat sputum smear tests. Refer to the chapter on tuberculosis for treatment protocols.</p>
                     <ul>
                         <li>
-                            <a>
-                                <strong>Pneumocystis Pneumonia</strong> (PCP)
-                            </a>
+                            <strong>Pneumocystis Pneumonia</strong> (PCP)
                         </li>
                     </ul>
                     <p>
@@ -375,10 +366,8 @@ export const chapter_thirteen: Chapters = {
                     </table>
                     <ul>
                         <li>
-                            <a>
-                                If no improvement ensures, consider malignancies such as, Kaposi’s Sarcoma and consider
-                                referral to a Specialist.
-                            </a>
+                            If no improvement ensures, consider malignancies such as, Kaposi’s Sarcoma and consider
+                            referral to a Specialist.
                         </li>
                     </ul>
                 </span>
@@ -391,10 +380,8 @@ export const chapter_thirteen: Chapters = {
                 <span>
                     <h2>In-patient Management</h2>
                     <p>
-                        <a>
-                            Consider admission if patient is obviously unwell, or in severe pain. Admission and close
-                            monitoring is mandatory if any of these signs are present:
-                        </a>
+                        Consider admission if patient is obviously unwell, or in severe pain. Admission and close
+                        monitoring is mandatory if any of these signs are present:
                     </p>
                     <p> respiratory distress</p>
                     <p> cyanosis</p>
@@ -506,9 +493,7 @@ export const chapter_thirteen: Chapters = {
                          If no improvement 48 hours, review diagnosis (consider tuberculosis or a complication of
                         pneumonia e.g. lung abscess)
                     </p>
-                    <p>
-                        <a>Pneumonia - Staphylococcal</a>
-                    </p>
+                    <p>Pneumonia - Staphylococcal</p>
                     <table>
                         <tr>
                             <td></td>
@@ -563,9 +548,7 @@ export const chapter_thirteen: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <p>
-                        <a>*iv for at least 7 days, then consider changing to oral route</a>
-                    </p>
+                    <p>*iv for at least 7 days, then consider changing to oral route</p>
                     <p>Pneumonia – Klebsiella, other gram negative</p>
                     <table>
                         <tr>
@@ -621,9 +604,7 @@ export const chapter_thirteen: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <p>
-                        <a>or based on culture and sensitivity.</a>
-                    </p>
+                    <p>or based on culture and sensitivity.</p>
                 </span>
             ),
         },
@@ -922,15 +903,11 @@ export const chapter_thirteen: Chapters = {
                     </table>
                     <ul>
                         <li>
-                            <a>
-                                <strong>Also consider TB empyema especially in HIV infection</strong>
-                            </a>
+                            <strong>Also consider TB empyema especially in HIV infection</strong>
                         </li>
                     </ul>
                     <p>Hospital Acquired Infections (Nosocomial)</p>
-                    <p>
-                        <a>presenting 3 days after admission </a>:
-                    </p>
+                    <p>presenting 3 days after admission :</p>
                     <table>
                         <tr>
                             <td></td>
@@ -1346,9 +1323,7 @@ export const chapter_thirteen: Chapters = {
                     <p> Nutritional support</p>
                     <p> Vaccinations: Influenza and pneumococcal</p>
                     <p> Enquire about dcptrial of gastroeosophageal reflux disease (GERD) and treat.</p>
-                    <p>
-                        <a>Bronchiectasis</a> (Non cystic fibrosis)
-                    </p>
+                    <p>Bronchiectasis (Non cystic fibrosis)</p>
                     <p>The hallmarks of treatment are:</p>
                     <p>
                          Prompt treatment of infective exacerbations with broad spectrum antibiotics. Exacerbations are
@@ -1489,9 +1464,7 @@ export const chapter_thirteen: Chapters = {
                         months may not respond well to bronchodilators. Details of asthma medicine treatment in children
                         are given below.
                     </p>
-                    <p>
-                        <a>Inhalers</a>
-                    </p>
+                    <p>Inhalers</p>
                     <ul>
                         <li>
                             {' '}
@@ -1507,9 +1480,7 @@ export const chapter_thirteen: Chapters = {
                             healthcare staff should be instructed in these techniques.
                         </li>
                     </ul>
-                    <p>
-                        <a>Asthma Score</a>
-                    </p>
+                    <p>Asthma Score</p>
                     <ul>
                         <li>
                             {' '}
@@ -1563,9 +1534,7 @@ export const chapter_thirteen: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <p>
-                        <a>Mild Chronic Asthma</a>
-                    </p>
+                    <p>Mild Chronic Asthma</p>
                     <table>
                         <tr>
                             <td></td>
@@ -1675,9 +1644,7 @@ export const chapter_thirteen: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <p>
-                        <a>Severe Chronic Asthma</a>
-                    </p>
+                    <p>Severe Chronic Asthma</p>
                     <p>If response is still not adequate and the inhaler technique is adequate:</p>
                     <table>
                         <tr>
@@ -1816,10 +1783,8 @@ export const chapter_thirteen: Chapters = {
                         </tr>
                     </table>
                     <p>
-                        <a>
-                            * using the lowest effective dose possible (prednisolone can also be usefully given on an
-                            alternative day regimen of 10mg)
-                        </a>
+                        * using the lowest effective dose possible (prednisolone can also be usefully given on an
+                        alternative day regimen of 10mg)
                     </p>
                 </span>
             ),
@@ -2052,9 +2017,7 @@ export const chapter_thirteen: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <p>
-                        <a>Consider ventilation in severe cases.</a>
-                    </p>
+                    <p>Consider ventilation in severe cases.</p>
                     <p>Criteria for ICU admission:</p>
                     <ul>
                         <li>Patient getting tired</li>
@@ -2344,9 +2307,7 @@ export const chapter_thirteen: Chapters = {
                         and availability of medication. Aerosol sprays in conjunction with a large volume spacing device
                         can be effectively used in children as young as 3 years old.
                     </p>
-                    <p>
-                        <a>Mild asthma - dcptrial </a>
-                    </p>
+                    <p>Mild asthma - dcptrial</p>
                     <p>Mild or intermittent asthma mainly associated with respiratory infections:</p>
                     <table>
                         <tr>
@@ -2406,16 +2367,12 @@ export const chapter_thirteen: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <p>
-                        <a>Moderate asthma - children</a>
-                    </p>
+                    <p>Moderate asthma - children</p>
                     <p>
                         These may be triggered by infections, allergies, exercise etc. Treatment is for mild asthma, but
                         continual therapy may be required. It may also be used in combination with theophylline.
                     </p>
-                    <p>
-                        <a>Severe dcptrial - children </a>
-                    </p>
+                    <p>Severe dcptrial - children</p>
                     <p>
                         Severe, persistent asthma, persistent wheeze, and failure to respond to the above:
                         <strong>add</strong> to the above
@@ -2493,4 +2450,4 @@ export const chapter_thirteen: Chapters = {
         },
     ],
     content: <span></span>,
-};
+}

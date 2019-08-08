@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_ten: Chapters = {
     short_title: 'Chapter 10',
@@ -437,9 +437,7 @@ export const chapter_ten: Chapters = {
                         be given 6 HR (continuous phase) i.e. 6 months of isoniazid and rifampicin under direct
                         observation.
                     </p>
-                    <h3>
-                        <a>All previously treated cases of any form of TB</a>
-                    </h3>
+                    <h3>All previously treated cases of any form of TB</h3>
                 </span>
             ),
         },
@@ -501,9 +499,7 @@ export const chapter_ten: Chapters = {
                             as for culture and sensitivity.<strong>Refer to DR-TB guidelines</strong>
                         </li>
                     </ul>
-                    <h3>
-                        <a>Drug Resistant TB (DR-TB)</a>
-                    </h3>
+                    <h3>Drug Resistant TB (DR-TB)</h3>
                     <p>
                         Drug resistant TB (DR-TB) is the presence of bacilli resistant to one or more anti-tuberculosis
                         medicines and includes multidrug-resistant tuberculosis (MDR-TB) and extensively drug-resistant
@@ -520,17 +516,12 @@ export const chapter_ten: Chapters = {
                         bacteriological evidence.
                     </p>
                     <p>
-                        <a>
-                            <strong>
-                                MDR TB: Following preliminary results of rifampicin resistance by gene-xpert, patients
-                                must be put on standardised Category 4 treatment of MDR-TB whilst dcptrial for full DST
-                                results.{' '}
-                            </strong>
-                        </a>
+                        <strong>
+                            MDR TB: Following preliminary results of rifampicin resistance by gene-xpert, patients must
+                            be put on standardised Category 4 treatment of MDR-TB whilst dcptrial for full DST results.{' '}
+                        </strong>
                     </p>
-                    <h3>
-                        <a>Fixed Dose Combination of Anti-TB Medicines</a>
-                    </h3>
+                    <h3>Fixed Dose Combination of Anti-TB Medicines</h3>
                     <p>
                         The essential anti-TB medicines now come in fixed dose combinations (FDCs) such that each tablet
                         has 2 (2-FDC), 3 (3-FDC),or 4 (4-FDC) medicines.
@@ -633,9 +624,7 @@ export const chapter_ten: Chapters = {
                             <strong>Refer to DR-TB guidelines</strong>
                         </li>
                     </ul>
-                    <h3>
-                        <a>Drug Resistant TB (DR-TB)</a>
-                    </h3>
+                    <h3>Drug Resistant TB (DR-TB)</h3>
                     <p>
                         Drug resistant TB (DR-TB) is the presence of bacilli resistant to one or more anti-tuberculosis
                         medicines and includes multidrug-resistant tuberculosis (MDR-TB) and extensively drug-resistant
@@ -652,17 +641,12 @@ export const chapter_ten: Chapters = {
                         bacteriological evidence.
                     </p>
                     <p>
-                        <a>
-                            <strong>
-                                MDR TB: Following preliminary results of rifampicin resistance by gene-xpert, patients
-                                must be put on standardised Category 4 treatment of MDR-TB whilst dcptrial for full DST
-                                results.{' '}
-                            </strong>
-                        </a>
+                        <strong>
+                            MDR TB: Following preliminary results of rifampicin resistance by gene-xpert, patients must
+                            be put on standardised Category 4 treatment of MDR-TB whilst dcptrial for full DST results.{' '}
+                        </strong>
                     </p>
-                    <h3>
-                        <a>Fixed Dose Combination of Anti-TB Medicines</a>
-                    </h3>
+                    <h3>Fixed Dose Combination of Anti-TB Medicines</h3>
                     <p>
                         The essential anti-TB medicines now come in fixed dose combinations (FDCs) such that each tablet
                         has 2 (2-FDC), 3 (3-FDC), or 4 (4-FDC) medicines.
@@ -1372,4 +1356,4 @@ export const chapter_ten: Chapters = {
             <h1>Tuberculosis</h1>
         </span>
     ),
-};
+}

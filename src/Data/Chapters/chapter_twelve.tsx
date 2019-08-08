@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_twelve: Chapters = {
     short_title: 'Chapter 12',
@@ -96,9 +96,7 @@ export const chapter_twelve: Chapters = {
                         </li>
                     </ul>
                     <p>
-                        <a>
-                            <strong>Malaria prophylaxis for:</strong>
-                        </a>
+                        <strong>Malaria prophylaxis for:</strong>
                     </p>
                     <ul>
                         <li>
@@ -483,9 +481,7 @@ export const chapter_twelve: Chapters = {
                         </tr>
                     </table>
                     <ul>
-                        <li>
-                            <a>Twelve hours apart from day 2 to day 3</a>
-                        </li>
+                        <li>Twelve hours apart from day 2 to day 3</li>
                     </ul>
                 </span>
             ),
@@ -2432,4 +2428,4 @@ export const chapter_twelve: Chapters = {
         },
     ],
     content: <span> </span>,
-};
+}

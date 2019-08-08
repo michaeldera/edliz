@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_sixteen: Chapters = {
     short_title: 'Chapter 16',
@@ -12,9 +12,7 @@ export const chapter_sixteen: Chapters = {
                 <span>
                     <h2>Urinary Tract Infections</h2>
                     <p>
-                        <a>
-                            <strong>Cystitis</strong>
-                        </a>
+                        <strong>Cystitis</strong>
                     </p>
                     <p>
                         Usually presents with dysuria, frequency, urgency and suprapubic pain but note that in men
@@ -191,9 +189,7 @@ export const chapter_sixteen: Chapters = {
                         dysfunction.
                     </p>
                     <p>
-                        <a>
-                            <strong>Acute Kidney Injury</strong>
-                        </a>
+                        <strong>Acute Kidney Injury</strong>
                     </p>
                     <p>
                         What is causing the kidney injury? Try and classify by cause. The majority of cases of acute
@@ -224,9 +220,7 @@ export const chapter_sixteen: Chapters = {
                     </p>
                     <p>Exclude prostatic enlargement in males and cancer of the cervix in women.</p>
                     <p>
-                        <a>
-                            <strong>Management of Renal Failure</strong>
-                        </a>
+                        <strong>Management of Renal Failure</strong>
                     </p>
                     <p>
                         <strong>First line:</strong> Exclude dehydration in all cases. Give adequate rehydration. Try
@@ -509,9 +503,7 @@ export const chapter_sixteen: Chapters = {
             long_title: 'Nephrotic Syndrome',
             content: (
                 <span>
-                    <h2>
-                        <a>Nephrotic Syndrome</a>
-                    </h2>
+                    <h2>Nephrotic Syndrome</h2>
                     <p>
                         Diagnosed where there is generalised oedema, hypoalbuminaemia and proteinuria (&gt;3gm/day).
                         Dipstick should show at least protein ++. To quantify the proteinuria, you can request a urine
@@ -981,9 +973,7 @@ export const chapter_sixteen: Chapters = {
                         <tr>
                             <td colSpan={2}>
                                 <p>
-                                    <a>
-                                        <strong>Antiretroviral Medicines</strong>
-                                    </a>
+                                    <strong>Antiretroviral Medicines</strong>
                                 </p>{' '}
                             </td>
                         </tr>
@@ -1109,4 +1099,4 @@ export const chapter_sixteen: Chapters = {
         },
     ],
     content: <div></div>,
-};
+}

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_seven: Chapters = {
     short_title: 'Chapter 7',
@@ -142,9 +142,7 @@ export const chapter_seven: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <p>
-                        <a>Cotrimoxazole prophylaxis in children</a>
-                    </p>
+                    <p>Cotrimoxazole prophylaxis in children</p>
                     <p>Give once daily orally according to the following table.</p>
                     <p>Table 7.1 Cotrimoxazole Prophylaxis in Children</p>
                     <table>
@@ -219,11 +217,9 @@ export const chapter_seven: Chapters = {
                     <p>If allergic to cotrimoxazole, try desensitization</p>
                     <ul>
                         <li>
-                            <a>
-                                Cotrimoxazole prophylaxis should be commenced at least one to two weeks before the
-                                commencement of ART. This allows time to identify those who might be allergic to
-                                cotrimoxazole.
-                            </a>
+                            Cotrimoxazole prophylaxis should be commenced at least one to two weeks before the
+                            commencement of ART. This allows time to identify those who might be allergic to
+                            cotrimoxazole.
                         </li>
                         <li>This prophylaxis should be continued indefinitely.</li>
                         <li>
@@ -233,9 +229,7 @@ export const chapter_seven: Chapters = {
                             Stevens-Johnson syndrome
                         </li>
                     </ul>
-                    <h3>
-                        <a>Isoniazid Preventative Therapy (IPT):</a>
-                    </h3>
+                    <h3>Isoniazid Preventative Therapy (IPT):</h3>
                     <p>
                         Isoniazid preventative therapy is the provision of the medicine isoniazid to people at high risk
                         of developing active tuberculosis (TB). People living with HIV are 20 to 37 times more likely to
@@ -617,9 +611,7 @@ export const chapter_seven: Chapters = {
                             </td>
                         </tr>
                     </table>
-                    <h3>
-                        <a>If bloody diarrhoea:</a>
-                    </h3>
+                    <h3>If bloody diarrhoea:</h3>
                     <table>
                         <tr>
                             <td></td>
@@ -1112,10 +1104,8 @@ export const chapter_seven: Chapters = {
                         <strong>Pneumocystis jiroveci pneumonia (PCP)</strong>
                     </p>
                     <p>
-                        <a>
-                            An opportunistic infection caused by Pneumostis jiroveci. Patients present with progressive
-                            shortness of breath and possibly cyanosed with few or no chest signs.{' '}
-                        </a>
+                        An opportunistic infection caused by Pneumostis jiroveci. Patients present with progressive
+                        shortness of breath and possibly cyanosed with few or no chest signs.{' '}
                     </p>
                     <ul>
                         <li> Manage with:</li>
@@ -2249,12 +2239,8 @@ export const chapter_seven: Chapters = {
     ],
     content: (
         <div>
-            <h1>
-                <a>HIV Related Disease</a>
-            </h1>
-            <p>
-                <a>Clinical presentation</a>
-            </p>
+            <h1>HIV Related Disease</h1>
+            <p>Clinical presentation</p>
             <p>General Notes</p>
             <p>Cotrimoxazole prophylaxis:</p>
             <p>Isoniazid Preventative Therapy (IPT):</p>
@@ -2277,4 +2263,4 @@ export const chapter_seven: Chapters = {
             <p>Palliative Care in</p>
         </div>
     ),
-};
+}

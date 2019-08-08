@@ -1,17 +1,13 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_twentythree: Chapters = {
     short_title: 'Chapter 23',
     long_title: 'Ear, Nose and Throat Conditions',
     content: (
         <div>
-            <h1>
-                <a>Ear Nose and throat disorders </a>
-            </h1>
-            <p>
-                <a>Oral problems</a>
-            </p>
+            <h1>Ear Nose and throat disorders</h1>
+            <p>Oral problems</p>
             <p>Management of Oral thrush/Oral candidiasis</p>
             <p>Oesophageal Candidiasis</p>
             <p>Herpes Simplex labialis</p>
@@ -105,10 +101,8 @@ export const chapter_twentythree: Chapters = {
                 </tr>
             </table>
             <h3>
-                <a>
-                    Caution: Use erythromycin in dcptrial with penicillin allergy, patients who received amoxicillin in
-                    the last thirty days (move to second line as the risk of resistance is high){' '}
-                </a>
+                Caution: Use erythromycin in dcptrial with penicillin allergy, patients who received amoxicillin in the
+                last thirty days (move to second line as the risk of resistance is high){' '}
             </h3>
             <p>Second line medicine</p>
             <table>
@@ -144,15 +138,11 @@ export const chapter_twentythree: Chapters = {
                     </td>
                 </tr>
             </table>
-            <h3>
-                <a>Recurrent Acute Otitis Media</a>
-            </h3>
+            <h3>Recurrent Acute Otitis Media</h3>
             <p>
                 More than four episodes per year –<strong>REFER</strong>
             </p>
-            <h3>
-                <a>Acute Mastoiditis</a>
-            </h3>
+            <h3>Acute Mastoiditis</h3>
             <p>
                 DCPtrial presents with fever, chills. Examination reveals tenderness over mastoid and retroauricular
                 swelling. Anterior displacement of auricle. Bulging and unhealthy tympanic membrane.
@@ -223,9 +213,7 @@ export const chapter_twentythree: Chapters = {
                     <td colSpan={2}></td>
                 </tr>
             </table>
-            <h3>
-                <a>Otitis Media with DCPtrial </a>
-            </h3>
+            <h3>Otitis Media with DCPtrial</h3>
             <ul>
                 <li>Follows AOM or can present without any history of AOM</li>
                 <li>Hearing loss most common presentation and aural fullness</li>
@@ -248,12 +236,8 @@ export const chapter_twentythree: Chapters = {
                     alt=""
                 />
             </p>
-            <h3>
-                <a>For management REFER to Specialist</a>
-            </h3>
-            <h3>
-                <a>Chronic suppurative otitis media</a>
-            </h3>
+            <h3>For management REFER to Specialist</h3>
+            <h3>Chronic suppurative otitis media</h3>
             <p>Presentation</p>
             <ul>
                 <li>Otorrhoea for more than 14 days, hearing loss, usually no otalgia</li>
@@ -335,9 +319,7 @@ export const chapter_twentythree: Chapters = {
                     <strong>REFER</strong> immediately to Ear Nose throat surgeon
                 </li>
             </ul>
-            <h3>
-                <a>Cholesteatoma</a>
-            </h3>
+            <h3>Cholesteatoma</h3>
             <p>Presentation</p>
             <ul>
                 <li>Keratin debris in the middle ear.</li>
@@ -345,9 +327,7 @@ export const chapter_twentythree: Chapters = {
             <p>
                 <strong>REFER</strong> immediately
             </p>
-            <h3>
-                <a>Otitis Externa</a>
-            </h3>
+            <h3>Otitis Externa</h3>
             <ul>
                 <li>Presentations vary depending on cause</li>
                 <li>
@@ -360,9 +340,7 @@ export const chapter_twentythree: Chapters = {
                 </li>
             </ul>
             <p>
-                <a>
-                    <strong>Bacterial otitis externa</strong>
-                </a>
+                <strong>Bacterial otitis externa</strong>
             </p>
             <p>Aural toilet with boric acid and acetic acid</p>
             <table>
@@ -602,9 +580,7 @@ export const chapter_twentythree: Chapters = {
                 <strong>REFER</strong> immediately
             </p>
             <p>
-                <a>
-                    <strong>Fungal otitis externa</strong>
-                </a>
+                <strong>Fungal otitis externa</strong>
             </p>
             <p>After routine ear toilet as above</p>
             <table>
@@ -641,18 +617,14 @@ export const chapter_twentythree: Chapters = {
             </table>
             <p>Acidifying agents like boric acid and acetic acid can be used as well</p>
             <p>
-                <a>
-                    <strong>Keratosis Obliterans</strong>
-                </a>
+                <strong>Keratosis Obliterans</strong>
             </p>
             <ul>
                 <li>Clear the ear canal of all debris</li>
                 <li>Inspect the canal and tympanic membrane</li>
             </ul>
             <p>
-                <a>
-                    <strong>Allergic Otitis Externa</strong>
-                </a>
+                <strong>Allergic Otitis Externa</strong>
             </p>
             <table>
                 <tr>
@@ -686,9 +658,7 @@ export const chapter_twentythree: Chapters = {
                     </td>
                 </tr>
             </table>
-            <h3>
-                <a>Inner Ear</a>
-            </h3>
+            <h3>Inner Ear</h3>
             <p>
                 <strong>Vertigo-</strong>
             </p>
@@ -708,13 +678,9 @@ export const chapter_twentythree: Chapters = {
                 Cerebrospinal Fluid Otorrhoea-
                 <strong>REFER</strong>
             </p>
-            <h3>
-                <a>Rhinology</a>
-            </h3>
+            <h3>Rhinology</h3>
             <p>
-                <a>
-                    <strong>Acute Rhinosinusitis</strong>
-                </a>
+                <strong>Acute Rhinosinusitis</strong>
             </p>
             <p>
                 <u>Clinical presentation</u>
@@ -792,9 +758,7 @@ export const chapter_twentythree: Chapters = {
                 <strong>REFER</strong>
             </p>
             <p>
-                <a>
-                    <strong>Allergic Rhinosinusitis</strong>
-                </a>
+                <strong>Allergic Rhinosinusitis</strong>
             </p>
             <p>
                 <u>Presentation</u>
@@ -1285,4 +1249,4 @@ export const chapter_twentythree: Chapters = {
             </table>
         </div>
     ),
-};
+}

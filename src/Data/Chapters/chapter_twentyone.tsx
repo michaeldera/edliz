@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_twentyone: Chapters = {
     short_title: 'Chapter 21',
@@ -1000,9 +1000,7 @@ export const chapter_twentyone: Chapters = {
                     </p>
                     <p>Refer to eye specialist.</p>
                     <p>
-                        <a>
-                            <strong>Corneal Ulcers</strong>
-                        </a>
+                        <strong>Corneal Ulcers</strong>
                     </p>
                     <p>
                         (<strong>Refer</strong>) NB: corneal sensation must always be tested with a cotton tip to
@@ -2176,4 +2174,4 @@ export const chapter_twentyone: Chapters = {
         },
     ],
     content: <span></span>,
-};
+}

@@ -1,10 +1,10 @@
-import React from 'react';
-import Media from 'react-media';
-import MainMenu from '../MainMenu/MainMenu';
-import Button from '../Button/Button';
-import Github from './github.svg';
-import medicine from './medicine.svg';
-import './home.css';
+import React from 'react'
+import Media from 'react-media'
+import MainMenu from '../MainMenu/MainMenu'
+import Button from '../Button/Button'
+import Github from './github.svg'
+import medicine from './medicine.svg'
+import './home.css'
 
 const Home: React.FC = () => {
     return (
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
                 <small>Maintained on GitHub by well meaning developers</small>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Home;
+export default Home

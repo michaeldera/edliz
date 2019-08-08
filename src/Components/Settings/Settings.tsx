@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './settings.css';
+import React from 'react'
+import {Link} from 'react-router-dom'
+import './settings.css'
 
 const Settings: React.FC = () => (
     <div className="settings">
@@ -22,6 +22,6 @@ const Settings: React.FC = () => (
         <h3>Website</h3>
         <p>Still in development. coming soon</p>
     </div>
-);
+)
 
-export default Settings;
+export default Settings

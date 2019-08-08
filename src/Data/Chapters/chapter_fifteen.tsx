@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_fifteen: Chapters = {
     short_title: 'Chapter 15',
@@ -12,26 +12,20 @@ export const chapter_fifteen: Chapters = {
                 <span>
                     <h2>Acid Related Conditions</h2>
                     <p>
-                        <a>
-                            <strong>Gastroeosophageal disease (GERD)</strong>
-                        </a>
+                        <strong>Gastroeosophageal disease (GERD)</strong>
                     </p>
                     <p>
-                        <a>
-                            Presenting as acid regurgitation and sometimes difficulty or pain on swallowing, also as
-                            asthma and with a hoarse voice.{' '}
-                        </a>
+                        Presenting as acid regurgitation and sometimes difficulty or pain on swallowing, also as asthma
+                        and with a hoarse voice.{' '}
                     </p>
                     <p>
                         <strong>General measures:</strong>
                     </p>
                     <ul>
                         <li>
-                            <a>
-                                Life style modifications are important: weight reduction, elevation of head of bed,
-                                avoidance of tight clothes, stooping, large meals, and food triggers that patient
-                                suspects (chocolate, colas, coffee). No meals or drink for 3 hours preceding bedtime.
-                            </a>
+                            Life style modifications are important: weight reduction, elevation of head of bed,
+                            avoidance of tight clothes, stooping, large meals, and food triggers that patient suspects
+                            (chocolate, colas, coffee). No meals or drink for 3 hours preceding bedtime.
                         </li>
                     </ul>
                     <p>
@@ -145,10 +139,8 @@ export const chapter_fifteen: Chapters = {
                         </tr>
                     </table>
                     <p>
-                        <a>
-                            <strong>Note</strong>: Heartburn or pain on swallowing to treatment, presence of dysphagia,
-                            weight loss should be referred to specialist.{' '}
-                        </a>
+                        <strong>Note</strong>: Heartburn or pain on swallowing to treatment, presence of dysphagia,
+                        weight loss should be referred to specialist.{' '}
                     </p>
                     <p>
                         <strong>Odynophagia:</strong> (Pain on swallowing)
@@ -296,114 +288,112 @@ export const chapter_fifteen: Chapters = {
                         />
                     </p>
                     <p>
-                        <a>
-                            <div>
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.140.png"
-                                    width="122"
-                                    height="27"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.139.png"
-                                    width="98"
-                                    height="27"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.138.png"
-                                    width="112"
-                                    height="28"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.137.png"
-                                    width="91"
-                                    height="37"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.136.png"
-                                    width="104"
-                                    height="29"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.135.png"
-                                    width="11"
-                                    height="26"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.134.png"
-                                    width="99"
-                                    height="25"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.133.png"
-                                    width="68"
-                                    height="11"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.132.png"
-                                    width="11"
-                                    height="79"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.131.png"
-                                    width="86"
-                                    height="110"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.130.png"
-                                    width="62"
-                                    height="24"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.129.png"
-                                    width="90"
-                                    height="114"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.128.png"
-                                    width="55"
-                                    height="24"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.127.png"
-                                    width="82"
-                                    height="99"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.126.png"
-                                    width="69"
-                                    height="103"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.125.png"
-                                    width="44"
-                                    height="24"
-                                    alt=""
-                                />
-                                <img
-                                    src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.124.png"
-                                    width="39"
-                                    height="24"
-                                    alt=""
-                                />
-                            </div>
-                            <br />
-                            <strong>General measures for established peptic ulcer</strong>
-                        </a>
+                        <div>
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.140.png"
+                                width="122"
+                                height="27"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.139.png"
+                                width="98"
+                                height="27"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.138.png"
+                                width="112"
+                                height="28"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.137.png"
+                                width="91"
+                                height="37"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.136.png"
+                                width="104"
+                                height="29"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.135.png"
+                                width="11"
+                                height="26"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.134.png"
+                                width="99"
+                                height="25"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.133.png"
+                                width="68"
+                                height="11"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.132.png"
+                                width="11"
+                                height="79"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.131.png"
+                                width="86"
+                                height="110"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.130.png"
+                                width="62"
+                                height="24"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.129.png"
+                                width="90"
+                                height="114"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.128.png"
+                                width="55"
+                                height="24"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.127.png"
+                                width="82"
+                                height="99"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.126.png"
+                                width="69"
+                                height="103"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.125.png"
+                                width="44"
+                                height="24"
+                                alt=""
+                            />
+                            <img
+                                src="edliz-2015-final-version-with-signatures/edliz-2015-final-version-with-signatures.124.png"
+                                width="39"
+                                height="24"
+                                alt=""
+                            />
+                        </div>
+                        <br />
+                        <strong>General measures for established peptic ulcer</strong>
                     </p>
                     <p>
                         Treatment of peptic ulcer disease begins with exclusion of aetiologic factors such as NSAIDs and
@@ -419,9 +409,7 @@ export const chapter_fifteen: Chapters = {
                         endoscopic biopsy.
                     </p>
                     <p>
-                        <a>
-                            <strong>For H. pylori eradication :</strong>
-                        </a>
+                        <strong>For H. pylori eradication :</strong>
                     </p>
                     <table>
                         <tr>
@@ -1041,9 +1029,7 @@ export const chapter_fifteen: Chapters = {
                         </li>
                     </ul>
                     <p>
-                        <a>
-                            <strong>Quick Identification of Cholera Cases Using Standard Case Definition</strong>
-                        </a>
+                        <strong>Quick Identification of Cholera Cases Using Standard Case Definition</strong>
                     </p>
                     <p>
                         A patient who is suffering from acute watery or rice watery diarrhoea with or without vomiting
@@ -1779,10 +1765,8 @@ export const chapter_fifteen: Chapters = {
                         <strong>General Measures</strong>
                     </p>
                     <p>
-                        <a>
-                            It is necessary to exclude malignancy. Individual symptoms require treatment. Adequate
-                            hydration appropriate diet and drugs are indicated.
-                        </a>
+                        It is necessary to exclude malignancy. Individual symptoms require treatment. Adequate hydration
+                        appropriate diet and drugs are indicated.
                     </p>
                     <p>
                         <strong>Irritable Bowel Syndrome</strong>
@@ -1951,9 +1935,7 @@ export const chapter_fifteen: Chapters = {
                         </tr>
                     </table>
                     <p>
-                        <a>
-                            <strong>Pernicious Anaemia</strong>
-                        </a>
+                        <strong>Pernicious Anaemia</strong>
                     </p>
                     <ul>
                         <li>
@@ -2007,9 +1989,7 @@ export const chapter_fifteen: Chapters = {
                         pernicious anaemia have specific management. Specialist referral recommended.
                     </p>
                     <p>
-                        <a>
-                            <strong>Chronic Pancreatitis</strong>
-                        </a>
+                        <strong>Chronic Pancreatitis</strong>
                     </p>
                     <ul>
                         <li>Exclude gallstones, hypercalcaemia, hypertriglyceridaemia and alcohol as causes</li>
@@ -2032,9 +2012,7 @@ export const chapter_fifteen: Chapters = {
                 <span>
                     <h2>Other Gastrointestinal Problems</h2>
                     <p>
-                        <a>
-                            <strong>Peritonitis</strong>
-                        </a>
+                        <strong>Peritonitis</strong>
                     </p>
                     <p>Get a definitive diagnosis. Always exclude the need for surgical intervention. Manage with:</p>
                     <table>
@@ -2172,9 +2150,7 @@ export const chapter_fifteen: Chapters = {
                 <span>
                     <h2>Liver Disease</h2>
                     <p>
-                        <a>
-                            <strong>Acute Liver Failure/ Hepatic Encephalopathy</strong>
-                        </a>
+                        <strong>Acute Liver Failure/ Hepatic Encephalopathy</strong>
                     </p>
                     <ul>
                         <li>
@@ -2607,9 +2583,7 @@ export const chapter_fifteen: Chapters = {
                         </tr>
                     </table>
                     <p>
-                        <a>
-                            <strong>Ascites of Chronic Liver Failure</strong>
-                        </a>
+                        <strong>Ascites of Chronic Liver Failure</strong>
                     </p>
                     <p>
                         Perform diagnostic paracentesis if possible. Check for serum ascitic-albumin gradient (SAAG),
@@ -2721,4 +2695,4 @@ export const chapter_fifteen: Chapters = {
         },
     ],
     content: <div></div>,
-};
+}

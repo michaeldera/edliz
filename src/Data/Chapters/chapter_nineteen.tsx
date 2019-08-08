@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_nineteen: Chapters = {
     short_title: 'Chapter 19',
@@ -584,9 +584,7 @@ export const chapter_nineteen: Chapters = {
                         </li>
                     </ul>
                     <p>
-                        <a>
-                            <strong>Treatment of primary headache</strong>
-                        </a>
+                        <strong>Treatment of primary headache</strong>
                     </p>
                     <p>
                         <strong>Tension</strong>
@@ -901,18 +899,14 @@ export const chapter_nineteen: Chapters = {
                         (occurring about the same time for days or weeks). It shows a predilection for males.
                     </p>
                     <p>
-                        <a>
-                            <strong>Combination</strong>
-                        </a>
+                        <strong>Combination</strong>
                     </p>
                     <p>
                         A variable mixture of above two types of dcptrial is common. Treat both. As prophylaxis,
                         amitriptyline 25mg at night may be a good choice.
                     </p>
                     <p>
-                        <a>
-                            <strong>General Notes</strong>
-                        </a>
+                        <strong>General Notes</strong>
                     </p>
                     <p>
                          Ergotamine should not be taken more than twice in 24 hours, with a minimum of two days before
@@ -962,9 +956,7 @@ export const chapter_nineteen: Chapters = {
                         the event afterwards.
                     </p>
                     <p>
-                        <a>
-                            <strong>First line treatment</strong>
-                        </a>
+                        <strong>First line treatment</strong>
                     </p>
                     <p>
                         Health workers who have undergone training in the recognition and management of epilepsy may
@@ -1158,9 +1150,7 @@ export const chapter_nineteen: Chapters = {
                         </li>
                     </ul>
                     <p>
-                        <a>
-                            <strong>Tertiary/Specialist care</strong>
-                        </a>
+                        <strong>Tertiary/Specialist care</strong>
                     </p>
                     <p>
                         Decisions will include whether further investigations (EEG, CT scan) are indicated, and the use
@@ -2059,4 +2049,4 @@ export const chapter_nineteen: Chapters = {
         },
     ],
     content: <div></div>,
-};
+}

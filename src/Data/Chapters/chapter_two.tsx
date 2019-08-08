@@ -1,5 +1,5 @@
-import React from 'react';
-import { Chapters } from '../data';
+import React from 'react'
+import {Chapters} from '../data'
 
 export const chapter_two: Chapters = {
     short_title: 'Chapter 2',
@@ -362,4 +362,4 @@ export const chapter_two: Chapters = {
             </ol>
         </span>
     ),
-};
+}

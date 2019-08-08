@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Media from 'react-media';
-import './MainMenu.css';
-import home from './home.svg';
-import read from './read.svg';
-import info from './information.svg';
-import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton';
+import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
+import Media from 'react-media'
+import './MainMenu.css'
+import home from './home.svg'
+import read from './read.svg'
+import info from './information.svg'
+import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton'
 
 const MainMenu: React.FC = () => {
-    const [showNavigation, setShowNavigation] = useState<boolean>(false);
+    const [showNavigation, setShowNavigation] = useState<boolean>(false)
     const toggleNavigation = () => {
-        setShowNavigation(!showNavigation);
-    };
+        setShowNavigation(!showNavigation)
+    }
     return (
         <header className={showNavigation ? 'nav-on' : 'nav-off'}>
             <Media query="(max-width: 780px)" render={() => <HamburgerButton onClick={toggleNavigation} />} />
@@ -30,7 +30,7 @@ const MainMenu: React.FC = () => {
                 </Link>
             </div>
         </header>
-    );
-};
+    )
+}
 
-export default MainMenu;
+export default MainMenu
