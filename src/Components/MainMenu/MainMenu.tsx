@@ -81,7 +81,7 @@ const MainMenu: React.FC = () => {
                     <img src={home} alt="information icon" />
                     Home
                 </Link>
-                <Link exact to="/chapters/:chapterNumber">
+                <Link exact to="/chapters/1">
                     <img src={read} alt="information icon" />
                     Start Reading
                 </Link>
