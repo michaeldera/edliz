@@ -3,7 +3,7 @@ import Media from 'react-media'
 import MainMenu from '../MainMenu/MainMenu'
 import Button from '../Button/Button'
 import Github from './github.svg'
-import medicine from './medicine.svg'
+import Medicine from './medicine.svg'
 import styled from 'styled-components'
 import {MainComponent} from '../Information/Information'
 
@@ -42,7 +42,7 @@ const Title = styled.h1`
         text-align: center;
     }
 `
-const MedicineIllustrationSM = styled.img`
+const MedicineIllustrationSM = styled.div`
     display: none;
     @media (max-width: 1024px) {
         display: block;
@@ -51,7 +51,7 @@ const MedicineIllustrationSM = styled.img`
     }
 `
 
-const MedicineIllustration = styled.img`
+const MedicineIllustration = styled.div`
     box-sizing: border-box;
     padding: 40px;
     max-width: 40vw;
@@ -121,7 +121,14 @@ const Home: React.FC = () => {
                     <Title>
                         Essential Drugs &amp; Medicines <br /> List in Zimbabwe
                     </Title>
-                    <Media query="(max-width: 780px)" render={() => <MedicineIllustrationSM src={medicine} alt="" />} />
+                    <Media
+                        query="(max-width: 780px)"
+                        render={() => (
+                            <MedicineIllustrationSM>
+                                <Medicine />
+                            </MedicineIllustrationSM>
+                        )}
+                    />
                     <Introduction>
                         This is the 7th Essential Medicines List and Standard Treatment Guidelines for the most common
                         health conditions in Zimbabwe. It is the product of the combined efforts by hundreds of health
@@ -132,11 +139,18 @@ const Home: React.FC = () => {
                         Start Reading
                     </Button>
                 </div>
-                <Media query="(min-width: 1024px)" render={() => <MedicineIllustration src={medicine} alt="" />} />
+                <Media
+                    query="(min-width: 1024px)"
+                    render={() => (
+                        <MedicineIllustration>
+                            <Medicine />
+                        </MedicineIllustration>
+                    )}
+                />
             </HomeComponent>
             <GithubComponent>
                 <a href="https://github.com/michaeldera/edliz">
-                    <img src={Github} width="20" height="20" alt="GitHub Icon" />
+                    <Github />
                 </a>
                 <small>Maintained on GitHub by well meaning developers</small>
             </GithubComponent>

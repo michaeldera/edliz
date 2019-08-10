@@ -5,7 +5,7 @@ import {Chapters} from '../../Data/data'
 
 interface NavigationItemProps {
     section: Chapters
-    clicked: () => void
+    clicked?: () => void
     chapter: number
 }
 

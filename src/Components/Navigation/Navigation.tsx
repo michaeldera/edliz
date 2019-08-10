@@ -25,6 +25,7 @@ const Navigation: React.FC<NavigationProps> = ({navigation, toggleNavigationPane
         toggleNavigationPanel(navigation)
     }
     const overlayVisibility = navigation === 'open' ? 'visible' : 'hidden'
+
     return (
         <>
             <nav className={navigation}>

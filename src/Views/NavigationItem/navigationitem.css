@@ -1,32 +1,36 @@
 .nav-item {
     display: block;
     padding: 10px;
-    text-align:left;
-    border-bottom:1px solid rgba(200,200,200, 0.2);
+    text-align: left;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.2);
     text-decoration: none;
 }
 
-.nav-active{
-    border-left:3px solid #6c63ff;
+.nav-active {
+    border-left: 3px solid #6c63ff;
     padding-left: 7px;
+    background: #eff5fb;
 }
 
+.nav-active .nav-long-title {
+    color: #2b44ff;
+}
 
-.nav-short-title{
+.nav-short-title {
     color: #999;
     display: block;
-    font-size:0.8em;
+    font-size: 0.8em;
 }
-.night .nav-short-title{
+.night .nav-short-title {
     color: #ddd;
 }
 
-.nav-long-title{
+.nav-long-title {
     display: block;
-    color:#6c63ff;
-    margin:5px 0;
+    color: #101010;
+    margin: 5px 0;
 }
 
-.night .nav-long-title{
+.night .nav-long-title {
     color: #fff;
 }
