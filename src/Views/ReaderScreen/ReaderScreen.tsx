@@ -12,7 +12,7 @@ interface ReaderScreenProps {
     chapter: number
 }
 
-const Screen = styled.div``
+// const Screen = styled.div``
 const ReaderComponent = styled.div`
     display: flex;
     flex-direction: row;
