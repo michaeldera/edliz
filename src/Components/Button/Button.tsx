@@ -47,7 +47,7 @@ const Button: React.FC<BtnProps> = ({type, href, onClick, ...rest}) => {
             return <ButtonComponent onClick={onClick} {...rest} />
 
         default:
-            console.error(`Invalid Button type passed in props: ${type}`)
+            console.error(`Invalid Button type passed in props: ${type}`) // eslint-disable-line no-console
             return null
     }
 }
