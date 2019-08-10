@@ -16,5 +16,6 @@
         "jsx": "react",
         "rootDirs": ["src"]
     },
-    "include": ["./src/**/*", "webpack.config.js", "webpackConfigCommon.js"]
+    "include": ["./src/**/*", "webpack.config.js", "webpackConfigCommon.js", "custom.d.ts"],
+    "files": ["custom.d.ts"]
 }
