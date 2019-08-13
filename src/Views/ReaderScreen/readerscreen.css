@@ -47,8 +47,10 @@ ol {
 li {
     margin-bottom: 0.5em;
 }
+h1 {
+    display: none;
+}
 
-h1,
 h2,
 h3,
 h4,
@@ -62,7 +64,7 @@ h6 {
 }
 
 .screen a {
-    border-bottom: 1px dotted;
+    /* border-bottom: 1px dotted; */
 }
 
 .night .screen a {
