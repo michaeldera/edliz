@@ -1,10 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './navigation.css'
-import NavigationItem from '../../Views/NavigationItem/NavigationItem'
-import Overlay from '../../Views/Overlay/Overlay'
-import {IEdlizStore} from '../../stores/EdlizStore'
-import {Chapters, Contents} from '../../Data/data'
+import NavigationItem from '~views/NavigationItem/NavigationItem'
+import Overlay from '~views/Overlay/Overlay'
+import {IEdlizStore} from '~stores/EdlizStore'
+import {Chapters, Contents} from '~data/data'
 import styled from 'styled-components'
 
 interface NavigationProps extends Pick<IEdlizStore, 'navigation' | 'toggleNavigationPanel'> {

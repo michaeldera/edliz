@@ -1,10 +1,10 @@
 import React from 'react'
 import './readerscreen.css'
-import {Contents} from '../../Data/data'
+import {Contents} from '~data/data'
 import styled from 'styled-components'
 import ChapterImg from './chapter.svg'
-import NavigationItem from '../NavigationItem/NavigationItem'
-import MainMenu from '../../Components/MainMenu/MainMenu'
+import NavigationItem from '~views/NavigationItem/NavigationItem'
+import MainMenu from '~components/MainMenu/MainMenu'
 import Media from 'react-media'
 
 interface ReaderScreenProps {

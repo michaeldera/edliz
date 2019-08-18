@@ -1,13 +1,13 @@
 import React from 'react'
 import {HashRouter, Route, Switch} from 'react-router-dom'
 import './App.css'
-import Reader from './Components/Reader/Reader'
-import Home from './Components/Home/Home'
-import Settings from './Components/Settings/Settings'
-import Information from './Components/Information/Information'
+import Reader from '~components/Reader/Reader'
+import Home from '~components/Home/Home'
+import Settings from '~components/Settings/Settings'
+import Information from '~components/Information/Information'
 import {inject, observer} from 'mobx-react'
-import {IEdlizStore} from './stores/EdlizStore'
-
+import {IEdlizStore} from '~stores/EdlizStore'
+import {hot} from 'react-hot-loader'
 export interface IMobxStore {
     EdlizStore?: IEdlizStore
 }
@@ -31,4 +31,4 @@ function RenderReader({match}: {match: any}) {
     return <Reader chapter={match.params.chapterNumber - 1} />
 }
 
-export default inject('EdlizStore')(observer(App))
+export default hot(module)(inject('EdlizStore')(observer(App)))

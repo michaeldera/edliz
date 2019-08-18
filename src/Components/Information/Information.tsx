@@ -1,10 +1,10 @@
 import React from 'react'
 import {inject, observer} from 'mobx-react'
 import {Link, animateScroll as scroll} from 'react-scroll'
-import {book} from '../../Data/data'
-import MainMenu from '../MainMenu/MainMenu'
-import Button from '../Button/Button'
-import {IMobxStore} from '../../App'
+import {book} from '~data/data'
+import MainMenu from '~components/MainMenu/MainMenu'
+import Button from '~components/Button/Button'
+import {IMobxStore} from '~src/App'
 import styled from 'styled-components'
 
 export const MainComponent = styled.div`

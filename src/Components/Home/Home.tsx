@@ -1,11 +1,11 @@
 import React from 'react'
 import Media from 'react-media'
-import MainMenu from '../MainMenu/MainMenu'
-import Button from '../Button/Button'
+import MainMenu from '~components/MainMenu/MainMenu'
+import Button from '~components/Button/Button'
 import Github from './github.svg'
 import MedicineIllustration from './medicine.svg'
 import styled from 'styled-components'
-import {MainComponent} from '../Information/Information'
+import {MainComponent} from '~components/Information/Information'
 
 // const MainComponent = styled.div`
 //     text-align: left;

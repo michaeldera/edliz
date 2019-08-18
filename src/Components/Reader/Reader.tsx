@@ -1,18 +1,18 @@
 import React from 'react'
-import Navigation from '../Navigation/Navigation'
-import PreferenceButton from '../../Views/PreferenceButton/PreferenceButton'
-import ReaderScreen from '../../Views/ReaderScreen/ReaderScreen'
-import Preferences from '../Preferences/Preferences'
-import {book} from '../../Data/data'
+import Navigation from '~components/Navigation/Navigation'
+import PreferenceButton from '~views/PreferenceButton/PreferenceButton'
+import ReaderScreen from '~views/ReaderScreen/ReaderScreen'
+import Preferences from '~components/Preferences/Preferences'
+import {book} from '~data/data'
 import {inject, observer} from 'mobx-react'
-import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton'
-import {IMobxStore} from '../../App'
-import MainMenu from '../MainMenu/MainMenu'
+import HamburgerButton from '~views/HamburgerButton/HamburgerButton'
+import {IMobxStore} from '~src/App'
+import MainMenu from '~components/MainMenu/MainMenu'
 
 interface ReaderProps extends IMobxStore {
     chapter: number
 }
-//
+
 const Reader: React.FC<ReaderProps> = ({EdlizStore, chapter}) => {
     const {
         toggleNavigationPanel,
