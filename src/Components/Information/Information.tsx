@@ -37,7 +37,7 @@ const SectionHeader = styled.div`
     color: #101010;
     letter-spacing: 1.08px;
 
-    @media (max-width: 1024px) {
+    @media (min-width: 1025px) { {
         margin: 60px 0 30px 0px;
     }
 `

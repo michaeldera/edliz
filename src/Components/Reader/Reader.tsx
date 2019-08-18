@@ -7,7 +7,7 @@ import {book} from '~data/data'
 import {inject, observer} from 'mobx-react'
 import HamburgerButton from '~views/HamburgerButton/HamburgerButton'
 import {IMobxStore} from '~src/App'
-import MainMenu from '~components/MainMenu/MainMenu'
+import Media from 'react-media'
 
 interface ReaderProps extends IMobxStore {
     chapter: number
@@ -25,13 +25,18 @@ const Reader: React.FC<ReaderProps> = ({EdlizStore, chapter}) => {
         preferences,
         fontSize,
     } = EdlizStore!
+
     return (
         <div className={mode}>
-            <HamburgerButton
-                IsActive={navigation === 'open' ? true : false}
-                onClick={() => toggleNavigationPanel(navigation)}
+            <Media
+                query="(max-width: 1024px)"
+                render={() => (
+                    <HamburgerButton
+                        IsActive={navigation === 'open' ? true : false}
+                        onClick={() => toggleNavigationPanel(navigation)}
+                    />
+                )}
             />
-            <MainMenu />
             <Navigation
                 content={books.contents}
                 navigation={navigation}

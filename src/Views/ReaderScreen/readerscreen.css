@@ -1,17 +1,3 @@
-.screen {
-    position: absolute;
-    top: 0;
-    bottom: 50px;
-    width: 100vw;
-    box-sizing: border-box;
-    right: 0;
-    left: 0;
-    padding: 0em;
-    text-align: left;
-    height: calc(100vh);
-    overflow-y: scroll;
-}
-
 .day .screen {
     background-color: #fff;
     color: #333;
@@ -20,23 +6,6 @@
 .night .screen {
     background: #2a2a2a;
     color: #ccc;
-}
-
-.screen::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
-    border-radius: 2px;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.screen::-webkit-scrollbar {
-    width: 3px;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.screen::-webkit-scrollbar-thumb {
-    border-radius: 3px;
-    box-shadow: inset 0 0 11px rgba(0, 0, 0, 0.2);
-    background-color: #6c63ff;
 }
 
 ul,
@@ -59,24 +28,9 @@ h6 {
     text-align: left;
 }
 
-.article {
-    display: block;
-}
-
-.screen a {
-    /* border-bottom: 1px dotted; */
-}
-
 .night .screen a {
     color: #ccc;
 }
-
-/* a {
-    text-decoration: none;
-    color: inherit;
-    display: inline-block;
-    border-bottom: 1px dotted;
-} */
 .underline {
     text-decoration: underline;
 }

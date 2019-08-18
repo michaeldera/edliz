@@ -11,6 +11,28 @@ const Header = styled.header`
     display: block;
 `
 
+const IconStyling = css`
+    display: none;
+    @media (max-width: 1024px) {
+        display: block;
+        margin: 11px 10px auto 0;
+        height: 1rem;
+        float: left;
+    }
+`
+
+const Home = styled(home)`
+    ${IconStyling}
+`
+
+const Read = styled(read)`
+    ${IconStyling}
+`
+
+const Info = styled(info)`
+    ${IconStyling}
+`
+
 const MainNavigation = styled.div<{showNavigation: boolean}>`
     line-height: 40px;
     text-align: center;
@@ -21,11 +43,7 @@ const MainNavigation = styled.div<{showNavigation: boolean}>`
         text-decoration: none;
     }
 
-    a > img {
-        display: none;
-    }
-
-    @media (max-width: 780px) {
+    @media (max-width: 1024px) {
         ${(props) =>
             props.showNavigation
                 ? css`
@@ -50,13 +68,6 @@ const MainNavigation = styled.div<{showNavigation: boolean}>`
             line-height: 40px;
             padding: 10px 30px;
         }
-
-        a > img {
-            display: block;
-            margin: 11px 10px auto 0;
-            height: 1rem;
-            float: left;
-        }
     }
 `
 const activeClassName = 'active'
@@ -68,26 +79,24 @@ const Link = styled(NavLink).attrs({
     }
 `
 
-const MainMenu: React.FC = () => {
+const MainMenu: React.FC<{chapter?: number}> = ({chapter}) => {
     const [showNavigation, setShowNavigation] = useState<boolean>(false)
     const toggleNavigation = () => {
         setShowNavigation(!showNavigation)
     }
     return (
         <Header>
-            <Media query="(max-width: 780px)" render={() => <HamburgerButton onClick={toggleNavigation} />} />
+            <Media query="(max-width: 1025px)" render={() => <HamburgerButton onClick={toggleNavigation} />} />
             <MainNavigation showNavigation={showNavigation}>
                 <Link exact to="/">
-                    <img src={home} alt="information icon" />
+                    <Home />
                     Home
                 </Link>
-                <Link exact to="/chapters/1">
-                    <img src={read} alt="information icon" />
-                    Start Reading
+                <Link exact to={`/chapters/${chapter ? chapter + 1 : 1}`}>
+                    <Info /> Start Reading
                 </Link>
                 <Link exact to="/information">
-                    <img src={info} alt="information icon" />
-                    About this Project
+                    <Read /> About this Project
                 </Link>
             </MainNavigation>
         </Header>
