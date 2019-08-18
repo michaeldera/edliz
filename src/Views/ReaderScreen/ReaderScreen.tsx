@@ -1,10 +1,11 @@
 import React from 'react'
 import './readerscreen.css'
-import {Contents} from '../../Data/data'
+import {Contents} from '~data/data'
 import styled from 'styled-components'
 import ChapterImg from './chapter.svg'
-import NavigationItem from '../NavigationItem/NavigationItem'
-import MainMenu from '../../Components/MainMenu/MainMenu'
+import NavigationItem from '~views/NavigationItem/NavigationItem'
+import MainMenu from '~components/MainMenu/MainMenu'
+import Media from 'react-media'
 
 interface ReaderScreenProps {
     fontSize: number
@@ -58,16 +59,22 @@ const ReaderScreen: React.FC<ReaderScreenProps> = ({fontSize, content, chapter})
         <div className="screen">
             <MainMenu />
             <ReaderComponent>
-                <ChapterNavigation>
-                    <ChapterImageComponent>
-                        <ChapterImg />
-                    </ChapterImageComponent>
-                    <ChapterListComponent>
-                        {content.chapters.map((section, index) => (
-                            <NavigationItem key={section.short_title} section={section} chapter={index + 1} />
-                        ))}
-                    </ChapterListComponent>
-                </ChapterNavigation>
+                <Media
+                    query="(min-width: 1024px)"
+                    render={() => (
+                        <ChapterNavigation>
+                            <ChapterImageComponent>
+                                <ChapterImg />
+                            </ChapterImageComponent>
+                            <ChapterListComponent>
+                                {content.chapters.map((section, index) => (
+                                    <NavigationItem key={section.short_title} section={section} chapter={index + 1} />
+                                ))}
+                            </ChapterListComponent>
+                        </ChapterNavigation>
+                    )}
+                />
+
                 <Article fontSize={fontSize}>
                     <ChapterTitle>{selectedChapter.short_title}:</ChapterTitle>
                     <ChapterTitle>{selectedChapter.long_title}</ChapterTitle>

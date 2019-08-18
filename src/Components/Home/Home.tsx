@@ -1,11 +1,11 @@
 import React from 'react'
 import Media from 'react-media'
-import MainMenu from '../MainMenu/MainMenu'
-import Button from '../Button/Button'
+import MainMenu from '~components/MainMenu/MainMenu'
+import Button from '~components/Button/Button'
 import Github from './github.svg'
-import Medicine from './medicine.svg'
+import MedicineIllustration from './medicine.svg'
 import styled from 'styled-components'
-import {MainComponent} from '../Information/Information'
+import {MainComponent} from '~components/Information/Information'
 
 // const MainComponent = styled.div`
 //     text-align: left;
@@ -21,6 +21,13 @@ const HomeComponent = styled.div`
     align-items: center;
     margin-bottom: 30px;
     min-height: calc(100vh - 140px);
+    @media (max-width: 1024px) {
+        padding: 50px;
+    }
+
+    @media (max-width: 780px) {
+        padding: 60px 15px 15px;
+    }
 `
 
 const Title = styled.h1`
@@ -29,7 +36,7 @@ const Title = styled.h1`
     color: #333333;
     letter-spacing: 1.08px;
     line-height: 46px;
-    @media (max-width: 780px) {
+    @media (max-width: 1024px) {
         font-size: 28px;
     }
     @media (min-width: 781px) {
@@ -42,16 +49,17 @@ const Title = styled.h1`
         text-align: center;
     }
 `
-const MedicineIllustrationSM = styled.div`
+const MedicineSM = styled(MedicineIllustration)`
     display: none;
     @media (max-width: 1024px) {
         display: block;
         max-width: 60vw;
         margin: 40px auto;
+        max-height: 20vh;
     }
 `
 
-const MedicineIllustration = styled.div`
+const Medicine = styled(MedicineIllustration)`
     box-sizing: border-box;
     padding: 40px;
     max-width: 40vw;
@@ -121,14 +129,7 @@ const Home: React.FC = () => {
                     <Title>
                         Essential Drugs &amp; Medicines <br /> List in Zimbabwe
                     </Title>
-                    <Media
-                        query="(max-width: 780px)"
-                        render={() => (
-                            <MedicineIllustrationSM>
-                                <Medicine />
-                            </MedicineIllustrationSM>
-                        )}
-                    />
+                    <Media query="(max-width: 780px)" render={() => <MedicineSM />} />
                     <Introduction>
                         This is the 7th Essential Medicines List and Standard Treatment Guidelines for the most common
                         health conditions in Zimbabwe. It is the product of the combined efforts by hundreds of health
@@ -139,14 +140,7 @@ const Home: React.FC = () => {
                         Start Reading
                     </Button>
                 </div>
-                <Media
-                    query="(min-width: 1024px)"
-                    render={() => (
-                        <MedicineIllustration>
-                            <Medicine />
-                        </MedicineIllustration>
-                    )}
-                />
+                <Media query="(min-width: 1024px)" render={() => <Medicine />} />
             </HomeComponent>
             <GithubComponent>
                 <a href="https://github.com/michaeldera/edliz">

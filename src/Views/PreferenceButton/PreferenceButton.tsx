@@ -1,6 +1,6 @@
 import React from 'react'
 import './preferencebtn.css'
-import {IEdlizStore} from '../../stores/EdlizStore'
+import {IEdlizStore} from '~stores/EdlizStore'
 
 interface PreferenceButtonProps extends Pick<IEdlizStore, 'preferences' | 'togglePreferences' | 'mode'> {}
 

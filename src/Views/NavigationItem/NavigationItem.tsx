@@ -1,7 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 import './navigationitem.css'
-import {Chapters} from '../../Data/data'
+import {Chapters} from '~data/data'
 
 interface NavigationItemProps {
     section: Chapters

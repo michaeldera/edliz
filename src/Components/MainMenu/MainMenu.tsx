@@ -4,7 +4,7 @@ import Media from 'react-media'
 import home from './home.svg'
 import read from './read.svg'
 import info from './information.svg'
-import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton'
+import HamburgerButton from '~views/HamburgerButton/HamburgerButton'
 import styled, {css} from 'styled-components'
 
 const Header = styled.header`
