@@ -25,11 +25,6 @@ const modifyWebpackConfig = (config, app) => {
         ],
     })
 
-    config.module.rules.unshift({
-        test: /\.tsx?$/,
-        loader: 'awesome-typescript-loader',
-    })
-
     if (app === 'web') {
         config.module.rules.push({
             test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/i,
