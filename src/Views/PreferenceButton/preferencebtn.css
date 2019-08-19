@@ -1,0 +1,17 @@
+.btn-preferences{
+    position: fixed;
+    width: 36px;
+    height:36px;
+    bottom: 10px;
+    right:10px;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    border:none;
+    z-index: 998;
+	background-color: #6c63ff;
+}
+
+.btn-preferences:focus{
+    outline:none;
+}

@@ -1,63 +1,30 @@
 import React from 'react'
 import {inject, observer} from 'mobx-react'
 import {Link, animateScroll as scroll} from 'react-scroll'
-import {book} from '~data/data'
-import MainMenu from '~components/MainMenu/MainMenu'
-import Button from '~components/Button/Button'
-import {IMobxStore} from '~src/App'
-import styled from 'styled-components'
+import './information.css'
+import {book} from '../../Data/data'
+import MainMenu from '../MainMenu/MainMenu'
+import Button from '../Button/Button'
+import {IMobxStore} from '../../App'
 
-export const MainComponent = styled.div`
-    text-align: left;
-    background-color: #ffffff;
-    min-height: 80vh;
-`
-const MainInformation = styled(MainComponent)`
-    li a {
-        text-decoration: none;
-        color: #3c8eff;
-        display: inline-block;
-        border-bottom: 1px dotted;
-    }
-`
 const scrollToTop = () => {
     scroll.scrollToTop()
 }
 
-const InformationComponent = styled.div`
-    margin: 30px 30px;
-    text-align: left;
-`
-
-const SectionHeader = styled.div`
-    font-family: 'Muli', sans-serif;
-    font-weight: 300;
-    margin: 130px 0 30px 0px;
-    font-size: 25px;
-    color: #101010;
-    letter-spacing: 1.08px;
-
-    @media (min-width: 1025px) { {
-        margin: 60px 0 30px 0px;
-    }
-`
-
-const SectionLink = styled(Link)`
-    cursor: pointer;
-`
-
 const Information: React.FC<IMobxStore> = ({EdlizStore}) => {
     return (
-        <MainInformation>
+        <div className="main">
             <MainMenu />
-            <InformationComponent>
-                <SectionHeader>Jump to Section</SectionHeader>
+            <div className="information">
+                <div className="jump">Jump to Section</div>
                 <div>
                     <ul>
                         {book.contents.pre.map((elem) => (
                             <li key={elem.short_title}>
-                                <SectionLink
+                                {/* <a href='javascript:;' onClick={() => this.scrollTo(elem.short_title)}>{elem.short_title}</a> */}
+                                <Link
                                     activeClass="active"
+                                    className="link"
                                     to={elem.short_title}
                                     spy
                                     smooth
@@ -65,7 +32,7 @@ const Information: React.FC<IMobxStore> = ({EdlizStore}) => {
                                     duration={500}
                                 >
                                     {elem.short_title}
-                                </SectionLink>
+                                </Link>
                             </li>
                         ))}
                     </ul>
@@ -79,8 +46,8 @@ const Information: React.FC<IMobxStore> = ({EdlizStore}) => {
                         </Button>
                     </section>
                 ))}
-            </InformationComponent>
-        </MainInformation>
+            </div>
+        </div>
     )
 }
 

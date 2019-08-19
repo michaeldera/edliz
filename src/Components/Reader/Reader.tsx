@@ -1,18 +1,17 @@
 import React from 'react'
-import Navigation from '~components/Navigation/Navigation'
-import PreferenceButton from '~views/PreferenceButton/PreferenceButton'
-import ReaderScreen from '~views/ReaderScreen/ReaderScreen'
-import Preferences from '~components/Preferences/Preferences'
-import {book} from '~data/data'
+import Navigation from '../Navigation/Navigation'
+import PreferenceButton from '../../Views/PreferenceButton/PreferenceButton'
+import ReaderScreen from '../../Views/ReaderScreen/ReaderScreen'
+import Preferences from '../Preferences/Preferences'
+import {book} from '../../Data/data'
 import {inject, observer} from 'mobx-react'
-import HamburgerButton from '~views/HamburgerButton/HamburgerButton'
-import {IMobxStore} from '~src/App'
-import Media from 'react-media'
+import HamburgerButton from '../../Views/HamburgerButton/HamburgerButton'
+import {IMobxStore} from '../../App'
 
 interface ReaderProps extends IMobxStore {
     chapter: number
 }
-
+//
 const Reader: React.FC<ReaderProps> = ({EdlizStore, chapter}) => {
     const {
         toggleNavigationPanel,
@@ -25,17 +24,11 @@ const Reader: React.FC<ReaderProps> = ({EdlizStore, chapter}) => {
         preferences,
         fontSize,
     } = EdlizStore!
-
     return (
         <div className={mode}>
-            <Media
-                query="(max-width: 1024px)"
-                render={() => (
-                    <HamburgerButton
-                        IsActive={navigation === 'open' ? true : false}
-                        onClick={() => toggleNavigationPanel(navigation)}
-                    />
-                )}
+            <HamburgerButton
+                IsActive={navigation === 'open' ? true : false}
+                onClick={() => toggleNavigationPanel(navigation)}
             />
             <Navigation
                 content={books.contents}
@@ -51,7 +44,7 @@ const Reader: React.FC<ReaderProps> = ({EdlizStore, chapter}) => {
                 toggleMode={toggleMode}
                 togglePreferences={togglePreferences}
             />
-            <ReaderScreen fontSize={fontSize} content={book.contents} chapter={chapter} />
+            <ReaderScreen style={{fontSize: fontSize + 'pt'}} content={book.contents.chapters[chapter]} />
             <PreferenceButton mode={mode} preferences={preferences} togglePreferences={togglePreferences} />
         </div>
     )
