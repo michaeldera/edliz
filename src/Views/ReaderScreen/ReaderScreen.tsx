@@ -36,14 +36,19 @@ const ChapterListComponent = styled.div`
     margin-left: -44px;
     overflow: scroll;
     position: sticky;
+    top: 50px;
+    height: calc(100vh - 80px);
 `
 const ChapterNavigation = styled.div`
     display: flex;
     margin-right: 60px;
+    top: 191px;
 `
-const ChapterImageComponent = styled.div`
+const ChapterImage = styled(ChapterImg)`
     margin-top: 44px;
     overflow: scroll;
+    position: sticky;
+    top: 90px;
 `
 
 const ChapterTitle = styled.div`
@@ -97,9 +102,7 @@ const ReaderScreen: React.FC<ReaderScreenProps> = ({fontSize, content, chapter})
                     query="(min-width: 1024px)"
                     render={() => (
                         <ChapterNavigation>
-                            <ChapterImageComponent>
-                                <ChapterImg />
-                            </ChapterImageComponent>
+                            <ChapterImage />
                             <ChapterListComponent>
                                 {content.chapters.map((section, index) => (
                                     <NavigationItem key={section.short_title} section={section} chapter={index + 1} />
@@ -108,7 +111,6 @@ const ReaderScreen: React.FC<ReaderScreenProps> = ({fontSize, content, chapter})
                         </ChapterNavigation>
                     )}
                 />
-
                 <Article fontSize={fontSize}>
                     <ChapterTitle>{selectedChapter.short_title}:</ChapterTitle>
                     <ChapterTitle>{selectedChapter.long_title}</ChapterTitle>
