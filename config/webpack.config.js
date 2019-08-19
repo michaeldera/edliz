@@ -2,7 +2,7 @@ require('dotenv').config()
 
 const path = require('path')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
-const modifyWebpackConfig = require('../../../NamesFaces/nf-self-build-web/config/webpackConfigCommon')
+const modifyWebpackConfig = require('./webpackConfigCommon')
 const webpack = require('webpack')
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 const fs = require('fs')
