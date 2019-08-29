@@ -50,7 +50,7 @@
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
         "typecheck": "tsc --noEmit",
-        "lint": "eslint --cache  --fix 'src/**/*.ts' 'src/**/*.tsx'"
+        "lint": "eslint --cache  --fix"
     },
     "browserslist": {
         "production": [
