@@ -1,6 +1,7 @@
 import {observable, action, decorate} from 'mobx'
-import {book, IBooks} from '~data/data'
-import {setAddressBarColor, setItem, getItem} from '~util'
+import {book, IBooks} from '../Data/data'
+import {setAddressBarColor, setItem, getItem} from '../helpers'
+
 const nightModeAddressBarColor = '#32303e'
 const defaultAddressBarColor = '#0093e9'
 

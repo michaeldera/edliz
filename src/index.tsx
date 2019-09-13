@@ -15,5 +15,5 @@ const Root = (
     </Provider>
 )
 
-ReactDOM.render(Root, document.getElementById('app'))
+ReactDOM.render(Root, document.getElementById('root'))
 registerServiceWorker()

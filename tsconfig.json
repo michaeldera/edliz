@@ -1,31 +1,25 @@
 {
-    "compilerOptions": {
-        "target": "es5",
-        "lib": ["dom", "dom.iterable", "esnext"],
-        "allowJs": true,
-        "skipLibCheck": true,
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
-        "strict": true,
-        "forceConsistentCasingInFileNames": true,
-        "module": "esnext",
-        "moduleResolution": "node",
-        "resolveJsonModule": true,
-        "isolatedModules": true,
-        "noEmit": true,
-        "jsx": "react",
-        "rootDirs": ["src"],
-        "downlevelIteration": true,
-        "baseUrl": "./",
-        "paths": {
-            "~views/*": ["src/views/*"],
-            "~components/*": ["src/components/*"],
-            "~util": ["src/utils/index.ts"],
-            "~src/*": ["src/*"],
-            "~data/*": ["src/data/*"],
-            "~stores/*": ["src/stores/*"]
-        }
-    },
-    "include": ["./src/**/*", "webpack.config.js", "webpackConfigCommon.js", "custom.d.ts"],
-    "files": ["custom.d.ts"]
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "src"
+  ]
 }
