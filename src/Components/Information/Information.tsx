@@ -1,7 +1,6 @@
 import React from 'react'
 import {inject, observer} from 'mobx-react'
 import {Link, animateScroll as scroll} from 'react-scroll'
-import './information.css'
 import {book} from '../../data/data'
 import MainMenu from '../MainMenu/MainMenu'
 import Button from '../Button/Button'
