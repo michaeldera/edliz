@@ -94,19 +94,14 @@ const ReaderScreen: React.FC<ReaderScreenProps> = ({fontSize, content, chapter})
 
     return (
         <Screen>
-            <Media query="(min-width: 1024px)" render={() => <MainMenu chapter={chapter} />} />
+            <Media query="(min-width: 1025px)" render={() => <MainMenu chapter={chapter} />} />
 
             <ReaderComponent>
                 <Media
-                    query="(min-width: 1024px)"
+                    query="(min-width: 1025px)"
                     render={() => (
                         <ChapterNavigation>
                             <ChapterImage src={ChapterImg} />
-                            {/* <img
-                                src={ChapterImg}
-                                alt=""
-                                style={{marginTop: '44px', overflow: 'scroll', position: 'sticky', top: '90px'}}
-                            /> */}
                             <ChapterListComponent>
                                 {content.chapters.map((section, index) => (
                                     <NavigationItem key={section.short_title} section={section} chapter={index + 1} />
