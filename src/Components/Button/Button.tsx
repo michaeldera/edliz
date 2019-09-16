@@ -1,30 +1,53 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
-import './Button.css'
+import styled, {css} from 'styled-components'
 
 interface BtnProps {
     type: string
-    className?: string
     href?: string
     onClick?: () => void
 }
-/* eslint-disable */
-const Button: React.FC<BtnProps> = ({type, className = '', href, onClick, ...rest}) => {
-    const classBtn = className + ' btn'
+const BtnStyles = css`
+    display: block;
+    margin: auto;
+    width: fit-content;
+    font-family: 'Muli', sans-serif;
+    background: #3c8eff;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #ffffff;
+    transition: opacity 0.3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+`
+const ButtonComponent = styled.button.attrs(() => ({
+    type: 'button',
+}))`
+    ${BtnStyles}
+`
+const ButtonLink = styled(Link)`
+    ${BtnStyles}
+`
+const ButtonAnchor = styled.a`
+    ${BtnStyles}
+    &:hover, .btn:hover {
+        opacity: 0.6;
+    }
+`
+const Button: React.FC<BtnProps> = ({type, href, onClick, ...rest}) => {
     switch (type) {
         case 'a':
-            // eslint-disable-next-line jsx-a11y/anchor-has-content
-            return <a className={classBtn} href={href} {...rest} />
+            return <ButtonAnchor href={href} {...rest} />
 
         case 'link':
-            return <Link className={classBtn} {...rest} to="" />
+            return <ButtonLink {...rest} to="" />
 
         case 'button':
-            return <button type="button" onClick={onClick} className={classBtn} {...rest} />
+            return <ButtonComponent onClick={onClick} {...rest} />
 
         default:
-            console.error(`Invalid Button type passed in props: ${type}`)
+            console.error(`Invalid Button type passed in props: ${type}`) // eslint-disable-line no-console
             return null
     }
 }
