@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './preferences.css'
-import Overlay from '../../Views/Overlay/Overlay'
+import Overlay from '../../views/Overlay/Overlay'
 import DrawerButton from './DrawerButton'
 import ModeButton from './ModeButton'
 import {IEdlizStore} from '../../stores/EdlizStore'
