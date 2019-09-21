@@ -10,10 +10,6 @@ body {
     box-sizing: border-box;
 }
 
-h1 {
-    /* display: none; */
-}
-
 h2 {
     font-family: Muli-SemiBold;
     font-size: 16px;

@@ -24,14 +24,12 @@ const HomeComponent = styled.div`
 `
 
 const Title = styled.h1`
+    font-family: Muli, sans-serif;
     font-weight: 300;
     font-size: 38px;
     color: #333333;
     letter-spacing: 1.08px;
     line-height: 46px;
-    @media (min-width: 1025px) {
-        font-size: 28px;
-    }
     @media (min-width: 1025px) {
         margin: 90px 0 30px 0px;
     }
@@ -44,16 +42,13 @@ const Title = styled.h1`
 `
 
 const Introduction = styled.div`
+    font-family: 'IBM Plex Serif', serif;
     max-width: 1040px;
     font-size: 18px;
     color: #666666;
     letter-spacing: 0.26px;
     line-height: 30px;
     margin: 40px auto;
-    @media (min-width: 1025px) {
-        font-size: 16px;
-        line-height: 26px;
-    }
     @media (max-width: 1024px) {
         font-size: 14px;
         color: #101010;
@@ -123,9 +118,10 @@ const Home: React.FC = () => {
                     </Title>
                     <Media query="(max-width: 1024px)" render={() => <MedicineSM src={medicine} alt="" />} />
                     <Introduction>
-                        This is the 7th Essential Medicines List and Standard Treatment Guidelines for the most common
-                        health conditions in Zimbabwe. It is the product of the combined efforts by hundreds of health
-                        workers in Zimbabwe.
+                        This 7th essential medicines list and standard treatment guidelines for the most common health
+                        conditions in Zimbabwe has been endorsed by the National Medicine & Therapeutics Policy Advisory
+                        Committee. It is the product of many years of combined efforts by hundreds of health workers at
+                        all levels of the health care system in Zimbabwe.
                     </Introduction>
                     <Button href="/#/chapters/1" type="a">
                         Start Reading

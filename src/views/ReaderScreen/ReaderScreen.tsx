@@ -22,6 +22,10 @@ const ReaderComponent = styled.div`
         margin: auto;
         max-width: 1320px;
     }
+    h1 {
+        display: none;
+    }
+}
 `
 const Article = styled.div<{fontSize: number}>`
     display: block;
