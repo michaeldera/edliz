@@ -8,14 +8,6 @@
     color: #ccc;
 }
 
-p {
-    font-family: 'IBM Plex Serif', serif;
-    font-size: 18px;
-    color: #101010;
-    letter-spacing: 0.26px;
-    line-height: 30px;
-}
-
 ul,
 ol {
     padding-left: 1em;

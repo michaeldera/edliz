@@ -32,11 +32,14 @@ const Link = styled(NavLink).attrs({
 `
 
 const ShortTitle = styled.span.attrs({className: 'nav-short-title'})`
+    font-family: 'Muli', sans-serif;
+
     color: #999;
     display: block;
     font-size: 0.8em;
 `
 const LongTitle = styled.span.attrs({className: 'nav-long-title'})`
+    font-family: 'Muli-Light';
     display: block;
     color: #101010;
     margin: 5px 0;

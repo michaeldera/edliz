@@ -27,6 +27,7 @@ const ReaderComponent = styled.div`
     }
 }
 `
+
 const Article = styled.div<{fontSize: number}>`
     display: block;
     font-size: ${(props) => props.fontSize};
@@ -58,7 +59,7 @@ const ChapterImage = styled.img`
 `
 
 const ChapterTitle = styled.div`
-    font-family: Muli-Light;
+    font-family: 'Muli-Light';
     font-size: 45px;
     color: #101010;
     letter-spacing: 0.65px;
