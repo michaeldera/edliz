@@ -13,7 +13,6 @@ interface ReaderScreenProps {
     chapter: number
 }
 
-// const Screen = styled.div``
 const ReaderComponent = styled.div`
     padding: 170px 1em 60px;
     @media (min-width: 1025px) {
@@ -36,18 +35,22 @@ const Article = styled.div<{fontSize: number}>`
 const ChapterListComponent = styled.div`
     background: #ffffff;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25);
-    width: 280px;
+    width: 282px;
     height: 729px;
     margin-left: -44px;
-    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
     position: sticky;
     top: 50px;
     height: calc(100vh - 80px);
+    scrollbar-width: none;
+    &:hover {
+        scrollbar-width: thin;
+    }
 `
 const ChapterNavigation = styled.div`
     display: flex;
     margin-right: 60px;
-    top: 191px;
 `
 const ChapterImage = styled.img`
     margin-top: 44px;
