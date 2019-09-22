@@ -42,6 +42,7 @@ const Reader: React.FC<ReaderProps> = ({EdlizStore, chapter}) => {
                 navigation={navigation}
                 current={book.contents.chapters[chapter]}
                 toggleNavigationPanel={toggleNavigationPanel}
+                mode={mode}
             />
             <Preferences
                 preferences={preferences}
@@ -51,7 +52,7 @@ const Reader: React.FC<ReaderProps> = ({EdlizStore, chapter}) => {
                 toggleMode={toggleMode}
                 togglePreferences={togglePreferences}
             />
-            <ReaderScreen fontSize={fontSize} content={book.contents} chapter={chapter} />
+            <ReaderScreen fontSize={fontSize} content={book.contents} chapter={chapter} mode={mode} />
             <PreferenceButton mode={mode} preferences={preferences} togglePreferences={togglePreferences} />
         </div>
     )

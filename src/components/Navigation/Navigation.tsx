@@ -10,6 +10,7 @@ import styled from 'styled-components'
 interface NavigationProps extends Pick<IEdlizStore, 'navigation' | 'toggleNavigationPanel'> {
     current: Chapters
     content: Contents
+    mode: string
 }
 
 const Header = styled.div`
@@ -20,7 +21,7 @@ const Header = styled.div`
     margin-top: 0;
 `
 
-const Navigation: React.FC<NavigationProps> = ({navigation, toggleNavigationPanel, content, current}) => {
+const Navigation: React.FC<NavigationProps> = ({navigation, toggleNavigationPanel, content, current, mode}) => {
     const handleNavigation = () => {
         toggleNavigationPanel(navigation)
     }
@@ -38,7 +39,13 @@ const Navigation: React.FC<NavigationProps> = ({navigation, toggleNavigationPane
                 </Header>
                 <div className="tab-content">
                     {content.chapters.map((section: Chapters, index: number) => (
-                        <NavigationItem clicked={handleNavigation} key={index} section={section} chapter={index + 1} />
+                        <NavigationItem
+                            clicked={handleNavigation}
+                            key={index}
+                            section={section}
+                            chapter={index + 1}
+                            mode={mode}
+                        />
                     ))}
                 </div>
             </nav>
