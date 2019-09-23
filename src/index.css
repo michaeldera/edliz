@@ -3,15 +3,11 @@ body {
     padding: 0;
     color: #333;
     background-color: #ffffff;
-    font-family: 'Muli', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     transition: all 2s ease;
     line-height: 1.5;
     max-width: 100%;
     box-sizing: border-box;
-}
-
-h1 {
-    /* display: none; */
 }
 
 h2 {
@@ -22,7 +18,9 @@ h2 {
     line-height: 26px;
 }
 
-/* h1{ font-size: 1.80em} */
+h1 {
+    font-family: 'Muli', sans-serif;
+}
 h2 {
     font-size: 1.7em;
 }

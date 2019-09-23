@@ -1,17 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Button = styled.button.attrs(() => ({
-    type: 'button',
-}))`
-    background-color: '#6c63ff';
-    border: 'none';
-    width: '36px';
-    height: '36px';
-    margin: '26px';
-    border-radius: '50%';
-    padding: '8px';
-    outline: 'none';
+const Button = styled.button`
+    background-color: #6c63ff;
+    border: none;
+    width: 36px;
+    height: 36px;
+    margin: 26px;
+    border-radius: 50%;
+    padding: 8px;
+    outline: none;
 `
 
 interface ModeButton {

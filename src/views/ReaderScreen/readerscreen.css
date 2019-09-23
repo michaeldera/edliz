@@ -8,14 +8,6 @@
     color: #ccc;
 }
 
-p {
-    font-family: 'IBM Plex Serif', serif;
-    font-size: 18px;
-    color: #101010;
-    letter-spacing: 0.26px;
-    line-height: 30px;
-}
-
 ul,
 ol {
     padding-left: 1em;
@@ -23,9 +15,6 @@ ol {
 
 li {
     margin-bottom: 0.5em;
-}
-h1 {
-    display: none;
 }
 
 h2,
@@ -91,4 +80,15 @@ table {
     padding: 1em 3em;
     margin: 1em;
     list-style-type: circle;
+}
+
+.scrollbars-visible-always .tree-view-scroller {
+    &::-webkit-scrollbar {
+        display: none;
+        width: 0.25rem;
+        height: 0.25rem;
+    }
+    &:hover::-webkit-scrollbar {
+        display: block;
+    }
 }

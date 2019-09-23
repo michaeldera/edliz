@@ -11,9 +11,9 @@ interface ReaderScreenProps {
     fontSize: number
     content: Contents
     chapter: number
+    mode: string
 }
 
-// const Screen = styled.div``
 const ReaderComponent = styled.div`
     padding: 170px 1em 60px;
     @media (min-width: 1025px) {
@@ -22,27 +22,36 @@ const ReaderComponent = styled.div`
         margin: auto;
         max-width: 1320px;
     }
+    h1 {
+        display: none;
+    }
+}
 `
+
 const Article = styled.div<{fontSize: number}>`
     display: block;
     font-size: ${(props) => props.fontSize};
 `
 
-const ChapterListComponent = styled.div`
-    background: #ffffff;
+const ChapterListComponent = styled.div<{mode: string}>`
+    background: ${({mode}) => (mode === 'day' ? '#ffffff' : '#2a2a2a')};
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25);
-    width: 280px;
+    width: 282px;
     height: 729px;
     margin-left: -44px;
-    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
     position: sticky;
     top: 50px;
     height: calc(100vh - 80px);
+    scrollbar-width: none;
+    &:hover {
+        scrollbar-width: thin;
+    }
 `
 const ChapterNavigation = styled.div`
     display: flex;
     margin-right: 60px;
-    top: 191px;
 `
 const ChapterImage = styled.img`
     margin-top: 44px;
@@ -54,7 +63,7 @@ const ChapterImage = styled.img`
 `
 
 const ChapterTitle = styled.div`
-    font-family: Muli-Light;
+    font-family: 'Muli-Light';
     font-size: 45px;
     color: #101010;
     letter-spacing: 0.65px;
@@ -88,7 +97,7 @@ const Screen = styled.div.attrs({className: 'screen'})`
         background-color: #6c63ff;
     }
 `
-const ReaderScreen: React.FC<ReaderScreenProps> = ({fontSize, content, chapter}) => {
+const ReaderScreen: React.FC<ReaderScreenProps> = ({fontSize, content, chapter, mode}) => {
     const selectedChapter = content.chapters[chapter]
     const subsections = selectedChapter.subsections!
 
@@ -102,9 +111,14 @@ const ReaderScreen: React.FC<ReaderScreenProps> = ({fontSize, content, chapter})
                     render={() => (
                         <ChapterNavigation>
                             <ChapterImage src={ChapterImg} />
-                            <ChapterListComponent>
+                            <ChapterListComponent mode={mode}>
                                 {content.chapters.map((section, index) => (
-                                    <NavigationItem key={section.short_title} section={section} chapter={index + 1} />
+                                    <NavigationItem
+                                        key={section.short_title}
+                                        section={section}
+                                        chapter={index + 1}
+                                        mode={mode}
+                                    />
                                 ))}
                             </ChapterListComponent>
                         </ChapterNavigation>
