@@ -163,6 +163,18 @@ export const chapter_three: Chapters = {
                             <strong>Do not leave the baby alone</strong>
                         </li>
                     </ul>
+
+                    <figure>
+                        <img src="img/chapter_03/fig_3_1.png" />
+                        <figcaption>Figure 3.1: Action plan to help babies breathe</figcaption>
+                    </figure>
+                    <br />
+                    <br />
+                    <figure>
+                        <img src="img/chapter_03/fig_3_2.png" />
+                        <figcaption>Figure 3.2: Essential steps for newborn care</figcaption>
+                    </figure>
+
                     <p>
                         Ensuring adequate warmth and ventilation (either by mask or intubation) is much more important
                         than administering any medicines.
