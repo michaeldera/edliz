@@ -5,6 +5,7 @@ import {DrawerButton} from './DrawerButton'
 import ModeButton from './ModeButton'
 import {IEdlizStore} from '../../stores/EdlizStore'
 import produce from 'immer'
+import { DefaultButton, IIconProps } from '@fluentui/react'
 
 interface PreferencesProps extends Omit<IEdlizStore, 'navigation' | 'toggleNavigationPanel' | 'books'> {}
 
@@ -76,6 +77,10 @@ const Preferences: React.FC<PreferencesProps> = ({
 
     const overlayVisibility = preferences === 'open' ? 'visible' : 'hidden'
 
+
+    const night: IIconProps = { iconName: 'ClearNight' };
+    const day: IIconProps = { iconName: 'Sunny' };
+
     return (
         <React.Fragment>
             <div className={mode + ' preferences'} style={{bottom: bottom}}>
@@ -94,7 +99,13 @@ const Preferences: React.FC<PreferencesProps> = ({
                         onChange={handleFontSizeChange}
                     />
                 </section>
-                <ModeButton toggle={() => toggleMode(mode)} mode={mode} />
+
+                <DefaultButton toggle 
+                    checked={mode === 'day'}
+                    text={ mode === 'day' ? 'Day Mode' : 'Night Mode'}
+                    iconProps={mode === 'day' ? day : night}
+                    onClick={() => toggleMode(mode)}
+                />
             </div>
             <Overlay visibility={overlayVisibility} dismiss={() => togglePreferences(preferences)} />
         </React.Fragment>
