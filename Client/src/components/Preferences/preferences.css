@@ -5,6 +5,7 @@
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
     transition: all 2s ease;
+    padding-bottom: 20px;
 
     width: 100vw;
     z-index: 999;
