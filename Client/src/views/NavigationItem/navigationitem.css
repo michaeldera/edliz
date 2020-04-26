@@ -1,0 +1,11 @@
+.nav-active .nav-long-title {
+    color: #2b44ff;
+}
+
+.night .nav-short-title {
+    color: #ddd;
+}
+
+.night .nav-long-title {
+    color: #fff;
+}
