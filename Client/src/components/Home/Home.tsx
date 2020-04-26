@@ -1,4 +1,5 @@
-import React from 'react'
+import * as React from 'react';
+import { PrimaryButton } from '@fluentui/react';
 import Media from 'react-media'
 import MainMenu from '../MainMenu/MainMenu'
 import Button from '../Button/Button'
@@ -123,9 +124,7 @@ const Home: React.FC = () => {
                         Committee. It is the product of many years of combined efforts by hundreds of health workers at
                         all levels of the health care system in Zimbabwe.
                     </Introduction>
-                    <Button href="/#/chapters/1" type="a">
-                        Start Reading
-                    </Button>
+                    <PrimaryButton href="/#/chapters/1" text="Start Reading"/>
                 </div>
                 <Media query="(min-width: 1025px)" render={() => <Medicine src={medicine} alt="" />} />
             </HomeComponent>
