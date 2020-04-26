@@ -63,7 +63,6 @@ const ChapterImage = styled.img`
 `
 
 const ChapterTitle = styled.div`
-    font-family: 'Muli-Light';
     font-size: 45px;
     color: #101010;
     letter-spacing: 0.65px;
