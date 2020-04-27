@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import {NavLink} from 'react-router-dom'
 import './navigationitem.css'
 import {Chapters} from '../../data/data'
@@ -18,7 +18,7 @@ const Link = styled(NavLink).attrs({
     className: 'nav-item',
 })<{mode: string}>`
     &.${activeClassName} {
-        border-left: 3px solid #6c63ff;
+        border-bottom: 1px solid #6c63ff;
         padding-left: 7px;
         background: ${({mode}) => (mode === 'day' ? '#eff5fb' : 'inherit')};
         color: #2b44ff;
@@ -33,13 +33,11 @@ const Link = styled(NavLink).attrs({
 `
 
 const ShortTitle = styled.span.attrs({className: 'nav-short-title'})`
-    font-family: 'Muli', sans-serif;
     color: #999;
     display: block;
     font-size: 0.8em;
 `
 const LongTitle = styled.span.attrs({className: 'nav-long-title'})`
-    font-family: 'Muli-Light';
     display: block;
     color: #101010;
     margin: 5px 0;

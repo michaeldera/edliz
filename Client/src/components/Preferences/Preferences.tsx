@@ -2,8 +2,7 @@ import React from 'react'
 import {IEdlizStore} from '../../stores/EdlizStore'
 import { DefaultButton, IIconProps, Panel, Slider } from '@fluentui/react'
 
-interface PreferencesProps extends Omit<IEdlizStore, 'navigation' | 'toggleNavigationPanel' | 'books'> {}
-
+interface PreferencesProps extends Omit<IEdlizStore, 'navigation' | 'toggleNavigationPanel' | 'books'> { }
 
 const Preferences: React.FC<PreferencesProps> = ({ preferences, mode, fontSize, fontSizeChange, togglePreferences, toggleMode,
 }) => {
