@@ -18,14 +18,12 @@ const Link = styled(NavLink).attrs({
     className: 'nav-item',
 })<{mode: string}>`
     &.${activeClassName} {
-        border-bottom: 1px solid #6c63ff;
-        padding-left: 7px;
-        background: ${({mode}) => (mode === 'day' ? '#eff5fb' : 'inherit')};
+        border-bottom: 1px solid #6c63ff !important;
         color: #2b44ff;
     }
     &.${className} {
         display: block;
-        padding: 10px;
+        padding: 10px 5px;
         text-align: left;
         border-bottom: 1px solid rgba(200, 200, 200, 0.2);
         text-decoration: none;
