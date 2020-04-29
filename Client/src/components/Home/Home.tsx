@@ -2,8 +2,6 @@ import * as React from 'react';
 import { PrimaryButton } from '@fluentui/react';
 import Media from 'react-media'
 import MainMenu from '../MainMenu/MainMenu'
-import Button from '../Button/Button'
-import Github from './github.svg'
 import medicine from './medicine.svg'
 import styled from 'styled-components'
 import {MainComponent} from '../Information/Information'
@@ -59,37 +57,7 @@ const Introduction = styled.div`
         text-align: center;
     }
 `
-const GithubComponent = styled.div`
-    display: flex;
-    justify-items: baseline;
-    margin: 0 0 150px 50px;
-    text-align: right;
-    img {
-        margin-right: 6px;
-    }
-    small {
-        color: #6c63ff;
-        line-height: 20px;
-        font-size: 14px;
-        letter-spacing: 0.26px;
-        margin: 0;
-    }
-    @media (max-width: 1024px) {
-        display: flex;
-        justify-items: baseline;
-        margin: 0 10px 50px 10px;
-        text-align: center;
-        img {
-            display: none;
-        }
-        small {
-            font-size: 12px;
-            text-align: center;
-            letter-spacing: 0.26px;
-            margin: 0 auto;
-        }
-    }
-`
+
 const MedicineSM = styled.img`
     display: none;
     @media (max-width: 1024px) {
@@ -128,12 +96,7 @@ const Home: React.FC = () => {
                 </div>
                 <Media query="(min-width: 1025px)" render={() => <Medicine src={medicine} alt="" />} />
             </HomeComponent>
-            <GithubComponent>
-                <a href="https://github.com/michaeldera/edliz" className="github-link">
-                    <img src={Github} width="20" height="20" alt="GitHub Icon" />
-                </a>
-                <small>Maintained on GitHub by well meaning developers</small>
-            </GithubComponent>
+            <small>Maintained on GitHub by well meaning developers</small>
         </MainComponent>
     )
 }

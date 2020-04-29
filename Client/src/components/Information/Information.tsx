@@ -3,9 +3,9 @@ import {inject, observer} from 'mobx-react'
 import {Link, animateScroll as scroll} from 'react-scroll'
 import {book} from '../../data/data'
 import MainMenu from '../MainMenu/MainMenu'
-import Button from '../Button/Button'
 import {IMobxStore} from '../../App'
 import styled from 'styled-components'
+import { PrimaryButton } from '@fluentui/react'
 
 export const MainComponent = styled.div`
     text-align: left;
@@ -29,7 +29,6 @@ const InformationComponent = styled.div`
 `
 
 const SectionHeader = styled.div`
-    font-family: 'Muli', sans-serif;
     font-weight: 300;
     margin: 130px 0 30px 0px;
     font-size: 25px;
@@ -72,9 +71,7 @@ const Information: React.FC<IMobxStore> = ({EdlizStore}) => {
                     <section className={elem.short_title} key={elem.short_title}>
                         {elem.content}
                         <br />
-                        <Button onClick={scrollToTop} type="button">
-                            Back to top
-                        </Button>
+                        <PrimaryButton onClick={scrollToTop} type="button" text="Back to top"/>
                     </section>
                 ))}
             </InformationComponent>

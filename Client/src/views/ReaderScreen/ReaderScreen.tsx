@@ -81,19 +81,6 @@ const Screen = styled.div.attrs({className: 'screen'})`
     text-align: left;
     height: calc(100vh);
     overflow-y: scroll;
-    &::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
-        border-radius: 2px;
-        background-color: rgba(0, 0, 0, 0);
-    }
-    &::-webkit-scrollbar {
-        width: 3px;
-        background-color: rgba(0, 0, 0, 0.1);
-    }
-    &::-webkit-scrollbar-thumb {
-        border-radius: 3px;
-        box-shadow: inset 0 0 11px rgba(0, 0, 0, 0.2);
-        background-color: #6c63ff;
     }
 `
 const ReaderScreen: React.FC<ReaderScreenProps> = ({fontSize, content, chapter, mode}) => {
