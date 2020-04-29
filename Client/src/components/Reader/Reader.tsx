@@ -28,15 +28,7 @@ const Reader: React.FC<ReaderProps> = ({EdlizStore, chapter}) => {
 
     return (
         <div className={mode}>
-            <Media
-                query="(max-width: 1024px)"
-                render={() => (
-                    <HamburgerButton
-                        IsActive={navigation === 'open' ? true : false}
-                        onClick={() => toggleNavigationPanel(navigation)}
-                    />
-                )}
-            />
+            <HamburgerButton IsActive={navigation === 'open' ? true : false}  onClick={() => toggleNavigationPanel(navigation)}/>
             <Navigation
                 content={books.contents}
                 navigation={navigation}
