@@ -29,11 +29,7 @@ const Reader: React.FC<ReaderProps> = ({EdlizStore, chapter}) => {
     return (
         <div className={mode}>
             <HamburgerButton IsActive={navigation === 'open' ? true : false}  onClick={() => toggleNavigationPanel(navigation)}/>
-            <Navigation
-                content={books.contents}
-                navigation={navigation}
-                current={book.contents.chapters[chapter]}
-                toggleNavigationPanel={toggleNavigationPanel}
+            <Navigation content={books.contents} navigation={navigation} current={book.contents.chapters[chapter]} toggleNavigationPanel={toggleNavigationPanel}
                 mode={mode}
             />
             <Preferences
