@@ -14,7 +14,7 @@
     "eslint-config-react-app": "^4.0.1",
     "eslint-plugin-flowtype": "^3.13.0",
     "eslint-plugin-import": "^2.18.2",
-    "handlebars": "4.3.0",
+    "handlebars": "4.6.0",
     "husky": "^2.2.0",
     "immer": "^4.0.0",
     "mobx": "^5.9.0",
