@@ -1,10 +1,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace EDLIZ
 {
@@ -20,7 +19,7 @@ namespace EDLIZ
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<EdlizContext>(options => options.UseInMemoryDatabase(databaseName: "Edliz"));
+            services.AddDbContext<EdlizContext>(options => options.UseInMemoryDatabase("EDLIZ"));
             services.AddControllersWithViews();
 
             // In production, the React files will be served from this directory

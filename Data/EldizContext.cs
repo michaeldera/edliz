@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 using Edliz.Models;
 
-namespace Edliz
+namespace EDLIZ
 {
     public class EdlizContext : DbContext
     {
