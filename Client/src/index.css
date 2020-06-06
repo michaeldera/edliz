@@ -37,3 +37,42 @@ h6 {
     background-color: #ffffff;
     min-height: 80vh;
 }
+
+.underline {
+    text-decoration: underline;
+}
+
+
+table {
+    margin: 10px auto;
+    min-width: 400px;
+}
+
+
+.day th {
+    background-color: rgba(0, 0, 60, 0.2);
+}
+
+.night th {
+    background-color: rgba(200, 200, 255, 0.2);
+}
+
+.day td {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+@media screen and (max-width: 450px) {
+    table {
+        font-size: 85%;
+        min-width: 90%;
+    }
+}
+
+.boxedlist {
+    border: 1px solid;
+    padding: 1em 3em;
+    margin: 1em;
+    list-style-type: circle;
+}
+

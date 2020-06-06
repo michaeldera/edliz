@@ -1,10 +1,8 @@
 import React, {useState} from 'react'
 import {NavLink} from 'react-router-dom'
-import Media from 'react-media'
 import home from './home.svg'
 import read from './read.svg'
 import info from './information.svg'
-import HamburgerButton from '../../views/HamburgerButton/HamburgerButton'
 import styled, {css} from 'styled-components'
 
 const Header = styled.header`
@@ -74,7 +72,6 @@ const MainMenu: React.FC<{chapter?: number}> = ({chapter}) => {
     }
     return (
         <Header>
-            <Media query="(max-width: 780px)" render={() => <HamburgerButton onClick={toggleNavigation} />} />
             <MainNavigation showNavigation={showNavigation}>
                 <Link exact to="/">
                     <HeaderImg src={home} alt="information icon" />
