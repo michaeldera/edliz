@@ -1,8 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import './settings.css'
 
-const Settings: React.FC = () => (
+export const Settings  = () => (
     <div className="settings">
         <Link to="/" className="back-link">
             back...
@@ -19,9 +18,6 @@ const Settings: React.FC = () => (
         <a href="https://github.com/michaeldera/edliz" className="btn-more">
             view on github
         </a>
-        <h3>Website</h3>
-        <p>Still in development. coming soon</p>
     </div>
 )
 
-export default Settings

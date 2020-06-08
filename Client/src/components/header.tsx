@@ -27,6 +27,8 @@ export const Header = ({ toggleNavigation}: IHeaderProps) => {
                 <PrimaryButton onClick={toggleNavigation}>Menu</PrimaryButton>
             </Stack>
             <Stack horizontal horizontalAlign="end" grow>
+                <IconButton iconProps={{ iconName: 'Share' }} title="Share this Article" ariaLabel="Share this page" />
+                <IconButton iconProps={{ iconName: 'AddBookmark' }} title="Add Bookmark" ariaLabel="Bookmark this page" />
                 <IconButton iconProps={{iconName: 'Settings'}} title="Settings" ariaLabel="Settings"/>
             </Stack>
         </header>
