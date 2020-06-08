@@ -41,25 +41,25 @@ import {major_highlights} from './Information/major_highlights'
 import {preface} from './Information/preface'
 import {seventh_edition} from './Information/seventh_edition'
 
-interface BChapters {
+interface IChapterSection {
     short_title: string
     long_title: string
     content: JSX.Element
 }
-export interface Chapters extends BChapters {
-    subsections?: BChapters[]
+export interface IChapter extends IChapterSection {
+    subsections?: IChapterSection[]
 }
 export interface Contents {
-    chapters: Chapters[]
-    pre: Chapters[]
+    chapters: IChapterSection[]
+    pre: IChapterSection[]
 }
-export interface IBooks {
+export interface IBook {
     short_title: string
     long_title: string
     contents: Contents
 }
 
-export const book: IBooks = {
+export const book: IBook = {
     short_title: 'EDLIZ',
     long_title: 'The Essential Medicines List for Zimbabwe',
     contents: {

@@ -1,7 +1,7 @@
 import React from 'react'
-import {Chapters} from '../data'
+import {IChapter} from '../data'
 
-export const chapter_eleven: Chapters = {
+export const chapter_eleven: IChapter = {
     short_title: 'Chapter 11',
     long_title: 'Tropical Diseases',
     subsections: [

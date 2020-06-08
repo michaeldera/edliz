@@ -1,13 +1,18 @@
-﻿import React from 'react'
-import { Stack, PrimaryButton, getTheme, IconButton } from '@fluentui/react'
+﻿import React from 'react';
+import { Stack, PrimaryButton, getTheme, IconButton } from '@fluentui/react';
+import { useRecoilState } from 'recoil';
+import { navigationPanelIsOpenState } from '../utils';
 
 const theme = getTheme();
 
-interface IHeaderProps {
-    toggleNavigation: any;
-}
 
-export const Header = ({ toggleNavigation}: IHeaderProps) => {
+export const Header = () => {
+    const [isOpen, setIsOpen] = useRecoilState(navigationPanelIsOpenState);
+
+    const toggleNavigation = () => {
+        setIsOpen(!isOpen);
+    }
+
     const style: React.CSSProperties = {
         position: 'sticky',
         display: 'grid',

@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fluentui/react": "^7.107.5",
+    "@fluentui/react": "^7.118.0",
     "@types/jest": "24.0.16",
-    "@types/react": "^16.8.25",
+    "@types/react": "^16.9.35",
     "@types/react-dom": "16.8.5",
-    "@types/react-router-dom": "^4.3.4",
+    "@types/react-router-dom": "^5.1.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^2.1.8",
+    "recoil": "0.0.8",
     "typescript": "3.5.3"
   },
   "eslintConfig": {
@@ -38,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@types/recoil": "0.0.0",
     "prettier": "1.18.2"
   },
   "proxy": "http://localhost:44381"
