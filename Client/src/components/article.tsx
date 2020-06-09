@@ -26,7 +26,7 @@ export const Article = ({ chapter }: IArticleProps) => {
 
     return (
         <article style={style}>
-             <Text variant="xxLargePlus" block>{short_title}<br/>{long_title}</Text>
+             <Text variant="xxLarge" block>{short_title} - {long_title}</Text>
             {subsections ?
                 subsections.map((section: any) => { return <section key={section.short_title}>{section.content}</section> })
                 : content}

@@ -19,6 +19,10 @@ export const Header = () => {
         history.push('/settings');
     }
 
+    const gotoBookmarks = () => {
+        history.push('/bookmarks');
+    }
+
     const style: React.CSSProperties = {
         position: 'fixed',
         display: 'grid',
@@ -40,8 +44,9 @@ export const Header = () => {
                 <PrimaryButton onClick={toggleNavigation}>Menu</PrimaryButton>
             </Stack>
             <Stack horizontal horizontalAlign="end" grow>
-                <IconButton iconProps={{ iconName: 'Share' }} title="Share this Article" ariaLabel="Share this page" />
-                <IconButton iconProps={{ iconName: 'AddBookmark' }} title="Add Bookmark" ariaLabel="Bookmark this page" />
+                <IconButton iconProps={{ iconName: 'Share' }} title="Share this Article" ariaLabel="Share this page" disabled />
+                <IconButton iconProps={{ iconName: 'AddBookmark' }} title="Add Bookmark" ariaLabel="Bookmark this page" disabled />
+                <IconButton iconProps={{ iconName: 'DoubleBookmark' }} title="Go to Bookmarks" ariaLabel="Go to Bookmarks" onClick={gotoBookmarks}/>
                 <IconButton iconProps={{ iconName: 'Settings' }} title="Settings" ariaLabel="Settings" onClick={handleSettingsClick}/>
             </Stack>
         </header>

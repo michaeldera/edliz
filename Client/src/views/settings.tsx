@@ -78,7 +78,7 @@ export const Settings = () => {
                 </Stack>
                 <Stack horizontal styles={controlStackStyle} verticalAlign="center">
                     <Text variant="mediumPlus" style={{ marginRight: 15 }} block>Mode: </Text>
-                    <DefaultButton toggle checked={isNightMode} text={isNightMode ? 'Dark Theme' : 'Light Theme'} iconProps={themeIcon} onClick={toggleTheme} />
+                    <DefaultButton toggle checked={isNightMode} text={isNightMode ? 'Dark Theme' : 'Light Theme'} iconProps={themeIcon} onClick={toggleTheme} disabled />
                     </Stack>
                  </Stack>
             </Stack>

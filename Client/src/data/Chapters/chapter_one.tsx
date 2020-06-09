@@ -6,7 +6,6 @@ export const chapter_one: IChapter = {
     long_title: 'Guidelines on Antimicrobial Treatment and Prophylaxis ',
     content: (
         <span>
-            <h1>Guidelines on Antimicrobial Treatment and Prophylaxis</h1>
             <h2>General Guidelines</h2>
             <p>
                 Antimicrobials are the most over-used class of medicines worldwide and in Zimbabwe. Apart from the
