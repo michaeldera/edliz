@@ -30,9 +30,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ env.NODE_VERSION }}
-      uses: actions/setup-dotnet
+      uses: actions/setup-node@v1
       with:
         node-version: ${{ env.NODE_VERSION }}
+    - name: Setup Dotnet 3.1.300
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '3.1.300'
     - name: 'Run dotnet build'
       shell: bash
       run: |
