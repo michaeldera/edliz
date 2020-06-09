@@ -12,7 +12,8 @@ export const Reader = () => {
 
     const style: React.CSSProperties = {
         backgroundColor: theme.semanticColors.disabledBackground,
-        margin:0,
+        margin: 0,
+        overflow: 'scroll'
     }
 
     return (

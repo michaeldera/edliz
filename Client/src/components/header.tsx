@@ -2,23 +2,31 @@
 import { Stack, PrimaryButton, getTheme, IconButton } from '@fluentui/react';
 import { useRecoilState } from 'recoil';
 import { navigationPanelIsOpenState } from '../utils';
+import { useHistory } from 'react-router-dom';
 
 const theme = getTheme();
 
 
 export const Header = () => {
+    let history = useHistory();
     const [isOpen, setIsOpen] = useRecoilState(navigationPanelIsOpenState);
 
     const toggleNavigation = () => {
         setIsOpen(!isOpen);
     }
 
+    const handleSettingsClick = () => {
+        history.push('/settings');
+    }
+
     const style: React.CSSProperties = {
-        position: 'sticky',
+        position: 'fixed',
         display: 'grid',
         gridTemplateColumns: '1fr auto',
         boxSizing: 'border-box', 
         top: 0, 
+        left: 0, 
+        right: 0,
         padding: 8, 
         width: '100%',
         margin: 0, 
@@ -34,7 +42,7 @@ export const Header = () => {
             <Stack horizontal horizontalAlign="end" grow>
                 <IconButton iconProps={{ iconName: 'Share' }} title="Share this Article" ariaLabel="Share this page" />
                 <IconButton iconProps={{ iconName: 'AddBookmark' }} title="Add Bookmark" ariaLabel="Bookmark this page" />
-                <IconButton iconProps={{iconName: 'Settings'}} title="Settings" ariaLabel="Settings"/>
+                <IconButton iconProps={{ iconName: 'Settings' }} title="Settings" ariaLabel="Settings" onClick={handleSettingsClick}/>
             </Stack>
         </header>
     )

@@ -13,8 +13,10 @@ export const Article = ({ chapter }: IArticleProps) => {
     const style: React.CSSProperties = {
         display: 'block',
         padding: '6vw',
-        maxWidth: 800,
-        margin: '60px auto',
+        overflow: 'scroll',
+        boxSizing:"border-box",
+        maxWidth: 'min(800px , 100%)',
+        margin: '12vw auto',
         backgroundColor: theme.semanticColors.bodyBackground,
         textAlign: 'left',
         boxShadow: '0 3.2px 7.2px 0 rgba(0, 0, 0, .132), 0 0.6px 1.8px 0 rgba(0, 0, 0, .108)',
