@@ -30,16 +30,17 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ env.NODE_VERSION }}
-      uses: actions/setup-node@v1
+      uses: actions/setup-dotnet
       with:
         node-version: ${{ env.NODE_VERSION }}
-    - name: npm install, build, and test
+    - name: 'Run dotnet build'
+      shell: bash
       run: |
-        # Build and test the project, then
-        # deploy to Azure Web App.
-        npm install
-        npm run build --if-present
-        npm run test --if-present
+        # If your web app project is not located in your repository's root
+        # Please consider using pushd to change your path
+        pushd .
+        dotnet build --configuration Release --output ./output
+        popd
     - name: 'Deploy to Azure WebApp'
       uses: azure/webapps-deploy@v2
       with:
