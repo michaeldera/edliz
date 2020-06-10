@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Deploy to Staging Slot
+name: Deploy to Staging
 
 on:
   push:
@@ -29,7 +29,7 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'edliz'
+        app-name: 'edliz(staging)'
         slot-name: 'staging'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_8d9a01c1fe5b47b9a10b03f229be281c }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_154ffd72748d4773a1fa4d359622debc }}
         package: ${{env.DOTNET_ROOT}}/myapp 

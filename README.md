@@ -1,7 +1,6 @@
 # EDLIZ Essential Drugs and Medicines List  for Zimbabwe
 
-![Deploy to Production](https://github.com/michaeldera/edliz/workflows/Deploy%20to%20Production/badge.svg) ![Deploy to Staging Slot](https://github.com/michaeldera/edliz/workflows/Deploy%20to%20Staging%20Slot/badge.svg)
-
+![Deploy to Production](https://github.com/michaeldera/edliz/workflows/Deploy%20to%20Production/badge.svg) ![Deploy to Staging](https://github.com/michaeldera/edliz/workflows/Deploy%20to%20Staging/badge.svg)
 
 ## Motivation
 
