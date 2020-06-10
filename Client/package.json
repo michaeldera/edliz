@@ -1,0 +1,46 @@
+{
+  "name": "edliz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fluentui/react": "^7.118.0",
+    "@types/jest": "24.0.16",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "16.8.5",
+    "@types/react-router-dom": "^5.1.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^2.1.8",
+    "recoil": "0.0.8",
+    "typescript": "3.5.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint --cache  --fix"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/recoil": "0.0.0",
+    "prettier": "1.18.2"
+  },
+  "proxy": "http://localhost:44381"
+}

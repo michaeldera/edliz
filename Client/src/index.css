@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ffffff;
+    transition: all 2s ease;
+    line-height: 1.5;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 16px;
+    color: #6c7987;
+    letter-spacing: 0.23px;
+    line-height: 26px;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+h3 {
+    font-size: 1.6em;
+}
+h4 {
+    font-size: 1.5em;
+}
+h5 {
+    font-size: 1.4em;
+}
+h6 {
+    font-size: 1.3em;
+}
+
+.main {
+    text-align: left;
+    background-color: #ffffff;
+    min-height: 80vh;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+table {
+    margin: 10px auto;
+    min-width: 400px;
+}
+
+
+.day th {
+    background-color: rgba(0, 0, 60, 0.2);
+}
+
+.night th {
+    background-color: rgba(200, 200, 255, 0.2);
+}
+
+.day td {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+@media screen and (max-width: 450px) {
+    table {
+        font-size: 85%;
+        min-width: 90%;
+    }
+}
+
+.boxedlist {
+    border: 1px solid;
+    padding: 1em 3em;
+    margin: 1em;
+    list-style-type: circle;
+}
+
