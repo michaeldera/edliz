@@ -1,6 +1,6 @@
 {
   "short_name": "EDLIZ",
-  "name": "Essentilal Drugs and Medicines Lists in Zimbabwe",
+  "name": "Essential Drugs and Medicines Lists in Zimbabwe",
   "icons": [
     {
       "src": "windows10/Square71x71Logo.scale-400.png",
@@ -417,6 +417,6 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": " #0093E9",
+  "theme_color": " #0078d4",
   "background_color": "#ffffff"
 }

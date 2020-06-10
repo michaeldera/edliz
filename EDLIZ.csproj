@@ -7,6 +7,8 @@
     <IsPackable>false</IsPackable>
     <SpaRoot>Client\</SpaRoot>
     <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+    <UserSecretsId>4f9f7344-ee2a-4b64-8514-218952799338</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/ddb406ed-f647-4d74-9a2e-a55f659725db/resourceGroups/medicine.org.zw/providers/microsoft.insights/components/edliz</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.13.1" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.5" />
