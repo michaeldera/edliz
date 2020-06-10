@@ -13,7 +13,6 @@ export const Article = ({ chapter }: IArticleProps) => {
     const style: React.CSSProperties = {
         display: 'block',
         padding: '6vw',
-        overflow: 'scroll',
         boxSizing:"border-box",
         maxWidth: 'min(800px , 100%)',
         margin: '12vw auto',
