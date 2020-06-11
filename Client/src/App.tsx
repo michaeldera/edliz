@@ -1,11 +1,7 @@
 import React from 'react'
 import {HashRouter, Route, Switch} from 'react-router-dom'
 import { Home, Reader, Settings, Information, Bookmarks } from './views'
-import { getAppInsights } from './utils/telemetry-service'
-import { TelemetryProvider } from './components'
-import { ApplicationInsights } from '@microsoft/applicationinsights-web'
 
-let appInsights: ApplicationInsights; 
 
 export const App: React.FC = () => {
     return (
