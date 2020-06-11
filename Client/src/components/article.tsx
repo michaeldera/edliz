@@ -1,6 +1,8 @@
 import React from 'react';
 import { IChapter} from '../data/data'
 import { getTheme, Text } from '@fluentui/react';
+import { useRecoilState } from 'recoil';
+import { fontSizeState } from '../utils';
 
 interface IArticleProps {
     chapter: IChapter
@@ -9,10 +11,12 @@ interface IArticleProps {
 const theme = getTheme();
 
 export const Article = ({ chapter }: IArticleProps) => {
+    const [fontSize, setFontSize] = useRecoilState(fontSizeState);
 
     const style: React.CSSProperties = {
         display: 'block',
         padding: '6vw',
+        fontSize: fontSize, 
         boxSizing:"border-box",
         maxWidth: 'min(800px , 100%)',
         margin: '12vw auto',
