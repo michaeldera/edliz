@@ -42,6 +42,7 @@
     <None Include=".github\ISSUE_TEMPLATE\feature_request.md" />
     <None Include=".github\ISSUE_TEMPLATE\incomplete_content.md" />
     <None Include=".github\ISSUE_TEMPLATE\wrong-content.md" />
+    <None Include=".github\stale.yml" />
     <None Include="Client\package-lock.json" />
     <None Include="Client\package.json" />
     <None Include="Client\public\manifest.json" />
