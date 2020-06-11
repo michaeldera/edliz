@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@fluentui/react": "^7.118.0",
+    "@microsoft/applicationinsights-react-js": "^3.0.0",
+    "@microsoft/applicationinsights-web": "^2.5.5",
     "@types/jest": "24.0.16",
     "@types/react": "^16.9.35",
     "@types/react-dom": "16.8.5",
