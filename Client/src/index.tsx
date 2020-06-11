@@ -1,9 +1,9 @@
-import * as React from 'react'
-import * as ReactDOM from 'react-dom'
-import './index.css'
-import { App } from './App'
-import {HashRouter} from 'react-router-dom'
-//import registerServiceWorker from './registerServiceWorker'
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import './index.css';
+import { App } from './App';
+import { HashRouter } from 'react-router-dom';
+import registerServiceWorker from './registerServiceWorker';
 import { Fabric, loadTheme, initializeIcons } from 'office-ui-fabric-react';
 import { RecoilRoot } from 'recoil';
 
@@ -21,4 +21,4 @@ const Root = (
 )
 
 ReactDOM.render(Root, document.getElementById('root'))
-//registerServiceWorker()
+registerServiceWorker()
