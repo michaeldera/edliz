@@ -1,14 +1,17 @@
 import React from 'react';
-import { Stack, Text, Image, IStackTokens, IStackItemStyles, DefaultButton,  ActionButton, PrimaryButton } from '@fluentui/react';
+import { Stack, Text, Image, IStackTokens, IStackItemStyles, ActionButton, IconButton, } from '@fluentui/react';
 import { useRecoilState } from 'recoil';
 import { bookmarksState } from '../utils';
 import { useHistory } from 'react-router-dom';
 import { add_bookmarks } from '../assets';
+import { IChapter, book } from '../data/data';
+
+
+const chapters = book.contents.chapters;
 
 export const Bookmarks = () => {
-    let history = useHistory();
     const [bookmarks, setBookmarks] = useRecoilState(bookmarksState)
-  
+    let history = useHistory();
 
     const stackTokens: IStackTokens = {
         childrenGap: 40, 
@@ -34,13 +37,21 @@ export const Bookmarks = () => {
         history.goBack();
     }
 
+    const listStackTokens: IStackTokens = {
+        childrenGap: 20
+    }
+
     const bookmarksExist: boolean = bookmarks.length > 0;
 
     return (
         <Stack tokens={stackTokens}>
             <Text variant="xxLarge">Bookmarks</Text>
             {bookmarksExist ?
-                bookmarks.map((bookmark: any) => (<p>Bookmark thing</p>))
+                <Stack tokens={listStackTokens}>
+                    {bookmarks.map((bookmark: IChapter) => (
+                        <BookmarkItem chapter={bookmark}/>
+                    ))}
+                </Stack>
                 :
                 <Stack tokens={graphicStackTokens}>
                     <Image src={add_bookmarks} alt="Artwork" style={imageStyle} />
@@ -54,3 +65,34 @@ export const Bookmarks = () => {
     )
 }
 
+
+
+interface IBookmarkItemProps {
+    chapter : IChapter
+}
+
+const BookmarkItem = ({ chapter }: IBookmarkItemProps) => {
+    const [bookmarks, setBookmarks] = useRecoilState(bookmarksState)
+    let history = useHistory();
+
+    const handleBookmarkClick = () => {
+        const chapterNumber = chapters.indexOf(chapter) + 1;
+        history.push(`/chapters/${chapterNumber}`)
+    }
+
+    const handleBookmarkDelete = () => {
+        setBookmarks(bookmarks.filter(bookmark => bookmark !== chapter));
+    }
+
+    return (
+        <Stack horizontal verticalAlign="center">
+            <Stack onClick={handleBookmarkClick}>
+                <Text variant="smallPlus">{chapter.short_title}</Text>
+                <Text>{chapter.long_title}</Text>
+            </Stack>
+            <Stack grow horizontalAlign="end">
+                <IconButton iconProps={{ iconName: "Delete" }} onClick={handleBookmarkDelete} />
+            </Stack>
+        </Stack>
+    )
+}

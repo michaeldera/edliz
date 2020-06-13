@@ -1,12 +1,12 @@
 import React from 'react'
-import {HashRouter, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import { Home, Reader, Settings, Information, Bookmarks } from './views'
 
 
 export const App: React.FC = () => {
     return (
         <div className="App">
-            <HashRouter>
+            <Router>
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route path="/chapters/:chapterNumber" component={Reader} />
@@ -14,7 +14,7 @@ export const App: React.FC = () => {
                     <Route path="/bookmarks" component={Bookmarks} />
                     <Route path="/settings" component={Settings} />
                     </Switch>
-            </HashRouter>
+            </Router>
         </div>
     )
 }
