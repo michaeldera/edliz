@@ -36,4 +36,3 @@ If you contribute to this  project please add your name on this list along with 
 4. Rou Mills
 5. Ridwan Mustapha
 6. Bakani Pilime
-7. Tinashe Kupfuwa
