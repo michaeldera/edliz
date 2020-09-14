@@ -3,6 +3,8 @@ import { Stack, PrimaryButton, getTheme, IconButton} from '@fluentui/react';
 import { useRecoilState } from 'recoil';
 import { navigationPanelIsOpenState, currentChapterState, bookmarksState } from '../utils';
 import { useHistory } from 'react-router-dom';
+import { database } from '../utils/storage';
+import { BOOKMARKS_STORE } from '../utils/config';
 
 const theme = getTheme();
 let _navigator: any = window.navigator;
@@ -25,9 +27,13 @@ export const Header = () => {
         history.push('/bookmarks');
     }
 
-    const handleAddBookmark = () => {
+    const handleAddBookmark = async () => {
+        const foo = chapter;
         if (!bookmarks.includes(chapter)) {
-            setBookmarks([...bookmarks, chapter]);
+            const tx = (await database).transaction(BOOKMARKS_STORE, 'readwrite');
+            tx.store.put(foo).then(() => {
+                setBookmarks([...bookmarks, chapter]);
+            })
             alert("Bookmark added");
         } else {
             alert("This is already in you bookmarks");
