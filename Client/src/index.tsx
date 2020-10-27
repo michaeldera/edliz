@@ -7,7 +7,10 @@ import registerServiceWorker from './registerServiceWorker';
 import { Fabric, loadTheme, initializeIcons } from 'office-ui-fabric-react';
 import { RecoilRoot } from 'recoil';
 
-loadTheme({});
+loadTheme({
+    defaultFontStyle: { fontFamily: "'Quicksand', sans-serif", },
+});
+
 initializeIcons();
 
 const Root = (
