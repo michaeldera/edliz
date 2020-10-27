@@ -28,12 +28,9 @@ export const Header = () => {
     }
 
     const handleAddBookmark = async () => {
-        const foo = chapter;
         if (!bookmarks.includes(chapter)) {
-            const tx = (await database).transaction(BOOKMARKS_STORE, 'readwrite');
-            tx.store.put(foo).then(() => {
-                setBookmarks([...bookmarks, chapter]);
-            })
+            setBookmarks([...bookmarks, chapter]);
+            localStorage.setItem(BOOKMARKS_STORE, JSON.stringify(bookmarks));
             alert("Bookmark added");
         } else {
             alert("This is already in you bookmarks");

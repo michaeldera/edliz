@@ -1,25 +1,8 @@
 ﻿import { DATABASE_VERSION, DATABASE_NAME, BOOKMARKS_STORE } from './config';
-import { openDB, DBSchema, IDBPDatabase } from 'idb';
 import { IChapter } from '../data/data';
 
+export const database = () => {
+    const _database = localStorage.getItem(DATABASE_NAME);
 
-interface IEdlizDB extends DBSchema {
-    bookmarks: {
-        value: IChapter;
-        key: string;
-    }
+    return _database ? JSON.parse(_database) : {};
 }
-const getDatabase = async () => {
-    await openDB<IEdlizDB>(DATABASE_NAME, DATABASE_VERSION, {
-        upgrade(db) {
-            db.createObjectStore(BOOKMARKS_STORE);
-        }
-    }).then((db) => {
-        return db;
-    });
-}
-
-export const database = await getDatabase();
-
-
-

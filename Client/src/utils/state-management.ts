@@ -1,14 +1,12 @@
 ﻿import { atom } from 'recoil';
 import { book, IChapter } from '../data/data';
-import { database } from './storage';
 import { BOOKMARKS_STORE } from './config';
 
 let bookmarks: IChapter[] = [];
 
 const initialiseState = async () => {
-    await (await database).getAll(BOOKMARKS_STORE).then((chapters: IChapter[]) => {
-        bookmarks = chapters;
-    });
+    const _bookmarks = localStorage.getItem(BOOKMARKS_STORE);
+    bookmarks = _bookmarks ? JSON.parse(_bookmarks) : bookmarks;
 }
 initialiseState();
 
