@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Edliz.Models;
+using EDLIZ.Models;
 
 namespace EDLIZ
 {
@@ -9,6 +10,7 @@ namespace EDLIZ
         {
         }
         public DbSet<Article> Articles { get; set; }
+        public DbSet<EDLIZ.Models.Bookmark> Bookmark { get; set; }
     }
 
 }

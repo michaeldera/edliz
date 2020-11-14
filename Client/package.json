@@ -10,6 +10,7 @@
     "@types/react": "^16.9.35",
     "@types/react-dom": "16.8.5",
     "@types/react-router-dom": "^5.1.5",
+    "idb": "^5.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.2.0",

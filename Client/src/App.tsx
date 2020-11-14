@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import { Home, Reader, Settings, Information, Bookmarks } from './views'
 
 
-export const App: React.FC = () => {
+export const App: React.FunctionComponent = () => {
     return (
         <div className="App">
             <Router>
@@ -13,7 +13,7 @@ export const App: React.FC = () => {
                     <Route path="/information" component={Information} />
                     <Route path="/bookmarks" component={Bookmarks} />
                     <Route path="/settings" component={Settings} />
-                    </Switch>
+                </Switch>
             </Router>
         </div>
     )
