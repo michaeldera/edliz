@@ -85,7 +85,7 @@ export const chapter_six: IChapter = {
                             <td>one dose only</td>
                         </tr>
                         <tr>
-                            <td>>doxycycline po</td>
+                            <td>doxycycline po</td>
                             <td>C V</td>
                             <td>100mg</td>
                             <td>twice a day</td>
@@ -95,7 +95,7 @@ export const chapter_six: IChapter = {
                             <td colSpan={4}>or</td>
                         </tr>
                         <tr>
-                            <td>>azithromycin po</td>
+                            <td>azithromycin po</td>
                             <td>C V</td>
                             <td>1g</td>
                             <td>one dose only</td>

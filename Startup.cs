@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 
 namespace EDLIZ
 {
@@ -63,8 +64,8 @@ namespace EDLIZ
 
                 if (env.IsDevelopment())
                 {
-                    spa.UseProxyToSpaDevelopmentServer("http://localhost:3000/");
-                    //spa.UseReactDevelopmentServer(npmScript: "start");
+                    //spa.UseProxyToSpaDevelopmentServer("http://localhost:3000/");
+                    spa.UseReactDevelopmentServer(npmScript: "start");
                 }
             });
         }

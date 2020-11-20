@@ -384,7 +384,7 @@ export const chapter_one: IChapter = {
                         <td>960mg</td>
                         <td>every day</td>
                         <td>
-                            for life or until CD4 count > 500 for 3 months with <abbr title="Antiretroviral">ARV</abbr>s
+                            for life or until CD4 count &gt; 500 for 3 months with <abbr title="Antiretroviral">ARV</abbr>s
                         </td>
                     </tr>
                     <tr>

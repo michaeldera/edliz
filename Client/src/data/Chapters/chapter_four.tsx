@@ -273,7 +273,7 @@ export const chapter_four: IChapter = {
                 </tr>
                 <tr>
                     <td>TT1</td>
-                    <td>At first contact with a person of > 15 years or at first ANC visits</td>
+                    <td>At first contact with a person of &gt; 15 years or at first ANC visits</td>
                     <td>None or uncertain</td>
                 </tr>
                 <tr>

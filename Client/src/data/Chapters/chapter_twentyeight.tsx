@@ -63,7 +63,7 @@ export const chapter_twentyeight: IChapter = {
             <p>
                 This is due to deficiency of vitamin B12 and/or folic acid. It is important to establish the cause of
                 the deficiency for appropriate treatment. The typical blood picture is that of macrocytosis with or
-                without reduced platelet count (MCV >105 fL). Until or unless blood levels are available, it is{' '}
+                without reduced platelet count (MCV &gt; 105 fL). Until or unless blood levels are available, it is{' '}
                 <u>mandatory</u> to give both vitamin B12 (parenteral) and folic acid to prevent precipitation of
                 neuropathy.
             </p>
@@ -553,7 +553,7 @@ export const chapter_twentyeight: IChapter = {
                 </em>
             </small>
             <table>
-                <caption>For immediate haemostasis if bleeding and INR>3 give: </caption>
+                <caption>For immediate haemostasis if bleeding and INR &gt; 3 give: </caption>
                 <tr>
                     <th>Medicine</th>
                     <th>Codes</th>
@@ -575,7 +575,7 @@ export const chapter_twentyeight: IChapter = {
                 active bleeding give FFP and:
             </p>
             <table>
-                <caption>For immediate haemostasis if bleeding and INR>3 give: </caption>
+                <caption>For immediate haemostasis if bleeding and INR &gt; 3 give: </caption>
                 <tr>
                     <th>Medicine</th>
                     <th>Codes</th>

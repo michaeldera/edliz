@@ -103,7 +103,7 @@ export const chapter_thirty: IChapter = {
                             <br />
                             [= 10mg/kg]
                             <br />
-                            children > 5yrs 0.5ml
+                            children &gt; 5yrs 0.5ml
                             <br />
                             4 years 0.4ml
                             <br />

@@ -9,6 +9,7 @@ import { currentChapterState } from '../utils';
 const theme = getTheme();
 
 export const Reader = () => {
+    // @ts-ignore
     const { chapterNumber } = useParams();
     const [chapter, setChapter] = useRecoilState(currentChapterState)
 

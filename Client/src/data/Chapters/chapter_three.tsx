@@ -1377,7 +1377,7 @@ export const chapter_three: IChapter = {
                         <li>Dry the ear by wicking</li>
                         <li>Follow-up for 5 days</li>
                     </ul>
-                    <p>>Chronic ear infection</p>
+                    <p>Chronic ear infection</p>
                     <p>Pus is seen draining from the ear and discharge is reported for 14 days or more.</p>
                     <ul>
                         <li> Dry the ear by wicking </li>
