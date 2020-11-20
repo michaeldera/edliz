@@ -21,8 +21,7 @@ namespace EDLIZ
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<EdlizContext>(options => options.UseInMemoryDatabase("EDLIZ"));
-            services.AddControllersWithViews();
-
+            services.AddControllers();
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
@@ -53,9 +52,7 @@ namespace EDLIZ
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller}/{action=Index}/{id?}");
+                endpoints.MapControllers();
             });
 
             app.UseSpa(spa =>
@@ -64,7 +61,6 @@ namespace EDLIZ
 
                 if (env.IsDevelopment())
                 {
-                    //spa.UseProxyToSpaDevelopmentServer("http://localhost:3000/");
                     spa.UseReactDevelopmentServer(npmScript: "start");
                 }
             });

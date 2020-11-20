@@ -5,7 +5,7 @@
 export class Articles {
     static Get = async (id: string ) => {
         try {
-            fetch(`/articles/${id}`).then((response: any) => {
+            fetch(`/api/articles/${id}`).then((response: any) => {
                 const { data } = response.body;
                 console.log(data);
                 return data;
@@ -19,7 +19,7 @@ export class Articles {
 
     static GetAll = async () => {
         try {
-            fetch("articles").then((response: any) => {
+            fetch("api/articles").then((response: any) => {
                 const { data } = response.data;
                 return data;
             });

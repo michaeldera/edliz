@@ -44,6 +44,5 @@
   "devDependencies": {
     "@types/recoil": "0.0.0",
     "prettier": "1.18.2"
-  },
-  "proxy": "http://localhost:44381"
+  }
 }
