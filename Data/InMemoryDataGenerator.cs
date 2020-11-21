@@ -19,7 +19,7 @@ namespace EDLIZ.Data
             for (var i = 1; i < 37; i++)
             {
                 Console.WriteLine("setting up " + i);
-                string fileName = "chapter_" + i + ".js";
+                string fileName = "chapter_" + i + ".json";
                 string path = "resources/pages/";
                 string content = File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, path + fileName));
                 Article tmpArticle = new Article() { Id = i, ArticleBody = content };
